@@ -1,0 +1,22 @@
+state={
+	id=1297
+	name="STATE_1297" # Bururi
+	manpower = 748224
+	state_category = town
+
+	history={
+		owner = BRD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14164 1 }
+		victory_points = { 14165 1 }
+		add_core_of = BRD
+	}
+
+	provinces={
+		14164 14165 
+	}
+
+	local_supplies=0.0
+}

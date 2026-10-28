@@ -1,0 +1,28 @@
+state={
+	id=1196
+	name="STATE_1196" # Mbanza-Ngungu
+	manpower = 1316455
+	state_category = large_town
+
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13747 1 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13747 13748 13749 13750 13751 13752 
+	}
+
+	local_supplies=0.0
+}

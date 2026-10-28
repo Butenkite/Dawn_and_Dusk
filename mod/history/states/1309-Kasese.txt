@@ -1,0 +1,21 @@
+state={
+	id=1309
+	name="STATE_1309" # Kasese
+	manpower = 1624013
+	state_category = city
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14222 2 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14218 14219 14220 14221 14222 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1262
+	name="STATE_1262" # Woleu-Ntem
+	manpower = 118000
+	state_category = pastoral
+
+	history={
+		owner = GAB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14046 2 }
+		add_core_of = GAB
+	}
+
+	provinces={
+		14045 14046 
+	}
+
+	local_supplies=0.0
+}

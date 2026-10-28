@@ -1,0 +1,25 @@
+state={
+	id=1255
+	name="STATE_1255" # Est
+	manpower = 702374
+	state_category = town
+
+	resources={
+		rubber=2
+	}
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14016 2 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		14011 14012 14013 14014 14015 14016 14017 
+	}
+
+	local_supplies=0.0
+}

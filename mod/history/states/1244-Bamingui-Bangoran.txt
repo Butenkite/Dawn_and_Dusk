@@ -1,0 +1,21 @@
+state={
+	id=1244
+	name="STATE_1244" # Bamingui-Bangoran
+	manpower = 41023
+	state_category = pastoral
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13957 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13957 13958 13959 
+	}
+
+	local_supplies=0.0
+}

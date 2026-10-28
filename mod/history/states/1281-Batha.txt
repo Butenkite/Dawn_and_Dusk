@@ -1,0 +1,21 @@
+state={
+	id=1281
+	name="STATE_1281" # Batha
+	manpower = 364000
+	state_category = rural
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14117 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14116 14117 14118 14119 14120 14121 
+	}
+
+	local_supplies=0.0
+}

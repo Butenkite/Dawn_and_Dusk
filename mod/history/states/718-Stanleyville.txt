@@ -1,0 +1,24 @@
+state={
+	id=718
+	name="STATE_718" # Bafwasende
+	manpower = 145244
+	state_category = pastoral
+
+	history={
+		owner = RML
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 4902 1 }
+		add_core_of = RML
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+	}
+
+	provinces={
+		4902 4941 
+	}
+
+	local_supplies=0.0
+}

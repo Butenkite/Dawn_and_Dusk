@@ -1,0 +1,21 @@
+state={
+	id=1269
+	name="STATE_1269" # Interior
+	manpower = 190000
+	state_category = rural
+
+	history={
+		owner = EQG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14058 1 }
+		add_core_of = EQG
+	}
+
+	provinces={
+		14058 
+	}
+
+	local_supplies=0.0
+}

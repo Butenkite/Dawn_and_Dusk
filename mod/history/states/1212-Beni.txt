@@ -1,0 +1,31 @@
+state={
+	id=1212
+	name="STATE_1212" # Beni
+	manpower = 2568772
+	state_category = city
+
+	resources={
+		tungsten=3
+	}
+
+	history={
+		owner = RML
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 13826 3 }
+		victory_points = { 13827 3 }
+		add_core_of = RML
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+	}
+
+	provinces={
+		13826 13827 13828 13829 13830 13831 13832 13833 
+	}
+
+	local_supplies=0.0
+}

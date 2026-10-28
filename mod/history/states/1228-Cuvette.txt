@@ -1,0 +1,21 @@
+state={
+	id=1228
+	name="STATE_1228" # Cuvette
+	manpower = 190933
+	state_category = rural
+
+	history={
+		owner = RCG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13914 1 }
+		add_core_of = RCG
+	}
+
+	provinces={
+		13911 13912 13913 13914 
+	}
+
+	local_supplies=0.0
+}

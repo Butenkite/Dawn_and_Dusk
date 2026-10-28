@@ -1,0 +1,23 @@
+state={
+	id=1307
+	name="STATE_1307" # Mbarara
+	manpower = 2390354
+	state_category = city
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14212 3 }
+		victory_points = { 14211 2 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14210 14211 14212 14213 14214 
+	}
+
+	local_supplies=0.0
+}

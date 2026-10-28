@@ -1,0 +1,21 @@
+state={
+	id=1230
+	name="STATE_1230" # Likouala
+	manpower = 129000
+	state_category = pastoral
+
+	history={
+		owner = RCG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13917 1 }
+		add_core_of = RCG
+	}
+
+	provinces={
+		13917 13918 13919 
+	}
+
+	local_supplies=0.0
+}

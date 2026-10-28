@@ -1,0 +1,21 @@
+state={
+	id=1248
+	name="STATE_1248" # Haut-Mbomou
+	manpower = 55980
+	state_category = pastoral
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13970 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13970 13971 13972 13973 
+	}
+
+	local_supplies=0.0
+}

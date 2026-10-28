@@ -1,0 +1,21 @@
+state={
+	id=1250
+	name="STATE_1250" # Mbam-et-Kim
+	manpower = 637939
+	state_category = town
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 13982 1 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		13982 13983 13984 13985 
+	}
+
+	local_supplies=0.0
+}

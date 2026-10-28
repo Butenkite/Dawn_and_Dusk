@@ -1,0 +1,21 @@
+state={
+	id=1310
+	name="STATE_1310" # Kabale
+	manpower = 1009859
+	state_category = large_town
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14224 1 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14223 14224 
+	}
+
+	local_supplies=0.0
+}

@@ -18,7 +18,8 @@ from scipy import ndimage
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import core  # noqa: E402
 
-ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from paths import REPO as ROOT, MOD, DATA  # noqa: E402
 
 
 class Report:
@@ -45,7 +46,7 @@ class Report:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--vanilla", required=True)
-    ap.add_argument("--mod", default=str(ROOT))
+    ap.add_argument("--mod", default=str(MOD))
     ap.add_argument("--all", dest="only_new", action="store_false",
                     help="also check vanilla's own positions and railways (vanilla has a few quirks)")
     a = ap.parse_args()
@@ -72,7 +73,7 @@ def main():
             rep.error(f"province not on the map: {i}")
     ptype = np.array([defs.rows[i]["type"] if i in defs.rows else "" for i in range(n)])
 
-    registry_path = mod / "tools/data/map/built.json"
+    registry_path = DATA / "map/built.json"
     import json
     registry = json.loads(registry_path.read_text()) if registry_path.exists() else {}
     new_provs = sorted({p for r in registry.values() for p in r["provinces"]})
@@ -118,9 +119,12 @@ def main():
         m = re.search(r"owner\s*=\s*(\w+)", s.text)
         owner[sid] = m.group(1) if m else None
         clean = core.strip_comments(s.text)
-        vp = re.search(r"victory_points\s*=\s*\{([^}]*)\}", clean)
-        if vp:
+        for vp in re.finditer(r"victory_points\s*=\s*\{([^}]*)\}", clean):
             nums = vp.group(1).split()
+            if "province" in nums:          # victory_points = { province = X value = Y }
+                nums = [n for n in nums if re.fullmatch(r"[\d.]+", n)]
+            if len(nums) != 2:
+                rep.error(f"victory_points block must hold one province and one value: state {sid}")
             for p in nums[0::2]:
                 if int(p) not in s.provinces:
                     rep.error(f"victory point outside its state: state {sid} province {p}")
@@ -139,6 +143,12 @@ def main():
     if unowned_land:
         rep.warn(f"land provinces in no state (vanilla has some): {len(unowned_land)}")
 
+    # four provinces meeting at one point ("Map invalid X crossing" in game)
+    p00, p01, p10, p11 = ids[:-1, :-1], ids[:-1, 1:], ids[1:, :-1], ids[1:, 1:]
+    four = ((p00 != p01) & (p00 != p10) & (p00 != p11) & (p01 != p10) & (p01 != p11) & (p10 != p11))
+    for y, x in list(zip(*np.nonzero(four)))[:20]:
+        rep.error(f"four provinces meet at one point (game: invalid X crossing): x={x} y={y}")
+
     # --- strategic regions ---------------------------------------------------
     regions = core.load_regions(van, mod)
     prov_reg = collections.defaultdict(list)
@@ -151,6 +161,10 @@ def main():
     for pid in new_provs:
         if pid not in prov_reg:
             rep.error(f"new province in no strategic region: {pid}")
+    for sid, s in states.items():
+        rr = {prov_reg[p][0] for p in s.provinces if prov_reg.get(p)}
+        if len(rr) > 1 and (sid in new_states or (Path(mod) / "history/states" / s.path.name).exists()):
+            rep.error(f"state spans strategic regions: {sid} {sorted(rr)}")
     if len(regions) < 300:
         rep.warn(f"only {len(regions)} strategic region files available; region checks are partial")
 

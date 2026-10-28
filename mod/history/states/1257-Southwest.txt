@@ -1,0 +1,26 @@
+state={
+	id=1257
+	name="STATE_1257" # Southwest
+	manpower = 1243890
+	state_category = large_town
+
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 2
+			14026 = { naval_base = 1 }
+		}
+		victory_points = { 14026 2 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		14023 14024 14025 14026 14027 
+	}
+
+	local_supplies=0.0
+}

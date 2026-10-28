@@ -1,0 +1,21 @@
+state={
+	id=1238
+	name="STATE_1238" # Mbomou
+	manpower = 158000
+	state_category = rural
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13943 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13941 13942 13943 
+	}
+
+	local_supplies=0.0
+}

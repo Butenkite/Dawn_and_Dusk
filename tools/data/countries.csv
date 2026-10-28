@@ -35,7 +35,7 @@ BOS,Bosnia,104,
 BOT,Botswana,542,conservative
 BOU,Bougainville,1070,
 BRA,Brazil,500,social_democrat
-BRD,Burundi,769,
+BRD,Burundi,769,neutrality
 BRI,Brittany,14,
 BRM,Burma,995,
 BRN,Brunei,1023,
@@ -45,11 +45,11 @@ BUL,Bulgaria,48,
 BYA,Buryatia,564,
 CAM,Cambodia,741,
 CAN,Canada,276,democratic
-CAR,Central African Republic,660,
+CAR,Central African Republic,660,social_democrat
 CAT,Catalonia,165,
 CAY,Cayenne,310,
 CBV,Cabo Verde,702,
-CHA,Chad,774,
+CHA,Chad,774,authoritarian_democrat
 CHI,China,1035,communism
 CHL,Chile,279,
 CHM,Champa,286,
@@ -58,7 +58,7 @@ CHU,Chuvashia,256,
 CIN,Chechnya-Ingushetia,821,
 CIP,Central Indian Provinces,437,
 CKK,Chukotka,822,
-CMR,Cameroon,773,
+CMR,Cameroon,773,authoritarian_democrat
 COG,Congo,295,neutrality
 COL,Colombia,306,
 COR,Corsica,1,
@@ -84,7 +84,7 @@ ECU,Ecuador,305,
 EGY,Egypt,907,authoritarian_democrat
 ELS,El Salvador,314,
 ENG,Britain,126,social_democrat
-EQG,Equatorial Guinea,297,
+EQG,Equatorial Guinea,297,neutrality
 ERI,Eritrea,550,
 EST,Estonia,812,
 ETH,Ethiopia,271,authoritarian_democrat
@@ -97,7 +97,7 @@ FOR,Formosa,524,
 FRA,France,16,conservative
 FSA,Federation of South Arabia,992,
 FSM,Micronesia,684,
-GAB,Gabon,539,
+GAB,Gabon,539,authoritarian_democrat
 GAL,Galicia and Lodomeria,88,
 GAM,The Gambia,701,
 GAR,Guarani,301,
@@ -188,6 +188,7 @@ MEL,Mari El,833,
 MEN,Mengkukuo,1043,
 MEX,Mexico,277,authoritarian_democrat
 MIS,Miskito,317,
+MLC,MLC,775,conservative
 MLD,Maldives,281,
 MLI,Mali,556,
 MLT,Malta,116,
@@ -246,7 +247,8 @@ RAN,Reichskommisariat Anden,494,
 RAP,Rapa Nui,948,
 RAR,Reichskommisariat Arabien,291,
 RAS,Madras States,982,
-RCG,Republic of Congo,772,
+RCD,RCD-Goma,1216,authoritarian_democrat
+RCG,Republic of Congo,772,authoritarian_democrat
 RCO,Reichskommisariat Kolumbus,695,
 RGB,Reichskommisariat Grossbritannien,126,
 RHD,Reichskommisariat Grosshindustan,439,
@@ -268,13 +270,14 @@ RKO,Reichskommisariat Ostland,808,
 RKT,Reichskommisariat Turkestan,405,
 RKU,Reichskommisariat Ukraine,202,
 RKV,Reichskommisariat Klein Venedig,489,
+RML,RCD-ML,538,socialist
 RNA,Reichskommisariat Nordafrika,458,
 RNG,Reorganized National Government,613,
 ROA,Reichskommisariat Ostasien,743,
 ROM,Romania,46,conservative
 RUS,Reichskommisariat Nordamerika,395,
 RUT,Ruthenia,73,
-RWA,Rwanda,768,
+RWA,Rwanda,768,authoritarian_democrat
 SAB,Sabah,1024,
 SAF,South Africa,275,social_democrat
 SAM,Samoa,726,
@@ -336,7 +339,7 @@ TZN,Tanzania,546,
 UAE,United Arab Emirates,658,
 UBD,United Baltic Duchy,808,
 UDM,Udmurtia,399,
-UGA,Uganda,548,
+UGA,Uganda,548,authoritarian_democrat
 UKR,Ukraine,202,
 URG,Uruguay,300,
 USA,USA,361,democratic

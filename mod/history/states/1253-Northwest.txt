@@ -1,0 +1,21 @@
+state={
+	id=1253
+	name="STATE_1253" # Northwest
+	manpower = 1564586
+	state_category = city
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14004 4 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		14004 14005 
+	}
+
+	local_supplies=0.0
+}

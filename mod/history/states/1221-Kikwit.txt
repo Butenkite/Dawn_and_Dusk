@@ -1,0 +1,24 @@
+state={
+	id=1221
+	name="STATE_1221" # Kikwit
+	manpower = 1736771
+	state_category = city
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13880 3 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13880 13881 13882 13883 13884 13885 13886 
+	}
+
+	local_supplies=0.0
+}

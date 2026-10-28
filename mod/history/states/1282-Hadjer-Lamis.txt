@@ -1,0 +1,21 @@
+state={
+	id=1282
+	name="STATE_1282" # Hadjer-Lamis
+	manpower = 417874
+	state_category = town
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14125 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14122 14123 14124 14125 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1278
+	name="STATE_1278" # Wadi Fira
+	manpower = 379000
+	state_category = rural
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14103 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14103 14104 14105 14106 14107 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,28 @@
+state={
+	id=888
+	name="STATE_888" # Mbandaka
+	manpower = 659060
+	state_category = town
+
+	resources={
+		rubber=2
+	}
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 10766 4 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		10766 10858 10883 10893 10948 10951 
+	}
+
+	local_supplies=0.0
+}

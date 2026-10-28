@@ -1,0 +1,23 @@
+state={
+	id=1299
+	name="STATE_1299" # Gulu
+	manpower = 2377136
+	state_category = city
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14179 4 }
+		victory_points = { 14178 2 }
+		victory_points = { 14175 1 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14172 14173 14174 14175 14176 14177 14178 14179 
+	}
+
+	local_supplies=0.0
+}

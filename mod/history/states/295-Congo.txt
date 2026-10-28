@@ -1,0 +1,24 @@
+state={
+	id=295
+	name="STATE_295" # Isiro
+	manpower = 738651
+	state_category = town
+
+	history={
+		owner = RML
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 1473 2 }
+		add_core_of = RML
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+	}
+
+	provinces={
+		191 988 1181 1473 1516 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,5 @@
+# Dawn and Dusk: Movement for the Liberation of Congo (MLC), a rebel movement in the Second Congo War (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 40 140 90 }

@@ -1,0 +1,22 @@
+state={
+	id=1260
+	name="STATE_1260" # Ngounié
+	manpower = 142000
+	state_category = pastoral
+
+	history={
+		owner = GAB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 14041 1 }
+		add_core_of = GAB
+	}
+
+	provinces={
+		14039 14040 14041 
+	}
+
+	local_supplies=0.0
+}

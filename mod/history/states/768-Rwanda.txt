@@ -1,0 +1,24 @@
+state={
+	id=768
+	name="STATE_768" # Buta
+	manpower = 454260
+	state_category = town
+
+	history={
+		owner = MLC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 5117 1 }
+		add_core_of = MLC
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = RML
+	}
+
+	provinces={
+		4978 5036 5054 5084 5117 
+	}
+
+	local_supplies=0.0
+}

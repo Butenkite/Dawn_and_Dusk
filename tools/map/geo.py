@@ -19,7 +19,7 @@ from PIL import Image, ImageDraw
 
 from core import MAP_W, MAP_H
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[2]   # the repository
 CACHE = ROOT / "tools/map/cache"
 NE_URL = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/{name}.geojson"
 GB_URL = ("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/"
@@ -48,6 +48,7 @@ class Projection:
         self.deg = d["degree"]
         self.cx = np.array(d["cx"])
         self.cy = np.array(d["cy"])
+        self.region = d.get("region", [-180, 180, -90, 90])
 
     def _feats(self, lon, lat):
         lon = np.asarray(lon, float) / 100.0

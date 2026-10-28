@@ -1,0 +1,56 @@
+# Dawn and Dusk: name lists for countries vanilla has none for.
+
+LES = {
+	male = {
+		names = { Thabo Pakalitha Mosisili Lehlohonolo Tsepo Teboho Mpho Lerato Kamohelo Bokang Retselisitsoe Lekhanya Ntsu Sello Tumelo Molapo Letsie Seeiso Motlatsi Khotso }
+	}
+	female = {
+		names = { Mpho Lerato Palesa Puleng Nthabiseng Mamello Lineo Refiloe Dineo Tsepiso Masechaba Mathato Limpho Nthati Keneuoe }
+	}
+	surnames = { Mosisili Mokhehle Lekhanya Jonathan Letsie Seeiso Moshoeshoe Mofolo Molapo Makhakhe Ramaema Sekhonyana Phororo Thabane Majoro Moleleki Mokhothu Maqelepo Mahao Lehohla }
+	callsigns = { }
+}
+
+SWZ = {
+	male = {
+		names = { Sibusiso Themba Mandla Sipho Bongani Mswati Sobhuza Nkosinathi Mduduzi Barnabas Obed Absalom Mfanasibili Sandile Lutfo Bheki Majozi Dumisa Musa Vusi }
+	}
+	female = {
+		names = { Thandeka Nomsa Zanele Lindiwe Ntombi Nonhlanhla Phumzile Sibongile Nokuthula Thembi Busisiwe Gcina Ncobile Tibati Lomakhosi }
+	}
+	surnames = { Dlamini Nxumalo Mamba Hlophe Simelane Shongwe Mkhabela Gamedze Magagula Masilela Zwane Ndlovu Matsebula Motsa Fakudze Khumalo Mabuza Mngometulu Ginindza Sukati }
+	callsigns = { }
+}
+
+RCD = {
+	male = {
+		names = { Emile Adolphe Azarias Bizima Jean-Pierre Moise Jean-Marie Laurent Alexis Joseph Patrick Eugene Bertin Thomas Lambert Kalala Ruberwa Serufuli Habimana Jules }
+	}
+	female = {
+		names = { Marie Esther Godelieve Solange Chantal Furaha Neema Sifa Faida Imani Bahati Aline Josephine Clementine Rose }
+	}
+	surnames = { Ilunga Onusumba Ruberwa Karaha Serufuli Habimana Tambwe Munyaneza Nyarugabo Lunda-Bululu Bizima Mudundu Kayumba Bahati Masunzu Ngoy Kabila Bisengimana Mirindi Musafiri }
+	callsigns = { }
+}
+
+MLC = {
+	male = {
+		names = { Jean-Pierre Olivier Thomas Francois Alexis Jose Lola Jean-Lucien Valentin Eve Ndjoli Endundo Lokondo Bolongo Mbo Kamitatu Bomboko Nzanga Delly Gaston }
+	}
+	female = {
+		names = { Eve Marie Anne Lilliane Jeanine Bijou Charlotte Clarisse Agathe Annie Josephine Rose Odette Gertrude Mamie }
+	}
+	surnames = { Bemba Kamitatu Luzolo Mova Sakanyi Endundo Ndjoli Tambo Lokondo Bolongo Bomboko Saidi Ngbanda Mokolo Bosenge Mbuku Lisanga Ekombe Ilanga Ebuka Ngonde }
+	callsigns = { }
+}
+
+RML = {
+	male = {
+		names = { Ernest Antipas Jacques John Roger Mbusa Wamba Jean-Pierre Kahindo Mumbere Floribert Thomas Germain Lambert Mathieu Bosco Faustin Kabuya Kasongo Kakule }
+	}
+	female = {
+		names = { Kavira Masika Kahindo Mbambu Furaha Neema Sifa Kyakimwa Vagheni Kasoki Marie Esther Rachel Josephine Bernadette }
+	}
+	surnames = { Wamba Nyamwisi Mbusa Tibasima Lompondo Mumbere Kasongo Mukendi Tshibangu Njabu Kabeya Mbonimpa Kahindo Paluku Muhindo Kasereka Kambale Kavira Malonga Kahongya }
+	callsigns = { }
+}

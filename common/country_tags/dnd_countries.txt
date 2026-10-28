@@ -1,2 +1,0 @@
-LES = "countries/Lesotho.txt"
-SWZ = "countries/Swaziland.txt"

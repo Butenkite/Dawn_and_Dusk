@@ -1,0 +1,21 @@
+state={
+	id=1293
+	name="STATE_1293" # Imbo
+	manpower = 634000
+	state_category = town
+
+	history={
+		owner = BRD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14154 1 }
+		add_core_of = BRD
+	}
+
+	provinces={
+		14154 
+	}
+
+	local_supplies=0.0
+}

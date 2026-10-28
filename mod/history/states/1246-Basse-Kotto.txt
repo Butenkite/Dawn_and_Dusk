@@ -1,0 +1,21 @@
+state={
+	id=1246
+	name="STATE_1246" # Basse-Kotto
+	manpower = 240118
+	state_category = rural
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13965 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13964 13965 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1268
+	name="STATE_1268" # Río Muni
+	manpower = 305000
+	state_category = rural
+
+	history={
+		owner = EQG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			14056 = { naval_base = 1 }
+		}
+		victory_points = { 14056 4 }
+		add_core_of = EQG
+	}
+
+	provinces={
+		14056 14057 
+	}
+
+	local_supplies=0.0
+}

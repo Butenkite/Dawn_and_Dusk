@@ -1,0 +1,25 @@
+state={
+	id=1208
+	name="STATE_1208" # Kasaï-Oriental
+	manpower = 1843000
+	state_category = city
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 13803 8 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13803 13804 13805 13806 13807 
+	}
+
+	local_supplies=0.0
+}

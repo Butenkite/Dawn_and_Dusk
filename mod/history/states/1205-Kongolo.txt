@@ -1,0 +1,24 @@
+state={
+	id=1205
+	name="STATE_1205" # Kongolo
+	manpower = 678687
+	state_category = town
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13788 1 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13786 13787 13788 13789 13790 
+	}
+
+	local_supplies=0.0
+}

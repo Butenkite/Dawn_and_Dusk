@@ -1,0 +1,26 @@
+state={
+	id=1289
+	name="STATE_1289" # Ruhengeri
+	manpower = 1564720
+	state_category = city
+
+	resources={
+		tungsten=3
+	}
+
+	history={
+		owner = RWA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14144 2 }
+		victory_points = { 14143 1 }
+		add_core_of = RWA
+	}
+
+	provinces={
+		14143 14144 14145 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,28 @@
+state={
+	id=1214
+	name="STATE_1214" # Bukavu
+	manpower = 1633346
+	state_category = city
+
+	resources={
+		tungsten=5
+	}
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13841 6 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13841 13842 13843 13844 13845 13846 13847 
+	}
+
+	local_supplies=0.0
+}

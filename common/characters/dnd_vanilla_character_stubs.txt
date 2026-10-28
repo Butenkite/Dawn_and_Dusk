@@ -1,2 +1,0 @@
-# Intentionally empty. Vanilla characters are loaded again (step 9), so the
-# role-less stand-ins that used to live here are no longer needed.

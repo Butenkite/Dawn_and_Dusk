@@ -1,0 +1,21 @@
+state={
+	id=1305
+	name="STATE_1305" # Masaka
+	manpower = 1155882
+	state_category = large_town
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14204 2 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14202 14203 14204 14205 
+	}
+
+	local_supplies=0.0
+}

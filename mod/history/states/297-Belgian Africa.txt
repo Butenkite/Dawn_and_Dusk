@@ -1,0 +1,24 @@
+state={
+	id=297
+	name="STATE_297" # Watsa
+	manpower = 280348
+	state_category = rural
+
+	history={
+		owner = RML
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 1731 1 }
+		add_core_of = RML
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+	}
+
+	provinces={
+		1731 1817 1883 
+	}
+
+	local_supplies=0.0
+}

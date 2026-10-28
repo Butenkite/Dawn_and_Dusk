@@ -1,0 +1,21 @@
+state={
+	id=1243
+	name="STATE_1243" # Vakaga
+	manpower = 50000
+	state_category = pastoral
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13954 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13954 13955 13956 
+	}
+
+	local_supplies=0.0
+}

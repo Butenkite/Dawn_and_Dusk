@@ -1,0 +1,21 @@
+state={
+	id=1245
+	name="STATE_1245" # Ouaka
+	manpower = 267095
+	state_category = rural
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13960 2 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13960 13961 13962 13963 
+	}
+
+	local_supplies=0.0
+}

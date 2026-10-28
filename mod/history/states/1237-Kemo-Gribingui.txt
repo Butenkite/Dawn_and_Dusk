@@ -1,0 +1,21 @@
+state={
+	id=1237
+	name="STATE_1237" # Kémo-Gribingui
+	manpower = 228000
+	state_category = rural
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13939 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13938 13939 13940 
+	}
+
+	local_supplies=0.0
+}

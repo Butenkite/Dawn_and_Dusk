@@ -1,0 +1,22 @@
+state={
+	id=1292
+	name="STATE_1292" # Bujumbura
+	manpower = 683503
+	state_category = town
+
+	history={
+		owner = BRD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = { 14153 12 }
+		add_core_of = BRD
+	}
+
+	provinces={
+		14153 
+	}
+
+	local_supplies=0.0
+}

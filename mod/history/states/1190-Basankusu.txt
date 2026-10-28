@@ -1,0 +1,24 @@
+state={
+	id=1190
+	name="STATE_1190" # Basankusu
+	manpower = 153330
+	state_category = rural
+
+	history={
+		owner = MLC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 11194 1 }
+		add_core_of = MLC
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = RML
+	}
+
+	provinces={
+		11194 
+	}
+
+	local_supplies=0.0
+}

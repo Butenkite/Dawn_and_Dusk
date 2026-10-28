@@ -1,0 +1,21 @@
+state={
+	id=1234
+	name="STATE_1234" # Sangha
+	manpower = 71625
+	state_category = pastoral
+
+	history={
+		owner = RCG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13926 1 }
+		add_core_of = RCG
+	}
+
+	provinces={
+		13926 13927 13928 
+	}
+
+	local_supplies=0.0
+}

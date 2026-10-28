@@ -1,0 +1,22 @@
+state={
+	id=1287
+	name="STATE_1287" # Kigali
+	manpower = 752999
+	state_category = town
+
+	history={
+		owner = RWA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = { 14138 12 }
+		add_core_of = RWA
+	}
+
+	provinces={
+		14138 
+	}
+
+	local_supplies=0.0
+}

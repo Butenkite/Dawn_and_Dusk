@@ -1,0 +1,21 @@
+state={
+	id=1274
+	name="STATE_1274" # Logone
+	manpower = 1018559
+	state_category = large_town
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14083 4 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14083 14084 14085 14086 14087 
+	}
+
+	local_supplies=0.0
+}

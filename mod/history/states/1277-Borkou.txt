@@ -1,0 +1,22 @@
+state={
+	id=1277
+	name="STATE_1277" # Borkou
+	manpower = 72000
+	state_category = pastoral
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		victory_points = { 14099 2 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14099 14100 14101 14102 
+	}
+
+	local_supplies=0.0
+}

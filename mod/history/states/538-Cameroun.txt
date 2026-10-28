@@ -1,0 +1,26 @@
+state={
+	id=538
+	name="STATE_538" # Bunia
+	manpower = 2331163
+	state_category = city
+
+	history={
+		owner = RML
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = { 1903 5 }
+		add_core_of = RML
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+	}
+
+	provinces={
+		1903 1929 1950 1968 1974 1993 2024 2034 2073 2080 2081 
+	}
+
+	local_supplies=0.0
+}

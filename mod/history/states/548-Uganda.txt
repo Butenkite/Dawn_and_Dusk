@@ -1,0 +1,25 @@
+state={
+	id=548
+	name="STATE_548" # Kisangani
+	manpower = 873258
+	state_category = large_town
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+		}
+		victory_points = { 3123 10 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		3123 3165 3181 3854 4128 4201 
+	}
+
+	local_supplies=0.0
+}

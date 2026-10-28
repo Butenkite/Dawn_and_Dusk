@@ -1,0 +1,21 @@
+state={
+	id=1290
+	name="STATE_1290" # Kibungo
+	manpower = 1615279
+	state_category = city
+
+	history={
+		owner = RWA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14149 1 }
+		add_core_of = RWA
+	}
+
+	provinces={
+		14146 14147 14148 14149 
+	}
+
+	local_supplies=0.0
+}

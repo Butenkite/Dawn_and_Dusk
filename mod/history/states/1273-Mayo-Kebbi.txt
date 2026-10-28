@@ -1,0 +1,21 @@
+state={
+	id=1273
+	name="STATE_1273" # Mayo-Kebbi
+	manpower = 995000
+	state_category = large_town
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14078 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14078 14079 14080 14081 14082 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1285
+	name="STATE_1285" # Mandoul
+	manpower = 475000
+	state_category = town
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14131 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14131 14132 
+	}
+
+	local_supplies=0.0
+}

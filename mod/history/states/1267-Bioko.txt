@@ -1,0 +1,26 @@
+state={
+	id=1267
+	name="STATE_1267" # Bioko
+	manpower = 224999
+	state_category = rural
+
+	resources={
+		oil=18
+	}
+
+	history={
+		owner = EQG
+		buildings = {
+			infrastructure = 3
+			14055 = { naval_base = 1 }
+		}
+		victory_points = { 14055 8 }
+		add_core_of = EQG
+	}
+
+	provinces={
+		14055 
+	}
+
+	local_supplies=0.0
+}

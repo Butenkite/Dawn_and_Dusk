@@ -1,0 +1,22 @@
+state={
+	id=1258
+	name="STATE_1258" # Ouest
+	manpower = 1579453
+	state_category = city
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14028 3 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		14028 14029 14030 14031 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1296
+	name="STATE_1296" # Moso
+	manpower = 765000
+	state_category = town
+
+	history={
+		owner = BRD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14163 1 }
+		add_core_of = BRD
+	}
+
+	provinces={
+		14161 14162 14163 
+	}
+
+	local_supplies=0.0
+}

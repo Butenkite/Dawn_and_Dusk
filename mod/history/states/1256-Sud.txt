@@ -1,0 +1,23 @@
+state={
+	id=1256
+	name="STATE_1256" # Sud
+	manpower = 577000
+	state_category = town
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 2
+			14021 = { naval_base = 1 }
+		}
+		victory_points = { 14021 1 }
+		victory_points = { 14020 1 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		14018 14019 14020 14021 14022 
+	}
+
+	local_supplies=0.0
+}

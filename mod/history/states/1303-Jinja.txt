@@ -1,0 +1,21 @@
+state={
+	id=1303
+	name="STATE_1303" # Jinja
+	manpower = 1917653
+	state_category = city
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14194 5 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14192 14193 14194 14195 
+	}
+
+	local_supplies=0.0
+}

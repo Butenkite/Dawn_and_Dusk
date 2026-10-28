@@ -1,0 +1,29 @@
+state={
+	id=1219
+	name="STATE_1219" # Kasaji
+	manpower = 343900
+	state_category = rural
+
+	resources={
+		steel=16
+		chromium=10
+	}
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13870 1 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13870 13871 13872 
+	}
+
+	local_supplies=0.0
+}

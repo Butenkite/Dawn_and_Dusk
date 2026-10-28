@@ -1,0 +1,24 @@
+state={
+	id=1216
+	name="STATE_1216" # Kabinda
+	manpower = 1201273
+	state_category = large_town
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13859 2 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13858 13859 13860 13861 13862 
+	}
+
+	local_supplies=0.0
+}

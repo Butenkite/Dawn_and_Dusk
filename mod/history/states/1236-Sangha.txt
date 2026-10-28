@@ -1,0 +1,21 @@
+state={
+	id=1236
+	name="STATE_1236" # Sangha
+	manpower = 448000
+	state_category = town
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13936 2 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13934 13935 13936 13937 
+	}
+
+	local_supplies=0.0
+}

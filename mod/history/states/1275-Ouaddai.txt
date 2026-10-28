@@ -1,0 +1,22 @@
+state={
+	id=1275
+	name="STATE_1275" # Ouaddaï
+	manpower = 759000
+	state_category = town
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		victory_points = { 14089 4 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14088 14089 14090 14091 14092 14093 14094 
+	}
+
+	local_supplies=0.0
+}

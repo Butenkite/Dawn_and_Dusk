@@ -1,0 +1,21 @@
+state={
+	id=1271
+	name="STATE_1271" # Kanem
+	manpower = 458000
+	state_category = town
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14066 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14066 14067 14068 14069 14070 14071 14072 
+	}
+
+	local_supplies=0.0
+}

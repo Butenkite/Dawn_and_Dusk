@@ -1,0 +1,25 @@
+state={
+	id=1264
+	name="STATE_1264" # Haut-Ogooué
+	manpower = 126000
+	state_category = pastoral
+
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner = GAB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14050 3 }
+		add_core_of = GAB
+	}
+
+	provinces={
+		14050 14051 
+	}
+
+	local_supplies=0.0
+}

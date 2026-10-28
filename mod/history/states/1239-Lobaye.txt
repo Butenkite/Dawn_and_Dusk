@@ -1,0 +1,21 @@
+state={
+	id=1239
+	name="STATE_1239" # Lobaye
+	manpower = 236999
+	state_category = rural
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13944 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13944 13945 
+	}
+
+	local_supplies=0.0
+}

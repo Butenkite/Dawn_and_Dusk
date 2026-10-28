@@ -1,0 +1,1412 @@
+{
+ "name": "central_africa",
+ "projection": "tools/data/map/projection_africa.json",
+ "continent": "africa",
+ "province_size": {
+  "base": 170,
+  "reference_density": 1000,
+  "exponent": 0.5,
+  "min": 35,
+  "max": 450
+ },
+ "rail_level": {
+  "COD": 1,
+  "COG": 1,
+  "CMR": 1,
+  "GAB": 1,
+  "UGA": 1
+ },
+ "supply_hub_min_vp": 10,
+ "_sources": "Front lines: DR Congo territories held on 1 Jan 2000 by Kinshasa, RCD-Goma, MLC and RCD-ML (ICG Africa Reports 26 and 27, HRW 'Uganda in Eastern DRC' 2001, IRIN Nov-Dec 1999). Populations: censuses closest to 2000 (CAR 2003, CMR 2005, GAB 1993, COG 2007, TCD 2009, RWA 2002, BDI 2008, UGA 2002) scaled to UN 2000 totals; DR Congo province shares estimated and scaled to 47.1M. Approximate by design.",
+ "countries": {
+  "COD": {
+   "tag": "COG",
+   "infrastructure": 1,
+   "state_max_px": 1500,
+   "factories": {
+    "civ": 5,
+    "mil": 2
+   },
+   "claims": [
+    "RCD",
+    "MLC",
+    "RML"
+   ],
+   "control": {
+    "Goma": "RCD",
+    "Nyiragongo": "RCD",
+    "Rutshuru": "RCD",
+    "Masisi": "RCD",
+    "Walikale": "RCD",
+    "Baraka": "RCD",
+    "Bukavu": "RCD",
+    "Fizi": "RCD",
+    "Idjwi": "RCD",
+    "Kabare": "RCD",
+    "Kalehe": "RCD",
+    "Kamituga": "RCD",
+    "Mwenga": "RCD",
+    "Shabunda": "RCD",
+    "Uvira": "RCD",
+    "Walungu": "RCD",
+    "Kabambare": "RCD",
+    "Kailo": "RCD",
+    "Kalima": "RCD",
+    "Kasongo": "RCD",
+    "Kibombo": "RCD",
+    "Kindu": "RCD",
+    "Lubutu": "RCD",
+    "Namoya": "RCD",
+    "Pangi": "RCD",
+    "Punia": "RCD",
+    "Kalemie": "RCD",
+    "Kaoze": "RCD",
+    "Kongolo": "RCD",
+    "Moba": "RCD",
+    "Nyunzu": "RCD",
+    "Kabalo": "RCD",
+    "Kisangani": "RCD",
+    "Ubundu": "RCD",
+    "Opala": "RCD",
+    "Isangi": "RCD",
+    "Yangambi": "RCD",
+    "Lodja": "RCD",
+    "Katako-Kombe": "RCD",
+    "Kole": "RCD",
+    "Lomela": "RCD",
+    "Tshumbe": "RCD",
+    "Lubefu": "RCD",
+    "Lubao": "RCD",
+    "Bokungu": "RCD",
+    "Bosobolo": "MLC",
+    "Businga": "MLC",
+    "Gbadolite": "MLC",
+    "Mobayi-Mbongo": "MLC",
+    "Yakoma": "MLC",
+    "Budjala": "MLC",
+    "Gemena": "MLC",
+    "Kungu": "MLC",
+    "Libenge": "MLC",
+    "Zongo": "MLC",
+    "Bongandanga": "MLC",
+    "Bumba": "MLC",
+    "Lisala": "MLC",
+    "Basankusu": "MLC",
+    "Makanza": "MLC",
+    "Befale": "MLC",
+    "Djolu": "MLC",
+    "Aketi": "MLC",
+    "Ango": "MLC",
+    "Bambesa": "MLC",
+    "Bondo": "MLC",
+    "Buta": "MLC",
+    "Dingila": "MLC",
+    "Poko": "MLC",
+    "Basoko": "MLC",
+    "Yahuma": "MLC",
+    "Banalia": "MLC",
+    "Ariwara": "RML",
+    "Aru": "RML",
+    "Bunia": "RML",
+    "Djugu": "RML",
+    "Ingbokolo": "RML",
+    "Irumu": "RML",
+    "Mahagi": "RML",
+    "Mambasa": "RML",
+    "Mongwalu": "RML",
+    "Beni": "RML",
+    "Butembo": "RML",
+    "Oïcha": "RML",
+    "Lubero": "RML",
+    "Aba": "RML",
+    "Dungu": "RML",
+    "Faradje": "RML",
+    "Isiro": "RML",
+    "Niangara": "RML",
+    "Rungu": "RML",
+    "Wamba": "RML",
+    "Watsa": "RML",
+    "Bafwasende": "RML"
+   },
+   "pop2000": {
+    "Kinshasa": 5821000.0,
+    "Kongo-Central": 2813000.0,
+    "Kwango": 1261000.0,
+    "Kwilu": 2813000.0,
+    "Mai-Ndombe": 1067000.0,
+    "Équateur": 922000.0,
+    "Sud-Ubangi": 1552000.0,
+    "Nord-Ubangi": 776000.0,
+    "Mongala": 1067000.0,
+    "Tshuapa": 970000.0,
+    "Tshopo": 1455000.0,
+    "Lower Uele": 631000.0,
+    "Upper Uele": 1019000.0,
+    "Ituri": 2328000.0,
+    "North Kivu": 3492000.0,
+    "South Kivu": 3104000.0,
+    "Maniema": 1261000.0,
+    "Tanganyika": 1552000.0,
+    "Haut-Lomami": 1552000.0,
+    "Lualaba": 1164000.0,
+    "Haut-Katanga": 2231000.0,
+    "Kasai": 1843000.0,
+    "Central Kasai": 1843000.0,
+    "Kasai-Oriental": 1843000.0,
+    "Lomami": 1552000.0,
+    "Sankuru": 1164000.0
+   },
+   "names": {
+    "Upper Uele": "Haut-Uele",
+    "Lower Uele": "Bas-Uele",
+    "North Kivu": "Nord-Kivu",
+    "South Kivu": "Sud-Kivu",
+    "Central Kasai": "Kasaï-Central",
+    "Kasai": "Kasaï",
+    "Kasai-Oriental": "Kasaï-Oriental",
+    "Kongo-Central": "Bas-Congo"
+   }
+  },
+  "COG": {
+   "tag": "RCG",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 1
+   },
+   "pop2000": {
+    "Brazzaville": 1153000.0,
+    "Pointe-Noire": 600000.0,
+    "Bouenza": 259000.0,
+    "Cuvette": 131000.0,
+    "Cuvette-Ouest": 60000.0,
+    "Kouilou": 76000.0,
+    "Lékoumou": 81000.0,
+    "Likouala": 129000.0,
+    "Niari": 194000.0,
+    "Plateaux": 146000.0,
+    "Pool": 198000.0,
+    "Sangha": 71000.0
+   },
+   "groups": {
+    "Kouilou": [
+     "Kouilou",
+     "Pointe-Noire"
+    ],
+    "Pool": [
+     "Pool",
+     "Brazzaville"
+    ],
+    "Cuvette": [
+     "Cuvette",
+     "Cuvette-Ouest"
+    ]
+   }
+  },
+  "CAF": {
+   "tag": "CAR",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 1
+   },
+   "pop2000": {
+    "Bangui": 599000.0,
+    "Ombella-M'Poko": 343000.0,
+    "Lobaye": 237000.0,
+    "Mambéré-Kadéï": 351000.0,
+    "Sangha-Mbaéré": 97000.0,
+    "Nana-Mambéré": 226000.0,
+    "Ouham-Pendé": 414000.0,
+    "Ouham": 356000.0,
+    "Kémo": 114000.0,
+    "Nana-Grébizi": 114000.0,
+    "Ouaka": 267000.0,
+    "Basse-Kotto": 240000.0,
+    "Mbomou": 158000.0,
+    "Haut-Mbomou": 56000.0,
+    "Haute-Kotto": 87000.0,
+    "Vakaga": 50000.0,
+    "Bamingui-Bangoran": 41000.0
+   },
+   "groups": {
+    "Bangui": [
+     "Bangui",
+     "Ombella-M'Poko"
+    ],
+    "Sangha": [
+     "Sangha-Mbaéré",
+     "Mambéré-Kadéï"
+    ],
+    "Kémo-Gribingui": [
+     "Kémo",
+     "Nana-Grébizi"
+    ]
+   }
+  },
+  "CMR": {
+   "tag": "CMR",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 4,
+    "mil": 1,
+    "dock": 1
+   },
+   "pop2000": {
+    "Adamaoua": 805000.0,
+    "Centre": 2821000.0,
+    "East": 703000.0,
+    "Far North": 2833000.0,
+    "Littoral": 2285000.0,
+    "North": 1537000.0,
+    "North-West": 1574000.0,
+    "West": 1566000.0,
+    "South": 577000.0,
+    "South-West": 1198000.0
+   },
+   "names": {
+    "Far North": "Extrême-Nord",
+    "North": "Nord",
+    "East": "Est",
+    "South": "Sud",
+    "West": "Ouest",
+    "North-West": "Northwest",
+    "South-West": "Southwest"
+   }
+  },
+  "GAB": {
+   "tag": "GAB",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 2,
+    "dock": 0
+   },
+   "pop2000": {
+    "Estuaire": 562000.0,
+    "Haut-Ogooué": 126000.0,
+    "Moyen-Ogooué": 51000.0,
+    "Ngounié": 93000.0,
+    "Nyanga": 49000.0,
+    "Ogooué-Ivindo": 59000.0,
+    "Ogooué-Lolo": 53000.0,
+    "Ogooué-Maritime": 119000.0,
+    "Woleu-Ntem": 118000.0
+   },
+   "groups": {
+    "Ngounié": [
+     "Ngounié",
+     "Nyanga"
+    ],
+    "Moyen-Ogooué": [
+     "Moyen-Ogooué",
+     "Ogooué-Lolo"
+    ]
+   }
+  },
+  "GNQ": {
+   "tag": "EQG",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 1
+   },
+   "pop2000": {
+    "Bioko Norte": 200000.0,
+    "Bioko Sur": 25000.0,
+    "Litoral Province": 230000.0,
+    "Centro Sur Province": 75000.0,
+    "Kié-Ntem Province": 105000.0,
+    "Wele-Nzas Province": 85000.0,
+    "Annobón": 5000.0
+   },
+   "groups": {
+    "Bioko": [
+     "Bioko Norte",
+     "Bioko Sur",
+     "Annobón"
+    ],
+    "Río Muni": [
+     "Litoral Province",
+     "Centro Sur Province"
+    ],
+    "Interior": [
+     "Kié-Ntem Province",
+     "Wele-Nzas Province"
+    ]
+   }
+  },
+  "TCD": {
+   "tag": "CHA",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 1
+   },
+   "state_max_px": 3600,
+   "province_size": {
+    "max": 800
+   },
+   "split": {
+    "Ennedi": 1
+   },
+   "pop2000": {
+    "Batha": 364000.0,
+    "Borkou": 72000.0,
+    "Chari-Baguirmi": 463000.0,
+    "Guéra": 413000.0,
+    "Hadjer-Lamis": 419000.0,
+    "Kanem": 264000.0,
+    "Lac": 336000.0,
+    "Logone Occidental": 509000.0,
+    "Logone Oriental": 594000.0,
+    "Mandoul": 475000.0,
+    "Mayo-Kebbi Est": 574000.0,
+    "Mayo-Kebbi Ouest": 421000.0,
+    "Moyen-Chari": 439000.0,
+    "Ouaddaï": 545000.0,
+    "Salamat": 230000.0,
+    "Tandjilé": 509000.0,
+    "Wadi Fira": 379000.0,
+    "N'Djamena Region": 741000.0,
+    "Bahr el Gazel": 194000.0,
+    "Ennedi-Ouest": 75000.0,
+    "Ennedi-Est": 54000.0,
+    "Sila": 214000.0,
+    "Tibesti": 16000.0
+   },
+   "groups": {
+    "N'Djamena": [
+     "N'Djamena Region",
+     "Chari-Baguirmi"
+    ],
+    "Kanem": [
+     "Kanem",
+     "Bahr el Gazel"
+    ],
+    "Ennedi": [
+     "Ennedi-Ouest",
+     "Ennedi-Est"
+    ],
+    "Mayo-Kebbi": [
+     "Mayo-Kebbi Est",
+     "Mayo-Kebbi Ouest"
+    ],
+    "Logone": [
+     "Logone Occidental",
+     "Tandjilé"
+    ],
+    "Ouaddaï": [
+     "Ouaddaï",
+     "Sila"
+    ]
+   }
+  },
+  "RWA": {
+   "tag": "RWA",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 1,
+    "mil": 1
+   },
+   "pop2000": {
+    "City of Kigali": 753000.0,
+    "Southern Province": 2097000.0,
+    "Northern Province": 1546000.0,
+    "Eastern Province": 1634000.0,
+    "Western Province": 1969000.0
+   },
+   "names": {
+    "City of Kigali": "Kigali",
+    "Southern Province": "Butare",
+    "Northern Province": "Ruhengeri",
+    "Eastern Province": "Kibungo",
+    "Western Province": "Kibuye"
+   }
+  },
+  "BDI": {
+   "tag": "BRD",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 1
+   },
+   "pop2000": {
+    "Bubanza": 268000.0,
+    "Bujumbura Mairie": 394000.0,
+    "Bujumbura Rural": 440000.0,
+    "Bururi": 190000.0,
+    "Rumonge": 267000.0,
+    "Cankuzo": 182000.0,
+    "Cibitoke": 366000.0,
+    "Gitega": 575000.0,
+    "Karuzi": 347000.0,
+    "Kayanza": 465000.0,
+    "Kirundo": 505000.0,
+    "Makamba": 341000.0,
+    "Muramvya": 232000.0,
+    "Muyinga": 502000.0,
+    "Mwaro": 217000.0,
+    "Ngozi": 524000.0,
+    "Rutana": 265000.0,
+    "Ruyigi": 318000.0
+   },
+   "groups": {
+    "Bujumbura": [
+     "Bujumbura Mairie",
+     "Bujumbura Rural"
+    ],
+    "Imbo": [
+     "Bubanza",
+     "Cibitoke"
+    ],
+    "Ngozi": [
+     "Kayanza",
+     "Ngozi",
+     "Kirundo",
+     "Muyinga"
+    ],
+    "Gitega": [
+     "Gitega",
+     "Karuzi",
+     "Muramvya",
+     "Mwaro"
+    ],
+    "Moso": [
+     "Cankuzo",
+     "Ruyigi",
+     "Rutana"
+    ],
+    "Bururi": [
+     "Bururi",
+     "Makamba",
+     "Rumonge"
+    ]
+   }
+  },
+  "UGA": {
+   "tag": "UGA",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 3,
+    "mil": 1
+   },
+   "pop2000": {
+    "Central Region": 6268000.0,
+    "Eastern Region": 5914000.0,
+    "Northern Region": 5114000.0,
+    "Western Region": 6004000.0
+   },
+   "split": {
+    "Central Region": 3,
+    "Eastern Region": 3,
+    "Northern Region": 3,
+    "Western Region": 4
+   }
+  }
+ },
+ "cities": [
+  {
+   "name": "Kinshasa",
+   "iso": "COD",
+   "lon": 15.31,
+   "lat": -4.33,
+   "vp": 25,
+   "capital": true,
+   "air": 3
+  },
+  {
+   "name": "Lubumbashi",
+   "iso": "COD",
+   "lon": 27.48,
+   "lat": -11.68,
+   "vp": 10,
+   "air": 2,
+   "city_province": true
+  },
+  {
+   "name": "Mbuji-Mayi",
+   "iso": "COD",
+   "lon": 23.6,
+   "lat": -6.15,
+   "vp": 8,
+   "city_province": true
+  },
+  {
+   "name": "Kananga",
+   "iso": "COD",
+   "lon": 22.4,
+   "lat": -5.89,
+   "vp": 6,
+   "city_province": true
+  },
+  {
+   "name": "Kisangani",
+   "iso": "COD",
+   "lon": 25.2,
+   "lat": 0.52,
+   "vp": 10,
+   "air": 2,
+   "city_province": true
+  },
+  {
+   "name": "Goma",
+   "iso": "COD",
+   "lon": 29.22,
+   "lat": -1.67,
+   "vp": 8,
+   "capital": true,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Bukavu",
+   "iso": "COD",
+   "lon": 28.86,
+   "lat": -2.5,
+   "vp": 6,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Uvira",
+   "iso": "COD",
+   "lon": 29.14,
+   "lat": -3.4,
+   "vp": 2,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Gbadolite",
+   "iso": "COD",
+   "lon": 21.01,
+   "lat": 4.28,
+   "vp": 5,
+   "capital": true,
+   "air": 1,
+   "city_province": true
+  },
+  {
+   "name": "Bunia",
+   "iso": "COD",
+   "lon": 30.25,
+   "lat": 1.56,
+   "vp": 5,
+   "capital": true,
+   "air": 1,
+   "city_province": true
+  },
+  {
+   "name": "Beni",
+   "iso": "COD",
+   "lon": 29.47,
+   "lat": 0.49,
+   "vp": 3,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Butembo",
+   "iso": "COD",
+   "lon": 29.29,
+   "lat": 0.14,
+   "vp": 3,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Mbandaka",
+   "iso": "COD",
+   "lon": 18.26,
+   "lat": 0.05,
+   "vp": 4,
+   "city_province": true
+  },
+  {
+   "name": "Kikwit",
+   "iso": "COD",
+   "lon": 18.82,
+   "lat": -5.04,
+   "vp": 3
+  },
+  {
+   "name": "Matadi",
+   "iso": "COD",
+   "lon": 13.46,
+   "lat": -5.82,
+   "vp": 5,
+   "port": 2
+  },
+  {
+   "name": "Boma",
+   "iso": "COD",
+   "lon": 13.05,
+   "lat": -5.85,
+   "vp": 3
+  },
+  {
+   "name": "Moanda",
+   "iso": "COD",
+   "lon": 12.35,
+   "lat": -5.93,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Likasi",
+   "iso": "COD",
+   "lon": 26.73,
+   "lat": -10.98,
+   "vp": 3
+  },
+  {
+   "name": "Kolwezi",
+   "iso": "COD",
+   "lon": 25.47,
+   "lat": -10.72,
+   "vp": 4
+  },
+  {
+   "name": "Kamina",
+   "iso": "COD",
+   "lon": 25.0,
+   "lat": -8.74,
+   "vp": 2,
+   "air": 2
+  },
+  {
+   "name": "Kindu",
+   "iso": "COD",
+   "lon": 25.93,
+   "lat": -2.95,
+   "vp": 3,
+   "city_province": true
+  },
+  {
+   "name": "Kalemie",
+   "iso": "COD",
+   "lon": 29.19,
+   "lat": -5.94,
+   "vp": 3
+  },
+  {
+   "name": "Tshikapa",
+   "iso": "COD",
+   "lon": 20.8,
+   "lat": -6.42,
+   "vp": 2
+  },
+  {
+   "name": "Kabinda",
+   "iso": "COD",
+   "lon": 24.48,
+   "lat": -6.13,
+   "vp": 2
+  },
+  {
+   "name": "Isiro",
+   "iso": "COD",
+   "lon": 27.62,
+   "lat": 2.78,
+   "vp": 2
+  },
+  {
+   "name": "Gemena",
+   "iso": "COD",
+   "lon": 19.77,
+   "lat": 3.26,
+   "vp": 2
+  },
+  {
+   "name": "Lisala",
+   "iso": "COD",
+   "lon": 21.51,
+   "lat": 2.15,
+   "vp": 1
+  },
+  {
+   "name": "Buta",
+   "iso": "COD",
+   "lon": 24.73,
+   "lat": 2.8,
+   "vp": 1
+  },
+  {
+   "name": "Ikela",
+   "iso": "COD",
+   "lon": 23.27,
+   "lat": -1.18,
+   "vp": 1
+  },
+  {
+   "name": "Pweto",
+   "iso": "COD",
+   "lon": 28.9,
+   "lat": -8.47,
+   "vp": 1
+  },
+  {
+   "name": "Lodja",
+   "iso": "COD",
+   "lon": 23.6,
+   "lat": -3.49,
+   "vp": 1
+  },
+  {
+   "name": "Bandundu",
+   "iso": "COD",
+   "lon": 17.37,
+   "lat": -3.31,
+   "vp": 2
+  },
+  {
+   "name": "Brazzaville",
+   "iso": "COG",
+   "lon": 15.28,
+   "lat": -4.26,
+   "vp": 15,
+   "capital": true,
+   "air": 2
+  },
+  {
+   "name": "Pointe-Noire",
+   "iso": "COG",
+   "lon": 11.86,
+   "lat": -4.79,
+   "vp": 8,
+   "port": 3
+  },
+  {
+   "name": "Dolisie",
+   "iso": "COG",
+   "lon": 12.67,
+   "lat": -4.2,
+   "vp": 2
+  },
+  {
+   "name": "Ouésso",
+   "iso": "COG",
+   "lon": 16.05,
+   "lat": 1.61,
+   "vp": 1
+  },
+  {
+   "name": "Impfondo",
+   "iso": "COG",
+   "lon": 18.06,
+   "lat": 1.64,
+   "vp": 1
+  },
+  {
+   "name": "Owando",
+   "iso": "COG",
+   "lon": 15.91,
+   "lat": -0.48,
+   "vp": 1
+  },
+  {
+   "name": "Bangui",
+   "iso": "CAF",
+   "lon": 18.56,
+   "lat": 4.37,
+   "vp": 12,
+   "capital": true,
+   "air": 1
+  },
+  {
+   "name": "Berbérati",
+   "iso": "CAF",
+   "lon": 15.78,
+   "lat": 4.26,
+   "vp": 2
+  },
+  {
+   "name": "Bambari",
+   "iso": "CAF",
+   "lon": 20.67,
+   "lat": 5.76,
+   "vp": 2
+  },
+  {
+   "name": "Bouar",
+   "iso": "CAF",
+   "lon": 15.6,
+   "lat": 5.95,
+   "vp": 2
+  },
+  {
+   "name": "Bossangoa",
+   "iso": "CAF",
+   "lon": 17.45,
+   "lat": 6.49,
+   "vp": 1
+  },
+  {
+   "name": "Bria",
+   "iso": "CAF",
+   "lon": 21.99,
+   "lat": 6.54,
+   "vp": 1
+  },
+  {
+   "name": "Bangassou",
+   "iso": "CAF",
+   "lon": 22.82,
+   "lat": 4.74,
+   "vp": 1
+  },
+  {
+   "name": "Birao",
+   "iso": "CAF",
+   "lon": 22.78,
+   "lat": 10.29,
+   "vp": 1
+  },
+  {
+   "name": "Yaoundé",
+   "iso": "CMR",
+   "lon": 11.51,
+   "lat": 3.87,
+   "vp": 15,
+   "capital": true,
+   "air": 2,
+   "city_province": true
+  },
+  {
+   "name": "Douala",
+   "iso": "CMR",
+   "lon": 9.7,
+   "lat": 4.05,
+   "vp": 15,
+   "port": 4,
+   "air": 1,
+   "city_province": true
+  },
+  {
+   "name": "Garoua",
+   "iso": "CMR",
+   "lon": 13.39,
+   "lat": 9.3,
+   "vp": 4
+  },
+  {
+   "name": "Maroua",
+   "iso": "CMR",
+   "lon": 14.32,
+   "lat": 10.59,
+   "vp": 3
+  },
+  {
+   "name": "Bamenda",
+   "iso": "CMR",
+   "lon": 10.15,
+   "lat": 5.96,
+   "vp": 4
+  },
+  {
+   "name": "Bafoussam",
+   "iso": "CMR",
+   "lon": 10.42,
+   "lat": 5.48,
+   "vp": 3
+  },
+  {
+   "name": "Ngaoundéré",
+   "iso": "CMR",
+   "lon": 13.58,
+   "lat": 7.32,
+   "vp": 3
+  },
+  {
+   "name": "Bertoua",
+   "iso": "CMR",
+   "lon": 13.68,
+   "lat": 4.58,
+   "vp": 2
+  },
+  {
+   "name": "Limbe",
+   "iso": "CMR",
+   "lon": 9.21,
+   "lat": 4.02,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Kribi",
+   "iso": "CMR",
+   "lon": 9.91,
+   "lat": 2.94,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Ebolowa",
+   "iso": "CMR",
+   "lon": 11.15,
+   "lat": 2.9,
+   "vp": 1
+  },
+  {
+   "name": "Libreville",
+   "iso": "GAB",
+   "lon": 9.45,
+   "lat": 0.39,
+   "vp": 12,
+   "capital": true,
+   "port": 2,
+   "air": 1
+  },
+  {
+   "name": "Port-Gentil",
+   "iso": "GAB",
+   "lon": 8.78,
+   "lat": -0.72,
+   "vp": 5,
+   "port": 2
+  },
+  {
+   "name": "Franceville",
+   "iso": "GAB",
+   "lon": 13.58,
+   "lat": -1.63,
+   "vp": 3
+  },
+  {
+   "name": "Oyem",
+   "iso": "GAB",
+   "lon": 11.58,
+   "lat": 1.6,
+   "vp": 2
+  },
+  {
+   "name": "Lambaréné",
+   "iso": "GAB",
+   "lon": 10.23,
+   "lat": -0.7,
+   "vp": 1
+  },
+  {
+   "name": "Mouila",
+   "iso": "GAB",
+   "lon": 11.06,
+   "lat": -1.87,
+   "vp": 1
+  },
+  {
+   "name": "Makokou",
+   "iso": "GAB",
+   "lon": 12.86,
+   "lat": 0.57,
+   "vp": 1
+  },
+  {
+   "name": "Malabo",
+   "iso": "GNQ",
+   "lon": 8.78,
+   "lat": 3.75,
+   "vp": 8,
+   "capital": true,
+   "port": 1
+  },
+  {
+   "name": "Bata",
+   "iso": "GNQ",
+   "lon": 9.77,
+   "lat": 1.86,
+   "vp": 4,
+   "port": 1
+  },
+  {
+   "name": "Ebebiyín",
+   "iso": "GNQ",
+   "lon": 11.33,
+   "lat": 2.15,
+   "vp": 1
+  },
+  {
+   "name": "N'Djamena",
+   "iso": "TCD",
+   "lon": 15.05,
+   "lat": 12.11,
+   "vp": 12,
+   "capital": true,
+   "air": 2
+  },
+  {
+   "name": "Moundou",
+   "iso": "TCD",
+   "lon": 16.08,
+   "lat": 8.57,
+   "vp": 4
+  },
+  {
+   "name": "Sarh",
+   "iso": "TCD",
+   "lon": 18.39,
+   "lat": 9.15,
+   "vp": 3
+  },
+  {
+   "name": "Abéché",
+   "iso": "TCD",
+   "lon": 20.83,
+   "lat": 13.83,
+   "vp": 4,
+   "air": 1
+  },
+  {
+   "name": "Faya-Largeau",
+   "iso": "TCD",
+   "lon": 19.11,
+   "lat": 17.93,
+   "vp": 2,
+   "air": 1
+  },
+  {
+   "name": "Doba",
+   "iso": "TCD",
+   "lon": 16.85,
+   "lat": 8.66,
+   "vp": 2
+  },
+  {
+   "name": "Bongor",
+   "iso": "TCD",
+   "lon": 15.37,
+   "lat": 10.28,
+   "vp": 1
+  },
+  {
+   "name": "Am Timan",
+   "iso": "TCD",
+   "lon": 20.28,
+   "lat": 11.03,
+   "vp": 1
+  },
+  {
+   "name": "Mongo",
+   "iso": "TCD",
+   "lon": 18.69,
+   "lat": 12.18,
+   "vp": 1
+  },
+  {
+   "name": "Mao",
+   "iso": "TCD",
+   "lon": 15.31,
+   "lat": 14.12,
+   "vp": 1
+  },
+  {
+   "name": "Fada",
+   "iso": "TCD",
+   "lon": 21.59,
+   "lat": 17.19,
+   "vp": 1
+  },
+  {
+   "name": "Bardaï",
+   "iso": "TCD",
+   "lon": 16.97,
+   "lat": 21.36,
+   "vp": 1
+  },
+  {
+   "name": "Kigali",
+   "iso": "RWA",
+   "lon": 30.06,
+   "lat": -1.95,
+   "vp": 12,
+   "capital": true,
+   "air": 1,
+   "city_province": true
+  },
+  {
+   "name": "Butare",
+   "iso": "RWA",
+   "lon": 29.74,
+   "lat": -2.6,
+   "vp": 3
+  },
+  {
+   "name": "Gisenyi",
+   "iso": "RWA",
+   "lon": 29.26,
+   "lat": -1.7,
+   "vp": 3
+  },
+  {
+   "name": "Ruhengeri",
+   "iso": "RWA",
+   "lon": 29.63,
+   "lat": -1.5,
+   "vp": 2
+  },
+  {
+   "name": "Gitarama",
+   "iso": "RWA",
+   "lon": 29.76,
+   "lat": -2.07,
+   "vp": 2
+  },
+  {
+   "name": "Cyangugu",
+   "iso": "RWA",
+   "lon": 28.91,
+   "lat": -2.48,
+   "vp": 2
+  },
+  {
+   "name": "Byumba",
+   "iso": "RWA",
+   "lon": 30.07,
+   "lat": -1.58,
+   "vp": 1
+  },
+  {
+   "name": "Kibungo",
+   "iso": "RWA",
+   "lon": 30.54,
+   "lat": -2.16,
+   "vp": 1
+  },
+  {
+   "name": "Bujumbura",
+   "iso": "BDI",
+   "lon": 29.36,
+   "lat": -3.38,
+   "vp": 12,
+   "capital": true,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Gitega",
+   "iso": "BDI",
+   "lon": 29.92,
+   "lat": -3.43,
+   "vp": 3
+  },
+  {
+   "name": "Ngozi",
+   "iso": "BDI",
+   "lon": 29.83,
+   "lat": -2.91,
+   "vp": 2
+  },
+  {
+   "name": "Muyinga",
+   "iso": "BDI",
+   "lon": 30.34,
+   "lat": -2.85,
+   "vp": 1
+  },
+  {
+   "name": "Bururi",
+   "iso": "BDI",
+   "lon": 29.62,
+   "lat": -3.95,
+   "vp": 1
+  },
+  {
+   "name": "Makamba",
+   "iso": "BDI",
+   "lon": 29.8,
+   "lat": -4.13,
+   "vp": 1
+  },
+  {
+   "name": "Kampala",
+   "iso": "UGA",
+   "lon": 32.58,
+   "lat": 0.32,
+   "vp": 15,
+   "capital": true,
+   "city_province": true
+  },
+  {
+   "name": "Entebbe",
+   "iso": "UGA",
+   "lon": 32.46,
+   "lat": 0.06,
+   "vp": 3,
+   "air": 2
+  },
+  {
+   "name": "Jinja",
+   "iso": "UGA",
+   "lon": 33.2,
+   "lat": 0.44,
+   "vp": 5
+  },
+  {
+   "name": "Mbale",
+   "iso": "UGA",
+   "lon": 34.18,
+   "lat": 1.08,
+   "vp": 3
+  },
+  {
+   "name": "Gulu",
+   "iso": "UGA",
+   "lon": 32.3,
+   "lat": 2.78,
+   "vp": 4
+  },
+  {
+   "name": "Lira",
+   "iso": "UGA",
+   "lon": 32.9,
+   "lat": 2.25,
+   "vp": 2
+  },
+  {
+   "name": "Arua",
+   "iso": "UGA",
+   "lon": 30.91,
+   "lat": 3.02,
+   "vp": 2
+  },
+  {
+   "name": "Mbarara",
+   "iso": "UGA",
+   "lon": 30.66,
+   "lat": -0.61,
+   "vp": 3
+  },
+  {
+   "name": "Masaka",
+   "iso": "UGA",
+   "lon": 31.73,
+   "lat": -0.34,
+   "vp": 2
+  },
+  {
+   "name": "Kasese",
+   "iso": "UGA",
+   "lon": 30.09,
+   "lat": 0.18,
+   "vp": 2
+  },
+  {
+   "name": "Fort Portal",
+   "iso": "UGA",
+   "lon": 30.27,
+   "lat": 0.66,
+   "vp": 2
+  },
+  {
+   "name": "Soroti",
+   "iso": "UGA",
+   "lon": 33.61,
+   "lat": 1.71,
+   "vp": 2
+  },
+  {
+   "name": "Tororo",
+   "iso": "UGA",
+   "lon": 34.18,
+   "lat": 0.69,
+   "vp": 2
+  },
+  {
+   "name": "Kitgum",
+   "iso": "UGA",
+   "lon": 32.89,
+   "lat": 3.28,
+   "vp": 1
+  },
+  {
+   "name": "Hoima",
+   "iso": "UGA",
+   "lon": 31.35,
+   "lat": 1.43,
+   "vp": 1
+  },
+  {
+   "name": "Moroto",
+   "iso": "UGA",
+   "lon": 34.65,
+   "lat": 2.53,
+   "vp": 1
+  }
+ ],
+ "lakes": [
+  "Lake Chad",
+  "Lake Albert",
+  "Lake Kivu",
+  "Lake Edward",
+  "Lac Moeru",
+  "Lake Kyoga",
+  "Lake Kwania",
+  "Lac Mai-Ndombe",
+  "Lac Tumba",
+  "Lac Upemba",
+  "M'Bakaou Reservoir"
+ ],
+ "resources": {
+  "COD/Haut-Katanga": {
+   "steel": 22,
+   "chromium": 10
+  },
+  "COD/Lualaba": {
+   "steel": 26,
+   "chromium": 16
+  },
+  "COD/South Kivu": {
+   "tungsten": 10
+  },
+  "COD/North Kivu": {
+   "tungsten": 6
+  },
+  "COD/Maniema": {
+   "tungsten": 6
+  },
+  "COD/Kongo-Central": {
+   "oil": 4
+  },
+  "COD/Équateur": {
+   "rubber": 3
+  },
+  "COD/Tshuapa": {
+   "rubber": 3
+  },
+  "COD/Sud-Ubangi": {
+   "rubber": 3
+  },
+  "COD/Mongala": {
+   "rubber": 3
+  },
+  "COG/Kouilou": {
+   "oil": 12
+  },
+  "COG/Pointe-Noire": {
+   "oil": 6
+  },
+  "GAB/Ogooué-Maritime": {
+   "oil": 30
+  },
+  "GAB/Haut-Ogooué": {
+   "chromium": 12
+  },
+  "GNQ/Bioko Norte": {
+   "oil": 18
+  },
+  "CMR/South-West": {
+   "oil": 8
+  },
+  "CMR/Adamaoua": {
+   "aluminium": 4
+  },
+  "CMR/East": {
+   "rubber": 2
+  },
+  "TCD/Logone Oriental": {
+   "oil": 4
+  },
+  "RWA/Northern Province": {
+   "tungsten": 3
+  },
+  "BDI/Kayanza": {
+   "tungsten": 2
+  }
+ }
+}

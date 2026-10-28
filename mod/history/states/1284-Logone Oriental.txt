@@ -1,0 +1,25 @@
+state={
+	id=1284
+	name="STATE_1284" # Logone Oriental
+	manpower = 593440
+	state_category = town
+
+	resources={
+		oil=4
+	}
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14128 2 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14128 14129 14130 
+	}
+
+	local_supplies=0.0
+}

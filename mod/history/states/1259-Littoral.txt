@@ -1,0 +1,25 @@
+state={
+	id=1259
+	name="STATE_1259" # Littoral
+	manpower = 2236113
+	state_category = city
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			14032 = { naval_base = 4 }
+		}
+		victory_points = { 14032 15 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		14032 14033 14034 14035 14036 14037 14038 
+	}
+
+	local_supplies=0.0
+}

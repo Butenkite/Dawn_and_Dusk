@@ -1,0 +1,22 @@
+state={
+	id=1301
+	name="STATE_1301" # Mbale
+	manpower = 3046821
+	state_category = large_city
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14188 3 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14184 14185 14186 14187 14188 
+	}
+
+	local_supplies=0.0
+}

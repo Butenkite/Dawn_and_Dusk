@@ -1,0 +1,25 @@
+state={
+	id=1193
+	name="STATE_1193" # Kamina
+	manpower = 1093868
+	state_category = large_town
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+		}
+		victory_points = { 13176 2 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		12975 12989 13138 13176 13177 13210 13211 
+	}
+
+	local_supplies=0.0
+}

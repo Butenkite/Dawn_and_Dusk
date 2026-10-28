@@ -1,0 +1,21 @@
+state={
+	id=1298
+	name="STATE_1298" # Arua
+	manpower = 1933460
+	state_category = city
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14170 2 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14166 14167 14168 14169 14170 14171 
+	}
+
+	local_supplies=0.0
+}

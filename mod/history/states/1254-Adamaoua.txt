@@ -1,0 +1,25 @@
+state={
+	id=1254
+	name="STATE_1254" # Adamaoua
+	manpower = 805000
+	state_category = large_town
+
+	resources={
+		aluminium=4
+	}
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14010 3 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		14006 14007 14008 14009 14010 
+	}
+
+	local_supplies=0.0
+}

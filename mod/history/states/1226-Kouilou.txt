@@ -1,0 +1,26 @@
+state={
+	id=1226
+	name="STATE_1226" # Kouilou
+	manpower = 676000
+	state_category = town
+
+	resources={
+		oil=18
+	}
+
+	history={
+		owner = RCG
+		buildings = {
+			infrastructure = 1
+			13904 = { naval_base = 3 }
+		}
+		victory_points = { 13904 8 }
+		add_core_of = RCG
+	}
+
+	provinces={
+		13903 13904 13905 
+	}
+
+	local_supplies=0.0
+}

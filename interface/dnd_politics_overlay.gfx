@@ -1,8 +1,0 @@
-# PLACEHOLDER ART: a stand-in icon where the government-type icon will go.
-spriteTypes = {
-	spriteType = {
-		name = "GFX_dnd_government_placeholder"
-		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
-		legacy_lazy_load = no
-	}
-}

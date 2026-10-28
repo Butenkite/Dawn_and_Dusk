@@ -1,0 +1,24 @@
+state={
+	id=1207
+	name="STATE_1207" # Ilebo
+	manpower = 785384
+	state_category = town
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13800 1 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13797 13798 13799 13800 13801 13802 
+	}
+
+	local_supplies=0.0
+}

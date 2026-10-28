@@ -1,0 +1,31 @@
+state={
+	id=1191
+	name="STATE_1191" # Lubumbashi
+	manpower = 1762817
+	state_category = city
+
+	resources={
+		steel=12
+		chromium=5
+	}
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+		}
+		victory_points = { 11934 10 }
+		victory_points = { 12719 3 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		11934 12719 12741 12775 12783 12795 12808 12824 12830 12847 
+	}
+
+	local_supplies=0.0
+}

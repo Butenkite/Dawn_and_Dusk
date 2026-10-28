@@ -1,0 +1,21 @@
+state={
+	id=1252
+	name="STATE_1252" # Nord
+	manpower = 1537000
+	state_category = city
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 13994 4 }
+		add_core_of = CMR
+	}
+
+	provinces={
+		13994 13995 13996 13997 13998 13999 14000 14001 14002 14003 
+	}
+
+	local_supplies=0.0
+}

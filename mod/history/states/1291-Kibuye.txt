@@ -1,0 +1,22 @@
+state={
+	id=1291
+	name="STATE_1291" # Kibuye
+	manpower = 1969000
+	state_category = city
+
+	history={
+		owner = RWA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14151 3 }
+		victory_points = { 14152 2 }
+		add_core_of = RWA
+	}
+
+	provinces={
+		14150 14151 14152 
+	}
+
+	local_supplies=0.0
+}

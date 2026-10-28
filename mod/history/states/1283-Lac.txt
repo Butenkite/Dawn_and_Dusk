@@ -1,0 +1,21 @@
+state={
+	id=1283
+	name="STATE_1283" # Lac
+	manpower = 337125
+	state_category = rural
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14126 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14126 14127 
+	}
+
+	local_supplies=0.0
+}

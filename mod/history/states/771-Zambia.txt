@@ -1,0 +1,25 @@
+state={
+	id=771
+	name="STATE_771" # Gbadolite
+	manpower = 775676
+	state_category = town
+
+	history={
+		owner = MLC
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		victory_points = { 7931 5 }
+		add_core_of = MLC
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = RML
+	}
+
+	provinces={
+		7931 7963 8016 8048 8078 8193 
+	}
+
+	local_supplies=0.0
+}

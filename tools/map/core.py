@@ -80,6 +80,24 @@ def save_province_bmp(ids, defs, path):
     Image.fromarray(lut[ids], "RGB").save(path)
 
 
+def save_8bit_bmp_like(arr, template, path):
+    """Write an 8-bit bitmap with the template's exact header and palette
+    (the game checks the palette of rivers.bmp and terrain.bmp), replacing
+    only the pixels. Rows are stored bottom-up, padded to 4 bytes."""
+    raw = Path(template).read_bytes()
+    offset = int.from_bytes(raw[10:14], "little")
+    w = int.from_bytes(raw[18:22], "little", signed=True)
+    h = int.from_bytes(raw[22:26], "little", signed=True)
+    bpp = int.from_bytes(raw[28:30], "little")
+    if bpp != 8 or (w, abs(h)) != (arr.shape[1], arr.shape[0]):
+        raise SystemExit(f"{template}: not an 8-bit {arr.shape[1]}x{arr.shape[0]} bitmap")
+    stride = (w + 3) // 4 * 4
+    rows = np.zeros((abs(h), stride), np.uint8)
+    rows[:, :w] = arr if h < 0 else arr[::-1]
+    data = rows.tobytes()
+    Path(path).write_bytes(raw[:offset] + data + raw[offset + len(data):])
+
+
 def new_colors(defs, count, seed=1):
     """Unique, not-yet-used province colours."""
     rng = np.random.default_rng(seed)

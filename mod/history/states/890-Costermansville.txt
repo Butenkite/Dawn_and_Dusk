@@ -1,0 +1,24 @@
+state={
+	id=890
+	name="STATE_890" # Makanza
+	manpower = 29024
+	state_category = pastoral
+
+	history={
+		owner = MLC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 11108 1 }
+		add_core_of = MLC
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = RML
+	}
+
+	provinces={
+		11108 
+	}
+
+	local_supplies=0.0
+}

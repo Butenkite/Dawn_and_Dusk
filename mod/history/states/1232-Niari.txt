@@ -1,0 +1,21 @@
+state={
+	id=1232
+	name="STATE_1232" # Niari
+	manpower = 194643
+	state_category = rural
+
+	history={
+		owner = RCG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13921 2 }
+		add_core_of = RCG
+	}
+
+	provinces={
+		13921 13922 13923 
+	}
+
+	local_supplies=0.0
+}

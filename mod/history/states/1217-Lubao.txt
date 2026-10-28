@@ -1,0 +1,24 @@
+state={
+	id=1217
+	name="STATE_1217" # Lubao
+	manpower = 350726
+	state_category = rural
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13864 1 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13863 13864 
+	}
+
+	local_supplies=0.0
+}

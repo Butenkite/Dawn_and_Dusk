@@ -10,10 +10,11 @@
 
 ## Files
 
-- **Vanilla script and art stay out of the repo.** If a vanilla folder has to go, add a `replace_path` line in `descriptor.mod` and write our own file. If we need a vanilla texture, point at its path; don't copy it.
-- **Exception: interface layouts.** Screens we reshape (`interface/countrypoliticsview.gui`, `interface/countrydiplomacyview.gui`) are modified copies of vanilla, as most total conversions do. Each starts with a header listing what changed, and every change is marked `# DND`. New screen elements go in our own `dnd_` files where possible.
+- **Vanilla script and art stay out of the repo.** If a vanilla folder has to go, add a `replace_path` line in `mod/descriptor.mod` (and the launcher template, `tools/setup/dawn_and_dusk.mod`) and write our own file. If we need a vanilla texture, point at its path; don't copy it.
+- **Exception: interface layouts.** Screens we reshape (`mod/interface/countrypoliticsview.gui`, `mod/interface/countrydiplomacyview.gui`) are modified copies of vanilla, as most total conversions do. Each starts with a header listing what changed, and every change is marked `# DND`. New screen elements go in our own `dnd_` files where possible.
+- **Exception: the map.** `mod/map` and the state files that replace vanilla states are rebuilt from vanilla's by `tools/map/build.py`. Never hand-edit them; change a region spec and rebuild.
 - **One file per system, per country.** Avoid giant shared files that everyone edits.
-- **Encoding:** script files are UTF-8. Localisation `.yml` files must be UTF-8 **with BOM**, or the game silently ignores them.
+- **Encoding:** script files (`common/`, `interface/`, `events/`) are UTF-8 **without** BOM: a BOM in a scripted GUI or scripted localisation file breaks parsing and crashed the game at load. Localisation `.yml` files are the opposite: UTF-8 **with BOM**, or the game silently ignores them. History files take either.
 - **Indentation:** tabs.
 
 ## Story structure in script
@@ -27,7 +28,16 @@ These rules come straight from the design bible.
 
 ## Generated files
 
-`history/countries/` is generated. Change `tools/data/countries.csv` and run `python tools/generate_country_history.py`. When a country gets a hand-written history, add its tag to `HAND_WRITTEN` in that script first.
+Most of `mod/history`, all of `mod/map` and the vanilla stand-ins are
+generated. The README has the full table of outputs, sources and tools. When a
+country gets a hand-written history, add its tag to `HAND_WRITTEN` in
+`tools/countries/generate_country_history.py` first.
+
+## Layout
+
+Everything the game loads lives in `mod/`. Tools, data and docs stay outside
+it, so a Workshop upload of `mod/` carries nothing else. Run tools from the
+repo root.
 
 ## Commits
 

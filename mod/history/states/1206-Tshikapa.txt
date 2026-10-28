@@ -1,0 +1,24 @@
+state={
+	id=1206
+	name="STATE_1206" # Tshikapa
+	manpower = 1055918
+	state_category = large_town
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13792 2 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13791 13792 13793 13794 13795 13796 
+	}
+
+	local_supplies=0.0
+}

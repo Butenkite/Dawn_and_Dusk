@@ -1,0 +1,21 @@
+state={
+	id=1261
+	name="STATE_1261" # Moyen-Ogooué
+	manpower = 104000
+	state_category = pastoral
+
+	history={
+		owner = GAB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14044 1 }
+		add_core_of = GAB
+	}
+
+	provinces={
+		14042 14043 14044 
+	}
+
+	local_supplies=0.0
+}

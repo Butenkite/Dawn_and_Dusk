@@ -1,0 +1,21 @@
+state={
+	id=1247
+	name="STATE_1247" # Haute-Kotto
+	manpower = 86781
+	state_category = pastoral
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13969 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13966 13967 13968 13969 
+	}
+
+	local_supplies=0.0
+}

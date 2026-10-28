@@ -1,0 +1,24 @@
+state={
+	id=1197
+	name="STATE_1197" # Kahemba
+	manpower = 1035588
+	state_category = large_town
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13755 1 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13753 13754 13755 13756 13757 13758 13759 
+	}
+
+	local_supplies=0.0
+}

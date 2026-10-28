@@ -1,0 +1,5 @@
+# Dawn and Dusk: RCD-Liberation Movement (RCD-ML), a rebel movement in the Second Congo War (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 232 148 64 }

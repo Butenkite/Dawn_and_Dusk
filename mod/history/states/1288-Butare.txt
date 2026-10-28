@@ -1,0 +1,24 @@
+state={
+	id=1288
+	name="STATE_1288" # Butare
+	manpower = 2097000
+	state_category = city
+
+	history={
+		owner = RWA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 14141 3 }
+		victory_points = { 14139 2 }
+		add_core_of = RWA
+	}
+
+	provinces={
+		14139 14140 14141 14142 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1231
+	name="STATE_1231" # Lékoumou
+	manpower = 81000
+	state_category = pastoral
+
+	history={
+		owner = RCG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13920 1 }
+		add_core_of = RCG
+	}
+
+	provinces={
+		13920 
+	}
+
+	local_supplies=0.0
+}

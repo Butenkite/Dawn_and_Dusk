@@ -1,0 +1,21 @@
+state={
+	id=1241
+	name="STATE_1241" # Ouham-Pendé
+	manpower = 414000
+	state_category = town
+
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13950 1 }
+		add_core_of = CAR
+	}
+
+	provinces={
+		13948 13949 13950 
+	}
+
+	local_supplies=0.0
+}

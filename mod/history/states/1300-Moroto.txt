@@ -1,0 +1,21 @@
+state={
+	id=1300
+	name="STATE_1300" # Moroto
+	manpower = 795375
+	state_category = town
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14182 1 }
+		add_core_of = UGA
+	}
+
+	provinces={
+		14180 14181 14182 14183 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,28 @@
+state={
+	id=1213
+	name="STATE_1213" # Uvira
+	manpower = 1539138
+	state_category = city
+
+	resources={
+		tungsten=5
+	}
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13834 2 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13834 13835 13836 13837 13838 13839 13840 
+	}
+
+	local_supplies=0.0
+}

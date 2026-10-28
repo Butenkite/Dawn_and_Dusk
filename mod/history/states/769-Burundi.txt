@@ -1,0 +1,24 @@
+state={
+	id=769
+	name="STATE_769" # Ango
+	manpower = 177550
+	state_category = rural
+
+	history={
+		owner = MLC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 5139 1 }
+		add_core_of = MLC
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = RML
+	}
+
+	provinces={
+		5136 5139 6008 6027 
+	}
+
+	local_supplies=0.0
+}

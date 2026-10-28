@@ -1,0 +1,21 @@
+state={
+	id=1276
+	name="STATE_1276" # Tibesti
+	manpower = 16000
+	state_category = pastoral
+
+	history={
+		owner = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14095 1 }
+		add_core_of = CHA
+	}
+
+	provinces={
+		14095 14096 14097 14098 
+	}
+
+	local_supplies=0.0
+}

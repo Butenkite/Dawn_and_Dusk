@@ -20,8 +20,8 @@ Patches change vanilla files we depend on, and an out-of-date copy can crash
 the game at the end of loading. Re-run, with your HOI4 install folder:
 
 ```
-python tools/patch_vanilla_gui.py "C:/Steam/steamapps/common/Hearts of Iron IV"
-python tools/generate_vanilla_stubs.py "C:/Steam/steamapps/common/Hearts of Iron IV"
+python tools/vanilla/patch_vanilla_gui.py "C:/Steam/steamapps/common/Hearts of Iron IV"
+python tools/vanilla/generate_vanilla_stubs.py "C:/Steam/steamapps/common/Hearts of Iron IV"
 ```
 
 Then launch and check the error log before anything else.
@@ -38,20 +38,61 @@ was found. Known causes so far:
 - a UTF-8 BOM in a scripted GUI or scripted localisation file
 - an overridden vanilla screen made from an older game version
 
-## Foundation checks
+## If the map will not load
+
+The game refuses to start a map that logs any `MAP_ERROR`, and some map
+mistakes show up only as missing or broken provinces in nudge. Run the
+validator first; it checks everything below and more:
+
+```
+python tools/map/validate.py --vanilla "C:/Steam/steamapps/common/Hearts of Iron IV"
+```
+
+Causes found so far:
+
+- a state split across two strategic regions
+- four provinces meeting at one point ("Map invalid X crossing")
+- a `victory_points` block with more than one province in it
+- two state files with the same state id. Files in `mod/history/states` are
+  named `<id>-<name>.txt`; when an update renames them, the old files must be
+  deleted, not left next to the new ones. Update through git, not by
+  unzipping over the folder. The map builder keeps state ids stable between
+  builds (`tools/data/map/state_ids.json`) so this should be rare.
+- a state left holding only a lake, which shows as a coloured blob owned by
+  its 1936 owner
+
+State files that replace vanilla states keep vanilla's file name even when
+the state is now somewhere else (`770-Malawi.txt` holds a Congo state). That
+is deliberate: a mod file replaces the vanilla file only if the names match,
+so renaming it would load both and duplicate the state.
+
+## After rebuilding a map region
+
+```
+python tools/map/build.py tools/data/map/<region>.json --vanilla "<HOI4>"
+python tools/countries/generate_country_history.py
+python tools/countries/generate_congo_war.py --vanilla "<HOI4>"
+python tools/map/validate.py --vanilla "<HOI4>"
+```
+
+The second step moves capitals of rebuilt countries; the third re-places the
+Congo armies on the new provinces.
+
+## Start checks
 
 - [ ] The mod shows up in the launcher and the game reaches the main menu.
 - [ ] Game rules show a **Dawn and Dusk** group with Outside World, The 2040 Deadline and the war goal rule set to Focuses Only.
 - [ ] The bookmark screen shows **The New Millennium**, dated 1 January 2000.
-- [ ] South Africa, Egypt and Liberia can be picked.
 - [ ] The politics screen shows the new ideology names (Social Democrat, Authoritarian, ...) and hovering the leader shows a flavour.
-- [ ] The date in game reads 2000.
+- [ ] Southern and central Africa show their rebuilt states; Lesotho, Swaziland, RCD-Goma, the MLC and RCD-ML have names and flags.
+- [ ] The Congo starts at war (Kinshasa against all three rebel movements, RCD-Goma against RCD-ML) with no war declaration popups.
 - [ ] Console: `tag SAF`, then try to justify a war goal on a neighbour. The option should not be offered.
 
 ## Known gaps (expected, not bugs)
 
-- Borders are vanilla's. Some 1939 border changes are applied, because the start date is past them. The map pass fixes this.
+- Outside southern and central Africa, borders are vanilla's 1936 ones.
 - Ideology icons reuse vanilla's four icons.
-- No armies, technology, focus trees or events yet.
-- Vanilla files we still load (ideas, characters, MIOs) are 1936 content. Their references now resolve to empty stand-ins, so they log few errors, but they still exist until each system gets its 2000 replacement.
+- Only the four Congo war sides have armies and technology; no focus trees or events yet.
+- Vanilla files we still load (ideas, characters, MIOs) are 1936 content. Their references resolve to empty stand-ins, so they log few errors, but they stay until each system gets its 2000 replacement.
+- Without `tools/setup/make_placeholder_flags.bat`, the error log lists missing ideology flags. Harmless: the game falls back to the country's main flag.
 - Most countries have placeholder party names ("Liberal Party"); real ones live in `tools/data/parties.csv`.

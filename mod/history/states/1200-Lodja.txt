@@ -1,0 +1,24 @@
+state={
+	id=1200
+	name="STATE_1200" # Lodja
+	manpower = 650726
+	state_category = town
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13767 1 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13765 13766 13767 13768 13769 
+	}
+
+	local_supplies=0.0
+}

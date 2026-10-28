@@ -1,0 +1,28 @@
+state={
+	id=774
+	name="STATE_774" # Befale
+	manpower = 141270
+	state_category = pastoral
+
+	resources={
+		rubber=1
+	}
+
+	history={
+		owner = MLC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 9986 1 }
+		add_core_of = MLC
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = RML
+	}
+
+	provinces={
+		9986 10025 
+	}
+
+	local_supplies=0.0
+}

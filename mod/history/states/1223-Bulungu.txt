@@ -1,0 +1,24 @@
+state={
+	id=1223
+	name="STATE_1223" # Bulungu
+	manpower = 606221
+	state_category = town
+
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13892 1 }
+		add_core_of = COG
+		add_claim_by = RCD
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13890 13891 13892 13893 
+	}
+
+	local_supplies=0.0
+}

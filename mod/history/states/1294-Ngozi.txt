@@ -1,0 +1,27 @@
+state={
+	id=1294
+	name="STATE_1294" # Ngozi
+	manpower = 1996000
+	state_category = city
+
+	resources={
+		tungsten=2
+	}
+
+	history={
+		owner = BRD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14155 2 }
+		victory_points = { 14156 1 }
+		add_core_of = BRD
+	}
+
+	provinces={
+		14155 14156 14157 14158 
+	}
+
+	local_supplies=0.0
+}

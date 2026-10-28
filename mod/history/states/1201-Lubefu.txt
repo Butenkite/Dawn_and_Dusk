@@ -1,0 +1,24 @@
+state={
+	id=1201
+	name="STATE_1201" # Lubefu
+	manpower = 221447
+	state_category = rural
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13770 1 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13770 13771 
+	}
+
+	local_supplies=0.0
+}

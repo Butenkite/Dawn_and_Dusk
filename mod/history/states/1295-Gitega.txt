@@ -1,0 +1,21 @@
+state={
+	id=1295
+	name="STATE_1295" # Gitega
+	manpower = 1503019
+	state_category = city
+
+	history={
+		owner = BRD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14160 3 }
+		add_core_of = BRD
+	}
+
+	provinces={
+		14159 14160 
+	}
+
+	local_supplies=0.0
+}

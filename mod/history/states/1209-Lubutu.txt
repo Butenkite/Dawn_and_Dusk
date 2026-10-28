@@ -1,0 +1,28 @@
+state={
+	id=1209
+	name="STATE_1209" # Lubutu
+	manpower = 372759
+	state_category = rural
+
+	resources={
+		tungsten=3
+	}
+
+	history={
+		owner = RCD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13808 1 }
+		add_core_of = RCD
+		add_core_of = COG
+		add_claim_by = MLC
+		add_claim_by = RML
+	}
+
+	provinces={
+		13808 13809 13810 13811 13812 
+	}
+
+	local_supplies=0.0
+}
