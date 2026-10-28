@@ -1,0 +1,24 @@
+state={
+	id=1117
+	name="STATE_1117" # Erongo
+	manpower = 107699
+	state_category = pastoral
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+			13471 = { naval_base = 3 }
+		}
+		victory_points = {
+			13471 5
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		13471 13472 
+	}
+
+	local_supplies=0.0
+}

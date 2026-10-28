@@ -1,0 +1,25 @@
+state={
+	id=1141
+	name="STATE_1141" # Nacala
+	manpower = 1671633
+	state_category = city
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			13550 = { naval_base = 2 }
+		}
+		victory_points = {
+			13550 3
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13546 13547 13548 13549 13550 
+	}
+
+	local_supplies=0.0
+}

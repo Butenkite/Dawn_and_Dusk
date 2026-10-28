@@ -1,0 +1,23 @@
+state={
+	id=1164
+	name="STATE_1164" # Kaoma
+	manpower = 287280
+	state_category = rural
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13648 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13648 13649 13650 
+	}
+
+	local_supplies=0.0
+}

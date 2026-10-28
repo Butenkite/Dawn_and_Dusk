@@ -1,0 +1,26 @@
+state={
+	id=540
+	name="STATE_540" # Pretoria
+	manpower = 2151102
+	state_category = city
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 3
+		}
+		victory_points = {
+			1833 25
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		1688 1833 1846 1874 
+	}
+
+	local_supplies=0.0
+}

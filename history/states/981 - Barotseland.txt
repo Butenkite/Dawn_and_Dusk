@@ -1,0 +1,27 @@
+state={
+	id=981
+	name="STATE_981" # Kimberley
+	manpower = 310793
+	state_category = rural
+
+	resources={
+		steel=18
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10415 3
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		10415 10442 10525 
+	}
+
+	local_supplies=0.0
+}

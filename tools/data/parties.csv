@@ -1,0 +1,24 @@
+tag,group,short,long
+SAF,communism,SACP,South African Communist Party
+SAF,socialist,PAC,Pan Africanist Congress of Azania
+SAF,social_democrat,ANC,African National Congress
+SAF,democratic,DP,Democratic Party
+SAF,conservative,NNP,New National Party
+SAF,authoritarian_democrat,IFP,Inkatha Freedom Party
+SAF,fascism,AWB,Afrikaner Weerstandsbeweging
+EGY,communism,ECP,Egyptian Communist Party
+EGY,socialist,Tagammu,National Progressive Unionist Party
+EGY,social_democrat,Nasserists,Arab Democratic Nasserist Party
+EGY,democratic,Wafd,New Wafd Party
+EGY,conservative,Brotherhood,Muslim Brotherhood
+EGY,authoritarian_democrat,NDP,National Democratic Party
+LIB,democratic,UP,Unity Party
+LIB,conservative,TWP,True Whig Party
+LIB,social_democrat,LPP,Liberia People's Party
+LIB,neutrality,NPP,National Patriotic Party
+LES,social_democrat,LCD,Lesotho Congress for Democracy
+LES,conservative,BNP,Basotho National Party
+LES,socialist,BCP,Basutoland Congress Party
+SWZ,neutrality,Tinkhundla,Royal Tinkhundla Government
+SWZ,social_democrat,PUDEMO,People's United Democratic Movement
+SWZ,socialist,NNLC,Ngwane National Liberatory Congress

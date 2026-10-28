@@ -1,0 +1,24 @@
+state={
+	id=1091
+	name="STATE_1091" # Klerksdorp
+	manpower = 1005171
+	state_category = large_town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			12985 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		12985 12986 13209 
+	}
+
+	local_supplies=0.0
+}

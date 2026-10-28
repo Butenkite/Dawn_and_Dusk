@@ -1,0 +1,52 @@
+##############################################################################
+# Dawn and Dusk game rules
+# Added alongside vanilla's rules for now (see descriptor.mod).
+# First option is the default unless a "default = { }" block says otherwise.
+#
+# War goals: vanilla's own "allow_wargoals" rule is still loaded. Set it to
+# "Focuses Only" in the game rules screen. Once we replace the rules folder,
+# Focuses Only becomes the mod's default.
+##############################################################################
+
+# How the outside world's forks are decided each run.
+dnd_world_branches = {
+	name = "DND_RULE_WORLD_BRANCHES"
+	group = "DND_RULE_GROUP"
+	default = {
+		name = "RANDOM"
+		text = "DND_RULE_WORLD_BRANCHES_RANDOM"
+		desc = "DND_RULE_WORLD_BRANCHES_RANDOM_DESC"
+	}
+	option = {
+		name = "HISTORICAL"
+		text = "DND_RULE_WORLD_BRANCHES_HISTORICAL"
+		desc = "DND_RULE_WORLD_BRANCHES_HISTORICAL_DESC"
+	}
+	option = {
+		name = "PLAYER_CHOICE"
+		text = "DND_RULE_WORLD_BRANCHES_PLAYER_CHOICE"
+		desc = "DND_RULE_WORLD_BRANCHES_PLAYER_CHOICE_DESC"
+	}
+}
+
+# What happens if no bloc holds the Union Council by the 2040 deadline.
+dnd_dusk_deadline = {
+	name = "DND_RULE_DUSK_DEADLINE"
+	group = "DND_RULE_GROUP"
+	default = {
+		name = "EPILOGUE"
+		text = "DND_RULE_DUSK_DEADLINE_EPILOGUE"
+		desc = "DND_RULE_DUSK_DEADLINE_EPILOGUE_DESC"
+	}
+	option = {
+		name = "GAME_OVER"
+		text = "DND_RULE_DUSK_DEADLINE_GAME_OVER"
+		desc = "DND_RULE_DUSK_DEADLINE_GAME_OVER_DESC"
+	}
+	option = {
+		name = "OFF"
+		text = "DND_RULE_DUSK_DEADLINE_OFF"
+		desc = "DND_RULE_DUSK_DEADLINE_OFF_DESC"
+		allow_achievements = no
+	}
+}

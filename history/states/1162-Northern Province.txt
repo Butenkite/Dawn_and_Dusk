@@ -1,0 +1,23 @@
+state={
+	id=1162
+	name="STATE_1162" # Northern Province
+	manpower = 809527
+	state_category = large_town
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13640 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13640 13641 13642 13643 13644 
+	}
+
+	local_supplies=0.0
+}

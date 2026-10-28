@@ -1,0 +1,27 @@
+state={
+	id=1082
+	name="STATE_1082" # Green Kalahari
+	manpower = 234214
+	state_category = rural
+
+	resources={
+		steel=4
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10538 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		10538 10566 10594 10668 10697 
+	}
+
+	local_supplies=0.0
+}

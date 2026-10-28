@@ -1,0 +1,23 @@
+state={
+	id=1092
+	name="STATE_1092" # Vryburg
+	manpower = 757325
+	state_category = town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13372 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		13217 13371 13372 
+	}
+
+	local_supplies=0.0
+}

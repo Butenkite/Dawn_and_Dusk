@@ -1,0 +1,24 @@
+state={
+	id=1165
+	name="STATE_1165" # Lilongwe
+	manpower = 2903500
+	state_category = city
+
+	history={
+		owner = MLW
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		victory_points = {
+			13651 15
+		}
+		add_core_of = MLW
+	}
+
+	provinces={
+		13651 13652 13653 13654 
+	}
+
+	local_supplies=0.0
+}

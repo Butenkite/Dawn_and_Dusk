@@ -1,0 +1,28 @@
+state={
+	id=1161
+	name="STATE_1161" # Copperbelt
+	manpower = 1581000
+	state_category = city
+
+	resources={
+		steel=14
+	}
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13638 8
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13636 13637 13638 13639 
+	}
+
+	local_supplies=0.0
+}

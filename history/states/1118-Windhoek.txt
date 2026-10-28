@@ -1,0 +1,25 @@
+state={
+	id=1118
+	name="STATE_1118" # Windhoek
+	manpower = 250300
+	state_category = rural
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+		victory_points = {
+			13474 15
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		13473 13474 
+	}
+
+	local_supplies=0.0
+}

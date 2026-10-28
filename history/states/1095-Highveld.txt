@@ -1,0 +1,29 @@
+state={
+	id=1095
+	name="STATE_1095" # Highveld
+	manpower = 942997
+	state_category = large_town
+
+	resources={
+		steel=10
+		oil=4
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			13419 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		13418 13419 
+	}
+
+	local_supplies=0.0
+}

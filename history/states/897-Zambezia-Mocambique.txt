@@ -1,0 +1,23 @@
+state={
+	id=897
+	name="STATE_897" # Great Karoo
+	manpower = 634337
+	state_category = town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			8245 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		8219 8245 8248 10400 
+	}
+
+	local_supplies=0.0
+}

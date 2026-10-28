@@ -1,0 +1,23 @@
+state={
+	id=1155
+	name="STATE_1155" # Mwinilunga
+	manpower = 156228
+	state_category = rural
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13616 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13615 13616 13617 
+	}
+
+	local_supplies=0.0
+}

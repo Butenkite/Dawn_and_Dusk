@@ -1,0 +1,23 @@
+state={
+	id=1142
+	name="STATE_1142" # Lichinga
+	manpower = 436416
+	state_category = town
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13552 1
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13551 13552 13553 
+	}
+
+	local_supplies=0.0
+}

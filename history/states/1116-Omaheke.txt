@@ -1,0 +1,23 @@
+state={
+	id=1116
+	name="STATE_1116" # Omaheke
+	manpower = 68000
+	state_category = pastoral
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13470 1
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		13468 13469 13470 
+	}
+
+	local_supplies=0.0
+}

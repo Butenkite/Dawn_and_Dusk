@@ -1,0 +1,23 @@
+state={
+	id=1168
+	name="STATE_1168" # Mangochi
+	manpower = 1383568
+	state_category = large_town
+
+	history={
+		owner = MLW
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13660 3
+		}
+		add_core_of = MLW
+	}
+
+	provinces={
+		13660 13661 
+	}
+
+	local_supplies=0.0
+}

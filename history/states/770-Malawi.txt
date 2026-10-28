@@ -1,0 +1,24 @@
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = ENG
+		add_core_of = MLW
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2255 
+	}
+	manpower=1603975
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

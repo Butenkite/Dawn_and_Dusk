@@ -1,0 +1,24 @@
+state={
+	id=892
+	name="STATE_892" # Stormberg
+	manpower = 1404814
+	state_category = large_town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			5203 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		5203 5212 5217 5221 5231 
+	}
+
+	local_supplies=0.0
+}

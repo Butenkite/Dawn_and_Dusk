@@ -1,0 +1,28 @@
+state={
+	id=1173
+	name="STATE_1173" # Cabinda
+	manpower = 519479
+	state_category = town
+
+	resources={
+		oil=30
+	}
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+			13678 = { naval_base = 1 }
+		}
+		victory_points = {
+			13678 5
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13678 
+	}
+
+	local_supplies=0.0
+}

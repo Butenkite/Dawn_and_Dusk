@@ -1,0 +1,24 @@
+state={
+	id=1108
+	name="STATE_1108" # Ovamboland
+	manpower = 780100
+	state_category = town
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13446 3
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		13441 13442 13443 13444 13445 13446 
+	}
+
+	local_supplies=0.0
+}

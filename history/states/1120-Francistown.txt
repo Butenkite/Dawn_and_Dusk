@@ -1,0 +1,23 @@
+state={
+	id=1120
+	name="STATE_1120" # Francistown
+	manpower = 134000
+	state_category = pastoral
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13476 5
+		}
+		add_core_of = BOT
+	}
+
+	provinces={
+		13476 
+	}
+
+	local_supplies=0.0
+}

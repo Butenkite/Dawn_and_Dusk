@@ -1,0 +1,39 @@
+##############################################################################
+# Dawn and Dusk: default focus tree
+#
+# The game requires every country to have a focus tree and crashes at the end
+# of loading if one does not ("Country focus tree is not set"). Vanilla's
+# generic tree is removed (replace_path common/national_focus), so this one
+# is the fallback for every country without a tree of its own.
+#
+# PLACEHOLDER: one focus, until the generic 2000 tree is written.
+##############################################################################
+
+focus_tree = {
+	id = dnd_generic_focus
+
+	country = {
+		factor = 1
+	}
+
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = dnd_generic_new_millennium
+	}
+
+	focus = {
+		id = dnd_generic_new_millennium
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 0
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=893
+	name="STATE_893" # Cape Town
+	manpower = 1911284
+	state_category = city
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			7576 = { naval_base = 5 }
+		}
+		victory_points = {
+			7576 25
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		7548 7576 7605 
+	}
+
+	local_supplies=0.0
+}

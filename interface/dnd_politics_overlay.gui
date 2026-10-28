@@ -1,0 +1,91 @@
+# Dawn and Dusk overlays for the politics and diplomacy screens.
+# Positions are relative to the parent screen (see common/scripted_guis).
+# Every element is alwaystransparent so clicks reach the screen underneath.
+
+guiTypes = {
+
+	# Politics screen (countrypoliticsview.gui, 760 wide)
+	containerWindowType = {
+		name = "dnd_politics_overlay"
+		position = { x = 0 y = 0 }
+		size = { width = 10 height = 10 }
+		clipping = no
+
+		# Sub-ideology, the main label of the ruling party block
+		# (ruling_party_info sits at 88,305; the group name is below at y+24)
+		instantTextboxType = {
+			name = "dnd_subideology"
+			position = { x = 97 y = 309 }
+			font = "hoi_18mbs"
+			text = "[dnd_GetSubideology]"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+
+		# Right-hand column: government type
+		instantTextboxType = {
+			name = "dnd_government_header"
+			position = { x = 556 y = 52 }
+			font = "hoi_16mbs"
+			text = "DND_POLITICS_GOVERNMENT"
+			maxWidth = 190
+			maxHeight = 18
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+
+		# Placeholder for the government-type icon (art to come)
+		iconType = {
+			name = "dnd_government_icon"
+			spriteType = "GFX_dnd_government_placeholder"
+			position = { x = 556 y = 74 }
+			scale = 0.6
+			alwaystransparent = yes
+		}
+
+		# Two lines, so "Parliamentary Republic" fits
+		instantTextboxType = {
+			name = "dnd_government_type"
+			position = { x = 598 y = 74 }
+			font = "hoi_16mbs"
+			text = "[dnd_GetGovernmentType]"
+			maxWidth = 146
+			maxHeight = 36
+			alwaystransparent = yes
+		}
+
+		# Right-hand column: party list header (the list itself is the
+		# vanilla parties_grid, moved in countrypoliticsview.gui)
+		instantTextboxType = {
+			name = "dnd_parties_header"
+			position = { x = 556 y = 118 }
+			font = "hoi_16mbs"
+			text = "DND_POLITICS_PARTIES"
+			maxWidth = 190
+			maxHeight = 18
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+
+	# Diplomacy screen: replaces the hidden ideology_name label
+	containerWindowType = {
+		name = "dnd_diplomacy_overlay"
+		position = { x = 258 y = 25 }
+		size = { width = 10 height = 10 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "dnd_subideology"
+			position = { x = 5 y = 120 }
+			font = "hoi_16mbs"
+			text = "[dnd_GetSubideology]"
+			maxWidth = 245
+			maxHeight = 20
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+}

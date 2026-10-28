@@ -1,0 +1,26 @@
+state={
+	id=1130
+	name="STATE_1130" # Harare
+	manpower = 1895999
+	state_category = city
+
+	history={
+		owner = ZIM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+		}
+		victory_points = {
+			13501 25
+		}
+		add_core_of = ZIM
+	}
+
+	provinces={
+		13501 
+	}
+
+	local_supplies=0.0
+}

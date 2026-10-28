@@ -1,0 +1,33 @@
+state={
+	id=275
+	name="STATE_275" # Witwatersrand
+	manpower = 6690614
+	state_category = metropolis
+
+	resources={
+		steel=8
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 2
+			air_base = 2
+		}
+		victory_points = {
+			697 30
+			1468 10
+			1494 5
+			1509 3
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		697 1468 1494 1509 1552 1580 
+	}
+
+	local_supplies=0.0
+}

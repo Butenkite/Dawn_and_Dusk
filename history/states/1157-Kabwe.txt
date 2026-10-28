@@ -1,0 +1,27 @@
+state={
+	id=1157
+	name="STATE_1157" # Kabwe
+	manpower = 624686
+	state_category = town
+
+	resources={
+		tungsten=2
+	}
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13621 2
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13621 13622 13623 
+	}
+
+	local_supplies=0.0
+}

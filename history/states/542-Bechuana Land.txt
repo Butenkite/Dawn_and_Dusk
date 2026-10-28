@@ -1,0 +1,23 @@
+state={
+	id=542
+	name="STATE_542" # Natal South Coast
+	manpower = 774598
+	state_category = town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			2171 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		2151 2159 2171 
+	}
+
+	local_supplies=0.0
+}

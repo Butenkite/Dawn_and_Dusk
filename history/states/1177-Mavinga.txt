@@ -1,0 +1,23 @@
+state={
+	id=1177
+	name="STATE_1177" # Mavinga
+	manpower = 241391
+	state_category = rural
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13696 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13695 13696 13697 13698 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1129
+	name="STATE_1129" # Bulawayo
+	manpower = 694163
+	state_category = town
+
+	history={
+		owner = ZIM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13500 10
+		}
+		add_core_of = ZIM
+	}
+
+	provinces={
+		13500 
+	}
+
+	local_supplies=0.0
+}

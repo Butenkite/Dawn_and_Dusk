@@ -1,0 +1,23 @@
+state={
+	id=1170
+	name="STATE_1170" # Bengo
+	manpower = 259740
+	state_category = rural
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13666 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13666 13667 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1183
+	name="STATE_1183" # Lunda Sul
+	manpower = 389512
+	state_category = rural
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13719 2
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13716 13717 13718 13719 
+	}
+
+	local_supplies=0.0
+}

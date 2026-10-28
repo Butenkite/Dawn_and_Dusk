@@ -1,0 +1,24 @@
+state={
+	id=1180
+	name="STATE_1180" # Cuanza Sul
+	manpower = 1356420
+	state_category = large_town
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			13707 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13703 13704 13705 13706 13707 
+	}
+
+	local_supplies=0.0
+}

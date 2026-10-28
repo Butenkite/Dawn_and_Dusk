@@ -1,0 +1,5 @@
+# Dawn and Dusk: Swaziland (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 150 92 190 }

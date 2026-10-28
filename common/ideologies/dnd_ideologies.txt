@@ -1,0 +1,436 @@
+##############################################################################
+# Dawn and Dusk ideology spectrum
+#
+# Eight groups, left to right. The group is what the map and the politics
+# screen show ("Social Democrat"); the type under it is the specific flavour
+# shown as the main label ("Developmental State", "Modern Putinism").
+#
+# KEYS: four of the eight groups reuse vanilla HOI4's internal keys, so the
+# hundreds of vanilla scripts the mod still loads (laws, factions, peace
+# conferences, autonomy, AI...) keep resolving instead of crashing the game.
+# Players never see these keys; the names come from localisation/english/
+# replace/dnd_ideologies_replace_l_english.yml.
+#     communism  = Vanguard Communist     democratic = Liberal
+#     neutrality = Despotic               fascism    = Ultranationalist
+# The other four (socialist, social_democrat, conservative,
+# authoritarian_democrat) are new.
+#
+# Each of those four groups also lists vanilla's flavours (nazism,
+# despotism...) as story-only types for the same reason. Nothing gives them
+# out. Types marked can_be_randomly_selected = no are only ever set by script
+# at an inflection point, never given to random leaders. Extremes (Year Zero,
+# Chrome Capitalism, Holy War...) are all story-only.
+##############################################################################
+
+ideologies = {
+
+	##########################################################################
+	# 1. VANGUARD COMMUNIST
+	##########################################################################
+	communism = {
+		types = {
+			marxism_leninism = { }
+			maoism = { }
+			juche = { can_be_randomly_selected = no }
+			afro_marxism = { }
+			council_communism = { can_be_randomly_selected = no }
+			year_zero = { can_be_randomly_selected = no }		# extreme
+			# Vanilla HOI4 flavour kept so vanilla scripts still resolve; never
+			# given out (story-only), see header.
+			marxism = { can_be_randomly_selected = no }
+			leninism = { can_be_randomly_selected = no }
+			stalinism = { can_be_randomly_selected = no }
+			anti_revisionism = { can_be_randomly_selected = no }
+			anarchist_communism = { can_be_randomly_selected = no }
+			buddhist_socialism = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_VANGUARD_1"
+			"DND_FACTION_VANGUARD_2"
+			"DND_FACTION_VANGUARD_3"
+		}
+
+		color = { 150 0 0 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		war_impact_on_world_tension = 0.75
+		faction_impact_on_world_tension = 0.5
+
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			embargo_threshold_factor = 0.5
+		}
+
+		faction_modifiers = { }
+
+		ai_communist = yes
+		ai_ideology_wanted_units_factor = 1.20
+		ai_give_core_state_control_threshold = 10
+	}
+
+	##########################################################################
+	# 2. SOCIALIST
+	##########################################################################
+	socialist = {
+		types = {
+			democratic_socialism = { }
+			african_socialism = { }
+			sankarism = { }
+			ujamaa = { }
+			lumumbism = { can_be_randomly_selected = no }
+			syndicalism = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_SOCIALIST_1"
+			"DND_FACTION_SOCIALIST_2"
+			"DND_FACTION_SOCIALIST_3"
+		}
+
+		color = { 225 60 60 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.3
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 7.5
+		}
+
+		faction_modifiers = { }
+
+		ai_communist = yes
+		ai_ideology_wanted_units_factor = 1.10
+		ai_give_core_state_control_threshold = 10
+	}
+
+	##########################################################################
+	# 3. SOCIAL DEMOCRAT
+	##########################################################################
+	social_democrat = {
+		types = {
+			social_democracy = { }
+			labourism = { }
+			green_politics = { }
+			ubuntu_democracy = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_SOCIAL_DEMOCRAT_1"
+			"DND_FACTION_SOCIAL_DEMOCRAT_2"
+			"DND_FACTION_SOCIAL_DEMOCRAT_3"
+		}
+
+		color = { 240 120 150 }
+
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5.0
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+
+		ai_democratic = yes
+		ai_ideology_wanted_units_factor = 1.0
+		ai_give_core_state_control_threshold = 0
+	}
+
+	##########################################################################
+	# 4. LIBERAL
+	##########################################################################
+	democratic = {
+		types = {
+			liberal_democracy = { }
+			classical_liberalism = { }
+			liberal_federalism = { }
+			technocratic_liberalism = { }
+			# Vanilla HOI4 flavour kept so vanilla scripts still resolve; never
+			# given out (story-only), see header.
+			conservatism = { can_be_randomly_selected = no }
+			liberalism = { can_be_randomly_selected = no }
+			socialism = { can_be_randomly_selected = no }
+			populism = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_LIBERAL_1"
+			"DND_FACTION_LIBERAL_2"
+			"DND_FACTION_LIBERAL_3"
+		}
+
+		color = { 235 200 60 }
+
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5.0
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+
+		ai_democratic = yes
+		ai_ideology_wanted_units_factor = 1.0
+		ai_give_core_state_control_threshold = 0
+	}
+
+	##########################################################################
+	# 5. CONSERVATIVE
+	##########################################################################
+	conservative = {
+		types = {
+			traditional_conservatism = { }
+			christian_democracy = { }
+			islamic_democracy = { }
+			constitutional_monarchism = { }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_CONSERVATIVE_1"
+			"DND_FACTION_CONSERVATIVE_2"
+			"DND_FACTION_CONSERVATIVE_3"
+		}
+
+		color = { 40 90 200 }
+
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.3
+		faction_impact_on_world_tension = 0.15
+
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 7.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+
+		ai_democratic = yes
+		ai_ideology_wanted_units_factor = 1.10
+		ai_give_core_state_control_threshold = 0
+	}
+
+	##########################################################################
+	# 6. AUTHORITARIAN (managed democracy, dominant party)
+	##########################################################################
+	authoritarian_democrat = {
+		types = {
+			dominant_party = { }
+			managed_democracy = { }
+			developmental_state = { }
+			guided_democracy = { }
+			modern_putinism = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_AUTHORITARIAN_1"
+			"DND_FACTION_AUTHORITARIAN_2"
+			"DND_FACTION_AUTHORITARIAN_3"
+		}
+
+		color = { 60 150 140 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		war_impact_on_world_tension = 0.4
+		faction_impact_on_world_tension = 0.2
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 10.0
+			drift_defence_factor = -0.2
+		}
+
+		faction_modifiers = { }
+
+		ai_neutral = yes
+		ai_ideology_wanted_units_factor = 1.15
+		ai_give_core_state_control_threshold = 1000
+	}
+
+	##########################################################################
+	# 7. DESPOTIC
+	##########################################################################
+	neutrality = {
+		types = {
+			military_junta = { }
+			big_man_rule = { }
+			absolute_monarchy = { }
+			theocracy = { }
+			jamahiriya = { can_be_randomly_selected = no }
+			chrome_capitalism = { can_be_randomly_selected = no }	# extreme
+			machine_governance = { can_be_randomly_selected = no }	# extreme
+			# Vanilla HOI4 flavour kept so vanilla scripts still resolve; never
+			# given out (story-only), see header.
+			despotism = { can_be_randomly_selected = no }
+			oligarchism = { can_be_randomly_selected = no }
+			anarchism = { can_be_randomly_selected = no }
+			moderatism = { can_be_randomly_selected = no }
+			centrism = { can_be_randomly_selected = no }
+			japan_militarism_ideology = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_DESPOTIC_1"
+			"DND_FACTION_DESPOTIC_2"
+			"DND_FACTION_DESPOTIC_3"
+		}
+
+		color = { 120 120 120 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.25
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 10.0
+		}
+
+		faction_modifiers = { }
+
+		ai_neutral = yes
+		ai_ideology_wanted_units_factor = 1.30
+		ai_give_core_state_control_threshold = 10000
+	}
+
+	##########################################################################
+	# 8. ULTRANATIONALIST
+	##########################################################################
+	fascism = {
+		types = {
+			ultranationalism = { }
+			ethnonationalism = { }
+			warlordism = { }
+			holy_war = { can_be_randomly_selected = no }		# extreme
+			god_kingship = { can_be_randomly_selected = no }	# extreme
+			# Vanilla HOI4 flavour kept so vanilla scripts still resolve; never
+			# given out (story-only), see header.
+			nazism = { can_be_randomly_selected = no }
+			gen_nazism = { can_be_randomly_selected = no }
+			fascism_ideology = { can_be_randomly_selected = no }
+			falangism = { can_be_randomly_selected = no }
+			rexism = { can_be_randomly_selected = no }
+			emperor_fascism = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {
+			"DND_FACTION_ULTRANATIONALIST_1"
+			"DND_FACTION_ULTRANATIONALIST_2"
+			"DND_FACTION_ULTRANATIONALIST_3"
+		}
+
+		color = { 110 60 20 }
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			embargo_cost_factor = 1
+		}
+
+		faction_modifiers = { }
+
+		ai_fascist = yes
+		ai_ideology_wanted_units_factor = 1.65
+		ai_give_core_state_control_threshold = 10000
+	}
+}

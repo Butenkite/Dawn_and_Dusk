@@ -1,0 +1,23 @@
+state={
+	id=1163
+	name="STATE_1163" # Mongu
+	manpower = 477719
+	state_category = town
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13646 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13645 13646 13647 
+	}
+
+	local_supplies=0.0
+}

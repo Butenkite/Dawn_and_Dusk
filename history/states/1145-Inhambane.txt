@@ -1,0 +1,23 @@
+state={
+	id=1145
+	name="STATE_1145" # Inhambane
+	manpower = 1229999
+	state_category = large_town
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13567 1
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13563 13564 13565 13566 13567 13568 
+	}
+
+	local_supplies=0.0
+}

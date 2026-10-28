@@ -1,0 +1,24 @@
+state={
+	id=1159
+	name="STATE_1159" # Southern Province
+	manpower = 1212000
+	state_category = large_town
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13628 3
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13627 13628 13629 13630 13631 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,27 @@
+state={
+	id=1097
+	name="STATE_1097" # Sekhukhune
+	manpower = 324717
+	state_category = rural
+
+	resources={
+		chromium=18
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13423 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		13423 
+	}
+
+	local_supplies=0.0
+}

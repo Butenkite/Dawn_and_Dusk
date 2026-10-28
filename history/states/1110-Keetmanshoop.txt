@@ -1,0 +1,23 @@
+state={
+	id=1110
+	name="STATE_1110" # Keetmanshoop
+	manpower = 35404
+	state_category = pastoral
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13453 1
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		13452 13453 13454 
+	}
+
+	local_supplies=0.0
+}

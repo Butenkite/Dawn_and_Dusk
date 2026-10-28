@@ -1,0 +1,59 @@
+# Government type shown in the politics screen's right-hand column.
+# A country gets one by having exactly one dnd_govt_<type> country flag
+# (set in its history file or by story script). The icon slot next to it is
+# reserved for later art.
+
+defined_text = {
+	name = dnd_GetGovernmentType
+	text = {
+		trigger = { has_country_flag = dnd_govt_republic }
+		localization_key = DND_GOVT_REPUBLIC
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_federal_republic }
+		localization_key = DND_GOVT_FEDERAL_REPUBLIC
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_parliamentary_republic }
+		localization_key = DND_GOVT_PARLIAMENTARY_REPUBLIC
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_constitutional_monarchy }
+		localization_key = DND_GOVT_CONSTITUTIONAL_MONARCHY
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_absolute_monarchy }
+		localization_key = DND_GOVT_ABSOLUTE_MONARCHY
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_one_party_state }
+		localization_key = DND_GOVT_ONE_PARTY_STATE
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_military_government }
+		localization_key = DND_GOVT_MILITARY_GOVERNMENT
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_theocracy }
+		localization_key = DND_GOVT_THEOCRACY
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_jamahiriya }
+		localization_key = DND_GOVT_JAMAHIRIYA
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_provisional_government }
+		localization_key = DND_GOVT_PROVISIONAL_GOVERNMENT
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_transitional_authority }
+		localization_key = DND_GOVT_TRANSITIONAL_AUTHORITY
+	}
+	text = {
+		trigger = { has_country_flag = dnd_govt_warlord_state }
+		localization_key = DND_GOVT_WARLORD_STATE
+	}
+	text = {
+		localization_key = DND_GOVT_UNSET
+	}
+}

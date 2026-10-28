@@ -1,0 +1,25 @@
+state={
+	id=1160
+	name="STATE_1160" # Lusaka
+	manpower = 1391000
+	state_category = large_town
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+		}
+		victory_points = {
+			13632 25
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13632 13633 13634 13635 
+	}
+
+	local_supplies=0.0
+}

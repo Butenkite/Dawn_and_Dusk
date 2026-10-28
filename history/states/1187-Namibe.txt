@@ -1,0 +1,24 @@
+state={
+	id=1187
+	name="STATE_1187" # Namibe
+	manpower = 360750
+	state_category = rural
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+			13730 = { naval_base = 1 }
+		}
+		victory_points = {
+			13730 2
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13730 13731 13732 
+	}
+
+	local_supplies=0.0
+}

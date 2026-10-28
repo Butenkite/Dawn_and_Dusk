@@ -1,0 +1,23 @@
+state={
+	id=1137
+	name="STATE_1137" # Matabeleland South
+	manpower = 654000
+	state_category = town
+
+	history={
+		owner = ZIM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13529 1
+		}
+		add_core_of = ZIM
+	}
+
+	provinces={
+		13526 13527 13528 13529 
+	}
+
+	local_supplies=0.0
+}

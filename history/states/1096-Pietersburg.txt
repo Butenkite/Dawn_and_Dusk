@@ -1,0 +1,24 @@
+state={
+	id=1096
+	name="STATE_1096" # Pietersburg
+	manpower = 1637979
+	state_category = city
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			13422 3
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		13420 13421 13422 
+	}
+
+	local_supplies=0.0
+}

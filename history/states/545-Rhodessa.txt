@@ -1,0 +1,24 @@
+state={
+	id=545
+	name="STATE_545" # Northern Natal
+	manpower = 978961
+	state_category = large_town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			2207 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		2207 2213 
+	}
+
+	local_supplies=0.0
+}

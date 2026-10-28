@@ -1,0 +1,27 @@
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# The launcher's .mod pointer file lives one folder up, not in the repo.
+# A template is kept in tools/dawn_and_dusk.mod
+/dawn_and_dusk.mod
+
+# Placeholder ideology flags made by tools/make_placeholder_flags.bat (copies
+# of Paradox art, named TAG_ideology.tga). Our own flags (TAG.tga, drawn by
+# tools/make_flags.py) are kept.
+gfx/flags/**/*_*.tga
+
+# Logs and scratch
+*.log
+scratch/
+
+# Downloaded geodata for tools/map (large, re-fetched on demand)
+tools/map/cache/
+
+# Python
+__pycache__/
+*.pyc

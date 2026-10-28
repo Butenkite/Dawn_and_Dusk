@@ -1,0 +1,23 @@
+state={
+	id=1088
+	name="STATE_1088" # Eastern Free State
+	manpower = 443870
+	state_category = town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12921 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		12921 12935 
+	}
+
+	local_supplies=0.0
+}

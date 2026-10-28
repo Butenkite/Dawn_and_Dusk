@@ -1,0 +1,23 @@
+state={
+	id=1158
+	name="STATE_1158" # Mumbwa
+	manpower = 387106
+	state_category = rural
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13626 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13624 13625 13626 
+	}
+
+	local_supplies=0.0
+}

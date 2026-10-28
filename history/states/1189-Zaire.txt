@@ -1,0 +1,27 @@
+state={
+	id=1189
+	name="STATE_1189" # Zaire
+	manpower = 425685
+	state_category = town
+
+	resources={
+		oil=10
+	}
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13738 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13737 13738 13739 
+	}
+
+	local_supplies=0.0
+}

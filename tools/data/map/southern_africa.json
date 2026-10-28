@@ -1,0 +1,1090 @@
+{
+ "name": "southern_africa",
+ "projection": "tools/data/map/projection_africa.json",
+ "continent": "africa",
+ "province_size": {
+  "base": 230,
+  "reference_density": 1500,
+  "exponent": 0.4,
+  "min": 80,
+  "max": 650
+ },
+ "rail_level": {
+  "ZAF": 3,
+  "ZWE": 2,
+  "NAM": 2,
+  "BWA": 2,
+  "ZMB": 2,
+  "MOZ": 1,
+  "AGO": 1,
+  "MWI": 1,
+  "LSO": 1,
+  "SWZ": 2
+ },
+ "supply_hub_min_vp": 10,
+ "_sources": "Populations: national censuses closest to 2000 (ZAF 2001, ZWE 2002, ZMB 2000, MWI 1998, MOZ 1997, NAM 2001, BWA 2001, LSO 1996/2001, SWZ 1997), scaled to 2000; Angola from 2014 census shares scaled to a 16.4M national total with Luanda at 2.8M. Approximate by design.",
+ "countries": {
+  "ZAF": {
+   "tag": "SAF",
+   "unit_level": "ADM3",
+   "infrastructure": 3,
+   "factories": {
+    "civ": 32,
+    "mil": 8,
+    "dock": 2
+   },
+   "pop2000": {
+    "Eastern Cape": 6440000.0,
+    "Free State": 2710000.0,
+    "Gauteng": 8840000.0,
+    "KwaZulu-Natal": 9430000.0,
+    "Limpopo": 5270000.0,
+    "Mpumalanga": 3120000.0,
+    "North West": 3670000.0,
+    "Nothern Cape": 820000.0,
+    "Western Cape": 4520000.0
+   }
+  },
+  "LSO": {
+   "tag": "LES",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 1
+   },
+   "pop2000": {
+    "Maseru District": 400000.0,
+    "Leribe District": 330000.0,
+    "Berea District": 270000.0,
+    "Mafeteng District": 220000.0,
+    "Mohale's Hoek District": 190000.0,
+    "Quthing District": 130000.0,
+    "Qacha's Nek District": 75000.0,
+    "Mokhotlong District": 90000.0,
+    "Thaba-Tseka District": 120000.0,
+    "Butha-Buthe District": 110000.0
+   },
+   "groups": {
+    "Maseru": [
+     "Maseru District",
+     "Berea District"
+    ],
+    "Leribe": [
+     "Leribe District",
+     "Butha-Buthe District"
+    ],
+    "Mafeteng": [
+     "Mafeteng District",
+     "Mohale's Hoek District",
+     "Quthing District"
+    ],
+    "Maloti Highlands": [
+     "Mokhotlong District",
+     "Thaba-Tseka District",
+     "Qacha's Nek District"
+    ]
+   }
+  },
+  "SWZ": {
+   "tag": "SWZ",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 1
+   },
+   "pop2000": {
+    "Hhohho": 250000.0,
+    "Manzini": 280000.0,
+    "Shiselweni": 190000.0,
+    "Lubombo": 200000.0
+   },
+   "groups": {
+    "Hhohho": [
+     "Hhohho"
+    ],
+    "Manzini": [
+     "Manzini"
+    ],
+    "Lowveld": [
+     "Lubombo",
+     "Shiselweni"
+    ]
+   }
+  },
+  "NAM": {
+   "tag": "NMB",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 2
+   },
+   "state_max_px": 2600,
+   "pop2000": {
+    "Caprivi": 79800.0,
+    "Erongo": 107700.0,
+    "Hardap": 68200.0,
+    "Karas": 69300.0,
+    "Kavango": 202700.0,
+    "Khomas": 250300.0,
+    "Kunene": 68700.0,
+    "Cunene": 1000.0,
+    "Ohangwena": 228400.0,
+    "Omaheke": 68000.0,
+    "Omusati": 228800.0,
+    "Oshana": 161900.0,
+    "Oshikoto": 161000.0,
+    "Otjozondjupa": 135400.0
+   },
+   "groups": {
+    "Ovamboland": [
+     "Ohangwena",
+     "Omusati",
+     "Oshana",
+     "Oshikoto"
+    ],
+    "Kaokoland": [
+     "Kunene",
+     "Cunene"
+    ]
+   },
+   "names": {
+    "Caprivi": "Caprivi Strip",
+    "Khomas": "Windhoek",
+    "Karas": "Karas"
+   }
+  },
+  "BWA": {
+   "tag": "BOT",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 3
+   },
+   "state_max_px": 2600,
+   "pop2000": {
+    "South-East District": 277000.0,
+    "Kgatleng District": 74000.0,
+    "North-East District": 134000.0,
+    "Central District": 554000.0,
+    "Ghanzi District": 33000.0,
+    "Kweneng District": 230000.0,
+    "Southern District": 187000.0,
+    "Kgalagadi District": 42000.0,
+    "North-West District": 124000.0,
+    "Chobe District": 18000.0
+   },
+   "groups": {
+    "Gaborone": [
+     "South-East District",
+     "Kgatleng District"
+    ],
+    "Francistown": [
+     "North-East District"
+    ],
+    "Ngamiland": [
+     "North-West District",
+     "Chobe District"
+    ]
+   },
+   "names": {
+    "Central District": "Central Botswana",
+    "Ghanzi District": "Ghanzi",
+    "Kweneng District": "Kweneng",
+    "Southern District": "Southern Botswana",
+    "Kgalagadi District": "Kgalagadi"
+   }
+  },
+  "ZWE": {
+   "tag": "ZIM",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 6,
+    "mil": 1
+   },
+   "pop2000": {
+    "Bulawayo": 676000.0,
+    "Harare": 1896000.0,
+    "Manicaland": 1568000.0,
+    "Mashonaland Central": 998000.0,
+    "Mashonaland East": 1127000.0,
+    "Mashonaland West": 1224000.0,
+    "Masvingo": 1318000.0,
+    "Matabeleland North": 701000.0,
+    "Matabeleland South": 654000.0,
+    "Midlands": 1464000.0
+   }
+  },
+  "MOZ": {
+   "tag": "MZB",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 3
+   },
+   "pop2000": {
+    "Niassa": 880000.0,
+    "Cabo Delgado": 1500000.0,
+    "Nampula": 3340000.0,
+    "Zambézia": 3490000.0,
+    "Tete": 1250000.0,
+    "Manica": 1060000.0,
+    "Sofala": 1410000.0,
+    "Inhambane": 1230000.0,
+    "Gaza": 1160000.0,
+    "Maputo": 1930000.0
+   }
+  },
+  "ZMB": {
+   "tag": "ZAM",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 4
+   },
+   "pop2000": {
+    "Eastern": 1306000.0,
+    "Muchinga": 450000.0,
+    "North-Western": 583000.0,
+    "Luapula": 775000.0,
+    "Central": 1012000.0,
+    "Southern": 1212000.0,
+    "Lusaka": 1391000.0,
+    "Copperbelt": 1581000.0,
+    "Northern": 810000.0,
+    "Western": 765000.0
+   },
+   "names": {
+    "Eastern": "Eastern Province",
+    "Southern": "Southern Province",
+    "Northern": "Northern Province",
+    "Central": "Central Province",
+    "Western": "Western Province",
+    "North-Western": "North-Western Province"
+   }
+  },
+  "MWI": {
+   "tag": "MLW",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 1
+   },
+   "state_max_px": 900,
+   "pop2000": {
+    "Central Region": 4230000.0,
+    "Southern Region": 4820000.0,
+    "Northern Region": 1280000.0
+   },
+   "names": {
+    "Northern Region": "Northern Malawi"
+   }
+  },
+  "AGO": {
+   "tag": "ANG",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 5,
+    "mil": 2
+   },
+   "pop2000": {
+    "Huíla": 1803750.0,
+    "Benguela": 1608945.0,
+    "Huambo": 1457430.0,
+    "Cuanza Sul": 1356420.0,
+    "Uíge": 1067820.0,
+    "Bié": 1053390.0,
+    "Malanje": 714285.0000000001,
+    "Lunda Norte": 620490.0,
+    "Moxico": 548340.0,
+    "Cunene": 714285.0000000001,
+    "Cabinda": 519480.00000000006,
+    "Zaire": 425685.0,
+    "Lunda Sul": 389610.00000000006,
+    "Cuanza Norte": 317460.0,
+    "Cuando Cubango": 382395.00000000006,
+    "Bengo": 259740.00000000003,
+    "Namibe": 360750.0,
+    "Luanda": 2800000.0
+   }
+  }
+ },
+ "states": {
+  "ZAF": [
+   {
+    "key": "ZAF_witwatersrand",
+    "name": "Witwatersrand",
+    "districts": [
+     "City of Johannesburg",
+     "Ekurhuleni",
+     "West Rand",
+     "Sedibeng"
+    ],
+    "metros": {
+     "City of Johannesburg": 2,
+     "Ekurhuleni": 1
+    }
+   },
+   {
+    "key": "ZAF_pretoria",
+    "name": "Pretoria",
+    "districts": [
+     "City of Tshwane"
+    ],
+    "metros": {
+     "City of Tshwane": 2
+    }
+   },
+   {
+    "key": "ZAF_durban",
+    "name": "Durban",
+    "districts": [
+     "eThekwini",
+     "iLembe"
+    ],
+    "metros": {
+     "eThekwini": 2
+    }
+   },
+   {
+    "key": "ZAF_south_coast",
+    "name": "Natal South Coast",
+    "districts": [
+     "Ugu",
+     "Sisonke"
+    ]
+   },
+   {
+    "key": "ZAF_midlands",
+    "name": "Natal Midlands",
+    "districts": [
+     "Umgungundlovu",
+     "Umzinyathi"
+    ]
+   },
+   {
+    "key": "ZAF_northern_natal",
+    "name": "Northern Natal",
+    "districts": [
+     "Amajuba",
+     "Uthukela"
+    ]
+   },
+   {
+    "key": "ZAF_zululand",
+    "name": "Zululand",
+    "districts": [
+     "Zululand",
+     "Umkhanyakude",
+     "Uthungulu"
+    ]
+   },
+   {
+    "key": "ZAF_port_elizabeth",
+    "name": "Port Elizabeth",
+    "districts": [
+     "Nelson Mandela Bay",
+     "Cacadu"
+    ],
+    "metros": {
+     "Nelson Mandela Bay": 1
+    }
+   },
+   {
+    "key": "ZAF_east_london",
+    "name": "Border",
+    "districts": [
+     "Buffalo City",
+     "Amathole"
+    ],
+    "metros": {
+     "Buffalo City": 1
+    }
+   },
+   {
+    "key": "ZAF_transkei",
+    "name": "Transkei",
+    "districts": [
+     "O.R.Tambo",
+     "Alfred Nzo"
+    ]
+   },
+   {
+    "key": "ZAF_queenstown",
+    "name": "Stormberg",
+    "districts": [
+     "Chris Hani",
+     "Joe Gqabi"
+    ]
+   },
+   {
+    "key": "ZAF_cape_town",
+    "name": "Cape Town",
+    "districts": [
+     "City of Cape Town"
+    ],
+    "metros": {
+     "City of Cape Town": 2
+    }
+   },
+   {
+    "key": "ZAF_boland",
+    "name": "Boland",
+    "districts": [
+     "Cape Winelands",
+     "Overberg"
+    ]
+   },
+   {
+    "key": "ZAF_southern_cape",
+    "name": "Southern Cape",
+    "districts": [
+     "Eden"
+    ]
+   },
+   {
+    "key": "ZAF_west_coast",
+    "name": "West Coast",
+    "districts": [
+     "West Coast"
+    ]
+   },
+   {
+    "key": "ZAF_great_karoo",
+    "name": "Great Karoo",
+    "districts": [
+     "Central Karoo"
+    ]
+   },
+   {
+    "key": "ZAF_kimberley",
+    "name": "Kimberley",
+    "districts": [
+     "Frances Baard",
+     "John Taolo Gaetsewe"
+    ]
+   },
+   {
+    "key": "ZAF_green_kalahari",
+    "name": "Green Kalahari",
+    "districts": [
+     "Z F Mgcawu"
+    ]
+   },
+   {
+    "key": "ZAF_namaqualand",
+    "name": "Namaqualand",
+    "districts": [
+     "Namakwa"
+    ]
+   },
+   {
+    "key": "ZAF_upper_karoo",
+    "name": "Upper Karoo",
+    "districts": [
+     "Pixley ka Seme"
+    ]
+   },
+   {
+    "key": "ZAF_bloemfontein",
+    "name": "Bloemfontein",
+    "districts": [
+     "Mangaung",
+     "Xhariep"
+    ]
+   },
+   {
+    "key": "ZAF_goldfields",
+    "name": "Free State Goldfields",
+    "districts": [
+     "Lejweleputswa"
+    ]
+   },
+   {
+    "key": "ZAF_northern_free_state",
+    "name": "Northern Free State",
+    "districts": [
+     "Fezile Dabi"
+    ]
+   },
+   {
+    "key": "ZAF_eastern_free_state",
+    "name": "Eastern Free State",
+    "districts": [
+     "Thabo Mofutsanyane"
+    ]
+   },
+   {
+    "key": "ZAF_rustenburg",
+    "name": "Rustenburg",
+    "districts": [
+     "Bojanala"
+    ]
+   },
+   {
+    "key": "ZAF_mafikeng",
+    "name": "Mafikeng",
+    "districts": [
+     "Ngaka Modiri Molema"
+    ]
+   },
+   {
+    "key": "ZAF_klerksdorp",
+    "name": "Klerksdorp",
+    "districts": [
+     "Dr Kenneth Kaunda"
+    ]
+   },
+   {
+    "key": "ZAF_vryburg",
+    "name": "Vryburg",
+    "districts": [
+     "Dr Ruth Segomotsi Mompati"
+    ]
+   },
+   {
+    "key": "ZAF_witbank",
+    "name": "Witbank",
+    "districts": [
+     "Nkangala"
+    ]
+   },
+   {
+    "key": "ZAF_lowveld",
+    "name": "Lowveld",
+    "districts": [
+     "Ehlanzeni"
+    ]
+   },
+   {
+    "key": "ZAF_highveld",
+    "name": "Highveld",
+    "districts": [
+     "Gert Sibande"
+    ]
+   },
+   {
+    "key": "ZAF_pietersburg",
+    "name": "Pietersburg",
+    "districts": [
+     "Capricorn"
+    ]
+   },
+   {
+    "key": "ZAF_sekhukhune",
+    "name": "Sekhukhune",
+    "districts": [
+     "Sekhukhune"
+    ]
+   },
+   {
+    "key": "ZAF_venda",
+    "name": "Venda",
+    "districts": [
+     "Vhembe"
+    ]
+   },
+   {
+    "key": "ZAF_mopani",
+    "name": "Tzaneen",
+    "districts": [
+     "Mopani"
+    ]
+   },
+   {
+    "key": "ZAF_waterberg",
+    "name": "Waterberg",
+    "districts": [
+     "Waterberg"
+    ]
+   }
+  ]
+ },
+ "cities": [
+  {
+   "name": "Pretoria",
+   "lon": 28.19,
+   "lat": -25.75,
+   "vp": 25,
+   "capital": true,
+   "air": 3
+  },
+  {
+   "name": "Johannesburg",
+   "lon": 28.05,
+   "lat": -26.2,
+   "vp": 30,
+   "air": 2
+  },
+  {
+   "name": "Soweto",
+   "lon": 27.86,
+   "lat": -26.26,
+   "vp": 10
+  },
+  {
+   "name": "Germiston",
+   "lon": 28.17,
+   "lat": -26.22,
+   "vp": 5
+  },
+  {
+   "name": "Vereeniging",
+   "lon": 27.93,
+   "lat": -26.67,
+   "vp": 3
+  },
+  {
+   "name": "Cape Town",
+   "lon": 18.42,
+   "lat": -33.93,
+   "vp": 25,
+   "port": 5,
+   "air": 2
+  },
+  {
+   "name": "Mitchells Plain",
+   "lon": 18.62,
+   "lat": -34.05,
+   "vp": 3
+  },
+  {
+   "name": "Durban",
+   "lon": 31.03,
+   "lat": -29.86,
+   "vp": 20,
+   "port": 5,
+   "air": 2
+  },
+  {
+   "name": "Pinetown",
+   "lon": 30.87,
+   "lat": -29.82,
+   "vp": 3
+  },
+  {
+   "name": "Port Elizabeth",
+   "lon": 25.6,
+   "lat": -33.96,
+   "vp": 10,
+   "port": 3
+  },
+  {
+   "name": "East London",
+   "lon": 27.91,
+   "lat": -33.02,
+   "vp": 5,
+   "port": 2
+  },
+  {
+   "name": "Bloemfontein",
+   "lon": 26.21,
+   "lat": -29.12,
+   "vp": 8
+  },
+  {
+   "name": "Pietermaritzburg",
+   "lon": 30.38,
+   "lat": -29.6,
+   "vp": 5
+  },
+  {
+   "name": "Richards Bay",
+   "lon": 32.04,
+   "lat": -28.78,
+   "vp": 2,
+   "port": 3
+  },
+  {
+   "name": "Kimberley",
+   "lon": 24.76,
+   "lat": -28.74,
+   "vp": 3
+  },
+  {
+   "name": "Polokwane",
+   "lon": 29.45,
+   "lat": -23.9,
+   "vp": 3
+  },
+  {
+   "name": "Nelspruit",
+   "lon": 30.97,
+   "lat": -25.47,
+   "vp": 3
+  },
+  {
+   "name": "Rustenburg",
+   "lon": 27.24,
+   "lat": -25.67,
+   "vp": 3
+  },
+  {
+   "name": "Welkom",
+   "lon": 26.73,
+   "lat": -27.98,
+   "vp": 3
+  },
+  {
+   "name": "Saldanha",
+   "lon": 17.94,
+   "lat": -33.01,
+   "vp": 1,
+   "port": 2
+  },
+  {
+   "name": "Mthatha",
+   "lon": 28.78,
+   "lat": -31.59,
+   "vp": 2
+  },
+  {
+   "name": "Maseru",
+   "lon": 27.48,
+   "lat": -29.31,
+   "vp": 10,
+   "capital": true,
+   "air": 1
+  },
+  {
+   "name": "Mbabane",
+   "lon": 31.13,
+   "lat": -26.32,
+   "vp": 5,
+   "capital": true,
+   "air": 1
+  },
+  {
+   "name": "Manzini",
+   "lon": 31.38,
+   "lat": -26.49,
+   "vp": 3
+  },
+  {
+   "name": "Windhoek",
+   "lon": 17.08,
+   "lat": -22.56,
+   "vp": 15,
+   "capital": true,
+   "air": 2
+  },
+  {
+   "name": "Walvis Bay",
+   "lon": 14.51,
+   "lat": -22.96,
+   "vp": 5,
+   "port": 3
+  },
+  {
+   "name": "Oshakati",
+   "lon": 15.69,
+   "lat": -17.79,
+   "vp": 3
+  },
+  {
+   "name": "Katima Mulilo",
+   "lon": 24.27,
+   "lat": -17.5,
+   "vp": 2
+  },
+  {
+   "name": "Gaborone",
+   "lon": 25.91,
+   "lat": -24.65,
+   "vp": 15,
+   "capital": true,
+   "air": 2
+  },
+  {
+   "name": "Francistown",
+   "lon": 27.51,
+   "lat": -21.17,
+   "vp": 5
+  },
+  {
+   "name": "Harare",
+   "lon": 31.05,
+   "lat": -17.83,
+   "vp": 25,
+   "capital": true,
+   "air": 3
+  },
+  {
+   "name": "Bulawayo",
+   "lon": 28.58,
+   "lat": -20.15,
+   "vp": 10
+  },
+  {
+   "name": "Mutare",
+   "lon": 32.67,
+   "lat": -18.97,
+   "vp": 3
+  },
+  {
+   "name": "Gweru",
+   "lon": 29.82,
+   "lat": -19.45,
+   "vp": 3
+  },
+  {
+   "name": "Lusaka",
+   "lon": 28.28,
+   "lat": -15.42,
+   "vp": 25,
+   "capital": true,
+   "air": 3,
+   "city_province": true,
+   "radius": 3.5
+  },
+  {
+   "name": "Kitwe",
+   "lon": 28.21,
+   "lat": -12.8,
+   "vp": 8
+  },
+  {
+   "name": "Ndola",
+   "lon": 28.64,
+   "lat": -12.97,
+   "vp": 8
+  },
+  {
+   "name": "Livingstone",
+   "lon": 25.86,
+   "lat": -17.84,
+   "vp": 3
+  },
+  {
+   "name": "Kabwe",
+   "lon": 28.45,
+   "lat": -14.45,
+   "vp": 2
+  },
+  {
+   "name": "Maputo",
+   "lon": 32.57,
+   "lat": -25.97,
+   "vp": 25,
+   "capital": true,
+   "port": 4,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Beira",
+   "lon": 34.86,
+   "lat": -19.84,
+   "vp": 10,
+   "port": 3
+  },
+  {
+   "name": "Nampula",
+   "lon": 39.27,
+   "lat": -15.12,
+   "vp": 8
+  },
+  {
+   "name": "Nacala",
+   "lon": 40.67,
+   "lat": -14.54,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Quelimane",
+   "lon": 36.89,
+   "lat": -17.88,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Tete",
+   "lon": 33.59,
+   "lat": -16.16,
+   "vp": 3
+  },
+  {
+   "name": "Pemba",
+   "lon": 40.52,
+   "lat": -12.97,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Lilongwe",
+   "lon": 33.79,
+   "lat": -13.97,
+   "vp": 15,
+   "capital": true,
+   "air": 1,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Blantyre",
+   "lon": 35.01,
+   "lat": -15.79,
+   "vp": 10
+  },
+  {
+   "name": "Mzuzu",
+   "lon": 34.02,
+   "lat": -11.46,
+   "vp": 3
+  },
+  {
+   "name": "Zomba",
+   "lon": 35.32,
+   "lat": -15.39,
+   "vp": 3
+  },
+  {
+   "name": "Luanda",
+   "lon": 13.23,
+   "lat": -8.84,
+   "vp": 30,
+   "capital": true,
+   "port": 4,
+   "air": 3
+  },
+  {
+   "name": "Huambo",
+   "lon": 15.74,
+   "lat": -12.78,
+   "vp": 5
+  },
+  {
+   "name": "Lobito",
+   "lon": 13.55,
+   "lat": -12.36,
+   "vp": 8,
+   "port": 3
+  },
+  {
+   "name": "Lubango",
+   "lon": 13.49,
+   "lat": -14.92,
+   "vp": 5
+  },
+  {
+   "name": "Cabinda",
+   "lon": 12.2,
+   "lat": -5.56,
+   "vp": 5,
+   "port": 1
+  },
+  {
+   "name": "Malanje",
+   "lon": 16.34,
+   "lat": -9.54,
+   "vp": 3
+  },
+  {
+   "name": "Namibe",
+   "lon": 12.15,
+   "lat": -15.2,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Kuito",
+   "lon": 16.93,
+   "lat": -12.38,
+   "vp": 3
+  },
+  {
+   "name": "Saurimo",
+   "lon": 20.39,
+   "lat": -9.66,
+   "vp": 2
+  },
+  {
+   "name": "Menongue",
+   "lon": 17.69,
+   "lat": -14.66,
+   "vp": 2
+  }
+ ],
+ "resources": {
+  "_note": "HOI4 resources by state key (see tools/data/map/built.json for keys). Copper and platinum have no HOI4 resource; copper belts count as steel, platinum/chrome belts as chromium. Placeholder values until the economy pass.",
+  "ZAF_witwatersrand": {
+   "steel": 8
+  },
+  "ZAF_highveld": {
+   "steel": 10,
+   "oil": 4
+  },
+  "ZAF_witbank": {
+   "steel": 10
+  },
+  "ZAF_northern_free_state": {
+   "oil": 6
+  },
+  "ZAF_rustenburg": {
+   "chromium": 30
+  },
+  "ZAF_sekhukhune": {
+   "chromium": 18
+  },
+  "ZAF_waterberg": {
+   "steel": 6,
+   "chromium": 6
+  },
+  "ZAF_kimberley": {
+   "steel": 18
+  },
+  "ZAF_green_kalahari": {
+   "steel": 4
+  },
+  "ZAF_namaqualand": {
+   "tungsten": 3
+  },
+  "ZAF_mopani": {
+   "steel": 4
+  },
+  "ZAF_zululand": {
+   "aluminium": 12
+  },
+  "ZWE_Midlands": {
+   "chromium": 18,
+   "steel": 6
+  },
+  "ZWE_Mashonaland West": {
+   "chromium": 8
+  },
+  "ZWE_Matabeleland North": {
+   "steel": 4
+  },
+  "ZMB_Copperbelt": {
+   "steel": 14
+  },
+  "ZMB_North-Western_0": {
+   "steel": 4
+  },
+  "ZMB_Central_0": {
+   "tungsten": 2
+  },
+  "MOZ_Maputo": {
+   "aluminium": 10
+  },
+  "MOZ_Tete": {
+   "steel": 3
+  },
+  "NAM_Karas_1": {
+   "tungsten": 2
+  },
+  "BWA_Central District_0": {
+   "steel": 4
+  },
+  "AGO_Cabinda": {
+   "oil": 30
+  },
+  "AGO_Zaire": {
+   "oil": 10
+  },
+  "AGO_Luanda": {
+   "oil": 6
+  },
+  "AGO_Huíla": {
+   "steel": 4
+  }
+ },
+ "lakes": [
+  "Lake Kariba",
+  "Lago de Cahora Bassa"
+ ]
+}

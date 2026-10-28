@@ -1,0 +1,24 @@
+state={
+	id=1085
+	name="STATE_1085" # Bloemfontein
+	manpower = 923971
+	state_category = large_town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			12519 8
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		12419 12504 12519 12547 
+	}
+
+	local_supplies=0.0
+}

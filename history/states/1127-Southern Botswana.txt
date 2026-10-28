@@ -1,0 +1,23 @@
+state={
+	id=1127
+	name="STATE_1127" # Southern Botswana
+	manpower = 187649
+	state_category = rural
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13494 1
+		}
+		add_core_of = BOT
+	}
+
+	provinces={
+		13494 13495 
+	}
+
+	local_supplies=0.0
+}

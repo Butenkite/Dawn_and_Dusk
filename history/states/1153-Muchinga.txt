@@ -1,0 +1,23 @@
+state={
+	id=1153
+	name="STATE_1153" # Muchinga
+	manpower = 450000
+	state_category = town
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13608 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13606 13607 13608 13609 13610 
+	}
+
+	local_supplies=0.0
+}

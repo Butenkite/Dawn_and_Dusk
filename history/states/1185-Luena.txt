@@ -1,0 +1,23 @@
+state={
+	id=1185
+	name="STATE_1185" # Luena
+	manpower = 369838
+	state_category = rural
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13726 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13724 13725 13726 13727 
+	}
+
+	local_supplies=0.0
+}

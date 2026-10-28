@@ -1,0 +1,24 @@
+state={
+	id=1175
+	name="STATE_1175" # Huambo
+	manpower = 1457430
+	state_category = large_town
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			13687 5
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13684 13685 13686 13687 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,15 @@
+﻿l_english:
+ # Four Dawn and Dusk groups reuse vanilla ideology keys (see
+ # common/ideologies/dnd_ideologies.txt). These lines rename them.
+ communism: "Vanguard Communist"
+ communism_noun: "Vanguard Communism"
+ communism_desc: "One-Party State"
+ democratic: "Liberal"
+ democratic_noun: "Liberalism"
+ democratic_desc: "Democratic State"
+ neutrality: "Despotic"
+ neutrality_noun: "Despotism"
+ neutrality_desc: "Autocratic Regime"
+ fascism: "Ultranationalist"
+ fascism_noun: "Ultranationalism"
+ fascism_desc: "Totalitarian Regime"

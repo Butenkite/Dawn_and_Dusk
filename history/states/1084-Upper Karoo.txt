@@ -1,0 +1,23 @@
+state={
+	id=1084
+	name="STATE_1084" # Upper Karoo
+	manpower = 216026
+	state_category = rural
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10972 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		10972 10978 12064 12391 
+	}
+
+	local_supplies=0.0
+}

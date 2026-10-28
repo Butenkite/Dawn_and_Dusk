@@ -1,0 +1,33 @@
+##############################################################################
+# Game start setup.
+# Turns the chosen game rules into global flags, so story scripts check
+# a short flag instead of repeating has_game_rule blocks everywhere.
+##############################################################################
+
+dnd_setup_game_rules = {
+	# World branches: how the outside world's forks are decided.
+	if = {
+		limit = { has_game_rule = { rule = dnd_world_branches option = HISTORICAL } }
+		set_global_flag = dnd_world_historical
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = dnd_world_branches option = PLAYER_CHOICE } }
+		set_global_flag = dnd_world_player_choice
+	}
+	else = {
+		set_global_flag = dnd_world_random
+	}
+
+	# Dusk deadline: what happens in 2040 if no bloc holds the Council.
+	if = {
+		limit = { has_game_rule = { rule = dnd_dusk_deadline option = GAME_OVER } }
+		set_global_flag = dnd_dusk_game_over
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = dnd_dusk_deadline option = OFF } }
+		set_global_flag = dnd_dusk_off
+	}
+	else = {
+		set_global_flag = dnd_dusk_epilogue
+	}
+}

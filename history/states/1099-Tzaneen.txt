@@ -1,0 +1,27 @@
+state={
+	id=1099
+	name="STATE_1099" # Tzaneen
+	manpower = 801745
+	state_category = large_town
+
+	resources={
+		steel=4
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13429 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		13427 13428 13429 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,30 @@
+state={
+	id=1147
+	name="STATE_1147" # Maputo
+	manpower = 1929999
+	state_category = city
+
+	resources={
+		aluminium=10
+	}
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 2
+			13573 = { naval_base = 4 }
+		}
+		victory_points = {
+			13573 25
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13573 13574 13575 13576 13577 
+	}
+
+	local_supplies=0.0
+}

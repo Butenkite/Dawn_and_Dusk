@@ -1,0 +1,24 @@
+state={
+	id=1135
+	name="STATE_1135" # Masvingo
+	manpower = 1318000
+	state_category = large_town
+
+	history={
+		owner = ZIM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13519 1
+		}
+		add_core_of = ZIM
+	}
+
+	provinces={
+		13517 13518 13519 13520 
+	}
+
+	local_supplies=0.0
+}

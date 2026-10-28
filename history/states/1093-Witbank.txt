@@ -1,0 +1,27 @@
+state={
+	id=1093
+	name="STATE_1093" # Witbank
+	manpower = 793176
+	state_category = town
+
+	resources={
+		steel=10
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13414 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		13373 13414 
+	}
+
+	local_supplies=0.0
+}

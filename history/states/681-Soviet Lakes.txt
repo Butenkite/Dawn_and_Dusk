@@ -1,0 +1,30 @@
+state={
+	id=681
+	name="STATE_681" # Zululand
+	manpower = 1846255
+	state_category = city
+
+	resources={
+		aluminium=12
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			2229 = { naval_base = 3 }
+		}
+		victory_points = {
+			2229 2
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		2216 2217 2229 4528 
+	}
+
+	local_supplies=0.0
+}

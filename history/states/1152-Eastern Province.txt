@@ -1,0 +1,24 @@
+state={
+	id=1152
+	name="STATE_1152" # Eastern Province
+	manpower = 1304705
+	state_category = large_town
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13601 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13601 13602 13603 13604 13605 
+	}
+
+	local_supplies=0.0
+}

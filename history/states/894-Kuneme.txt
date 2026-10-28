@@ -1,0 +1,24 @@
+state={
+	id=894
+	name="STATE_894" # Boland
+	manpower = 860528
+	state_category = large_town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			7872 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		7770 7842 7872 7900 
+	}
+
+	local_supplies=0.0
+}

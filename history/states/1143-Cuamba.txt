@@ -1,0 +1,23 @@
+state={
+	id=1143
+	name="STATE_1143" # Cuamba
+	manpower = 446210
+	state_category = town
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13556 1
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13554 13555 13556 
+	}
+
+	local_supplies=0.0
+}

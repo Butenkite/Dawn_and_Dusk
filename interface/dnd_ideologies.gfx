@@ -1,0 +1,25 @@
+# Ideology group icons for the four new Dawn and Dusk groups.
+# The other four groups reuse vanilla keys (communism, democratic, neutrality,
+# fascism) and so already have vanilla's GFX_ideology_<key>_group icons.
+# PLACEHOLDER ART: these point at vanilla's icons. Each group needs its own
+# icon before release; put it in gfx/interface/ideologies/ and change the
+# texturefile here.
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_socialist_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democrat_group"
+		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+	}
+}

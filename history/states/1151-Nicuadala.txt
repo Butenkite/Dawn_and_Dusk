@@ -1,0 +1,24 @@
+state={
+	id=1151
+	name="STATE_1151" # Nicuadala
+	manpower = 1216674
+	state_category = large_town
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+			13600 = { naval_base = 1 }
+		}
+		victory_points = {
+			13600 3
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13596 13597 13598 13599 13600 
+	}
+
+	local_supplies=0.0
+}

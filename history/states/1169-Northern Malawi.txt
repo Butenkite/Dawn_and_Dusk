@@ -1,0 +1,23 @@
+state={
+	id=1169
+	name="STATE_1169" # Northern Malawi
+	manpower = 1284581
+	state_category = large_town
+
+	history={
+		owner = MLW
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13665 3
+		}
+		add_core_of = MLW
+	}
+
+	provinces={
+		13662 13663 13664 13665 
+	}
+
+	local_supplies=0.0
+}

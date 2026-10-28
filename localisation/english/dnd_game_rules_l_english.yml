@@ -1,0 +1,18 @@
+﻿l_english:
+ DND_RULE_GROUP: "Dawn and Dusk"
+
+ DND_RULE_WORLD_BRANCHES: "Outside World"
+ DND_RULE_WORLD_BRANCHES_RANDOM: "Random"
+ DND_RULE_WORLD_BRANCHES_RANDOM_DESC: "Each fork is rolled when it arrives, so every run's world is different."
+ DND_RULE_WORLD_BRANCHES_HISTORICAL: "Historical"
+ DND_RULE_WORLD_BRANCHES_HISTORICAL_DESC: "Each fork takes the branch closest to real history wherever there is one."
+ DND_RULE_WORLD_BRANCHES_PLAYER_CHOICE: "Player's Choice"
+ DND_RULE_WORLD_BRANCHES_PLAYER_CHOICE_DESC: "You pick the outcome of each fork when it arrives."
+
+ DND_RULE_DUSK_DEADLINE: "The 2040 Deadline"
+ DND_RULE_DUSK_DEADLINE_EPILOGUE: "Dusk Epilogue"
+ DND_RULE_DUSK_DEADLINE_EPILOGUE_DESC: "Africa falls into Dusk, and you play on through the collapse."
+ DND_RULE_DUSK_DEADLINE_GAME_OVER: "Game Over"
+ DND_RULE_DUSK_DEADLINE_GAME_OVER_DESC: "Africa falls into Dusk, and the game ends with its final epilogue."
+ DND_RULE_DUSK_DEADLINE_OFF: "No Deadline"
+ DND_RULE_DUSK_DEADLINE_OFF_DESC: "The struggle can run on past 2040."

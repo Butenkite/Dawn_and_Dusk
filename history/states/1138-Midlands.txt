@@ -1,0 +1,29 @@
+state={
+	id=1138
+	name="STATE_1138" # Midlands
+	manpower = 1464000
+	state_category = large_town
+
+	resources={
+		chromium=18
+		steel=6
+	}
+
+	history={
+		owner = ZIM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13530 3
+		}
+		add_core_of = ZIM
+	}
+
+	provinces={
+		13530 13531 13532 13533 13534 
+	}
+
+	local_supplies=0.0
+}

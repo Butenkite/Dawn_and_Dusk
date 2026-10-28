@@ -1,0 +1,24 @@
+state={
+	id=1139
+	name="STATE_1139" # Cabo Delgado
+	manpower = 1500000
+	state_category = city
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+			13535 = { naval_base = 1 }
+		}
+		victory_points = {
+			13535 2
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13535 13536 13537 13538 13539 13540 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1115
+	name="STATE_1115" # Otjozondjupa
+	manpower = 135400
+	state_category = pastoral
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13467 1
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		13465 13466 13467 
+	}
+
+	local_supplies=0.0
+}

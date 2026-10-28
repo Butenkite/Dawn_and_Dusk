@@ -1,0 +1,47 @@
+##############################################################################
+# 1 January 2000 start.
+#
+# PLACEHOLDER: until the map pass rewrites state ownership, the world still
+# has vanilla borders, so only countries that exist on that map are featured.
+# The eight story nations replace this list once they exist on the map.
+##############################################################################
+
+bookmarks = {
+	bookmark = {
+		name = "DND_BOOKMARK_2000_NAME"
+		desc = "DND_BOOKMARK_2000_DESC"
+		date = 2000.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SAF"
+		default = yes
+
+		"SAF" = {
+			history = "DND_SAF_BOOKMARK_DESC"
+			ideology = social_democrat
+			ideas = { }
+			focuses = { }
+		}
+		"EGY" = {
+			minor = yes
+			history = "DND_EGY_BOOKMARK_DESC"
+			ideology = authoritarian_democrat
+			ideas = { }
+			focuses = { }
+		}
+		"LIB" = {
+			minor = yes
+			history = "DND_LIB_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = { }
+			focuses = { }
+		}
+
+		"---" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # required in every bookmark
+		}
+	}
+}

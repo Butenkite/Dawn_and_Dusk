@@ -1,0 +1,23 @@
+state={
+	id=1104
+	name="STATE_1104" # Maloti Highlands
+	manpower = 285000
+	state_category = rural
+
+	history={
+		owner = LES
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13437 1
+		}
+		add_core_of = LES
+	}
+
+	provinces={
+		13437 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1186
+	name="STATE_1186" # Luau
+	manpower = 178501
+	state_category = rural
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13729 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13728 13729 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1179
+	name="STATE_1179" # Cuanza Norte
+	manpower = 317460
+	state_category = rural
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13702 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13702 
+	}
+
+	local_supplies=0.0
+}

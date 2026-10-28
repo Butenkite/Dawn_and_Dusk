@@ -1,0 +1,24 @@
+state={
+	id=1126
+	name="STATE_1126" # Kweneng
+	manpower = 230000
+	state_category = rural
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13493 1
+		}
+		add_core_of = BOT
+	}
+
+	provinces={
+		13492 13493 
+	}
+
+	local_supplies=0.0
+}

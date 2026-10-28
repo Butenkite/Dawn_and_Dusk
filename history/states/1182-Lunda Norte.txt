@@ -1,0 +1,23 @@
+state={
+	id=1182
+	name="STATE_1182" # Lunda Norte
+	manpower = 620489
+	state_category = town
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13712 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13711 13712 13713 13714 13715 
+	}
+
+	local_supplies=0.0
+}

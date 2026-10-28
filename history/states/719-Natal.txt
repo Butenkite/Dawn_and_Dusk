@@ -1,0 +1,27 @@
+state={
+	id=719
+	name="STATE_719" # Port Elizabeth
+	manpower = 2932865
+	state_category = city
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4556 = { naval_base = 3 }
+		}
+		victory_points = {
+			4556 10
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		4556 4584 4696 4735 4822 4851 4879 5106 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,28 @@
+state={
+	id=541
+	name="STATE_541" # Durban
+	manpower = 3887475
+	state_category = large_city
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			2115 = { naval_base = 5 }
+		}
+		victory_points = {
+			2115 20
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		2115 2120 2123 2126 
+	}
+
+	local_supplies=0.0
+}

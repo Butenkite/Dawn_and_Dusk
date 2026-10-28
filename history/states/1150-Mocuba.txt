@@ -1,0 +1,24 @@
+state={
+	id=1150
+	name="STATE_1150" # Mocuba
+	manpower = 2273325
+	state_category = city
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			13595 1
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13590 13591 13592 13593 13594 13595 
+	}
+
+	local_supplies=0.0
+}

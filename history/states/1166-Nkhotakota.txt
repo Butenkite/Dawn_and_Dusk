@@ -1,0 +1,23 @@
+state={
+	id=1166
+	name="STATE_1166" # Nkhotakota
+	manpower = 1326629
+	state_category = large_town
+
+	history={
+		owner = MLW
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13655 1
+		}
+		add_core_of = MLW
+	}
+
+	provinces={
+		13655 13656 
+	}
+
+	local_supplies=0.0
+}

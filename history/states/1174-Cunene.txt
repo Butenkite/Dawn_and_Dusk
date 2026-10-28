@@ -1,0 +1,23 @@
+state={
+	id=1174
+	name="STATE_1174" # Cunene
+	manpower = 715285
+	state_category = town
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13679 1
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13679 13680 13681 13682 13683 
+	}
+
+	local_supplies=0.0
+}

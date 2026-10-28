@@ -1,0 +1,23 @@
+state={
+	id=1103
+	name="STATE_1103" # Mafeteng
+	manpower = 540000
+	state_category = town
+
+	history={
+		owner = LES
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13436 1
+		}
+		add_core_of = LES
+	}
+
+	provinces={
+		13436 
+	}
+
+	local_supplies=0.0
+}

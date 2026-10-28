@@ -1,0 +1,28 @@
+state={
+	id=1134
+	name="STATE_1134" # Mashonaland West
+	manpower = 1224000
+	state_category = large_town
+
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = ZIM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13516 1
+		}
+		add_core_of = ZIM
+	}
+
+	provinces={
+		13513 13514 13515 13516 
+	}
+
+	local_supplies=0.0
+}

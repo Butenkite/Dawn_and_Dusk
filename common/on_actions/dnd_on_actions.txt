@@ -1,0 +1,17 @@
+##############################################################################
+# Dawn and Dusk on_actions
+# Every hook the mod uses lives here or in other dnd_ files in this folder.
+##############################################################################
+
+on_actions = {
+	on_startup = {
+		effect = {
+			# on_startup runs once, with no scope. Scripted effects need one,
+			# so borrow any country; everything set inside is global anyway.
+			random_country = {
+				dnd_setup_game_rules = yes
+			}
+			set_global_flag = dnd_initialized
+		}
+	}
+}

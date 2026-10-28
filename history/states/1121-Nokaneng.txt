@@ -1,0 +1,23 @@
+state={
+	id=1121
+	name="STATE_1121" # Nokaneng
+	manpower = 74514
+	state_category = pastoral
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13479 1
+		}
+		add_core_of = BOT
+	}
+
+	provinces={
+		13477 13478 13479 
+	}
+
+	local_supplies=0.0
+}

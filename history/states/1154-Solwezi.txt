@@ -1,0 +1,27 @@
+state={
+	id=1154
+	name="STATE_1154" # Solwezi
+	manpower = 426771
+	state_category = town
+
+	resources={
+		steel=4
+	}
+
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13614 1
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		13611 13612 13613 13614 
+	}
+
+	local_supplies=0.0
+}

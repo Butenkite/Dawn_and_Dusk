@@ -1,0 +1,29 @@
+state={
+	id=1176
+	name="STATE_1176" # Huíla
+	manpower = 1803750
+	state_category = city
+
+	resources={
+		steel=4
+	}
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			13689 5
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		13688 13689 13690 13691 13692 13693 13694 
+	}
+
+	local_supplies=0.0
+}

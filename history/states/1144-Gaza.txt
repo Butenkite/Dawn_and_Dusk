@@ -1,0 +1,23 @@
+state={
+	id=1144
+	name="STATE_1144" # Gaza
+	manpower = 1160168
+	state_category = large_town
+
+	history={
+		owner = MZB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13557 1
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		13557 13558 13559 13560 13561 13562 
+	}
+
+	local_supplies=0.0
+}
