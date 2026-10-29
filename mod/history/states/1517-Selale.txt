@@ -1,0 +1,23 @@
+state={
+	id=1517
+	name="STATE_1517" # Selale
+	manpower = 3531642
+	state_category = large_city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 15197 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15197 15198 15199 15200 15201 15202 
+	}
+
+	local_supplies=0.0
+}

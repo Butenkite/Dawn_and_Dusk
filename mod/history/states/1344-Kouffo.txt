@@ -1,0 +1,21 @@
+state={
+	id=1344
+	name="STATE_1344" # Kouffo
+	manpower = 491999
+	state_category = town
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14505 1 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14505 
+	}
+
+	local_supplies=0.0
+}

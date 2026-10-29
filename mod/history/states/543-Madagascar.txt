@@ -1,0 +1,25 @@
+state={
+	id=543
+	name="STATE_543" # West Kordofan
+	manpower = 1180000
+	state_category = large_town
+
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 4995 2 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		4909 4918 4954 4961 4963 4985 4995 5010 5017 5041 5047 5060 
+	}
+
+	local_supplies=0.0
+}

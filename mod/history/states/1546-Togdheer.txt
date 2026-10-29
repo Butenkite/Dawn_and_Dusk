@@ -1,0 +1,22 @@
+state={
+	id=1546
+	name="STATE_1546" # Togdheer
+	manpower = 414120
+	state_category = town
+
+	history={
+		owner = SML
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15271 2 }
+		add_core_of = SML
+		add_core_of = SOM
+	}
+
+	provinces={
+		15269 15270 15271 15272 
+	}
+
+	local_supplies=0.0
+}

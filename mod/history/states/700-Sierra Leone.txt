@@ -1,0 +1,25 @@
+state={
+	id=700
+	name="STATE_700" # Bayelsa
+	manpower = 1488000
+	state_category = large_town
+
+	resources={
+		oil=22
+	}
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 8035 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		8035 8039 8058 8065 
+	}
+
+	local_supplies=0.0
+}

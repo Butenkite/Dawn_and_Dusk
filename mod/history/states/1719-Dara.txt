@@ -1,0 +1,21 @@
+state={
+	id=1719
+	name="STATE_1719" # Dar'a
+	manpower = 773980
+	state_category = town
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15829 2 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15828 15829 15830 15831 
+	}
+
+	local_supplies=0.0
+}

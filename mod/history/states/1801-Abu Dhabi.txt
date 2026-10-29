@@ -1,0 +1,29 @@
+state={
+	id=1801
+	name="STATE_1801" # Abu Dhabi
+	manpower = 1098000
+	state_category = large_town
+
+	resources={
+		oil=90
+	}
+
+	history={
+		owner = UAE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 2
+			16222 = { naval_base = 2 }
+		}
+		victory_points = { 16222 12 }
+		add_core_of = UAE
+	}
+
+	provinces={
+		16216 16217 16218 16219 16220 16221 16222 
+	}
+
+	local_supplies=0.0
+}

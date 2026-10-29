@@ -1,0 +1,21 @@
+state={
+	id=1325
+	name="STATE_1325" # Ebonyi
+	manpower = 1911115
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14406 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14404 14405 14406 
+	}
+
+	local_supplies=0.0
+}

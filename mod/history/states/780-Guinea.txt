@@ -1,0 +1,21 @@
+state={
+	id=780
+	name="STATE_780" # Maiduguri
+	manpower = 2527691
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14238 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		12891 12900 13014 13136 13212 13213 14236 14237 14238 14239 
+	}
+
+	local_supplies=0.0
+}

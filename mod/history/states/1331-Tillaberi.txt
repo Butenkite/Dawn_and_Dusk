@@ -1,0 +1,21 @@
+state={
+	id=1331
+	name="STATE_1331" # Tillabéri
+	manpower = 1863000
+	state_category = city
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14457 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14456 14457 14458 14459 14460 14461 14462 14463 14464 14465 14466 14467 
+	}
+
+	local_supplies=0.0
+}

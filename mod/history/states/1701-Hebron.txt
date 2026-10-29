@@ -1,0 +1,22 @@
+state={
+	id=1701
+	name="STATE_1701" # Hebron
+	manpower = 685803
+	state_category = town
+
+	history={
+		owner = PAL
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15724 3 }
+		add_core_of = PAL
+		add_claim_by = ISR
+	}
+
+	provinces={
+		15724 15725 
+	}
+
+	local_supplies=0.0
+}

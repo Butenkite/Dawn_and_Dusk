@@ -1,0 +1,21 @@
+state={
+	id=1014
+	name="STATE_1014" # Nabeul
+	manpower = 768582
+	state_category = town
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 8073 2 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		8073 8077 
+	}
+
+	local_supplies=0.0
+}

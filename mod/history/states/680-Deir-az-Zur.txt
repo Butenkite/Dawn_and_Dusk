@@ -1,0 +1,21 @@
+state={
+	id=680
+	name="STATE_680" # Naâma
+	manpower = 174000
+	state_category = rural
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7117 1 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7116 7117 
+	}
+
+	local_supplies=0.0
+}

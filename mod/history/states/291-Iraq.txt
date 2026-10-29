@@ -1,0 +1,24 @@
+state={
+	id=291
+	name="STATE_291" # Tangier-Tétouan
+	manpower = 3071999
+	state_category = large_city
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1056 = { naval_base = 2 }
+		}
+		victory_points = { 1056 6 }
+		victory_points = { 1043 3 }
+		add_core_of = MOR
+	}
+
+	provinces={
+		1028 1033 1037 1041 1043 1046 1056 
+	}
+
+	local_supplies=0.0
+}

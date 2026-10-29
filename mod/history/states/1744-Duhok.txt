@@ -1,0 +1,22 @@
+state={
+	id=1744
+	name="STATE_1744" # Duhok
+	manpower = 792249
+	state_category = town
+
+	history={
+		owner = KDP
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15922 6 }
+		add_core_of = KDP
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15921 15922 15923 
+	}
+
+	local_supplies=0.0
+}

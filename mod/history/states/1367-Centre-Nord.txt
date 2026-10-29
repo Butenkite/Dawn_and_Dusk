@@ -1,0 +1,21 @@
+state={
+	id=1367
+	name="STATE_1367" # Centre-Nord
+	manpower = 993000
+	state_category = large_town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14599 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14597 14598 14599 14600 
+	}
+
+	local_supplies=0.0
+}

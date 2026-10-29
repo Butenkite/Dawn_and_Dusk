@@ -1,0 +1,22 @@
+state={
+	id=900
+	name="STATE_900" # Anambra
+	manpower = 3688380
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14280 3 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14278 14279 14280 
+	}
+
+	local_supplies=0.0
+}

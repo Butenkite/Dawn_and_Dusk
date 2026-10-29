@@ -1,0 +1,21 @@
+state={
+	id=1667
+	name="STATE_1667" # North Sinai
+	manpower = 314000
+	state_category = rural
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 11951 2 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		11943 11951 11953 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1433
+	name="STATE_1433" # Upper River
+	manpower = 173898
+	state_category = rural
+
+	history={
+		owner = GAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14816 1 }
+		add_core_of = GAM
+	}
+
+	provinces={
+		14816 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1797
+	name="STATE_1797" # Ash Sharqiyah
+	manpower = 304342
+	state_category = rural
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 16204 1 }
+		add_core_of = OMA
+	}
+
+	provinces={
+		16204 16205 16206 
+	}
+
+	local_supplies=0.0
+}

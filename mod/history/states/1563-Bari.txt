@@ -1,0 +1,23 @@
+state={
+	id=1563
+	name="STATE_1563" # Bari
+	manpower = 438000
+	state_category = town
+
+	history={
+		owner = PNT
+		buildings = {
+			infrastructure = 1
+			15326 = { naval_base = 1 }
+		}
+		victory_points = { 15326 1 }
+		add_core_of = PNT
+		add_core_of = SOM
+	}
+
+	provinces={
+		15325 15326 15327 15328 15329 
+	}
+
+	local_supplies=0.0
+}

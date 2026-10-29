@@ -1,0 +1,21 @@
+state={
+	id=461
+	name="STATE_461" # Tiaret
+	manpower = 1030933
+	state_category = large_town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 4151 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4145 4146 4150 4151 4154 
+	}
+
+	local_supplies=0.0
+}

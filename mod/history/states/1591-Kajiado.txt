@@ -1,0 +1,21 @@
+state={
+	id=1591
+	name="STATE_1591" # Kajiado
+	manpower = 572000
+	state_category = town
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15420 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15420 15421 15422 15423 
+	}
+
+	local_supplies=0.0
+}

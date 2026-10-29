@@ -1,0 +1,3255 @@
+{
+ "name": "mena",
+ "projection": "tools/data/map/projection_africa.json",
+ "continent": "africa",
+ "province_size": {
+  "base": 170,
+  "reference_density": 1000,
+  "exponent": 0.5,
+  "min": 35,
+  "max": 500
+ },
+ "rail_level": {
+  "MAR": 1,
+  "DZA": 1,
+  "TUN": 1,
+  "EGY": 1,
+  "LBY": 0,
+  "ISR": 2,
+  "SYR": 1,
+  "JOR": 1,
+  "IRQ": 1,
+  "SAU": 1
+ },
+ "supply_hub_min_vp": 10,
+ "a3_alias": {
+  "SAH": "MAR",
+  "PSX": "PSE",
+  "CYN": "CYP"
+ },
+ "_sources": "Populations: censuses closest to 2000 (MAR 2014, DZA 2008, TUN 2004, EGY 2006, LBY 2006), scaled to UN 2000 totals. Approximate by design. The Western Sahara berm is drawn approximately. Populations: censuses closest to 2000 (SYR 2004, JOR 2004, SAU 2004, YEM 2004, OMN 2003) and national estimates, scaled to UN 2000 totals. Approximate by design. The Golan ceasefire line and the Cyprus Green Line are drawn approximately.",
+ "countries": {
+  "MAR": {
+   "tag": "MOR",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 6,
+    "mil": 1,
+    "dock": 1
+   },
+   "pop2000": {
+    "Tangier-Tetouan-Al Hoceima": 3072000.0,
+    "Oriental": 1994000.0,
+    "Fez-Meknes": 3659000.0,
+    "Rabat-Salé-Kenitra": 3952000.0,
+    "Béni Mellal-Khénifra": 2175000.0,
+    "Casablanca-Settat": 5920000.0,
+    "Marrakech-Safi": 3901000.0,
+    "Drâa-Tafilalet": 1415000.0,
+    "Souss-Massa": 2313000.0,
+    "Guelmim-Oued Noun": 371000.0,
+    "Laâyoune-Sakia El Hamra": 259000.0,
+    "Dakhla-Oued Ed-Dahab": 69000.0
+   },
+   "names": {
+    "Laâyoune-Sakia El Hamra": "Laâyoune",
+    "Dakhla-Oued Ed-Dahab": "Dakhla",
+    "Tangier-Tetouan-Al Hoceima": "Tangier-Tétouan",
+    "Rabat-Salé-Kenitra": "Rabat-Salé",
+    "Fez-Meknes": "Fès-Meknès",
+    "Guelmim-Oued Noun": "Guelmim"
+   },
+   "control_areas": [
+    {
+     "tag": "SAH",
+     "polygon": [
+      [
+       -8.75,
+       27.67
+      ],
+      [
+       -9.3,
+       27.2
+      ],
+      [
+       -9.9,
+       26.75
+      ],
+      [
+       -10.6,
+       26.5
+      ],
+      [
+       -11.4,
+       26.45
+      ],
+      [
+       -12.05,
+       26.35
+      ],
+      [
+       -12.2,
+       25.6
+      ],
+      [
+       -12.2,
+       24.6
+      ],
+      [
+       -12.3,
+       23.8
+      ],
+      [
+       -13.0,
+       23.2
+      ],
+      [
+       -13.6,
+       22.7
+      ],
+      [
+       -14.2,
+       22.3
+      ],
+      [
+       -14.8,
+       21.9
+      ],
+      [
+       -15.6,
+       21.6
+      ],
+      [
+       -16.2,
+       21.33
+      ],
+      [
+       -16.2,
+       20.5
+      ],
+      [
+       -8.0,
+       20.5
+      ],
+      [
+       -8.0,
+       27.67
+      ]
+     ]
+    }
+   ],
+   "part_names": {
+    "Guelmim-Oued Noun/Assa-Zag Province": "Northern Free Zone",
+    "Dakhla-Oued Ed-Dahab/Province d'Aousserd إقليم أوسرد": "Southern Free Zone",
+    "Laâyoune-Sakia El Hamra/Lemsid": "Boujdour"
+   },
+   "state_names": {
+    "Lemsid": "Boujdour",
+    "SAH/Oued Ed-Dahab Province": "Mijek"
+   },
+   "unit_claims": {
+    "Laayoune Province": [
+     "SAH"
+    ],
+    "Boujdour Province": [
+     "SAH"
+    ],
+    "Province d'Es-Semara إقليم السمارة": [
+     "SAH"
+    ],
+    "Oued Ed-Dahab Province": [
+     "SAH"
+    ],
+    "Province d'Aousserd إقليم أوسرد": [
+     "SAH"
+    ]
+   },
+   "continent": "africa"
+  },
+  "DZA": {
+   "tag": "ALG",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 7,
+    "mil": 2,
+    "dock": 1
+   },
+   "state_max_px": 6000,
+   "province_size": {
+    "max": 1500
+   },
+   "pop2000": {
+    "Adrar": 362000.0,
+    "Chlef": 907000.0,
+    "Laghouat": 411000.0,
+    "Oum El Bouaghi": 561000.0,
+    "Batna": 1013000.0,
+    "Bejaia": 825000.0,
+    "Biskra": 652000.0,
+    "Béchar": 244000.0,
+    "Blida": 906000.0,
+    "Bouira": 628000.0,
+    "Tamanrasset": 159000.0,
+    "Tébessa": 586000.0,
+    "Tlemcen": 858000.0,
+    "Tiaret": 765000.0,
+    "Tizi Ouzou": 1019000.0,
+    "Algiers": 2702000.0,
+    "Djelfa": 987000.0,
+    "Jijel": 576000.0,
+    "Sétif": 1346000.0,
+    "Saïda": 298000.0,
+    "Skikda": 813000.0,
+    "Sidi Bel Abbès": 546000.0,
+    "Annaba": 551000.0,
+    "Guelma": 436000.0,
+    "Constantine": 848000.0,
+    "Médéa": 741000.0,
+    "Mostaganem": 666000.0,
+    "M'Sila": 896000.0,
+    "Mascara": 709000.0,
+    "Ouargla": 505000.0,
+    "Oran": 1315000.0,
+    "El Bayadh": 206000.0,
+    "Illizi": 47000.0,
+    "Bordj Bou Arreridj‎": 569000.0,
+    "Boumerdès": 725000.0,
+    "El Tarf": 369000.0,
+    "Tindouf": 45000.0,
+    "Tissemsilt": 266000.0,
+    "El Oued": 585000.0,
+    "Khenchela": 349000.0,
+    "Souk Ahras": 396000.0,
+    "Tipaza": 534000.0,
+    "Mila": 693000.0,
+    "Aïn Defla": 693000.0,
+    "Naâma": 174000.0,
+    "Aïn Témouchent": 335000.0,
+    "Ghardaia": 328000.0,
+    "Relizane": 656000.0
+   },
+   "groups": {
+    "Algiers": [
+     "Algiers",
+     "Boumerdès",
+     "Tipaza",
+     "Blida"
+    ],
+    "Oran": [
+     "Oran",
+     "Aïn Témouchent"
+    ],
+    "Mostaganem": [
+     "Mostaganem",
+     "Relizane"
+    ],
+    "Chlef": [
+     "Chlef",
+     "Aïn Defla"
+    ],
+    "Tiaret": [
+     "Tiaret",
+     "Tissemsilt"
+    ],
+    "Mascara": [
+     "Mascara",
+     "Saïda"
+    ],
+    "Kabylie": [
+     "Tizi Ouzou",
+     "Bouira"
+    ],
+    "Sétif": [
+     "Sétif",
+     "Bordj Bou Arreridj‎"
+    ],
+    "Jijel": [
+     "Jijel",
+     "Mila"
+    ],
+    "Annaba": [
+     "Annaba",
+     "El Tarf"
+    ],
+    "Guelma": [
+     "Guelma",
+     "Souk Ahras"
+    ],
+    "Oum El Bouaghi": [
+     "Oum El Bouaghi",
+     "Khenchela"
+    ]
+   },
+   "part_names": {
+    "Béchar/Bechar": "Beni Abbès",
+    "Tamanrasset/I-n-Salah": "In Salah"
+   },
+   "state_names": {
+    "Bechar": "Beni Abbès"
+   },
+   "continent": "africa"
+  },
+  "TUN": {
+   "tag": "TUN",
+   "infrastructure": 3,
+   "factories": {
+    "civ": 4,
+    "dock": 1
+   },
+   "pop2000": {
+    "Tunis": 954000.0,
+    "Ariana": 409000.0,
+    "Ben Arous": 489000.0,
+    "Manouba": 326000.0,
+    "Nabeul": 673000.0,
+    "Zaghouan": 156000.0,
+    "Bizerte": 508000.0,
+    "Béja": 295000.0,
+    "Jendouba": 403000.0,
+    "El Kef": 250000.0,
+    "Siliana": 226000.0,
+    "Sousse": 528000.0,
+    "Monastir": 441000.0,
+    "Mahdia": 365000.0,
+    "Sfax": 829000.0,
+    "Kairouan": 529000.0,
+    "Kasserine": 399000.0,
+    "Sidi Bouzid": 383000.0,
+    "Gabès": 331000.0,
+    "Médenine": 420000.0,
+    "Tataouine": 140000.0,
+    "Gafsa": 314000.0,
+    "Tozeur": 95000.0,
+    "Kébili": 139000.0
+   },
+   "groups": {
+    "Tunis": [
+     "Tunis",
+     "Ariana",
+     "Ben Arous",
+     "Manouba"
+    ],
+    "Nabeul": [
+     "Nabeul",
+     "Zaghouan"
+    ],
+    "Béja": [
+     "Béja",
+     "Jendouba"
+    ],
+    "El Kef": [
+     "El Kef",
+     "Siliana"
+    ],
+    "Sahel": [
+     "Sousse",
+     "Monastir",
+     "Mahdia"
+    ],
+    "Kasserine": [
+     "Kasserine",
+     "Sidi Bouzid"
+    ],
+    "Gafsa": [
+     "Gafsa",
+     "Tozeur"
+    ],
+    "Gabès": [
+     "Gabès",
+     "Kébili"
+    ],
+    "Médenine": [
+     "Médenine",
+     "Tataouine"
+    ]
+   },
+   "continent": "africa"
+  },
+  "LBY": {
+   "tag": "LBA",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 4,
+    "mil": 1,
+    "dock": 1
+   },
+   "unit_level": "ADM1",
+   "state_max_px": 6000,
+   "province_size": {
+    "max": 1500
+   },
+   "pop2000": {
+    "Tajura' wa an Nawahi al Arba": 991000.0,
+    "Al Jifarah": 446000.0,
+    "Az Zawiyah": 287000.0,
+    "An Nuqat al Khams": 287000.0,
+    "Al Marqab": 426000.0,
+    "Misratah": 545000.0,
+    "Surt": 139000.0,
+    "Benghazi": 664000.0,
+    "Al Marj": 183000.0,
+    "Al Jabal al Akhdar": 203000.0,
+    "Al Qubbah": 94000.0,
+    "Al Butnan": 159000.0,
+    "Ajdabiya": 163000.0,
+    "Al Kufrah": 50000.0,
+    "Al Jufrah": 52000.0,
+    "Sabha": 134000.0,
+    "Wadi al Hayaa": 76000.0,
+    "Ash Shati'": 77000.0,
+    "Ghat": 23000.0,
+    "Murzuq": 78000.0,
+    "Ghadamis": 26000.0,
+    "Mizdah": 198000.0
+   },
+   "names": {
+    "Tajura' wa an Nawahi al Arba": "Tripoli",
+    "Mizdah": "Gharyan"
+   },
+   "groups": {
+    "Tripoli": [
+     "Tajura' wa an Nawahi al Arba",
+     "Al Jifarah"
+    ],
+    "Zawiya": [
+     "Az Zawiyah",
+     "An Nuqat al Khams"
+    ],
+    "Jabal al Akhdar": [
+     "Al Jabal al Akhdar",
+     "Al Qubbah",
+     "Al Marj"
+    ],
+    "Fezzan": [
+     "Sabha",
+     "Wadi al Hayaa",
+     "Ash Shati'"
+    ],
+    "Ghat": [
+     "Ghat",
+     "Ghadamis"
+    ]
+   },
+   "part_names": {
+    "Murzuq/Marzuq": "Murzuq",
+    "Murzuq/Murzuq": "Al Qatrun",
+    "Al Kufrah/Al Jawf": "Kufra"
+   },
+   "state_names": {
+    "Al Kufrah": "Uweinat"
+   },
+   "continent": "africa"
+  },
+  "EGY": {
+   "tag": "EGY",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 12,
+    "mil": 5,
+    "dock": 2
+   },
+   "state_max_px": 6000,
+   "province_size": {
+    "max": 1500
+   },
+   "pop2000": {
+    "Cairo Governorate": 6250000.0,
+    "Giza Governorate": 5797000.0,
+    "Alexandria Governorate": 3800000.0,
+    "Qalyubia Governorate": 3920000.0,
+    "Al Sharqia Governorate": 4947000.0,
+    "Dakahlia Governorate": 4614000.0,
+    "Beheira Governorate": 4392000.0,
+    "Gharbiyya Governorate": 3708000.0,
+    "Monufia Governorate": 3024000.0,
+    "Kafr el-Sheikh Governorate": 2423000.0,
+    "Damietta Governorate": 1008000.0,
+    "Port Said Governorate": 527000.0,
+    "Ismailia Governorate": 869000.0,
+    "Suez Governorate": 472000.0,
+    "Faiyum Governorate": 2321000.0,
+    "Beni Suef Governorate": 2117000.0,
+    "Minya Governate": 3856000.0,
+    "Asyut Governorate": 3181000.0,
+    "Sohag Governorate": 3467000.0,
+    "Qena Governorate": 2589000.0,
+    "Luxor Governate": 425000.0,
+    "Aswan Governorate": 1100000.0,
+    "Red Sea Governorate": 268000.0,
+    "New Valley Governorate": 176000.0,
+    "Matrouh Governorate": 296000.0,
+    "North Sinai Governorate": 314000.0,
+    "South Sinai Governorate": 139000.0
+   },
+   "names": {
+    "Cairo Governorate": "Cairo",
+    "Giza Governorate": "Giza",
+    "Alexandria Governorate": "Alexandria",
+    "Qalyubia Governorate": "Qalyubia",
+    "Al Sharqia Governorate": "Al Sharqia",
+    "Dakahlia Governorate": "Dakahlia",
+    "Beheira Governorate": "Beheira",
+    "Gharbiyya Governorate": "Gharbiyya",
+    "Monufia Governorate": "Monufia",
+    "Kafr el-Sheikh Governorate": "Kafr el-Sheikh",
+    "Damietta Governorate": "Damietta",
+    "Port Said Governorate": "Port Said",
+    "Ismailia Governorate": "Ismailia",
+    "Suez Governorate": "Suez",
+    "Faiyum Governorate": "Faiyum",
+    "Beni Suef Governorate": "Beni Suef",
+    "Minya Governate": "Minya",
+    "Asyut Governorate": "Asyut",
+    "Sohag Governorate": "Sohag",
+    "Qena Governorate": "Qena",
+    "Luxor Governate": "Luxor",
+    "Aswan Governorate": "Aswan",
+    "Red Sea Governorate": "Red Sea",
+    "New Valley Governorate": "New Valley",
+    "Matrouh Governorate": "Matrouh",
+    "North Sinai Governorate": "North Sinai",
+    "South Sinai Governorate": "South Sinai"
+   },
+   "part_names": {
+    "New Valley Governorate/Girga": "Kharga",
+    "New Valley Governorate/Qasr Farafra": "Farafra"
+   },
+   "state_names": {
+    "Girga": "Kharga"
+   },
+   "continent": "africa"
+  },
+  "ISR": {
+   "tag": "ISR",
+   "province_size": {
+    "base": 90,
+    "min": 18
+   },
+   "infrastructure": 4,
+   "factories": {
+    "civ": 10,
+    "mil": 4,
+    "dock": 1
+   },
+   "pop2000": {
+    "Jerusalem District": 621000.0,
+    "Northern District": 1062000.0,
+    "Haifa": 801000.0,
+    "Central District": 1452000.0,
+    "Tel Aviv": 1142000.0,
+    "Southern District": 922000.0
+   },
+   "names": {
+    "Jerusalem District": "Jerusalem",
+    "Northern District": "Galilee",
+    "Central District": "Central",
+    "Southern District": "Negev"
+   },
+   "continent": "middle_east"
+  },
+  "PSE": {
+   "tag": "PAL",
+   "province_size": {
+    "base": 90,
+    "min": 18
+   },
+   "infrastructure": 2,
+   "factories": {
+    "civ": 1
+   },
+   "state_units": true,
+   "min_piece_px": 12,
+   "pop2000": {
+    "West Bank": 2000000.0,
+    "Gaza": 1130000.0
+   },
+   "groups": {
+    "Nablus": [
+     "Jenin",
+     "Tubas",
+     "Nablus",
+     "Tulkarm",
+     "Qalqiliya",
+     "Salfit"
+    ],
+    "Ramallah": [
+     "Ramallah & Al Bireh"
+    ],
+    "Hebron": [
+     "Hebron",
+     "Bethlehem"
+    ],
+    "East Jerusalem": [
+     "Jerusalem",
+     "Jericho & Al Aghwar"
+    ],
+    "Gaza": [
+     "North Gaza",
+     "Gaza",
+     "Deir Al Balah",
+     "Khan Yunis",
+     "Rafah"
+    ]
+   },
+   "control": {
+    "Jerusalem": "ISR",
+    "Jericho & Al Aghwar": "ISR"
+   },
+   "claims": [
+    "ISR"
+   ],
+   "continent": "middle_east"
+  },
+  "LBN": {
+   "tag": "LEB",
+   "province_size": {
+    "base": 90,
+    "min": 18
+   },
+   "infrastructure": 3,
+   "factories": {
+    "civ": 2
+   },
+   "state_units": true,
+   "min_piece_px": 12,
+   "pop2000": {
+    "Beyrouth": 351000.0,
+    "Mont-Liban": 1054000.0,
+    "Keserwan-Jbeil": 263000.0,
+    "Liban-Nord": 483000.0,
+    "Aakkâr": 263000.0,
+    "Béqaa": 307000.0,
+    "Baalbek-Hermel": 263000.0,
+    "Liban-Sud": 351000.0,
+    "Nabatîyé": 263000.0
+   },
+   "groups": {
+    "Beirut": [
+     "Beirut"
+    ],
+    "Mount Lebanon": [
+     "Baabda",
+     "Aley",
+     "Chouf",
+     "El Metn",
+     "Kesrouan",
+     "Jbail"
+    ],
+    "North Lebanon": [
+     "Tripoli",
+     "Akkar",
+     "Minieh-Dinnieh",
+     "Zgharta",
+     "Bcharre",
+     "Koura",
+     "Batroun"
+    ],
+    "Bekaa": [
+     "Zahle",
+     "West Bekaa",
+     "Rachaya",
+     "Baalbek",
+     "Hermel"
+    ],
+    "South Lebanon": [
+     "Saida",
+     "Sour",
+     "Jezzine"
+    ],
+    "Nabatieh": [
+     "Nabatiye"
+    ],
+    "Security Zone": [
+     "Bent Jbail",
+     "Marjaayoun",
+     "Hasbaya"
+    ]
+   },
+   "control": {
+    "Bent Jbail": "SLA",
+    "Marjaayoun": "SLA",
+    "Hasbaya": "SLA"
+   },
+   "state_names": {
+    "SLA/*": "Security Zone"
+   },
+   "continent": "middle_east"
+  },
+  "SYR": {
+   "tag": "SYR",
+   "province_size": {
+    "base": 90,
+    "min": 18
+   },
+   "infrastructure": 2,
+   "factories": {
+    "civ": 5,
+    "mil": 3,
+    "dock": 1
+   },
+   "min_piece_px": 12,
+   "pop2000": {
+    "Damascus": 1410000.0,
+    "Rural Damascus": 2065000.0,
+    "Aleppo": 3684000.0,
+    "Homs": 1501000.0,
+    "Hama": 1255000.0,
+    "Lattakia": 800000.0,
+    "Tartous": 637000.0,
+    "Idleb": 1146000.0,
+    "Al-Hasakeh": 1164000.0,
+    "Deir-ez-Zor": 910000.0,
+    "Ar-Raqqa": 719000.0,
+    "Dar'a": 764000.0,
+    "As-Sweida": 282000.0,
+    "Quneitra": 64000.0
+   },
+   "control_areas": [
+    {
+     "tag": "ISR",
+     "polygon": [
+      [
+       35.62,
+       33.25
+      ],
+      [
+       35.85,
+       33.32
+      ],
+      [
+       35.88,
+       33.12
+      ],
+      [
+       35.82,
+       32.95
+      ],
+      [
+       35.84,
+       32.78
+      ],
+      [
+       35.65,
+       32.68
+      ],
+      [
+       35.63,
+       32.8
+      ],
+      [
+       35.58,
+       33.0
+      ]
+     ]
+    }
+   ],
+   "state_names": {
+    "Al Qunaytirah": "Golan Heights"
+   },
+   "continent": "middle_east"
+  },
+  "JOR": {
+   "tag": "JOR",
+   "province_size": {
+    "base": 90,
+    "min": 18
+   },
+   "infrastructure": 3,
+   "factories": {
+    "civ": 2,
+    "mil": 1
+   },
+   "pop2000": {
+    "Amman": 1824000.0,
+    "Zarqa": 719000.0,
+    "Irbid": 870000.0,
+    "Balqa": 324000.0,
+    "Madaba": 122000.0,
+    "Mafraq": 230000.0,
+    "Jerash": 146000.0,
+    "Ajloun": 113000.0,
+    "Karak": 193000.0,
+    "Tafilah": 71000.0,
+    "Ma'an": 89000.0,
+    "Aqaba": 99000.0
+   },
+   "groups": {
+    "Balqa": [
+     "Balqa",
+     "Madaba"
+    ],
+    "Irbid": [
+     "Irbid",
+     "Ajloun",
+     "Jerash"
+    ],
+    "Karak": [
+     "Karak",
+     "Tafilah"
+    ]
+   },
+   "continent": "middle_east"
+  },
+  "IRQ": {
+   "tag": "IRQ",
+   "province_size": {
+    "min": 25
+   },
+   "infrastructure": 2,
+   "factories": {
+    "civ": 6,
+    "mil": 4,
+    "dock": 1
+   },
+   "pop2000": {
+    "Baghdad": 5027000.0,
+    "Ninawa": 2421000.0,
+    "Al-Basrah": 1676000.0,
+    "Al-Sulaimaniyah": 1303000.0,
+    "Erbil": 1117000.0,
+    "Dohuk": 791000.0,
+    "Kirkuk": 791000.0,
+    "Diyala": 1164000.0,
+    "Salah al-Din": 931000.0,
+    "Al-Anbar": 1210000.0,
+    "Babil": 1396000.0,
+    "Karbala": 745000.0,
+    "An-Najaf": 884000.0,
+    "Al-Qadisiyah": 838000.0,
+    "Wasit": 791000.0,
+    "Maysan": 698000.0,
+    "Dhi Qar": 1303000.0,
+    "Al-Muthanna": 512000.0
+   },
+   "control": {
+    "Duhok": "KDP",
+    "Zakho": "KDP",
+    "Sumail": "KDP",
+    "Al-Amadiya": "KDP",
+    "Aqra": "KDP",
+    "Erbil": "KDP",
+    "Shaqlawa": "KDP",
+    "Rawanduz": "KDP",
+    "Al-Zibar": "KDP",
+    "Al-Sulaymaniyah": "PUK",
+    "Halabcha": "PUK",
+    "Panjwin": "PUK",
+    "Sharbazher": "PUK",
+    "Pshdar": "PUK",
+    "Rania": "PUK",
+    "Dokan": "PUK",
+    "Chamchamal": "PUK",
+    "Derbendikhan": "PUK",
+    "Kalar": "PUK",
+    "Koysinjaq": "PUK"
+   },
+   "names": {
+    "Al-Sulaimaniyah": "Sulaymaniyah",
+    "Al-Basrah": "Basra",
+    "Al-Anbar": "Anbar",
+    "An-Najaf": "Najaf",
+    "Al-Qadisiyah": "Qadisiyyah",
+    "Al-Muthanna": "Muthanna",
+    "Ninawa": "Nineveh"
+   },
+   "continent": "middle_east"
+  },
+  "SAU": {
+   "tag": "SAU",
+   "infrastructure": 3,
+   "factories": {
+    "civ": 10,
+    "mil": 3,
+    "dock": 2
+   },
+   "state_max_px": 6000,
+   "province_size": {
+    "max": 1500
+   },
+   "pop2000": {
+    "Riyadh Region": 4981000.0,
+    "Makkah Region": 5291000.0,
+    "Eastern Region": 3065000.0,
+    "Al Madinah Region": 1378000.0,
+    "'Asir Region": 1542000.0,
+    "Al-Qassim Region": 931000.0,
+    "Jazan Region": 1086000.0,
+    "Hayel Region": 484000.0,
+    "Tabuk Region": 629000.0,
+    "Al Jawf Region": 328000.0,
+    "Najran Region": 383000.0,
+    "Al Bahah Region": 347000.0,
+    "Northern Borders Region": 255000.0
+   },
+   "names": {
+    "Riyadh Region": "Riyadh",
+    "Makkah Region": "Makkah",
+    "Eastern Region": "Eastern",
+    "Al Madinah Region": "Al Madinah",
+    "'Asir Region": "'Asir",
+    "Al-Qassim Region": "Al-Qassim",
+    "Jazan Region": "Jazan",
+    "Hayel Region": "Ha'il",
+    "Tabuk Region": "Tabuk",
+    "Al Jawf Region": "Al Jawf",
+    "Najran Region": "Najran",
+    "Al Bahah Region": "Al Bahah",
+    "Northern Borders Region": "Northern Borders"
+   },
+   "state_names": {
+    "Al Udayd Governorate": "Rub' al Khali",
+    "Al Ahsa Governorate": "Al-Ahsa"
+   },
+   "continent": "middle_east"
+  },
+  "YEM": {
+   "tag": "YEM",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 2,
+    "mil": 1
+   },
+   "pop2000": {
+    "Ibb Governorate": 1923000.0,
+    "Ta'izz Governorate": 2157000.0,
+    "Al Hudaydah Governorate": 1950000.0,
+    "Hajjah Governorate": 1336000.0,
+    "Dhamar Governorate": 1201000.0,
+    "Sanʿaʾ Governorate": 830000.0,
+    "Sanʿaʾ": 1580000.0,
+    "‘Adan Governorate": 533000.0,
+    "Hadhramaut": 930000.0,
+    "Lahij Governorate": 650000.0,
+    "Abyan Governorate": 388000.0,
+    "Shabwah Governorate": 424000.0,
+    "Al Bayda' Governorate": 524000.0,
+    "'Amran Governorate": 794000.0,
+    "Ad Dali' Governorate": 424000.0,
+    "Sa'dah Governorate": 632000.0,
+    "Al Mahwit Governorate": 442000.0,
+    "Ma'rib Governorate": 217000.0,
+    "Al Jawf Governorate": 397000.0,
+    "Al Mahrah Governorate": 81000.0,
+    "Raymah Governorate": 352000.0,
+    "Socotra": 36000.0
+   },
+   "groups": {
+    "Sana'a": [
+     "Sanʿaʾ",
+     "Sanʿaʾ Governorate"
+    ],
+    "Al Hudaydah": [
+     "Al Hudaydah Governorate",
+     "Raymah Governorate"
+    ]
+   },
+   "names": {
+    "Ibb Governorate": "Ibb",
+    "Ta'izz Governorate": "Ta'izz",
+    "Al Hudaydah Governorate": "Al Hudaydah",
+    "Hajjah Governorate": "Hajjah",
+    "Dhamar Governorate": "Dhamar",
+    "Sanʿaʾ Governorate": "Sanʿaʾ",
+    "Sanʿaʾ": "Sanʿaʾ",
+    "‘Adan Governorate": "Aden",
+    "Hadhramaut": "Hadhramaut",
+    "Lahij Governorate": "Lahij",
+    "Abyan Governorate": "Abyan",
+    "Shabwah Governorate": "Shabwah",
+    "Al Bayda' Governorate": "Al Bayda'",
+    "'Amran Governorate": "'Amran",
+    "Ad Dali' Governorate": "Ad Dali'",
+    "Sa'dah Governorate": "Sa'dah",
+    "Al Mahwit Governorate": "Al Mahwit",
+    "Ma'rib Governorate": "Ma'rib",
+    "Al Jawf Governorate": "Al Jawf",
+    "Al Mahrah Governorate": "Al Mahrah",
+    "Raymah Governorate": "Raymah",
+    "Socotra": "Socotra"
+   },
+   "continent": "middle_east"
+  },
+  "OMN": {
+   "tag": "OMA",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 2,
+    "dock": 1
+   },
+   "unit_level": "ADM1",
+   "pop2000": {
+    "Muscat": 617000.0,
+    "Al Batinah": 636000.0,
+    "Ad Dakhiliyah": 264000.0,
+    "Ash Sharqiyah": 304000.0,
+    "Az Zahirah": 206000.0,
+    "Al Wusta": 23000.0,
+    "Dhofar": 211000.0
+   },
+   "state_names": {
+    "Wilayat Shalim Wa Juzor Al Hallaniyat": "Shalim"
+   },
+   "continent": "middle_east"
+  },
+  "ARE": {
+   "tag": "UAE",
+   "infrastructure": 4,
+   "factories": {
+    "civ": 5,
+    "dock": 1
+   },
+   "unit_level": "ADM1",
+   "pop2000": {
+    "Abu Dhabi": 1098000.0,
+    "Dubai": 899000.0,
+    "Sharjah": 519000.0,
+    "Ajman": 170000.0,
+    "Umm al-Quwain": 55000.0,
+    "Ras al-Khaimah": 190000.0,
+    "Fujairah": 100000.0
+   },
+   "groups": {
+    "Sharjah": [
+     "Sharjah",
+     "Ajman",
+     "Umm al-Quwain"
+    ]
+   },
+   "continent": "middle_east"
+  },
+  "QAT": {
+   "tag": "QAT",
+   "infrastructure": 4,
+   "factories": {
+    "civ": 2
+   },
+   "pop2000": {
+    "Doha": 288000.0,
+    "Al Rayyan": 192000.0,
+    "Al Wakra": 38000.0,
+    "Al Daayen": 19000.0,
+    "Umm Slal": 19000.0,
+    "Al Khor and Al Thakhira": 29000.0,
+    "Al Shamal": 5000.0,
+    "Al Sheehaniya": 10000.0
+   },
+   "groups": {
+    "Doha": [
+     "Doha",
+     "Al Rayyan",
+     "Al Wakra",
+     "Al Daayen",
+     "Umm Slal",
+     "Al Sheehaniya"
+    ],
+    "Al Khor": [
+     "Al Khor and Al Thakhira",
+     "Al Shamal"
+    ]
+   },
+   "continent": "middle_east"
+  },
+  "BHR": {
+   "tag": "BHR",
+   "infrastructure": 4,
+   "factories": {
+    "civ": 1,
+    "dock": 1
+   },
+   "unit_level": "ADM1",
+   "province_size": {
+    "min": 12
+   },
+   "pop2000": {
+    "Capital Governorate": 165000.0,
+    "Muharraq Governorate": 103000.0,
+    "Northern Governorate": 237000.0,
+    "Southern Governorate": 165000.0
+   },
+   "groups": {
+    "Bahrain": [
+     "Capital Governorate",
+     "Muharraq Governorate",
+     "Northern Governorate",
+     "Southern Governorate"
+    ]
+   },
+   "continent": "middle_east"
+  },
+  "KWT": {
+   "tag": "KUW",
+   "infrastructure": 4,
+   "factories": {
+    "civ": 3,
+    "dock": 1
+   },
+   "pop2000": {
+    "Al Asimah": 260000.0,
+    "Hawalli": 407000.0,
+    "Farwaniya": 563000.0,
+    "Mubarak Al-Kabeer": 156000.0,
+    "Ahmadi": 329000.0,
+    "Jahra": 225000.0
+   },
+   "groups": {
+    "Kuwait": [
+     "Al Asimah",
+     "Hawalli",
+     "Farwaniya",
+     "Mubarak Al-Kabeer",
+     "Ahmadi"
+    ],
+    "Jahra": [
+     "Jahra"
+    ]
+   },
+   "continent": "middle_east"
+  },
+  "CYP": {
+   "tag": "CYP",
+   "province_size": {
+    "base": 45,
+    "min": 14
+   },
+   "infrastructure": 4,
+   "factories": {
+    "civ": 2,
+    "dock": 1
+   },
+   "min_piece_px": 8,
+   "pop2000": {
+    "Nicosia": 270000.0,
+    "Limassol": 200000.0,
+    "Larnaca": 120000.0,
+    "Paphos": 70000.0,
+    "Famagusta": 100000.0,
+    "Kyrenia": 60000.0
+   },
+   "control_areas": [
+    {
+     "tag": "NCY",
+     "polygon": [
+      [
+       32.8,
+       35.3
+      ],
+      [
+       32.8,
+       35.16
+      ],
+      [
+       32.95,
+       35.12
+      ],
+      [
+       33.05,
+       35.16
+      ],
+      [
+       33.2,
+       35.19
+      ],
+      [
+       33.36,
+       35.175
+      ],
+      [
+       33.55,
+       35.16
+      ],
+      [
+       33.7,
+       35.1
+      ],
+      [
+       33.85,
+       35.07
+      ],
+      [
+       34.05,
+       35.07
+      ],
+      [
+       34.9,
+       35.4
+      ],
+      [
+       34.9,
+       36.0
+      ],
+      [
+       32.8,
+       36.0
+      ]
+     ]
+    }
+   ],
+   "continent": "middle_east"
+  }
+ },
+ "cities": [
+  {
+   "name": "Casablanca",
+   "iso": "MAR",
+   "lon": -7.618,
+   "lat": 33.602,
+   "vp": 15,
+   "port": 4,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Rabat",
+   "iso": "MAR",
+   "lon": -6.836,
+   "lat": 34.025,
+   "capital": true,
+   "vp": 15,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Fez",
+   "iso": "MAR",
+   "lon": -5.002,
+   "lat": 34.057,
+   "vp": 10,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Marrakesh",
+   "iso": "MAR",
+   "lon": -8.002,
+   "lat": 31.632,
+   "vp": 6,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Agadir",
+   "iso": "MAR",
+   "lon": -9.62,
+   "lat": 30.44,
+   "vp": 6,
+   "port": 2
+  },
+  {
+   "name": "Tangier",
+   "iso": "MAR",
+   "lon": -5.833,
+   "lat": 35.747,
+   "vp": 6,
+   "port": 2
+  },
+  {
+   "name": "Kenitra",
+   "iso": "MAR",
+   "lon": -6.58,
+   "lat": 34.27,
+   "vp": 6,
+   "port": 1
+  },
+  {
+   "name": "Safi",
+   "iso": "MAR",
+   "lon": -9.24,
+   "lat": 32.32,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Laayoune",
+   "iso": "MAR",
+   "lon": -13.2,
+   "lat": 27.15,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Dakhla",
+   "iso": "MAR",
+   "lon": -15.937,
+   "lat": 23.714,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Bir Lahlou",
+   "iso": "MAR",
+   "lon": -9.653,
+   "lat": 26.119,
+   "capital": true,
+   "vp": 3
+  },
+  {
+   "name": "Meknes",
+   "iso": "MAR",
+   "lon": -5.56,
+   "lat": 33.9,
+   "vp": 6
+  },
+  {
+   "name": "Oujda",
+   "iso": "MAR",
+   "lon": -1.91,
+   "lat": 34.69,
+   "vp": 3
+  },
+  {
+   "name": "Ksar El Kebir",
+   "iso": "MAR",
+   "lon": -5.91,
+   "lat": 35.02,
+   "vp": 3
+  },
+  {
+   "name": "Er Rachidia",
+   "iso": "MAR",
+   "lon": -4.45,
+   "lat": 31.94,
+   "vp": 3
+  },
+  {
+   "name": "Taza",
+   "iso": "MAR",
+   "lon": -4.02,
+   "lat": 34.22,
+   "vp": 2
+  },
+  {
+   "name": "El Jadida",
+   "iso": "MAR",
+   "lon": -8.51,
+   "lat": 33.26,
+   "vp": 2
+  },
+  {
+   "name": "Settat",
+   "iso": "MAR",
+   "lon": -7.62,
+   "lat": 33.01,
+   "vp": 2
+  },
+  {
+   "name": "Larache",
+   "iso": "MAR",
+   "lon": -6.16,
+   "lat": 35.2,
+   "vp": 2
+  },
+  {
+   "name": "Guelmim",
+   "iso": "MAR",
+   "lon": -10.07,
+   "lat": 28.98,
+   "vp": 2
+  },
+  {
+   "name": "Algiers",
+   "iso": "DZA",
+   "lon": 3.049,
+   "lat": 36.765,
+   "capital": true,
+   "vp": 20,
+   "port": 4,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Oran",
+   "iso": "DZA",
+   "lon": -0.622,
+   "lat": 35.712,
+   "vp": 6,
+   "port": 3,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Constantine",
+   "iso": "DZA",
+   "lon": 6.6,
+   "lat": 36.36,
+   "vp": 6,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Annaba",
+   "iso": "DZA",
+   "lon": 7.76,
+   "lat": 36.92,
+   "vp": 6,
+   "port": 2
+  },
+  {
+   "name": "Béjaïa",
+   "iso": "DZA",
+   "lon": 5.07,
+   "lat": 36.76,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Skikda",
+   "iso": "DZA",
+   "lon": 6.9,
+   "lat": 36.88,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Mostaganem",
+   "iso": "DZA",
+   "lon": 0.09,
+   "lat": 35.94,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Blida",
+   "iso": "DZA",
+   "lon": 2.83,
+   "lat": 36.42,
+   "vp": 6
+  },
+  {
+   "name": "Chlef",
+   "iso": "DZA",
+   "lon": 1.32,
+   "lat": 36.17,
+   "vp": 3
+  },
+  {
+   "name": "Arak",
+   "iso": "DZA",
+   "lon": 3.75,
+   "lat": 25.28,
+   "vp": 3
+  },
+  {
+   "name": "Batna",
+   "iso": "DZA",
+   "lon": 6.17,
+   "lat": 35.57,
+   "vp": 3
+  },
+  {
+   "name": "Sétif",
+   "iso": "DZA",
+   "lon": 5.4,
+   "lat": 36.18,
+   "vp": 3
+  },
+  {
+   "name": "Tlemcen",
+   "iso": "DZA",
+   "lon": -1.32,
+   "lat": 34.89,
+   "vp": 3
+  },
+  {
+   "name": "Sidi bel Abbes",
+   "iso": "DZA",
+   "lon": -0.64,
+   "lat": 35.19,
+   "vp": 3
+  },
+  {
+   "name": "Biskra",
+   "iso": "DZA",
+   "lon": 5.73,
+   "lat": 34.86,
+   "vp": 3
+  },
+  {
+   "name": "Tiaret",
+   "iso": "DZA",
+   "lon": 1.32,
+   "lat": 35.38,
+   "vp": 2
+  },
+  {
+   "name": "El Oued",
+   "iso": "DZA",
+   "lon": 6.86,
+   "lat": 33.37,
+   "vp": 2
+  },
+  {
+   "name": "Ouargla",
+   "iso": "DZA",
+   "lon": 5.34,
+   "lat": 31.97,
+   "vp": 2
+  },
+  {
+   "name": "Tébessa",
+   "iso": "DZA",
+   "lon": 8.12,
+   "lat": 35.41,
+   "vp": 2
+  },
+  {
+   "name": "Djelfa",
+   "iso": "DZA",
+   "lon": 3.25,
+   "lat": 34.68,
+   "vp": 2
+  },
+  {
+   "name": "M'sila",
+   "iso": "DZA",
+   "lon": 4.545,
+   "lat": 35.7,
+   "vp": 2
+  },
+  {
+   "name": "Jijel",
+   "iso": "DZA",
+   "lon": 5.766,
+   "lat": 36.822,
+   "vp": 2
+  },
+  {
+   "name": "Médéa",
+   "iso": "DZA",
+   "lon": 2.77,
+   "lat": 36.27,
+   "vp": 2
+  },
+  {
+   "name": "Tizi-Ouzou",
+   "iso": "DZA",
+   "lon": 4.046,
+   "lat": 36.712,
+   "vp": 2
+  },
+  {
+   "name": "Béchar",
+   "iso": "DZA",
+   "lon": -2.23,
+   "lat": 31.611,
+   "vp": 2
+  },
+  {
+   "name": "Saïda",
+   "iso": "DZA",
+   "lon": 0.14,
+   "lat": 34.84,
+   "vp": 2
+  },
+  {
+   "name": "Bordj Bou Arréridj",
+   "iso": "DZA",
+   "lon": 4.765,
+   "lat": 36.078,
+   "vp": 2
+  },
+  {
+   "name": "Souk Ahras",
+   "iso": "DZA",
+   "lon": 7.95,
+   "lat": 36.29,
+   "vp": 2
+  },
+  {
+   "name": "Touggourt",
+   "iso": "DZA",
+   "lon": 6.06,
+   "lat": 33.1,
+   "vp": 2
+  },
+  {
+   "name": "Ghardaia",
+   "iso": "DZA",
+   "lon": 3.67,
+   "lat": 32.49,
+   "vp": 2
+  },
+  {
+   "name": "Tunis",
+   "iso": "TUN",
+   "lon": 10.18,
+   "lat": 36.803,
+   "capital": true,
+   "vp": 20,
+   "port": 2,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.8
+  },
+  {
+   "name": "Sfax",
+   "iso": "TUN",
+   "lon": 10.72,
+   "lat": 34.75,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Sousse",
+   "iso": "TUN",
+   "lon": 10.625,
+   "lat": 35.83,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Gabès",
+   "iso": "TUN",
+   "lon": 10.1,
+   "lat": 33.9,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Bizerte",
+   "iso": "TUN",
+   "lon": 9.855,
+   "lat": 37.29,
+   "vp": 2,
+   "port": 3
+  },
+  {
+   "name": "Zarzis",
+   "iso": "TUN",
+   "lon": 11.1,
+   "lat": 33.51,
+   "vp": 2
+  },
+  {
+   "name": "Kairouan",
+   "iso": "TUN",
+   "lon": 10.1,
+   "lat": 35.68,
+   "vp": 2
+  },
+  {
+   "name": "Gafsa",
+   "iso": "TUN",
+   "lon": 8.78,
+   "lat": 34.42,
+   "vp": 2
+  },
+  {
+   "name": "Nabeul",
+   "iso": "TUN",
+   "lon": 10.73,
+   "lat": 36.46,
+   "vp": 2
+  },
+  {
+   "name": "L'Ariana",
+   "iso": "TUN",
+   "lon": 10.2,
+   "lat": 36.867,
+   "vp": 2
+  },
+  {
+   "name": "Kasserine",
+   "iso": "TUN",
+   "lon": 8.83,
+   "lat": 35.18,
+   "vp": 2
+  },
+  {
+   "name": "Kasserine",
+   "iso": "TUN",
+   "lon": 8.717,
+   "lat": 35.217,
+   "vp": 1
+  },
+  {
+   "name": "Monastir",
+   "iso": "TUN",
+   "lon": 10.767,
+   "lat": 35.731,
+   "vp": 1
+  },
+  {
+   "name": "Tataouine",
+   "iso": "TUN",
+   "lon": 10.467,
+   "lat": 33.0,
+   "vp": 1
+  },
+  {
+   "name": "Tripoli",
+   "iso": "LBY",
+   "lon": 13.18,
+   "lat": 32.892,
+   "capital": true,
+   "vp": 20,
+   "port": 3,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.8
+  },
+  {
+   "name": "Benghazi",
+   "iso": "LBY",
+   "lon": 20.065,
+   "lat": 32.119,
+   "vp": 10,
+   "port": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Misrata",
+   "iso": "LBY",
+   "lon": 15.1,
+   "lat": 32.38,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Tubruq",
+   "iso": "LBY",
+   "lon": 23.96,
+   "lat": 32.08,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Al Khums",
+   "iso": "LBY",
+   "lon": 14.26,
+   "lat": 32.66,
+   "vp": 3
+  },
+  {
+   "name": "Az Zawiyah",
+   "iso": "LBY",
+   "lon": 12.72,
+   "lat": 32.76,
+   "vp": 2
+  },
+  {
+   "name": "Zuwara",
+   "iso": "LBY",
+   "lon": 12.079,
+   "lat": 32.934,
+   "vp": 2
+  },
+  {
+   "name": "Al Marj",
+   "iso": "LBY",
+   "lon": 20.83,
+   "lat": 32.5,
+   "vp": 2
+  },
+  {
+   "name": "Gharyan",
+   "iso": "LBY",
+   "lon": 13.02,
+   "lat": 32.17,
+   "vp": 2
+  },
+  {
+   "name": "Ajdabiya",
+   "iso": "LBY",
+   "lon": 20.22,
+   "lat": 30.77,
+   "vp": 2
+  },
+  {
+   "name": "Surt",
+   "iso": "LBY",
+   "lon": 16.59,
+   "lat": 31.21,
+   "vp": 2
+  },
+  {
+   "name": "Darnah",
+   "iso": "LBY",
+   "lon": 22.639,
+   "lat": 32.765,
+   "vp": 2
+  },
+  {
+   "name": "Sabha",
+   "iso": "LBY",
+   "lon": 14.433,
+   "lat": 27.033,
+   "vp": 2
+  },
+  {
+   "name": "Nalut",
+   "iso": "LBY",
+   "lon": 10.97,
+   "lat": 31.88,
+   "vp": 1
+  },
+  {
+   "name": "Bani Walid",
+   "iso": "LBY",
+   "lon": 13.99,
+   "lat": 31.77,
+   "vp": 1
+  },
+  {
+   "name": "Marzuq",
+   "iso": "LBY",
+   "lon": 13.897,
+   "lat": 25.904,
+   "vp": 1
+  },
+  {
+   "name": "Birak",
+   "iso": "LBY",
+   "lon": 14.283,
+   "lat": 27.533,
+   "vp": 1
+  },
+  {
+   "name": "Shahhat",
+   "iso": "LBY",
+   "lon": 21.862,
+   "lat": 32.828,
+   "vp": 1
+  },
+  {
+   "name": "Cairo",
+   "iso": "EGY",
+   "lon": 31.248,
+   "lat": 30.052,
+   "capital": true,
+   "vp": 30,
+   "air": 3,
+   "city_province": true,
+   "radius": 3.6
+  },
+  {
+   "name": "Alexandria",
+   "iso": "EGY",
+   "lon": 29.948,
+   "lat": 31.202,
+   "vp": 15,
+   "port": 4,
+   "air": 1,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Giza",
+   "iso": "EGY",
+   "lon": 31.19,
+   "lat": 30.01,
+   "vp": 15,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Port Said",
+   "iso": "EGY",
+   "lon": 32.29,
+   "lat": 31.26,
+   "vp": 6,
+   "port": 2
+  },
+  {
+   "name": "Luxor",
+   "iso": "EGY",
+   "lon": 32.65,
+   "lat": 25.7,
+   "vp": 6,
+   "air": 1
+  },
+  {
+   "name": "Suez",
+   "iso": "EGY",
+   "lon": 32.55,
+   "lat": 30.005,
+   "vp": 6,
+   "port": 2
+  },
+  {
+   "name": "Aswan",
+   "iso": "EGY",
+   "lon": 32.899,
+   "lat": 24.088,
+   "vp": 3,
+   "air": 1
+  },
+  {
+   "name": "Damietta",
+   "iso": "EGY",
+   "lon": 31.82,
+   "lat": 31.42,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Hurghada",
+   "iso": "EGY",
+   "lon": 33.83,
+   "lat": 27.23,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Matruh",
+   "iso": "EGY",
+   "lon": 27.23,
+   "lat": 31.35,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Ismailia",
+   "iso": "EGY",
+   "lon": 32.26,
+   "lat": 30.59,
+   "vp": 6
+  },
+  {
+   "name": "El Mansura",
+   "iso": "EGY",
+   "lon": 31.38,
+   "lat": 31.05,
+   "vp": 6
+  },
+  {
+   "name": "Sohag",
+   "iso": "EGY",
+   "lon": 31.7,
+   "lat": 26.55,
+   "vp": 6
+  },
+  {
+   "name": "Damanhûr",
+   "iso": "EGY",
+   "lon": 30.47,
+   "lat": 31.05,
+   "vp": 3
+  },
+  {
+   "name": "El Minya",
+   "iso": "EGY",
+   "lon": 30.75,
+   "lat": 28.09,
+   "vp": 3
+  },
+  {
+   "name": "Beni Suef",
+   "iso": "EGY",
+   "lon": 31.09,
+   "lat": 29.08,
+   "vp": 3
+  },
+  {
+   "name": "Asyut",
+   "iso": "EGY",
+   "lon": 31.18,
+   "lat": 27.19,
+   "vp": 3
+  },
+  {
+   "name": "Tanta",
+   "iso": "EGY",
+   "lon": 31.0,
+   "lat": 30.79,
+   "vp": 3
+  },
+  {
+   "name": "El Faiyum",
+   "iso": "EGY",
+   "lon": 30.84,
+   "lat": 29.31,
+   "vp": 3
+  },
+  {
+   "name": "Kom Ombo",
+   "iso": "EGY",
+   "lon": 32.95,
+   "lat": 24.47,
+   "vp": 3
+  },
+  {
+   "name": "Qena",
+   "iso": "EGY",
+   "lon": 32.72,
+   "lat": 26.15,
+   "vp": 3
+  },
+  {
+   "name": "Zagazig",
+   "iso": "EGY",
+   "lon": 31.517,
+   "lat": 30.583,
+   "vp": 3
+  },
+  {
+   "name": "Mallawi",
+   "iso": "EGY",
+   "lon": 30.84,
+   "lat": 27.73,
+   "vp": 3
+  },
+  {
+   "name": "Rashid",
+   "iso": "EGY",
+   "lon": 30.39,
+   "lat": 31.46,
+   "vp": 2
+  },
+  {
+   "name": "Shibin el Kom",
+   "iso": "EGY",
+   "lon": 30.9,
+   "lat": 30.592,
+   "vp": 2
+  },
+  {
+   "name": "El Arish",
+   "iso": "EGY",
+   "lon": 33.801,
+   "lat": 31.125,
+   "vp": 2
+  },
+  {
+   "name": "Benha",
+   "iso": "EGY",
+   "lon": 31.183,
+   "lat": 30.467,
+   "vp": 2
+  },
+  {
+   "name": "Samalut",
+   "iso": "EGY",
+   "lon": 30.71,
+   "lat": 28.3,
+   "vp": 2
+  },
+  {
+   "name": "Kafr el Sheikh",
+   "iso": "EGY",
+   "lon": 30.936,
+   "lat": 31.109,
+   "vp": 2
+  },
+  {
+   "name": "Girga",
+   "iso": "EGY",
+   "lon": 31.88,
+   "lat": 26.33,
+   "vp": 2
+  },
+  {
+   "name": "Tel Aviv",
+   "iso": "ISR",
+   "lon": 34.768,
+   "lat": 32.082,
+   "vp": 15,
+   "air": 3,
+   "city_province": true,
+   "radius": 2.2
+  },
+  {
+   "name": "Jerusalem",
+   "iso": "ISR",
+   "lon": 35.207,
+   "lat": 31.778,
+   "capital": true,
+   "vp": 15,
+   "city_province": true,
+   "radius": 2.0
+  },
+  {
+   "name": "Haifa",
+   "iso": "ISR",
+   "lon": 34.978,
+   "lat": 32.822,
+   "vp": 10,
+   "port": 3,
+   "city_province": true,
+   "radius": 2.0
+  },
+  {
+   "name": "Ashdod",
+   "iso": "ISR",
+   "lon": 34.65,
+   "lat": 31.8,
+   "vp": 2,
+   "port": 2
+  },
+  {
+   "name": "Eilat",
+   "iso": "ISR",
+   "lon": 34.95,
+   "lat": 29.557,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Beer Sheva",
+   "iso": "ISR",
+   "lon": 34.83,
+   "lat": 31.25,
+   "vp": 3
+  },
+  {
+   "name": "Nazareth",
+   "iso": "ISR",
+   "lon": 35.296,
+   "lat": 32.704,
+   "vp": 2
+  },
+  {
+   "name": "Ramla",
+   "iso": "ISR",
+   "lon": 34.867,
+   "lat": 31.917,
+   "vp": 1
+  },
+  {
+   "name": "Gaza",
+   "iso": "PSE",
+   "lon": 34.445,
+   "lat": 31.53,
+   "capital": true,
+   "vp": 12
+  },
+  {
+   "name": "Jericho",
+   "iso": "PSE",
+   "lon": 35.444,
+   "lat": 31.857,
+   "vp": 1
+  },
+  {
+   "name": "Hebron",
+   "iso": "PSE",
+   "lon": 35.096,
+   "lat": 31.541,
+   "vp": 3
+  },
+  {
+   "name": "Nablus",
+   "iso": "PSE",
+   "lon": 35.254,
+   "lat": 32.221,
+   "vp": 3
+  },
+  {
+   "name": "Ramallah",
+   "iso": "PSE",
+   "lon": 35.206,
+   "lat": 31.903,
+   "vp": 1
+  },
+  {
+   "name": "Beirut",
+   "iso": "LBN",
+   "lon": 35.508,
+   "lat": 33.874,
+   "capital": true,
+   "vp": 15,
+   "port": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.2
+  },
+  {
+   "name": "Tripoli",
+   "iso": "LBN",
+   "lon": 35.868,
+   "lat": 34.422,
+   "vp": 6,
+   "port": 1
+  },
+  {
+   "name": "Saida",
+   "iso": "LBN",
+   "lon": 35.369,
+   "lat": 33.563,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Marjayoun",
+   "iso": "LBN",
+   "lon": 35.592,
+   "lat": 33.361,
+   "capital": true,
+   "vp": 3
+  },
+  {
+   "name": "Nabatieh",
+   "iso": "LBN",
+   "lon": 35.45,
+   "lat": 33.383,
+   "vp": 1
+  },
+  {
+   "name": "Zahlé",
+   "iso": "LBN",
+   "lon": 35.904,
+   "lat": 33.85,
+   "vp": 1
+  },
+  {
+   "name": "Aleppo",
+   "iso": "SYR",
+   "lon": 37.168,
+   "lat": 36.232,
+   "vp": 15,
+   "air": 1,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Damascus",
+   "iso": "SYR",
+   "lon": 36.298,
+   "lat": 33.502,
+   "capital": true,
+   "vp": 20,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Latakia",
+   "iso": "SYR",
+   "lon": 35.78,
+   "lat": 35.54,
+   "vp": 6,
+   "port": 2
+  },
+  {
+   "name": "Tartus",
+   "iso": "SYR",
+   "lon": 35.887,
+   "lat": 34.885,
+   "vp": 2,
+   "port": 2
+  },
+  {
+   "name": "Homs",
+   "iso": "SYR",
+   "lon": 36.718,
+   "lat": 34.732,
+   "vp": 10
+  },
+  {
+   "name": "Douma",
+   "iso": "SYR",
+   "lon": 36.4,
+   "lat": 33.583,
+   "vp": 3
+  },
+  {
+   "name": "Hama",
+   "iso": "SYR",
+   "lon": 36.73,
+   "lat": 35.15,
+   "vp": 3
+  },
+  {
+   "name": "Deir ez-Zor",
+   "iso": "SYR",
+   "lon": 40.13,
+   "lat": 35.33,
+   "vp": 3
+  },
+  {
+   "name": "Raqqa",
+   "iso": "SYR",
+   "lon": 39.02,
+   "lat": 35.93,
+   "vp": 2
+  },
+  {
+   "name": "Dar'a",
+   "iso": "SYR",
+   "lon": 36.105,
+   "lat": 32.625,
+   "vp": 2
+  },
+  {
+   "name": "Idlib",
+   "iso": "SYR",
+   "lon": 36.632,
+   "lat": 35.93,
+   "vp": 2
+  },
+  {
+   "name": "Al Hasakah",
+   "iso": "SYR",
+   "lon": 40.75,
+   "lat": 36.483,
+   "vp": 2
+  },
+  {
+   "name": "Manbij",
+   "iso": "SYR",
+   "lon": 37.956,
+   "lat": 36.527,
+   "vp": 2
+  },
+  {
+   "name": "Al Qamishli",
+   "iso": "SYR",
+   "lon": 41.23,
+   "lat": 37.03,
+   "vp": 2
+  },
+  {
+   "name": "Madinat ath Thawrah",
+   "iso": "SYR",
+   "lon": 38.548,
+   "lat": 35.837,
+   "vp": 2
+  },
+  {
+   "name": "Abu Kamal",
+   "iso": "SYR",
+   "lon": 40.919,
+   "lat": 34.45,
+   "vp": 2
+  },
+  {
+   "name": "As Suwayda",
+   "iso": "SYR",
+   "lon": 36.567,
+   "lat": 32.7,
+   "vp": 1
+  },
+  {
+   "name": "Tadmur",
+   "iso": "SYR",
+   "lon": 38.283,
+   "lat": 34.55,
+   "vp": 1
+  },
+  {
+   "name": "Amman",
+   "iso": "JOR",
+   "lon": 35.931,
+   "lat": 31.952,
+   "capital": true,
+   "vp": 15,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Aqaba",
+   "iso": "JOR",
+   "lon": 35.078,
+   "lat": 29.527,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Zarqa",
+   "iso": "JOR",
+   "lon": 36.1,
+   "lat": 32.07,
+   "vp": 6
+  },
+  {
+   "name": "Irbid",
+   "iso": "JOR",
+   "lon": 35.85,
+   "lat": 32.55,
+   "vp": 6
+  },
+  {
+   "name": "As Salt",
+   "iso": "JOR",
+   "lon": 35.727,
+   "lat": 32.039,
+   "vp": 2
+  },
+  {
+   "name": "Al Karak",
+   "iso": "JOR",
+   "lon": 35.705,
+   "lat": 31.185,
+   "vp": 2
+  },
+  {
+   "name": "Al Mafraq",
+   "iso": "JOR",
+   "lon": 36.233,
+   "lat": 32.283,
+   "vp": 1
+  },
+  {
+   "name": "Ma'an",
+   "iso": "JOR",
+   "lon": 35.736,
+   "lat": 30.192,
+   "vp": 1
+  },
+  {
+   "name": "At Tafilah",
+   "iso": "JOR",
+   "lon": 35.6,
+   "lat": 30.833,
+   "vp": 1
+  },
+  {
+   "name": "Baghdad",
+   "iso": "IRQ",
+   "lon": 44.392,
+   "lat": 33.341,
+   "capital": true,
+   "vp": 30,
+   "air": 3,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Mosul",
+   "iso": "IRQ",
+   "lon": 43.143,
+   "lat": 36.347,
+   "vp": 10,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Erbil",
+   "iso": "IRQ",
+   "lon": 44.007,
+   "lat": 36.181,
+   "capital": true,
+   "vp": 10
+  },
+  {
+   "name": "Basra",
+   "iso": "IRQ",
+   "lon": 47.812,
+   "lat": 30.515,
+   "vp": 6,
+   "port": 1,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Sulaymaniyah",
+   "iso": "IRQ",
+   "lon": 45.431,
+   "lat": 35.561,
+   "capital": true,
+   "vp": 10
+  },
+  {
+   "name": "Umm Qasr",
+   "iso": "IRQ",
+   "lon": 47.95,
+   "lat": 30.033,
+   "vp": 1,
+   "port": 2
+  },
+  {
+   "name": "Duhok",
+   "iso": "IRQ",
+   "lon": 43.0,
+   "lat": 36.867,
+   "vp": 6
+  },
+  {
+   "name": "Najaf",
+   "iso": "IRQ",
+   "lon": 44.335,
+   "lat": 32.0,
+   "vp": 6
+  },
+  {
+   "name": "Kirkuk",
+   "iso": "IRQ",
+   "lon": 44.392,
+   "lat": 35.472,
+   "vp": 6
+  },
+  {
+   "name": "Al Hillah",
+   "iso": "IRQ",
+   "lon": 44.422,
+   "lat": 32.472,
+   "vp": 6
+  },
+  {
+   "name": "Karbala",
+   "iso": "IRQ",
+   "lon": 44.024,
+   "lat": 32.615,
+   "vp": 6
+  },
+  {
+   "name": "An Nasiriyah",
+   "iso": "IRQ",
+   "lon": 46.268,
+   "lat": 31.043,
+   "vp": 3
+  },
+  {
+   "name": "Ad Diwaniyah",
+   "iso": "IRQ",
+   "lon": 44.924,
+   "lat": 31.989,
+   "vp": 3
+  },
+  {
+   "name": "Al Amarah",
+   "iso": "IRQ",
+   "lon": 47.151,
+   "lat": 31.842,
+   "vp": 3
+  },
+  {
+   "name": "Al Kut",
+   "iso": "IRQ",
+   "lon": 45.83,
+   "lat": 32.491,
+   "vp": 3
+  },
+  {
+   "name": "Baqubah",
+   "iso": "IRQ",
+   "lon": 44.657,
+   "lat": 33.748,
+   "vp": 3
+  },
+  {
+   "name": "Ar Ramadi",
+   "iso": "IRQ",
+   "lon": 43.3,
+   "lat": 33.42,
+   "vp": 3
+  },
+  {
+   "name": "Az Aubayr",
+   "iso": "IRQ",
+   "lon": 47.708,
+   "lat": 30.389,
+   "vp": 3
+  },
+  {
+   "name": "Al Fallujah",
+   "iso": "IRQ",
+   "lon": 43.777,
+   "lat": 33.348,
+   "vp": 3
+  },
+  {
+   "name": "As Samawah",
+   "iso": "IRQ",
+   "lon": 45.28,
+   "lat": 31.31,
+   "vp": 2
+  },
+  {
+   "name": "Ash Shatrah",
+   "iso": "IRQ",
+   "lon": 46.177,
+   "lat": 31.418,
+   "vp": 2
+  },
+  {
+   "name": "Samarra",
+   "iso": "IRQ",
+   "lon": 43.875,
+   "lat": 34.194,
+   "vp": 2
+  },
+  {
+   "name": "Tall Afar",
+   "iso": "IRQ",
+   "lon": 42.45,
+   "lat": 36.376,
+   "vp": 2
+  },
+  {
+   "name": "Zakho",
+   "iso": "IRQ",
+   "lon": 42.687,
+   "lat": 37.145,
+   "vp": 2
+  },
+  {
+   "name": "Riyadh",
+   "iso": "SAU",
+   "lon": 46.771,
+   "lat": 24.643,
+   "capital": true,
+   "vp": 20,
+   "air": 3,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Jeddah",
+   "iso": "SAU",
+   "lon": 39.217,
+   "lat": 21.519,
+   "vp": 15,
+   "port": 3,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Dammam",
+   "iso": "SAU",
+   "lon": 50.098,
+   "lat": 26.43,
+   "vp": 15,
+   "port": 3
+  },
+  {
+   "name": "Mecca",
+   "iso": "SAU",
+   "lon": 39.818,
+   "lat": 21.432,
+   "vp": 10,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Tabuk",
+   "iso": "SAU",
+   "lon": 36.555,
+   "lat": 28.384,
+   "vp": 6,
+   "air": 1
+  },
+  {
+   "name": "Yanbu al Bahr",
+   "iso": "SAU",
+   "lon": 38.049,
+   "lat": 24.094,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Al Jubayl",
+   "iso": "SAU",
+   "lon": 49.646,
+   "lat": 27.005,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Dhahran",
+   "iso": "SAU",
+   "lon": 50.158,
+   "lat": 26.291,
+   "vp": 2,
+   "air": 2
+  },
+  {
+   "name": "Medina",
+   "iso": "SAU",
+   "lon": 39.578,
+   "lat": 24.502,
+   "vp": 10
+  },
+  {
+   "name": "At Taif",
+   "iso": "SAU",
+   "lon": 40.382,
+   "lat": 21.262,
+   "vp": 6
+  },
+  {
+   "name": "Hofuf",
+   "iso": "SAU",
+   "lon": 49.586,
+   "lat": 25.349,
+   "vp": 6
+  },
+  {
+   "name": "Al Hillah",
+   "iso": "SAU",
+   "lon": 46.756,
+   "lat": 23.489,
+   "vp": 6
+  },
+  {
+   "name": "Buraydah",
+   "iso": "SAU",
+   "lon": 43.963,
+   "lat": 26.366,
+   "vp": 3
+  },
+  {
+   "name": "Hail",
+   "iso": "SAU",
+   "lon": 41.7,
+   "lat": 27.524,
+   "vp": 3
+  },
+  {
+   "name": "Najran",
+   "iso": "SAU",
+   "lon": 44.132,
+   "lat": 17.507,
+   "vp": 3
+  },
+  {
+   "name": "Al-Qatif",
+   "iso": "SAU",
+   "lon": 50.012,
+   "lat": 26.52,
+   "vp": 3
+  },
+  {
+   "name": "Al Mubarraz",
+   "iso": "SAU",
+   "lon": 49.566,
+   "lat": 25.429,
+   "vp": 3
+  },
+  {
+   "name": "Al Kharj",
+   "iso": "SAU",
+   "lon": 47.312,
+   "lat": 24.156,
+   "vp": 3
+  },
+  {
+   "name": "Hafar al Batin",
+   "iso": "SAU",
+   "lon": 45.96,
+   "lat": 28.434,
+   "vp": 3
+  },
+  {
+   "name": "Arar",
+   "iso": "SAU",
+   "lon": 41.021,
+   "lat": 30.99,
+   "vp": 3
+  },
+  {
+   "name": "Abha",
+   "iso": "SAU",
+   "lon": 42.5,
+   "lat": 18.23,
+   "vp": 3
+  },
+  {
+   "name": "Sakakah",
+   "iso": "SAU",
+   "lon": 40.133,
+   "lat": 30.0,
+   "vp": 2
+  },
+  {
+   "name": "Jizan",
+   "iso": "SAU",
+   "lon": 42.557,
+   "lat": 16.907,
+   "vp": 2
+  },
+  {
+   "name": "Qal at Bishah",
+   "iso": "SAU",
+   "lon": 42.599,
+   "lat": 20.009,
+   "vp": 2
+  },
+  {
+   "name": "Rafha",
+   "iso": "SAU",
+   "lon": 43.495,
+   "lat": 29.62,
+   "vp": 1
+  },
+  {
+   "name": "Al Wajh",
+   "iso": "SAU",
+   "lon": 36.464,
+   "lat": 26.232,
+   "vp": 1
+  },
+  {
+   "name": "Sana'a",
+   "iso": "YEM",
+   "lon": 44.205,
+   "lat": 15.357,
+   "capital": true,
+   "vp": 20,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Aden",
+   "iso": "YEM",
+   "lon": 45.009,
+   "lat": 12.78,
+   "vp": 6,
+   "port": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.0
+  },
+  {
+   "name": "Hodeidah",
+   "iso": "YEM",
+   "lon": 42.951,
+   "lat": 14.8,
+   "vp": 6,
+   "port": 1
+  },
+  {
+   "name": "Mukalla",
+   "iso": "YEM",
+   "lon": 49.126,
+   "lat": 14.541,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Taiz",
+   "iso": "YEM",
+   "lon": 44.037,
+   "lat": 13.606,
+   "vp": 6
+  },
+  {
+   "name": "Ibb",
+   "iso": "YEM",
+   "lon": 44.171,
+   "lat": 13.976,
+   "vp": 3
+  },
+  {
+   "name": "Hajjah",
+   "iso": "YEM",
+   "lon": 43.602,
+   "lat": 15.692,
+   "vp": 3
+  },
+  {
+   "name": "Dhamar",
+   "iso": "YEM",
+   "lon": 44.387,
+   "lat": 14.557,
+   "vp": 2
+  },
+  {
+   "name": "Zabīd",
+   "iso": "YEM",
+   "lon": 43.316,
+   "lat": 14.195,
+   "vp": 2
+  },
+  {
+   "name": "Sadah",
+   "iso": "YEM",
+   "lon": 43.85,
+   "lat": 16.94,
+   "vp": 2
+  },
+  {
+   "name": "Saywun",
+   "iso": "YEM",
+   "lon": 48.787,
+   "lat": 15.943,
+   "vp": 1
+  },
+  {
+   "name": "Lahij",
+   "iso": "YEM",
+   "lon": 44.884,
+   "lat": 13.058,
+   "vp": 1
+  },
+  {
+   "name": "Ash Shihr",
+   "iso": "YEM",
+   "lon": 49.609,
+   "lat": 14.759,
+   "vp": 1
+  },
+  {
+   "name": "Rida",
+   "iso": "YEM",
+   "lon": 44.834,
+   "lat": 14.429,
+   "vp": 1
+  },
+  {
+   "name": "Al Bayda",
+   "iso": "YEM",
+   "lon": 45.574,
+   "lat": 13.979,
+   "vp": 1
+  },
+  {
+   "name": "'Ataq",
+   "iso": "YEM",
+   "lon": 46.8,
+   "lat": 14.55,
+   "vp": 1
+  },
+  {
+   "name": "Al Ghaydah",
+   "iso": "YEM",
+   "lon": 52.164,
+   "lat": 16.239,
+   "vp": 1
+  },
+  {
+   "name": "Muscat",
+   "iso": "OMN",
+   "lon": 58.593,
+   "lat": 23.613,
+   "capital": true,
+   "vp": 12,
+   "port": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.0
+  },
+  {
+   "name": "Salalah",
+   "iso": "OMN",
+   "lon": 54.085,
+   "lat": 17.025,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Seeb",
+   "iso": "OMN",
+   "lon": 58.183,
+   "lat": 23.68,
+   "vp": 3
+  },
+  {
+   "name": "Suhar",
+   "iso": "OMN",
+   "lon": 56.734,
+   "lat": 24.362,
+   "vp": 2
+  },
+  {
+   "name": "Ibri",
+   "iso": "OMN",
+   "lon": 56.517,
+   "lat": 23.225,
+   "vp": 2
+  },
+  {
+   "name": "Nizwa",
+   "iso": "OMN",
+   "lon": 57.531,
+   "lat": 22.926,
+   "vp": 1
+  },
+  {
+   "name": "Sur",
+   "iso": "OMN",
+   "lon": 59.535,
+   "lat": 22.576,
+   "vp": 1
+  },
+  {
+   "name": "Alayat Samail",
+   "iso": "OMN",
+   "lon": 57.978,
+   "lat": 23.303,
+   "vp": 1
+  },
+  {
+   "name": "Dubai",
+   "iso": "ARE",
+   "lon": 55.278,
+   "lat": 25.232,
+   "vp": 10,
+   "port": 3,
+   "city_province": true,
+   "radius": 2.2
+  },
+  {
+   "name": "Abu Dhabi",
+   "iso": "ARE",
+   "lon": 54.367,
+   "lat": 24.467,
+   "capital": true,
+   "vp": 12,
+   "port": 2,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.0
+  },
+  {
+   "name": "Fujairah",
+   "iso": "ARE",
+   "lon": 56.337,
+   "lat": 25.123,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Sharjah",
+   "iso": "ARE",
+   "lon": 55.406,
+   "lat": 25.371,
+   "vp": 10
+  },
+  {
+   "name": "Al Ayn",
+   "iso": "ARE",
+   "lon": 55.74,
+   "lat": 24.23,
+   "vp": 3
+  },
+  {
+   "name": "Ras al-Khaimah",
+   "iso": "ARE",
+   "lon": 55.943,
+   "lat": 25.792,
+   "vp": 2
+  },
+  {
+   "name": "Jabal Ali",
+   "iso": "ARE",
+   "lon": 55.011,
+   "lat": 24.976,
+   "vp": 1
+  },
+  {
+   "name": "Umm al Qaywayn",
+   "iso": "ARE",
+   "lon": 55.553,
+   "lat": 25.565,
+   "vp": 1
+  },
+  {
+   "name": "Doha",
+   "iso": "QAT",
+   "lon": 51.533,
+   "lat": 25.287,
+   "capital": true,
+   "vp": 15,
+   "port": 1,
+   "air": 1
+  },
+  {
+   "name": "Manama",
+   "iso": "BHR",
+   "lon": 50.583,
+   "lat": 26.236,
+   "capital": true,
+   "vp": 12,
+   "port": 3,
+   "air": 1
+  },
+  {
+   "name": "Kuwait City",
+   "iso": "KWT",
+   "lon": 47.976,
+   "lat": 29.372,
+   "capital": true,
+   "vp": 20,
+   "port": 2,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Al Jahra",
+   "iso": "KWT",
+   "lon": 47.658,
+   "lat": 29.337,
+   "vp": 2
+  },
+  {
+   "name": "Hawalli",
+   "iso": "KWT",
+   "lon": 48.0,
+   "lat": 29.333,
+   "vp": 2
+  },
+  {
+   "name": "Al Ahmadi",
+   "iso": "KWT",
+   "lon": 48.084,
+   "lat": 29.077,
+   "vp": 1
+  },
+  {
+   "name": "Nicosia",
+   "iso": "CYP",
+   "lon": 33.372,
+   "lat": 35.155,
+   "capital": true,
+   "vp": 12,
+   "air": 1
+  },
+  {
+   "name": "Limassol",
+   "iso": "CYP",
+   "lon": 33.033,
+   "lat": 34.675,
+   "vp": 2,
+   "port": 2
+  },
+  {
+   "name": "Larnaca",
+   "iso": "CYP",
+   "lon": 33.636,
+   "lat": 34.917,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Famagusta",
+   "iso": "CYP",
+   "lon": 33.95,
+   "lat": 35.125,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Lefkoşa",
+   "iso": "CYP",
+   "lon": 33.362,
+   "lat": 35.195,
+   "capital": true,
+   "vp": 10
+  },
+  {
+   "name": "Kyrenia",
+   "iso": "CYP",
+   "lon": 33.333,
+   "lat": 35.326,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Paphos",
+   "iso": "CYP",
+   "lon": 32.422,
+   "lat": 34.756,
+   "vp": 1
+  }
+ ],
+ "lakes": [
+  "Lake Nasser",
+  "Great Bitter Lake",
+  "Buhayrat al-Assad",
+  "Buhayrat ath Tharthar",
+  "Lake Habbaniyah",
+  "Dead Sea",
+  "Sea of Galilee"
+ ],
+ "resources": {
+  "DZA/Ouargla": {
+   "oil": 30
+  },
+  "DZA/Illizi": {
+   "oil": 8
+  },
+  "DZA/Adrar": {
+   "oil": 2
+  },
+  "DZA/Tébessa": {
+   "steel": 6
+  },
+  "LBY/Ajdabiya": {
+   "oil": 30
+  },
+  "LBY/Surt": {
+   "oil": 10
+  },
+  "LBY/Al Kufrah": {
+   "oil": 4
+  },
+  "LBY/Murzuq": {
+   "oil": 4
+  },
+  "EGY/Red Sea Governorate": {
+   "oil": 10
+  },
+  "EGY/South Sinai Governorate": {
+   "oil": 6
+  },
+  "EGY/Matrouh Governorate": {
+   "oil": 6
+  },
+  "TUN/Tataouine": {
+   "oil": 4
+  },
+  "TUN/Sfax": {
+   "oil": 2
+  },
+  "EGY/Aswan Governorate": {
+   "steel": 3
+  },
+  "SAU/Eastern Region": {
+   "oil": 340
+  },
+  "SAU/Riyadh Region": {
+   "oil": 20
+  },
+  "IRQ/Al-Basrah": {
+   "oil": 70
+  },
+  "IRQ/Kirkuk": {
+   "oil": 35
+  },
+  "IRQ/Maysan": {
+   "oil": 5
+  },
+  "KWT/Ahmadi": {
+   "oil": 70
+  },
+  "KWT/Jahra": {
+   "oil": 15
+  },
+  "ARE/Abu Dhabi": {
+   "oil": 90
+  },
+  "ARE/Dubai": {
+   "oil": 10
+  },
+  "QAT/Al Rayyan": {
+   "oil": 30
+  },
+  "OMN/Al Wusta": {
+   "oil": 25
+  },
+  "OMN/Az Zahirah": {
+   "oil": 10,
+   "chromium": 2
+  },
+  "OMN/Dhofar": {
+   "oil": 5
+  },
+  "SYR/Deir-ez-Zor": {
+   "oil": 18
+  },
+  "SYR/Al-Hasakeh": {
+   "oil": 6
+  },
+  "YEM/Ma'rib Governorate": {
+   "oil": 10
+  },
+  "YEM/Hadhramaut": {
+   "oil": 10
+  },
+  "BHR/Southern Governorate": {
+   "oil": 2
+  }
+ }
+}

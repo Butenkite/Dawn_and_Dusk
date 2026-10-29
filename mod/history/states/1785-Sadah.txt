@@ -1,0 +1,21 @@
+state={
+	id=1785
+	name="STATE_1785" # Sa'dah
+	manpower = 632000
+	state_category = town
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 16174 2 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16173 16174 
+	}
+
+	local_supplies=0.0
+}

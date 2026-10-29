@@ -1,0 +1,23 @@
+state={
+	id=1463
+	name="STATE_1463" # Sotavento
+	manpower = 200000
+	state_category = rural
+
+	history={
+		owner = CBV
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			14947 = { naval_base = 1 }
+		}
+		victory_points = { 14947 12 }
+		add_core_of = CBV
+	}
+
+	provinces={
+		14947 
+	}
+
+	local_supplies=0.0
+}

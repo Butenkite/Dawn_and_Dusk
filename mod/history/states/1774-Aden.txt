@@ -1,0 +1,23 @@
+state={
+	id=1774
+	name="STATE_1774" # Aden
+	manpower = 533000
+	state_category = town
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			16139 = { naval_base = 2 }
+		}
+		victory_points = { 16139 6 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16139 
+	}
+
+	local_supplies=0.0
+}

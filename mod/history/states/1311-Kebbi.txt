@@ -1,0 +1,21 @@
+state={
+	id=1311
+	name="STATE_1311" # Kebbi
+	manpower = 2851234
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14305 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14303 14304 14305 14306 14307 14308 14309 14310 
+	}
+
+	local_supplies=0.0
+}

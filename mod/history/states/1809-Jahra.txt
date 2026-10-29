@@ -1,0 +1,25 @@
+state={
+	id=1809
+	name="STATE_1809" # Jahra
+	manpower = 326365
+	state_category = rural
+
+	resources={
+		oil=15
+	}
+
+	history={
+		owner = KUW
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 16237 2 }
+		add_core_of = KUW
+	}
+
+	provinces={
+		16236 16237 16238 
+	}
+
+	local_supplies=0.0
+}

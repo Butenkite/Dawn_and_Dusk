@@ -1,0 +1,21 @@
+state={
+	id=1508
+	name="STATE_1508" # Ilubabor
+	manpower = 567779
+	state_category = town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15169 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15168 15169 
+	}
+
+	local_supplies=0.0
+}

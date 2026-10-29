@@ -1,0 +1,24 @@
+state={
+	id=1664
+	name="STATE_1664" # Benghazi
+	manpower = 664000
+	state_category = town
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			10923 = { naval_base = 2 }
+		}
+		victory_points = { 10923 10 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10923 11910 11919 
+	}
+
+	local_supplies=0.0
+}

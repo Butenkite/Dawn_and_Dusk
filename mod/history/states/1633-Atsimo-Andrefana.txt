@@ -1,0 +1,22 @@
+state={
+	id=1633
+	name="STATE_1633" # Atsimo-Andrefana
+	manpower = 1111000
+	state_category = large_town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+			15638 = { naval_base = 1 }
+		}
+		victory_points = { 15638 2 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15631 15632 15633 15634 15635 15636 15637 15638 
+	}
+
+	local_supplies=0.0
+}

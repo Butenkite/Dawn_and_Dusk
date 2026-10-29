@@ -1,0 +1,21 @@
+state={
+	id=1501
+	name="STATE_1501" # East Harerge
+	manpower = 1445386
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15149 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15147 15148 15149 15150 15151 
+	}
+
+	local_supplies=0.0
+}

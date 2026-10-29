@@ -1,0 +1,22 @@
+state={
+	id=183
+	name="STATE_183" # Boujdour
+	manpower = 81411
+	state_category = pastoral
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 792 1 }
+		add_core_of = MOR
+		add_claim_by = SAH
+	}
+
+	provinces={
+		1 78 792 
+	}
+
+	local_supplies=0.0
+}

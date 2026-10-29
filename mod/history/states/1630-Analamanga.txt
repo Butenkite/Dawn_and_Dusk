@@ -1,0 +1,23 @@
+state={
+	id=1630
+	name="STATE_1630" # Analamanga
+	manpower = 2238076
+	state_category = city
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = { 15621 15 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15621 15622 15623 15624 15625 15626 
+	}
+
+	local_supplies=0.0
+}

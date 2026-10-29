@@ -1,0 +1,24 @@
+state={
+	id=1800
+	name="STATE_1800" # Sharjah
+	manpower = 745929
+	state_category = town
+
+	history={
+		owner = UAE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			16215 = { naval_base = 1 }
+		}
+		victory_points = { 16215 2 }
+		victory_points = { 16214 10 }
+		add_core_of = UAE
+	}
+
+	provinces={
+		16213 16214 16215 
+	}
+
+	local_supplies=0.0
+}

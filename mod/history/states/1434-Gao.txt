@@ -1,0 +1,21 @@
+state={
+	id=1434
+	name="STATE_1434" # Gao
+	manpower = 337419
+	state_category = rural
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14821 2 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14817 14818 14819 14820 14821 
+	}
+
+	local_supplies=0.0
+}

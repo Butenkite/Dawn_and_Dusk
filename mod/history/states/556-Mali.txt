@@ -1,0 +1,21 @@
+state={
+	id=556
+	name="STATE_556" # Zamfara
+	manpower = 2868818
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 7954 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		5101 7930 7939 7943 7950 7954 7959 7972 7978 7983 
+	}
+
+	local_supplies=0.0
+}

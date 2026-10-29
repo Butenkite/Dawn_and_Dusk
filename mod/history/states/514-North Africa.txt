@@ -1,0 +1,24 @@
+state={
+	id=514
+	name="STATE_514" # Sétif
+	manpower = 1915000
+	state_category = city
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 4486 3 }
+		victory_points = { 4574 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4440 4486 4550 4562 4574 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=1629
+	name="STATE_1629" # Betsiboka
+	manpower = 246999
+	state_category = rural
+
+	resources={
+		chromium=5
+	}
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15620 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15619 15620 
+	}
+
+	local_supplies=0.0
+}

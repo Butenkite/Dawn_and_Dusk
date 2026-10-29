@@ -1,0 +1,21 @@
+state={
+	id=1487
+	name="STATE_1487" # Hadiya
+	manpower = 1824534
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15092 2 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15091 15092 15093 15094 
+	}
+
+	local_supplies=0.0
+}

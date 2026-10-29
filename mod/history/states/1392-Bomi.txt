@@ -1,0 +1,21 @@
+state={
+	id=1392
+	name="STATE_1392" # Bomi
+	manpower = 172000
+	state_category = rural
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14692 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14691 14692 
+	}
+
+	local_supplies=0.0
+}

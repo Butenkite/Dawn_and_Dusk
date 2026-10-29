@@ -1,0 +1,21 @@
+state={
+	id=1446
+	name="STATE_1446" # Atar
+	manpower = 52311
+	state_category = pastoral
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14903 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14902 14903 14904 14905 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1568
+	name="STATE_1568" # Tana River
+	manpower = 282000
+	state_category = rural
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+			15348 = { naval_base = 1 }
+		}
+		victory_points = { 15348 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15346 15347 15348 15349 
+	}
+
+	local_supplies=0.0
+}

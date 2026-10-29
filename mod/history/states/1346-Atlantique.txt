@@ -1,0 +1,21 @@
+state={
+	id=1346
+	name="STATE_1346" # Atlantique
+	manpower = 756000
+	state_category = town
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14508 2 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14508 
+	}
+
+	local_supplies=0.0
+}

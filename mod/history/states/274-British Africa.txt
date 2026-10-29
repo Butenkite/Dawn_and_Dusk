@@ -1,0 +1,22 @@
+state={
+	id=274
+	name="STATE_274" # Abuja
+	manpower = 737372
+	state_category = town
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+		victory_points = { 1962 15 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		1962 1969 1975 
+	}
+
+	local_supplies=0.0
+}

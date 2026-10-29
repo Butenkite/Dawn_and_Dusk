@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Somali National Front of Gedo (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 205 185 120 }

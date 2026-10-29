@@ -1,0 +1,22 @@
+state={
+	id=1466
+	name="STATE_1466" # Aweil
+	manpower = 439714
+	state_category = town
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15009 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		15009 15010 15011 15012 
+	}
+
+	local_supplies=0.0
+}

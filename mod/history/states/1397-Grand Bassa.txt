@@ -1,0 +1,22 @@
+state={
+	id=1397
+	name="STATE_1397" # Grand Bassa
+	manpower = 237731
+	state_category = rural
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+			14703 = { naval_base = 1 }
+		}
+		victory_points = { 14703 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14702 14703 14704 
+	}
+
+	local_supplies=0.0
+}

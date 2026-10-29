@@ -1,0 +1,21 @@
+state={
+	id=1741
+	name="STATE_1741" # Wasit
+	manpower = 791000
+	state_category = town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15907 3 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15907 15908 15909 15910 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,27 @@
+state={
+	id=1647
+	name="STATE_1647" # Sfax
+	manpower = 825260
+	state_category = large_town
+
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			10028 = { naval_base = 2 }
+		}
+		victory_points = { 10028 3 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		10026 10028 10031 10037 
+	}
+
+	local_supplies=0.0
+}

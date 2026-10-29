@@ -1,0 +1,21 @@
+state={
+	id=1665
+	name="STATE_1665" # Gharyan
+	manpower = 198000
+	state_category = rural
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 11922 2 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		11921 11922 11923 11935 
+	}
+
+	local_supplies=0.0
+}

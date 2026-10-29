@@ -1,0 +1,22 @@
+state={
+	id=1676
+	name="STATE_1676" # Suez
+	manpower = 471999
+	state_category = town
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+			12088 = { naval_base = 2 }
+		}
+		victory_points = { 12088 6 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		12088 12091 12094 
+	}
+
+	local_supplies=0.0
+}

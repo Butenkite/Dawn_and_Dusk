@@ -1,0 +1,23 @@
+state={
+	id=1553
+	name="STATE_1553" # Sool
+	manpower = 41157
+	state_category = pastoral
+
+	history={
+		owner = PNT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15290 1 }
+		add_core_of = PNT
+		add_core_of = SOM
+		add_claim_by = SML
+	}
+
+	provinces={
+		15290 
+	}
+
+	local_supplies=0.0
+}

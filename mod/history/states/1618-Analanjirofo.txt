@@ -1,0 +1,21 @@
+state={
+	id=1618
+	name="STATE_1618" # Analanjirofo
+	manpower = 709751
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15576 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15575 15576 15577 15578 15579 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1488
+	name="STATE_1488" # Wolayita
+	manpower = 1681403
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15097 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15095 15096 15097 
+	}
+
+	local_supplies=0.0
+}

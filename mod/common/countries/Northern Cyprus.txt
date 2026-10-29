@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Turkish Republic of Northern Cyprus (not in vanilla)
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+
+color = { 200 60 60 }

@@ -1,0 +1,24 @@
+state={
+	id=1704
+	name="STATE_1704" # Mount Lebanon
+	manpower = 1230021
+	state_category = large_town
+
+	history={
+		owner = LEB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			15729 = { naval_base = 2 }
+		}
+		victory_points = { 15729 15 }
+		add_core_of = LEB
+	}
+
+	provinces={
+		15728 15729 15730 
+	}
+
+	local_supplies=0.0
+}

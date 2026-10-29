@@ -1,0 +1,26 @@
+state={
+	id=1559
+	name="STATE_1559" # Mogadishu
+	manpower = 2073004
+	state_category = city
+
+	history={
+		owner = SNA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			15303 = { naval_base = 2 }
+			15309 = { naval_base = 1 }
+		}
+		victory_points = { 15303 15 }
+		victory_points = { 15309 1 }
+		add_core_of = SNA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15303 15304 15305 15306 15307 15308 15309 
+	}
+
+	local_supplies=0.0
+}

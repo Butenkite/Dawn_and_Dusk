@@ -1,0 +1,25 @@
+state={
+	id=1459
+	name="STATE_1459" # Zouirat
+	manpower = 32428
+	state_category = pastoral
+
+	resources={
+		steel=11
+	}
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14935 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14933 14934 14935 14936 14937 
+	}
+
+	local_supplies=0.0
+}

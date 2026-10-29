@@ -1,0 +1,25 @@
+state={
+	id=786
+	name="STATE_786" # Plateau
+	manpower = 2810000
+	state_category = city
+
+	resources={
+		tungsten=3
+	}
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14262 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14256 14257 14258 14259 14260 14261 14262 14263 
+	}
+
+	local_supplies=0.0
+}

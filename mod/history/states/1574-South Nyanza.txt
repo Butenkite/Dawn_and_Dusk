@@ -1,0 +1,21 @@
+state={
+	id=1574
+	name="STATE_1574" # South Nyanza
+	manpower = 1557000
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15369 2 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15369 15370 
+	}
+
+	local_supplies=0.0
+}

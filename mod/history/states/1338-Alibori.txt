@@ -1,0 +1,21 @@
+state={
+	id=1338
+	name="STATE_1338" # Alibori
+	manpower = 491608
+	state_category = town
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14491 2 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14491 14492 14493 
+	}
+
+	local_supplies=0.0
+}

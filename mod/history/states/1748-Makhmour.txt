@@ -1,0 +1,21 @@
+state={
+	id=1748
+	name="STATE_1748" # Makhmour
+	manpower = 116728
+	state_category = pastoral
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15939 1 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15939 
+	}
+
+	local_supplies=0.0
+}

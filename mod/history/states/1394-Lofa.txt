@@ -1,0 +1,21 @@
+state={
+	id=1394
+	name="STATE_1394" # Lofa
+	manpower = 228493
+	state_category = rural
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14694 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14694 14695 
+	}
+
+	local_supplies=0.0
+}

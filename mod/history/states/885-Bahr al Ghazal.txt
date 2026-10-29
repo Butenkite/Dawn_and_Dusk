@@ -1,0 +1,23 @@
+state={
+	id=885
+	name="STATE_885" # Juba
+	manpower = 476889
+	state_category = town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		victory_points = { 14980 2 }
+		add_core_of = SUD
+		add_core_of = SPL
+	}
+
+	provinces={
+		14980 14981 14982 14983 
+	}
+
+	local_supplies=0.0
+}

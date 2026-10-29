@@ -1,0 +1,21 @@
+state={
+	id=1442
+	name="STATE_1442" # Timbuktu
+	manpower = 348493
+	state_category = rural
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14891 1 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14884 14885 14886 14887 14888 14889 14890 14891 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1366
+	name="STATE_1366" # Centre-Est
+	manpower = 935000
+	state_category = large_town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14595 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14594 14595 14596 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=460
+	name="STATE_460" # Chlef
+	manpower = 1606093
+	state_category = city
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 4143 3 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4133 4136 4139 4143 
+	}
+
+	local_supplies=0.0
+}

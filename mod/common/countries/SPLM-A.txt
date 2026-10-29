@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Sudan People's Liberation Movement/Army (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 35 110 60 }

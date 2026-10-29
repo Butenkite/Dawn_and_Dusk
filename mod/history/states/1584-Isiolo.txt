@@ -1,0 +1,21 @@
+state={
+	id=1584
+	name="STATE_1584" # Isiolo
+	manpower = 51395
+	state_category = pastoral
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15399 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15399 15400 15401 
+	}
+
+	local_supplies=0.0
+}

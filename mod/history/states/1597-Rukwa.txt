@@ -1,0 +1,22 @@
+state={
+	id=1597
+	name="STATE_1597" # Rukwa
+	manpower = 1134000
+	state_category = large_town
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15463 2 }
+		victory_points = { 15461 1 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15457 15458 15459 15460 15461 15462 15463 
+	}
+
+	local_supplies=0.0
+}

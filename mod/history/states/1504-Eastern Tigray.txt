@@ -1,0 +1,21 @@
+state={
+	id=1504
+	name="STATE_1504" # Eastern Tigray
+	manpower = 846362
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15159 2 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15159 15160 
+	}
+
+	local_supplies=0.0
+}

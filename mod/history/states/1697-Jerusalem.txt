@@ -1,0 +1,22 @@
+state={
+	id=1697
+	name="STATE_1697" # Jerusalem
+	manpower = 620999
+	state_category = town
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = { 15716 15 }
+		add_core_of = ISR
+	}
+
+	provinces={
+		15716 
+	}
+
+	local_supplies=0.0
+}

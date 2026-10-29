@@ -1,0 +1,21 @@
+state={
+	id=1521
+	name="STATE_1521" # Segen
+	manpower = 494168
+	state_category = town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15208 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15208 15209 
+	}
+
+	local_supplies=0.0
+}

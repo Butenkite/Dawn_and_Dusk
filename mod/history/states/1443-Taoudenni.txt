@@ -1,0 +1,21 @@
+state={
+	id=1443
+	name="STATE_1443" # Taoudenni
+	manpower = 65755
+	state_category = pastoral
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14892 1 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14892 14893 14894 
+	}
+
+	local_supplies=0.0
+}

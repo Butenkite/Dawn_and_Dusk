@@ -1,0 +1,25 @@
+state={
+	id=1674
+	name="STATE_1674" # Alexandria
+	manpower = 3800000
+	state_category = large_city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 1
+			12073 = { naval_base = 4 }
+		}
+		victory_points = { 12073 15 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		12073 12079 
+	}
+
+	local_supplies=0.0
+}

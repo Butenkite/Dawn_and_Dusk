@@ -1,0 +1,23 @@
+state={
+	id=1438
+	name="STATE_1438" # Bamako
+	manpower = 2875280
+	state_category = city
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = { 14840 15 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14840 14841 14842 14843 14844 14845 14846 14847 14848 14849 14850 14851 14852 14853 14854 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1516
+	name="STATE_1516" # North Shewa
+	manpower = 1431941
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15193 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15193 15194 15195 15196 
+	}
+
+	local_supplies=0.0
+}

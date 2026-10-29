@@ -1,0 +1,28 @@
+state={
+	id=1764
+	name="STATE_1764" # Jeddah
+	manpower = 3624781
+	state_category = large_city
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			16067 = { naval_base = 3 }
+		}
+		victory_points = { 16067 15 }
+		victory_points = { 16068 10 }
+		victory_points = { 16079 6 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16067 16068 16069 16070 16071 16072 16073 16074 16075 16076 16077 16078 16079 
+	}
+
+	local_supplies=0.0
+}

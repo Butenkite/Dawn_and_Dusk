@@ -1,0 +1,21 @@
+state={
+	id=1803
+	name="STATE_1803" # Fujairah
+	manpower = 67448
+	state_category = pastoral
+
+	history={
+		owner = UAE
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 16225 1 }
+		add_core_of = UAE
+	}
+
+	provinces={
+		16225 
+	}
+
+	local_supplies=0.0
+}

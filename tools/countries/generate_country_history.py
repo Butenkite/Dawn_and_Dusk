@@ -81,26 +81,119 @@ GOVERNMENT = {
     "RWA": "transitional_authority",
     "BRD": "military_government",
     "UGA": "republic",
+    # west Africa
+    "NGA": "federal_republic",
+    "NGR": "republic",
+    "DAH": "republic",
+    "TOG": "republic",
+    "GHA": "republic",
+    "VOL": "republic",
+    "IVO": "military_government",      # Guéï's junta since the coup of 24 December 1999
+    "LIB": "republic",
+    "SIE": "republic",
+    "RUF": "armed_movement",
+    "GNA": "republic",
+    "GNB": "transitional_authority",    # between the 1998-99 civil war and Yalá's election
+    "SEN": "republic",
+    "GAM": "republic",
+    "MLI": "republic",
+    "MRT": "republic",
+    "CBV": "republic",
+    # east Africa
+    "SUD": "republic",
+    "SPL": "armed_movement",
+    "ERI": "one_party_state",
+    "ETH": "federal_republic",
+    "DJI": "republic",
+    "SOM": "provisional_government",    # no government since 1991; the Arta conference is months away
+    "SML": "republic",                  # self-declared in 1991, recognised by no one
+    "PNT": "transitional_authority",    # three-year transitional charter of 1998
+    "SNA": "warlord_state",
+    "SSA": "warlord_state",
+    "HIR": "warlord_state",
+    "RRA": "armed_movement",
+    "JVA": "warlord_state",
+    "SNF": "warlord_state",
+    "KEN": "republic",
+    "TZN": "republic",
+    "MAD": "republic",
+    "COM": "military_government",       # Azali's junta since the coup of 30 April 1999
+    "ANJ": "provisional_government",    # seceded in August 1997
+    "MUS": "parliamentary_republic",
+    "SEY": "republic",
+    # north Africa and the Middle East
+    "MOR": "constitutional_monarchy",
+    "SAH": "one_party_state",            # the Polisario's republic, in exile at Tindouf and in the Free Zone
+    "ALG": "republic",
+    "TUN": "republic",
+    "LBA": "jamahiriya",
+    "ISR": "parliamentary_republic",
+    "PAL": "transitional_authority",     # the Oslo interim self-government
+    "LEB": "parliamentary_republic",
+    "SLA": "armed_movement",
+    "SYR": "one_party_state",
+    "JOR": "constitutional_monarchy",
+    "IRQ": "one_party_state",
+    "KDP": "provisional_government",
+    "PUK": "provisional_government",
+    "SAU": "absolute_monarchy",
+    "YEM": "republic",
+    "OMA": "absolute_monarchy",
+    "UAE": "absolute_monarchy",
+    "QAT": "absolute_monarchy",
+    "BHR": "absolute_monarchy",
+    "KUW": "constitutional_monarchy",
+    "CYP": "republic",
+    "NCY": "republic",
 }
 
 # Rebel movements and juntas: no elections whatever their ideology.
-NO_ELECTIONS = {"RCD", "MLC", "RML", "BRD"}
+NO_ELECTIONS = {"RCD", "MLC", "RML", "BRD", "RUF", "IVO",
+                "SPL", "ERI", "SOM", "SML", "PNT", "SNA", "SSA", "HIR", "RRA", "JVA", "SNF", "COM", "ANJ",
+                "SAH", "SLA", "KDP", "PUK", "PAL"}
 
 # Extra history lines for countries at war on 1 January 2000: the basic
 # small-arms technology and an order of battle from history/units (written
-# by tools/countries/generate_congo_war.py).
+# by tools/countries/generate_armies.py).
 AT_WAR = {
     "COG": "COG_2000", "RCD": "RCD_2000", "MLC": "MLC_2000", "RML": "RML_2000",
+    "SIE": "SIE_2000", "RUF": "RUF_2000",
+    "SUD": "SUD_2000", "SPL": "SPL_2000", "ETH": "ETH_2000", "ERI": "ERI_2000",
 }
+# Country flags set at the start: Sierra Leone and the RUF hold the line of
+# the Lomé ceasefire (July 1999), for content to break later.
+START_FLAGS = {"SIE": ["dnd_lome_ceasefire"], "RUF": ["dnd_lome_ceasefire"],
+               # the Comoros split since Anjouan's secession (August 1997), for
+               # the reunification to play out later
+               "COM": ["dnd_anjouan_secession"], "ANJ": ["dnd_anjouan_secession"],
+               # Somalia without a state: every faction, and the Somalia the
+               # Arta conference will try to rebuild
+               **{t: ["dnd_somali_collapse"] for t in ("SOM", "SML", "PNT", "SNA", "SSA", "HIR", "RRA", "JVA", "SNF")},
+               # standing arrangements of 2000, for content to keep or break:
+               # the Western Sahara ceasefire (1991), Israel's security zone in
+               # south Lebanon, the Oslo interim period, UN sanctions and the
+               # no-fly zones over Iraq, the KDP-PUK Washington Agreement (1998),
+               # the division of Cyprus (1974) and Algeria's Civil Concord (1999)
+               "MOR": ["dnd_western_sahara_ceasefire"], "SAH": ["dnd_western_sahara_ceasefire"],
+               "LEB": ["dnd_security_zone"], "SLA": ["dnd_security_zone"],
+               "ISR": ["dnd_security_zone", "dnd_oslo_interim"], "PAL": ["dnd_oslo_interim"],
+               "IRQ": ["dnd_un_sanctions", "dnd_no_fly_zones"],
+               "KDP": ["dnd_washington_agreement"], "PUK": ["dnd_washington_agreement"],
+               "CYP": ["dnd_cyprus_division"], "NCY": ["dnd_cyprus_division"],
+               "ALG": ["dnd_civil_concord"]}
 # Wars already running on 1 January 2000. Declared in history (as vanilla
 # does for Italy and Ethiopia in 1936), so the game opens mid-war with no
 # declaration popups.
 AT_WAR_WITH = {
     "COG": ["RCD", "MLC", "RML"],   # Kinshasa against all three rebel movements
     "RCD": ["RML"],                 # Rwanda's and Uganda's clients, as at Kisangani
+    "SUD": ["SPL"],                 # the Second Sudanese Civil War, since 1983
+    "ERI": ["ETH"],                 # the border war, since Eritrea took Badme in May 1998
 }
-WAR_STABILITY = {"COG": 0.35, "RCD": 0.3, "MLC": 0.4, "RML": 0.25}
-WAR_SUPPORT = {"COG": 0.5, "RCD": 0.5, "MLC": 0.45, "RML": 0.4}
+WAR_STABILITY = {"COG": 0.35, "RCD": 0.3, "MLC": 0.4, "RML": 0.25, "SIE": 0.35, "RUF": 0.3,
+                 "SUD": 0.4, "SPL": 0.45, "ETH": 0.5, "ERI": 0.55}
+WAR_SUPPORT = {"COG": 0.5, "RCD": 0.5, "MLC": 0.45, "RML": 0.4, "SIE": 0.3, "RUF": 0.45,
+               "SUD": 0.4, "SPL": 0.6, "ETH": 0.6, "ERI": 0.75}
 
 # Capitals of countries whose map region has been rebuilt come from the
 # map builder (tools/data/map/built.json), since their state ids change.
@@ -173,7 +266,8 @@ def main():
                     for t in AT_WAR_WITH.get(tag, [])),
                 popularities=pop_lines,
                 government=(f"set_country_flag = dnd_govt_{GOVERNMENT[tag]}\n"
-                            if tag in GOVERNMENT else ""),
+                            if tag in GOVERNMENT else "") + "".join(
+                    f"set_country_flag = {f}\n" for f in START_FLAGS.get(tag, [])),
             )
             path = os.path.join(OUT_DIR, f"{tag} - {row['name']}.txt")
             # utf-8 with BOM, matching what the game writes and expects

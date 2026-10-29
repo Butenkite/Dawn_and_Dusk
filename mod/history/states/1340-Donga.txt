@@ -1,0 +1,21 @@
+state={
+	id=1340
+	name="STATE_1340" # Donga
+	manpower = 331000
+	state_category = rural
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14498 3 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14497 14498 
+	}
+
+	local_supplies=0.0
+}

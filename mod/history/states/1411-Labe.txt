@@ -1,0 +1,21 @@
+state={
+	id=1411
+	name="STATE_1411" # Labé
+	manpower = 940000
+	state_category = large_town
+
+	history={
+		owner = GNA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14758 2 }
+		add_core_of = GNA
+	}
+
+	provinces={
+		14757 14758 14759 14760 
+	}
+
+	local_supplies=0.0
+}

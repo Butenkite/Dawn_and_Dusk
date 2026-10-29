@@ -1,0 +1,21 @@
+state={
+	id=1621
+	name="STATE_1621" # Melaky
+	manpower = 191186
+	state_category = rural
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15586 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15586 15587 15588 
+	}
+
+	local_supplies=0.0
+}

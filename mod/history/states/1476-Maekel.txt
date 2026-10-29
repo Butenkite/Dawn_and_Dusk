@@ -1,0 +1,22 @@
+state={
+	id=1476
+	name="STATE_1476" # Maekel
+	manpower = 671000
+	state_category = town
+
+	history={
+		owner = ERI
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+		victory_points = { 15046 12 }
+		add_core_of = ERI
+	}
+
+	provinces={
+		15046 15047 
+	}
+
+	local_supplies=0.0
+}

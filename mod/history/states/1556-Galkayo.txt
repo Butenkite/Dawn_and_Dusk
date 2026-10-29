@@ -1,0 +1,22 @@
+state={
+	id=1556
+	name="STATE_1556" # Galkayo
+	manpower = 181438
+	state_category = rural
+
+	history={
+		owner = PNT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15296 1 }
+		add_core_of = PNT
+		add_core_of = SOM
+	}
+
+	provinces={
+		15295 15296 
+	}
+
+	local_supplies=0.0
+}

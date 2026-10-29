@@ -1,0 +1,21 @@
+state={
+	id=1314
+	name="STATE_1314" # Adamawa
+	manpower = 2783000
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14328 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14320 14321 14322 14323 14324 14325 14326 14327 14328 
+	}
+
+	local_supplies=0.0
+}

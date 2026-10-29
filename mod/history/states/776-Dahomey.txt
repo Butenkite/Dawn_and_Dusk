@@ -1,0 +1,27 @@
+state={
+	id=776
+	name="STATE_776" # Rivers
+	manpower = 4436582
+	state_category = large_city
+
+	resources={
+		oil=26
+	}
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10805 = { naval_base = 2 }
+		}
+		victory_points = { 10805 10 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		10805 10812 10814 10820 10829 10831 
+	}
+
+	local_supplies=0.0
+}

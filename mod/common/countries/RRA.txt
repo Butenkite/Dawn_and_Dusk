@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Rahanweyn Resistance Army, at Baidoa since June 1999 (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 150 175 70 }

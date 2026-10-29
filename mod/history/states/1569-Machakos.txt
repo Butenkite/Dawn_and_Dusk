@@ -1,0 +1,21 @@
+state={
+	id=1569
+	name="STATE_1569" # Machakos
+	manpower = 1636376
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15352 2 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15350 15351 15352 15353 15354 
+	}
+
+	local_supplies=0.0
+}

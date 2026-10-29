@@ -1,0 +1,25 @@
+state={
+	id=1668
+	name="STATE_1668" # South Sinai
+	manpower = 139000
+	state_category = pastoral
+
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 11957 1 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		11954 11957 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=273
+	name="STATE_273" # Laayoune
+	manpower = 151720
+	state_category = rural
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+			901 = { naval_base = 1 }
+		}
+		victory_points = { 901 2 }
+		add_core_of = MOR
+		add_claim_by = SAH
+	}
+
+	provinces={
+		901 989 992 
+	}
+
+	local_supplies=0.0
+}

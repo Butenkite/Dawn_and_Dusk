@@ -1,0 +1,23 @@
+state={
+	id=451
+	name="STATE_451" # Dakhla
+	manpower = 10402
+	state_category = pastoral
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+			2018 = { naval_base = 1 }
+		}
+		victory_points = { 2018 2 }
+		add_core_of = MOR
+		add_claim_by = SAH
+	}
+
+	provinces={
+		2013 2018 
+	}
+
+	local_supplies=0.0
+}

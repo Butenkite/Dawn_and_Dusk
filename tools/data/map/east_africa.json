@@ -1,0 +1,2146 @@
+{
+ "name": "east_africa",
+ "projection": "tools/data/map/projection_africa.json",
+ "continent": "africa",
+ "province_size": {
+  "base": 170,
+  "reference_density": 1000,
+  "exponent": 0.5,
+  "min": 35,
+  "max": 500
+ },
+ "rail_level": {
+  "SDN": 1,
+  "ETH": 1,
+  "DJI": 1,
+  "KEN": 1,
+  "TZA": 1,
+  "MDG": 1,
+  "ERI": 1,
+  "SSD": 1
+ },
+ "supply_hub_min_vp": 10,
+ "a3_alias": {
+  "SOL": "SOM"
+ },
+ "_sources": "Populations: censuses closest to 2000 (KEN 2009, TZA 2002, ETH 2007, SDN/SSD 2008), UNDP 2005 for Somalia, scaled to UN 2000 totals. Approximate by design. Front lines: see the comments in the spec script and docs/CREDITS.md.",
+ "countries": {
+  "SDN": {
+   "tag": "SUD",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 4,
+    "mil": 2,
+    "dock": 1
+   },
+   "state_max_px": 4500,
+   "province_size": {
+    "max": 800
+   },
+   "pop2000": {
+    "Khartoum": 4607000.0,
+    "Gezira": 3129000.0,
+    "South Darfur": 2535000.0,
+    "East Darfur": 1049000.0,
+    "North Darfur": 1844000.0,
+    "West Darfur": 656000.0,
+    "Central Darfur": 490000.0,
+    "Kassala": 1565000.0,
+    "North Kordofan": 1923000.0,
+    "West Kordofan": 1136000.0,
+    "South Kordofan": 962000.0,
+    "Abyei PCA": 44000.0,
+    "White Nile": 1512000.0,
+    "Sennar": 1128000.0,
+    "Gedaref": 1180000.0,
+    "Red Sea": 1224000.0,
+    "River Nile": 979000.0,
+    "Northern": 612000.0,
+    "Blue Nile": 726000.0
+   },
+   "groups": {
+    "West Darfur": [
+     "West Darfur",
+     "Central Darfur"
+    ],
+    "South Darfur": [
+     "South Darfur",
+     "East Darfur"
+    ],
+    "West Kordofan": [
+     "West Kordofan",
+     "Abyei PCA"
+    ]
+   },
+   "control": {
+    "Heiban": "SPL",
+    "Um Durein": "SPL",
+    "Al Buram": "SPL",
+    "Al Kurmuk": "SPL",
+    "Geisan": "SPL",
+    "Hala'ib": "EGY"
+   }
+  },
+  "SSD": {
+   "tag": "SUD",
+   "infrastructure": 1,
+   "factories": {},
+   "pop2000": {
+    "Central Equatoria": 892000.0,
+    "Eastern Equatoria": 738000.0,
+    "Jonglei": 1103000.0,
+    "Lakes": 568000.0,
+    "Northern Bahr el Ghazal": 584000.0,
+    "Unity": 479000.0,
+    "Upper Nile": 779000.0,
+    "Warrap": 787000.0,
+    "Western Bahr el Ghazal": 268000.0,
+    "Western Equatoria": 503000.0
+   },
+   "names": {
+    "Central Equatoria": "Bahr al Jabal"
+   },
+   "control": {
+    "Ezo": "SPL",
+    "Ibba": "SPL",
+    "Maridi": "SPL",
+    "Mundri East": "SPL",
+    "Mundri West": "SPL",
+    "Mvolo": "SPL",
+    "Nagero": "SPL",
+    "Nzara": "SPL",
+    "Tambura": "SPL",
+    "Yambio": "SPL",
+    "Yei": "SPL",
+    "Morobo": "SPL",
+    "Kajo-keji": "SPL",
+    "Lainya": "SPL",
+    "Magwi": "SPL",
+    "Budi": "SPL",
+    "Ikotos": "SPL",
+    "Awerial": "SPL",
+    "Cueibet": "SPL",
+    "Rumbek Centre": "SPL",
+    "Rumbek East": "SPL",
+    "Rumbek North": "SPL",
+    "Wulu": "SPL",
+    "Yirol East": "SPL",
+    "Yirol West": "SPL",
+    "Tonj East": "SPL",
+    "Tonj North": "SPL",
+    "Tonj South": "SPL",
+    "Gogrial East": "SPL",
+    "Gogrial West": "SPL",
+    "Twic": "SPL",
+    "Aweil East": "SPL",
+    "Aweil North": "SPL",
+    "Aweil South": "SPL",
+    "Aweil West": "SPL",
+    "Jur River": "SPL",
+    "Twic East": "SPL",
+    "Duk": "SPL",
+    "Pochalla": "SPL"
+   },
+   "cores": [
+    "SPL"
+   ]
+  },
+  "ERI": {
+   "tag": "ERI",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 1,
+    "mil": 1
+   },
+   "pop2000": {
+    "Maekel Region": 671000.0,
+    "Debub Region": 850000.0,
+    "Gash-Barka Region": 671000.0,
+    "Anseba Region": 492000.0,
+    "Northen Red Sea Region": 537000.0,
+    "Southern Red Sea Region": 179000.0
+   },
+   "names": {
+    "Maekel Region": "Maekel",
+    "Debub Region": "Debub",
+    "Gash-Barka Region": "Gash-Barka",
+    "Anseba Region": "Anseba",
+    "Northen Red Sea Region": "Northern Red Sea",
+    "Southern Red Sea Region": "Southern Red Sea"
+   }
+  },
+  "ETH": {
+   "tag": "ETH",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 3,
+    "mil": 2
+   },
+   "state_units": true,
+   "state_max_px": 1400,
+   "province_size": {
+    "max": 700
+   },
+   "pop2000": {
+    "Tigray": 3869000.0,
+    "Afar": 1245000.0,
+    "Amhara": 15406000.0,
+    "Oromia": 24363000.0,
+    "Somali": 3986000.0,
+    "Beneshangul Gumu": 699000.0,
+    "SNNPR": 13435000.0,
+    "Gambela": 278000.0,
+    "Hareri": 161000.0,
+    "Addis Ababa": 2454000.0,
+    "Dire Dawa": 305000.0
+   },
+   "groups": {
+    "East Wellega": [
+     "East Wellega",
+     "Horo Guduru"
+    ],
+    "West Wellega": [
+     "West Wellega",
+     "Kelem Wellega"
+    ],
+    "Arsi": [
+     "Arsi",
+     "West Arsi"
+    ],
+    "Asosa": [
+     "Asosa",
+     "Kemashi"
+    ],
+    "South Wollo": [
+     "South Wollo",
+     "Special Woreda"
+    ],
+    "North Wollo": [
+     "North Wollo",
+     "Wag Himra"
+    ],
+    "Degehabur": [
+     "Jarar",
+     "Nogob"
+    ],
+    "Gurage": [
+     "Gurage",
+     "Selti"
+    ],
+    "Hadiya": [
+     "Hadiya",
+     "KT",
+     "Alaba",
+     "Yem"
+    ],
+    "Wolayita": [
+     "Wolayita",
+     "Dawro",
+     "Konta"
+    ],
+    "Sidama": [
+     "Sidama",
+     "Gedio"
+    ],
+    "Gamo Gofa": [
+     "Gamo Gofa",
+     "Basketo"
+    ],
+    "Bench Maji": [
+     "Bench Maji",
+     "Sheka"
+    ],
+    "Gambela": [
+     "Agnuak",
+     "Majang",
+     "Nuer"
+    ]
+   },
+   "names": {
+    "Central": "Central Tigray",
+    "Eastern": "Eastern Tigray",
+    "North Western": "North Western Tigray",
+    "Southern": "Southern Tigray",
+    "Western": "Western Tigray",
+    "Zone 2": "Kilbet Rasu",
+    "Zone 3": "Gabi Rasu",
+    "Zone 4": "Fantena Rasu",
+    "Zone 5": "Hari Rasu",
+    "Oromia": "Kemise",
+    "North Shewa(R3)": "North Shewa",
+    "North Shewa(R4)": "Selale",
+    "Awi/Agew": "Agew Awi",
+    "Special Woreda": "Argobba",
+    "Siti": "Shinile",
+    "Fafan": "Jijiga",
+    "Jarar": "Degehabur",
+    "Doolo": "Warder",
+    "Shabelle": "Gode",
+    "Hareri": "Harar",
+    "Region 14": "Addis Ababa",
+    "Zone 1": "Awsi Rasu",
+    "Segen Peoples'": "Segen",
+    "Keffa": "Kaffa"
+   },
+   "occupied": {
+    "level": "ADM3",
+    "units": {
+     "Erob": "ERI",
+     "Gulomekeda": "ERI"
+    }
+   }
+  },
+  "DJI": {
+   "tag": "DJI",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 1
+   },
+   "province_size": {
+    "min": 30
+   },
+   "pop2000": {
+    "Djibouti": 528000.0,
+    "Arta": 29000.0,
+    "Ali Sabieh": 38000.0,
+    "Dikhil": 48000.0,
+    "Tadjourah": 48000.0,
+    "Obock": 29000.0
+   },
+   "groups": {
+    "Djibouti": [
+     "Djibouti",
+     "Arta"
+    ]
+   }
+  },
+  "SOM": {
+   "tag": "SOM",
+   "infrastructure": 1,
+   "factories": {},
+   "pop2000": {
+    "Awdal": 367000.0,
+    "Woqooyi Galbeed": 830000.0,
+    "Togdheer": 474000.0,
+    "Sool": 178000.0,
+    "Sanaag": 320000.0,
+    "Bari": 438000.0,
+    "Nugaal": 178000.0,
+    "Mudug": 415000.0,
+    "Galgaduud": 391000.0,
+    "Hiiraan": 391000.0,
+    "Middle Shebelle": 604000.0,
+    "Banadir": 1067000.0,
+    "Lower Shebelle": 1007000.0,
+    "Bay": 735000.0,
+    "Bakool": 367000.0,
+    "Gedo": 391000.0,
+    "Middle Juba": 284000.0,
+    "Lower Juba": 462000.0
+   },
+   "names": {
+    "Woqooyi Galbeed": "Woqooyi Galbeed",
+    "Lower Shebelle": "Lower Shabelle",
+    "Middle Shebelle": "Middle Shabelle"
+   },
+   "part_names": {
+    "Mudug/Galkayo": "South Mudug",
+    "Mudug/Gaalkacyo": "North Mudug",
+    "Galgaduud/Mereeg": "Galgaduud",
+    "Middle Juba/Bu'aale": "Middle Juba",
+    "Gedo/Garbahaarey": "Gedo",
+    "Sool/Las Anod": "Las Anod",
+    "Sool/Taleh": "Sool",
+    "Sanaag/Erigavo": "Sanaag",
+    "Sanaag/Badhan": "Eastern Sanaag",
+    "Togdheer/Burao": "Togdheer",
+    "Togdheer/Buhodle": "Buhodle",
+    "Nugaal/Garowe": "Nugaal",
+    "Hiiraan/Beledweyne": "Hiiraan",
+    "Middle Shebelle/Jowhar": "Middle Shabelle",
+    "Bay/Baidoa": "Bay"
+   },
+   "control": {
+    "BAKI": "SML",
+    "BORAMA": "SML",
+    "LUGHAYA": "SML",
+    "ZEILA": "SML",
+    "BALIGUBADLE": "SML",
+    "BERBERA": "SML",
+    "GABILEY": "SML",
+    "HARGEISA": "SML",
+    "BURAO": "SML",
+    "ODWAYNE": "SML",
+    "SHEIKH": "SML",
+    "AYNABO": "SML",
+    "LAS ANOD": "SML",
+    "ERIGAVO": "SML",
+    "EL AFWEYN": "SML",
+    "ALULA": "PNT",
+    "BARGAAL": "PNT",
+    "BENDER BAYLA": "PNT",
+    "BOSSASO": "PNT",
+    "DANGOROYO": "PNT",
+    "GARDO": "PNT",
+    "HAFUN": "PNT",
+    "ISKUSHUBAN": "PNT",
+    "QANDALA": "PNT",
+    "RAKO": "PNT",
+    "UFEYN": "PNT",
+    "WACIYA": "PNT",
+    "BURTINLE": "PNT",
+    "EYL": "PNT",
+    "GAROWE": "PNT",
+    "GALKAYU NORTH": "PNT",
+    "GOLDOGOB": "PNT",
+    "JARIBAN": "PNT",
+    "HUDUN": "PNT",
+    "TALEH": "PNT",
+    "BUHODLE": "PNT",
+    "BADHAN": "PNT",
+    "ABDUL AZIZ": "SNA",
+    "BONDERE": "SNA",
+    "HAMAR JABJAB": "SNA",
+    "HAMAR WEYN": "SNA",
+    "HAWAL WADAG": "SNA",
+    "HELIWA": "SNA",
+    "KARAN": "SNA",
+    "SHANGANI": "SNA",
+    "SHIBIS": "SNA",
+    "WABERI": "SNA",
+    "WARDEGLY": "SNA",
+    "AFGOI": "SNA",
+    "AWDHEEGLE": "SNA",
+    "BRAVA": "SNA",
+    "DANYILE": "SNA",
+    "DHARKENLY": "SNA",
+    "HODAN": "SNA",
+    "KAHDA": "SNA",
+    "KURTUNWAAREY": "SNA",
+    "MADINA": "SNA",
+    "MARKA": "SNA",
+    "QORYOLEY": "SNA",
+    "SABLALE": "SNA",
+    "WANLEWEYNE": "SNA",
+    "YAQSHID": "SNA",
+    "GALKAYU SOUTH": "SNA",
+    "HOBYO": "SNA",
+    "HARADHERE": "SNA",
+    "GALINSOOR": "SNA",
+    "ABUDWAQ": "SNA",
+    "ADADO": "SNA",
+    "BALANBALE": "SNA",
+    "DUSAMREB": "SNA",
+    "EL BUR": "SNA",
+    "EL DHERE": "SNA",
+    "ELGARAS": "SNA",
+    "GALAD": "SNA",
+    "GALHAREERI": "SNA",
+    "GURIEL": "SNA",
+    "ADALE": "SSA",
+    "ADEN YABAL": "SSA",
+    "BALAD": "SSA",
+    "JOWHAR": "SSA",
+    "MAHADAY": "SSA",
+    "RAGA ELLE": "SSA",
+    "RUNINGOD": "SSA",
+    "WARSHEIKH": "SSA",
+    "BELET WEYNE": "HIR",
+    "BULO BURTI": "HIR",
+    "JALALAQSI": "HIR",
+    "MAHAS": "HIR",
+    "MATABAN": "HIR",
+    "BAIDOA": "RRA",
+    "BERDALE": "RRA",
+    "BURHAKABA": "RRA",
+    "DINSOOR": "RRA",
+    "QANSAH DHEERE": "RRA",
+    "EL BARDE": "RRA",
+    "HUDUR": "RRA",
+    "RABDURE": "RRA",
+    "TIYEGLO": "RRA",
+    "WAJID": "RRA",
+    "AFMADOW": "JVA",
+    "BADHADHE": "JVA",
+    "HAGAR": "JVA",
+    "JAMAAME EAST": "JVA",
+    "JAMAAME WEST": "JVA",
+    "JILIB WEST": "JVA",
+    "KISMAYO": "JVA",
+    "BUAALE": "JVA",
+    "JILIB EAST": "JVA",
+    "SAKOW": "JVA",
+    "SALAGLE": "JVA",
+    "BARDERA": "SNF",
+    "BELET HAWA": "SNF",
+    "BURDUBO": "SNF",
+    "DOLO": "SNF",
+    "EL WAK": "SNF",
+    "GARBAHAREY": "SNF",
+    "GEDWEIN": "SNF",
+    "LUUQ": "SNF"
+   },
+   "unit_claims": {
+    "LAS ANOD": [
+     "PNT"
+    ],
+    "AYNABO": [
+     "PNT"
+    ],
+    "ERIGAVO": [
+     "PNT"
+    ],
+    "EL AFWEYN": [
+     "PNT"
+    ],
+    "HUDUN": [
+     "SML"
+    ],
+    "TALEH": [
+     "SML"
+    ],
+    "BUHODLE": [
+     "SML"
+    ],
+    "BADHAN": [
+     "SML"
+    ],
+    "GALKAYU SOUTH": [
+     "PNT"
+    ],
+    "GALKAYU NORTH": [
+     "SNA"
+    ]
+   }
+  },
+  "KEN": {
+   "tag": "KEN",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 4,
+    "mil": 1,
+    "dock": 1
+   },
+   "pop2000": {
+    "Nairobi": 2601000.0,
+    "Kiambu": 1342000.0,
+    "Nakuru": 1325000.0,
+    "Kakamega": 1375000.0,
+    "Bungoma": 1143000.0,
+    "Meru": 1127000.0,
+    "Kisii": 953000.0,
+    "Kilifi": 920000.0,
+    "Machakos": 911000.0,
+    "Kitui": 837000.0,
+    "Mombasa": 779000.0,
+    "Homa Bay": 795000.0,
+    "Murang'a": 779000.0,
+    "Kisumu": 804000.0,
+    "Narok": 704000.0,
+    "Siaya": 696000.0,
+    "Uasin Gishu": 737000.0,
+    "Migori": 762000.0,
+    "Bomet": 596000.0,
+    "Kericho": 630000.0,
+    "Mandera": 497000.0,
+    "Nandi": 621000.0,
+    "Kajiado": 572000.0,
+    "Busia": 613000.0,
+    "Turkana": 497000.0,
+    "Makueni": 729000.0,
+    "Nyeri": 572000.0,
+    "Kirinyaga": 439000.0,
+    "Wajir": 331000.0,
+    "Embu": 431000.0,
+    "Garissa": 331000.0,
+    "Trans Nzoia": 679000.0,
+    "Nyamira": 497000.0,
+    "Vihiga": 456000.0,
+    "Baringo": 464000.0,
+    "Laikipia": 331000.0,
+    "West Pokot": 423000.0,
+    "Nyandarua": 497000.0,
+    "Elgeyo-Marakwet": 307000.0,
+    "Tharaka": 307000.0,
+    "Marsabit": 240000.0,
+    "Kwale": 538000.0,
+    "Tana River": 199000.0,
+    "Taita Taveta": 232000.0,
+    "Samburu": 182000.0,
+    "Isiolo": 116000.0,
+    "Lamu": 83000.0
+   },
+   "groups": {
+    "Kiambu": [
+     "Kiambu",
+     "Murang'a"
+    ],
+    "Nyeri": [
+     "Nyeri",
+     "Kirinyaga",
+     "Nyandarua"
+    ],
+    "Mombasa": [
+     "Mombasa",
+     "Kilifi",
+     "Kwale"
+    ],
+    "Tana River": [
+     "Tana River",
+     "Lamu"
+    ],
+    "Machakos": [
+     "Machakos",
+     "Makueni"
+    ],
+    "Meru": [
+     "Meru",
+     "Tharaka",
+     "Embu"
+    ],
+    "Uasin Gishu": [
+     "Uasin Gishu",
+     "Trans Nzoia",
+     "Elgeyo-Marakwet",
+     "Nandi"
+    ],
+    "Kericho": [
+     "Kericho",
+     "Bomet"
+    ],
+    "Kisumu": [
+     "Kisumu",
+     "Siaya"
+    ],
+    "South Nyanza": [
+     "Homa Bay",
+     "Migori"
+    ],
+    "Kisii": [
+     "Kisii",
+     "Nyamira"
+    ],
+    "Kakamega": [
+     "Kakamega",
+     "Vihiga"
+    ],
+    "Bungoma": [
+     "Bungoma",
+     "Busia"
+    ]
+   }
+  },
+  "TZA": {
+   "tag": "TZN",
+   "infrastructure": 2,
+   "factories": {
+    "civ": 3,
+    "dock": 1
+   },
+   "pop2000": {
+    "Arusha": 1273000.0,
+    "Manyara": 1026000.0,
+    "Dar es Salaam": 2457000.0,
+    "Dodoma": 1667000.0,
+    "Iringa": 888000.0,
+    "Njombe": 592000.0,
+    "Kagera": 2003000.0,
+    "Kigoma": 1648000.0,
+    "Kilimanjaro": 1362000.0,
+    "Lindi": 779000.0,
+    "Mara": 1342000.0,
+    "Mbeya": 2033000.0,
+    "Morogoro": 1727000.0,
+    "Mtwara": 1115000.0,
+    "Mwanza": 2269000.0,
+    "Geita": 888000.0,
+    "Pwani": 878000.0,
+    "Rukwa": 789000.0,
+    "Katavi": 345000.0,
+    "Ruvuma": 1095000.0,
+    "Shinyanga": 1480000.0,
+    "Simiyu": 987000.0,
+    "Singida": 1075000.0,
+    "Tabora": 1687000.0,
+    "Tanga": 1618000.0,
+    "Zanzibar North": 138000.0,
+    "Zanzibar South & Central": 89000.0,
+    "Zanzibar Urban/West": 385000.0,
+    "North Pemba": 187000.0,
+    "South Pemba": 178000.0
+   },
+   "groups": {
+    "Arusha": [
+     "Arusha",
+     "Manyara"
+    ],
+    "Mwanza": [
+     "Mwanza",
+     "Geita"
+    ],
+    "Shinyanga": [
+     "Shinyanga",
+     "Simiyu"
+    ],
+    "Rukwa": [
+     "Rukwa",
+     "Katavi"
+    ],
+    "Iringa": [
+     "Iringa",
+     "Njombe"
+    ],
+    "Zanzibar": [
+     "Zanzibar North",
+     "Zanzibar South & Central",
+     "Zanzibar Urban/West"
+    ],
+    "Pemba": [
+     "North Pemba",
+     "South Pemba"
+    ]
+   }
+  },
+  "MDG": {
+   "tag": "MAD",
+   "infrastructure": 1,
+   "factories": {
+    "civ": 2
+   },
+   "pop2000": {
+    "Analamanga": 2221000.0,
+    "Vakinankaratra": 1296000.0,
+    "Vatovavy-Fitovinany": 864000.0,
+    "Matsiatra Ambony": 864000.0,
+    "Atsinanana": 925000.0,
+    "Atsimo-Andrefana": 1111000.0,
+    "Sofia": 925000.0,
+    "Analanjirofo": 709000.0,
+    "Boeny": 574000.0,
+    "Alaotra-Mangoro": 771000.0,
+    "Diana": 549000.0,
+    "Sava": 691000.0,
+    "Amoron'i Mania": 512000.0,
+    "Itasy": 555000.0,
+    "Bongolava": 413000.0,
+    "Menabe": 432000.0,
+    "Atsimo-Atsinanana": 635000.0,
+    "Androy": 555000.0,
+    "Anosy": 500000.0,
+    "Ihorombe": 259000.0,
+    "Betsiboka": 247000.0,
+    "Melaky": 191000.0
+   },
+   "names": {
+    "Matsiatra Ambony": "Haute Matsiatra"
+   }
+  },
+  "COM": {
+   "tag": "COM",
+   "infrastructure": 2,
+   "factories": {},
+   "province_size": {
+    "min": 12
+   },
+   "pop2000": {
+    "Grande Comore": 296000.0,
+    "Anjouan": 213000.0,
+    "Moheli": 36000.0
+   },
+   "names": {
+    "Moheli": "Mohéli"
+   },
+   "control": {
+    "Domoni": "ANJ",
+    "Mrémani": "ANJ",
+    "Mutsamudu": "ANJ",
+    "Ouani": "ANJ",
+    "Sima": "ANJ"
+   }
+  },
+  "FRA": {
+   "tag": "FRA",
+   "adm1_source": "natural_earth",
+   "adm1_only": [
+    "Mayotte"
+   ],
+   "unit_level": "ADM1",
+   "capital": false,
+   "infrastructure": 2,
+   "factories": {},
+   "province_size": {
+    "min": 10
+   },
+   "pop2000": {
+    "Mayotte": 150000.0
+   },
+   "claims": [
+    "COM"
+   ]
+  }
+ },
+ "cities": [
+  {
+   "name": "Khartoum",
+   "iso": "SDN",
+   "lon": 32.532,
+   "lat": 15.59,
+   "capital": true,
+   "vp": 20,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.4
+  },
+  {
+   "name": "Omdurman",
+   "iso": "SDN",
+   "lon": 32.48,
+   "lat": 15.617,
+   "vp": 15,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Port Sudan",
+   "iso": "SDN",
+   "lon": 37.216,
+   "lat": 19.616,
+   "vp": 3,
+   "port": 3,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Tokar",
+   "iso": "SDN",
+   "lon": 37.733,
+   "lat": 18.433,
+   "vp": 1
+  },
+  {
+   "name": "Suakin",
+   "iso": "SDN",
+   "lon": 37.33,
+   "lat": 19.105,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Kurmuk",
+   "iso": "SDN",
+   "lon": 34.283,
+   "lat": 10.55,
+   "vp": 1
+  },
+  {
+   "name": "Kauda",
+   "iso": "SDN",
+   "lon": 30.533,
+   "lat": 11.083,
+   "vp": 1
+  },
+  {
+   "name": "Kassala",
+   "iso": "SDN",
+   "lon": 36.39,
+   "lat": 15.46,
+   "vp": 3
+  },
+  {
+   "name": "El Obeid",
+   "iso": "SDN",
+   "lon": 30.217,
+   "lat": 13.183,
+   "vp": 3
+  },
+  {
+   "name": "Nyala",
+   "iso": "SDN",
+   "lon": 24.89,
+   "lat": 12.06,
+   "vp": 3
+  },
+  {
+   "name": "Kosti",
+   "iso": "SDN",
+   "lon": 32.66,
+   "lat": 13.17,
+   "vp": 3
+  },
+  {
+   "name": "Medani",
+   "iso": "SDN",
+   "lon": 33.52,
+   "lat": 14.4,
+   "vp": 3
+  },
+  {
+   "name": "El Fasher",
+   "iso": "SDN",
+   "lon": 25.35,
+   "lat": 13.63,
+   "vp": 3
+  },
+  {
+   "name": "Gedaref",
+   "iso": "SDN",
+   "lon": 35.38,
+   "lat": 14.04,
+   "vp": 3
+  },
+  {
+   "name": "Shendi",
+   "iso": "SDN",
+   "lon": 33.42,
+   "lat": 16.68,
+   "vp": 2
+  },
+  {
+   "name": "Ad-Damazin",
+   "iso": "SDN",
+   "lon": 34.35,
+   "lat": 11.77,
+   "vp": 2
+  },
+  {
+   "name": "Kadugli",
+   "iso": "SDN",
+   "lon": 29.7,
+   "lat": 11.01,
+   "vp": 2
+  },
+  {
+   "name": "Atbarah",
+   "iso": "SDN",
+   "lon": 33.98,
+   "lat": 17.71,
+   "vp": 2
+  },
+  {
+   "name": "Geneina",
+   "iso": "SDN",
+   "lon": 22.44,
+   "lat": 13.45,
+   "vp": 2
+  },
+  {
+   "name": "El Manaqil",
+   "iso": "SDN",
+   "lon": 32.98,
+   "lat": 14.25,
+   "vp": 2
+  },
+  {
+   "name": "Sennar",
+   "iso": "SDN",
+   "lon": 33.6,
+   "lat": 13.55,
+   "vp": 2
+  },
+  {
+   "name": "En Nuhud",
+   "iso": "SDN",
+   "lon": 28.42,
+   "lat": 12.69,
+   "vp": 2
+  },
+  {
+   "name": "Yei",
+   "iso": "SSD",
+   "lon": 30.68,
+   "lat": 4.09,
+   "capital": true,
+   "vp": 5,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Malakal",
+   "iso": "SSD",
+   "lon": 31.656,
+   "lat": 9.537,
+   "vp": 2,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Wau",
+   "iso": "SSD",
+   "lon": 27.99,
+   "lat": 7.7,
+   "vp": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Juba",
+   "iso": "SSD",
+   "lon": 31.58,
+   "lat": 4.83,
+   "vp": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.6
+  },
+  {
+   "name": "Aweil",
+   "iso": "SSD",
+   "lon": 27.4,
+   "lat": 8.767,
+   "vp": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Torit",
+   "iso": "SSD",
+   "lon": 32.567,
+   "lat": 4.413,
+   "vp": 1
+  },
+  {
+   "name": "Raga",
+   "iso": "SSD",
+   "lon": 25.677,
+   "lat": 8.462,
+   "vp": 1
+  },
+  {
+   "name": "Bentiu",
+   "iso": "SSD",
+   "lon": 29.833,
+   "lat": 9.233,
+   "vp": 1
+  },
+  {
+   "name": "Gogrial",
+   "iso": "SSD",
+   "lon": 28.117,
+   "lat": 8.534,
+   "vp": 1
+  },
+  {
+   "name": "Yambio",
+   "iso": "SSD",
+   "lon": 28.416,
+   "lat": 4.571,
+   "vp": 1
+  },
+  {
+   "name": "Rumbek",
+   "iso": "SSD",
+   "lon": 29.683,
+   "lat": 6.8,
+   "vp": 1
+  },
+  {
+   "name": "Bor",
+   "iso": "SSD",
+   "lon": 31.559,
+   "lat": 6.207,
+   "vp": 1
+  },
+  {
+   "name": "Asmara",
+   "iso": "ERI",
+   "lon": 38.933,
+   "lat": 15.333,
+   "capital": true,
+   "vp": 12,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Massawa",
+   "iso": "ERI",
+   "lon": 39.45,
+   "lat": 15.61,
+   "vp": 2,
+   "port": 2
+  },
+  {
+   "name": "Assab",
+   "iso": "ERI",
+   "lon": 42.73,
+   "lat": 13.01,
+   "vp": 2,
+   "port": 2,
+   "air": 1
+  },
+  {
+   "name": "Mendefera",
+   "iso": "ERI",
+   "lon": 38.816,
+   "lat": 14.886,
+   "vp": 3
+  },
+  {
+   "name": "Keren",
+   "iso": "ERI",
+   "lon": 38.45,
+   "lat": 15.68,
+   "vp": 2
+  },
+  {
+   "name": "Agordat",
+   "iso": "ERI",
+   "lon": 37.887,
+   "lat": 15.549,
+   "vp": 1
+  },
+  {
+   "name": "Addis Ababa",
+   "iso": "ETH",
+   "lon": 38.698,
+   "lat": 9.035,
+   "capital": true,
+   "vp": 20,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.2
+  },
+  {
+   "name": "Mekele",
+   "iso": "ETH",
+   "lon": 39.47,
+   "lat": 13.5,
+   "vp": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.2
+  },
+  {
+   "name": "Debre Zeyit",
+   "iso": "ETH",
+   "lon": 38.983,
+   "lat": 8.733,
+   "vp": 2,
+   "air": 1
+  },
+  {
+   "name": "Zalambessa",
+   "iso": "ETH",
+   "lon": 39.53,
+   "lat": 14.525,
+   "vp": 5
+  },
+  {
+   "name": "Hurso",
+   "iso": "ETH",
+   "lon": 41.633,
+   "lat": 9.617,
+   "vp": 1
+  },
+  {
+   "name": "Badme",
+   "iso": "ETH",
+   "lon": 37.783,
+   "lat": 14.733,
+   "vp": 5
+  },
+  {
+   "name": "Adama",
+   "iso": "ETH",
+   "lon": 39.27,
+   "lat": 8.55,
+   "vp": 3
+  },
+  {
+   "name": "Dire Dawa",
+   "iso": "ETH",
+   "lon": 41.86,
+   "lat": 9.59,
+   "vp": 3
+  },
+  {
+   "name": "Bahir Dar",
+   "iso": "ETH",
+   "lon": 37.383,
+   "lat": 11.6,
+   "vp": 3
+  },
+  {
+   "name": "Dese",
+   "iso": "ETH",
+   "lon": 39.63,
+   "lat": 11.13,
+   "vp": 2
+  },
+  {
+   "name": "Harar",
+   "iso": "ETH",
+   "lon": 42.15,
+   "lat": 9.32,
+   "vp": 2
+  },
+  {
+   "name": "Gondar",
+   "iso": "ETH",
+   "lon": 37.46,
+   "lat": 12.61,
+   "vp": 2
+  },
+  {
+   "name": "Awasa",
+   "iso": "ETH",
+   "lon": 38.477,
+   "lat": 7.06,
+   "vp": 2
+  },
+  {
+   "name": "Jima",
+   "iso": "ETH",
+   "lon": 36.83,
+   "lat": 7.68,
+   "vp": 2
+  },
+  {
+   "name": "Weliso",
+   "iso": "ETH",
+   "lon": 37.97,
+   "lat": 8.53,
+   "vp": 2
+  },
+  {
+   "name": "Shashemene",
+   "iso": "ETH",
+   "lon": 38.59,
+   "lat": 7.2,
+   "vp": 2
+  },
+  {
+   "name": "Adigrat",
+   "iso": "ETH",
+   "lon": 39.47,
+   "lat": 14.28,
+   "vp": 2
+  },
+  {
+   "name": "Hosaina",
+   "iso": "ETH",
+   "lon": 37.85,
+   "lat": 7.55,
+   "vp": 2
+  },
+  {
+   "name": "Asela",
+   "iso": "ETH",
+   "lon": 39.14,
+   "lat": 7.95,
+   "vp": 2
+  },
+  {
+   "name": "Gode",
+   "iso": "ETH",
+   "lon": 43.45,
+   "lat": 5.95,
+   "vp": 1
+  },
+  {
+   "name": "Nekemte",
+   "iso": "ETH",
+   "lon": 36.53,
+   "lat": 9.09,
+   "vp": 1
+  },
+  {
+   "name": "Debre Markos",
+   "iso": "ETH",
+   "lon": 37.72,
+   "lat": 10.34,
+   "vp": 1
+  },
+  {
+   "name": "Arba Minch",
+   "iso": "ETH",
+   "lon": 37.55,
+   "lat": 6.04,
+   "vp": 1
+  },
+  {
+   "name": "Sodo",
+   "iso": "ETH",
+   "lon": 37.75,
+   "lat": 6.9,
+   "vp": 1
+  },
+  {
+   "name": "Debre Birhan",
+   "iso": "ETH",
+   "lon": 39.53,
+   "lat": 9.68,
+   "vp": 1
+  },
+  {
+   "name": "Jijiga",
+   "iso": "ETH",
+   "lon": 42.79,
+   "lat": 9.35,
+   "vp": 1
+  },
+  {
+   "name": "Aksum",
+   "iso": "ETH",
+   "lon": 38.72,
+   "lat": 14.13,
+   "vp": 1
+  },
+  {
+   "name": "Dila",
+   "iso": "ETH",
+   "lon": 38.31,
+   "lat": 6.41,
+   "vp": 1
+  },
+  {
+   "name": "Hagere Hiywet",
+   "iso": "ETH",
+   "lon": 37.85,
+   "lat": 8.98,
+   "vp": 1
+  },
+  {
+   "name": "Yirga Alem",
+   "iso": "ETH",
+   "lon": 38.41,
+   "lat": 6.75,
+   "vp": 1
+  },
+  {
+   "name": "Djibouti",
+   "iso": "DJI",
+   "lon": 43.148,
+   "lat": 11.595,
+   "capital": true,
+   "vp": 12,
+   "port": 3,
+   "air": 2,
+   "city_province": true,
+   "radius": 2.0
+  },
+  {
+   "name": "Ali Sabieh",
+   "iso": "DJI",
+   "lon": 42.713,
+   "lat": 11.156,
+   "vp": 1
+  },
+  {
+   "name": "Tadjourah",
+   "iso": "DJI",
+   "lon": 42.9,
+   "lat": 11.783,
+   "vp": 1
+  },
+  {
+   "name": "Mogadishu",
+   "iso": "SOM",
+   "lon": 45.365,
+   "lat": 2.069,
+   "capital": true,
+   "vp": 15,
+   "port": 2,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.8
+  },
+  {
+   "name": "Hargeisa",
+   "iso": "SOM",
+   "lon": 44.065,
+   "lat": 9.56,
+   "capital": true,
+   "vp": 10,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Berbera",
+   "iso": "SOM",
+   "lon": 45.016,
+   "lat": 10.436,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Kismayo",
+   "iso": "SOM",
+   "lon": 42.518,
+   "lat": -0.357,
+   "capital": true,
+   "vp": 6,
+   "port": 1,
+   "city_province": true,
+   "radius": 2.2
+  },
+  {
+   "name": "Baidoa",
+   "iso": "SOM",
+   "lon": 43.65,
+   "lat": 3.12,
+   "capital": true,
+   "vp": 5,
+   "city_province": true,
+   "radius": 2.2
+  },
+  {
+   "name": "Jowhar",
+   "iso": "SOM",
+   "lon": 45.517,
+   "lat": 2.767,
+   "capital": true,
+   "vp": 5
+  },
+  {
+   "name": "Beledweyne",
+   "iso": "SOM",
+   "lon": 45.2,
+   "lat": 4.74,
+   "capital": true,
+   "vp": 5
+  },
+  {
+   "name": "Bosaso",
+   "iso": "SOM",
+   "lon": 49.18,
+   "lat": 11.28,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Garbahaarey",
+   "iso": "SOM",
+   "lon": 42.227,
+   "lat": 3.327,
+   "capital": true,
+   "vp": 3
+  },
+  {
+   "name": "Garowe",
+   "iso": "SOM",
+   "lon": 48.5,
+   "lat": 8.4,
+   "capital": true,
+   "vp": 5
+  },
+  {
+   "name": "Merca",
+   "iso": "SOM",
+   "lon": 44.853,
+   "lat": 1.777,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Jamaame",
+   "iso": "SOM",
+   "lon": 42.751,
+   "lat": 0.072,
+   "vp": 2
+  },
+  {
+   "name": "Erigavo",
+   "iso": "SOM",
+   "lon": 47.333,
+   "lat": 10.583,
+   "vp": 2
+  },
+  {
+   "name": "Burao",
+   "iso": "SOM",
+   "lon": 45.54,
+   "lat": 9.52,
+   "vp": 2
+  },
+  {
+   "name": "Borama",
+   "iso": "SOM",
+   "lon": 43.18,
+   "lat": 9.94,
+   "vp": 1
+  },
+  {
+   "name": "Galkayo",
+   "iso": "SOM",
+   "lon": 47.43,
+   "lat": 6.77,
+   "vp": 1
+  },
+  {
+   "name": "Las Anod",
+   "iso": "SOM",
+   "lon": 47.317,
+   "lat": 8.433,
+   "vp": 1
+  },
+  {
+   "name": "Mandera",
+   "iso": "SOM",
+   "lon": 41.86,
+   "lat": 3.94,
+   "vp": 1
+  },
+  {
+   "name": "Luuq",
+   "iso": "SOM",
+   "lon": 42.55,
+   "lat": 3.8,
+   "vp": 1
+  },
+  {
+   "name": "Buurhakaba",
+   "iso": "SOM",
+   "lon": 44.083,
+   "lat": 2.784,
+   "vp": 1
+  },
+  {
+   "name": "Maydh",
+   "iso": "SOM",
+   "lon": 47.098,
+   "lat": 10.98,
+   "vp": 1
+  },
+  {
+   "name": "Nairobi",
+   "iso": "KEN",
+   "lon": 36.815,
+   "lat": -1.281,
+   "capital": true,
+   "vp": 20,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Mombasa",
+   "iso": "KEN",
+   "lon": 39.688,
+   "lat": -4.038,
+   "vp": 6,
+   "port": 4,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.4
+  },
+  {
+   "name": "Kisumu",
+   "iso": "KEN",
+   "lon": 34.75,
+   "lat": -0.09,
+   "vp": 3,
+   "city_province": true,
+   "radius": 2.2
+  },
+  {
+   "name": "Malindi",
+   "iso": "KEN",
+   "lon": 40.1,
+   "lat": -3.21,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Lamu",
+   "iso": "KEN",
+   "lon": 40.92,
+   "lat": -2.262,
+   "vp": 1,
+   "port": 1
+  },
+  {
+   "name": "Nakuru",
+   "iso": "KEN",
+   "lon": 36.07,
+   "lat": -0.28,
+   "vp": 3
+  },
+  {
+   "name": "Eldoret",
+   "iso": "KEN",
+   "lon": 35.27,
+   "lat": 0.52,
+   "vp": 3
+  },
+  {
+   "name": "Kitale",
+   "iso": "KEN",
+   "lon": 34.99,
+   "lat": 1.03,
+   "vp": 2
+  },
+  {
+   "name": "Machakos",
+   "iso": "KEN",
+   "lon": 37.26,
+   "lat": -1.51,
+   "vp": 2
+  },
+  {
+   "name": "Thika",
+   "iso": "KEN",
+   "lon": 37.09,
+   "lat": -1.04,
+   "vp": 2
+  },
+  {
+   "name": "Kericho",
+   "iso": "KEN",
+   "lon": 35.28,
+   "lat": -0.36,
+   "vp": 2
+  },
+  {
+   "name": "Kendu Bay",
+   "iso": "KEN",
+   "lon": 34.64,
+   "lat": -0.36,
+   "vp": 2
+  },
+  {
+   "name": "Kilifi",
+   "iso": "KEN",
+   "lon": 39.85,
+   "lat": -3.61,
+   "vp": 2
+  },
+  {
+   "name": "Sotik",
+   "iso": "KEN",
+   "lon": 35.12,
+   "lat": -0.68,
+   "vp": 1
+  },
+  {
+   "name": "Garissa",
+   "iso": "KEN",
+   "lon": 39.67,
+   "lat": -0.44,
+   "vp": 1
+  },
+  {
+   "name": "Kakamega",
+   "iso": "KEN",
+   "lon": 34.73,
+   "lat": 0.29,
+   "vp": 1
+  },
+  {
+   "name": "Embu",
+   "iso": "KEN",
+   "lon": 37.45,
+   "lat": -0.52,
+   "vp": 1
+  },
+  {
+   "name": "Bungoma",
+   "iso": "KEN",
+   "lon": 34.56,
+   "lat": 0.57,
+   "vp": 1
+  },
+  {
+   "name": "Nyeri",
+   "iso": "KEN",
+   "lon": 36.951,
+   "lat": -0.417,
+   "vp": 1
+  },
+  {
+   "name": "Meru",
+   "iso": "KEN",
+   "lon": 37.64,
+   "lat": 0.06,
+   "vp": 1
+  },
+  {
+   "name": "Wajir",
+   "iso": "KEN",
+   "lon": 40.05,
+   "lat": 1.75,
+   "vp": 1
+  },
+  {
+   "name": "Naivasha",
+   "iso": "KEN",
+   "lon": 36.43,
+   "lat": -0.71,
+   "vp": 1
+  },
+  {
+   "name": "Voi",
+   "iso": "KEN",
+   "lon": 38.57,
+   "lat": -3.37,
+   "vp": 1
+  },
+  {
+   "name": "Nanyuki",
+   "iso": "KEN",
+   "lon": 37.06,
+   "lat": 0.02,
+   "vp": 1
+  },
+  {
+   "name": "Dar es Salaam",
+   "iso": "TZA",
+   "lon": 39.266,
+   "lat": -6.798,
+   "capital": true,
+   "vp": 20,
+   "port": 3,
+   "air": 2,
+   "city_province": true,
+   "radius": 3.0
+  },
+  {
+   "name": "Zanzibar",
+   "iso": "TZA",
+   "lon": 39.2,
+   "lat": -6.16,
+   "vp": 3,
+   "port": 1,
+   "city_province": true,
+   "radius": 2.0
+  },
+  {
+   "name": "Tanga",
+   "iso": "TZA",
+   "lon": 39.09,
+   "lat": -5.07,
+   "vp": 3,
+   "port": 1
+  },
+  {
+   "name": "Mtwara",
+   "iso": "TZA",
+   "lon": 40.19,
+   "lat": -10.27,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Moshi",
+   "iso": "TZA",
+   "lon": 37.34,
+   "lat": -3.34,
+   "vp": 6
+  },
+  {
+   "name": "Mwanza",
+   "iso": "TZA",
+   "lon": 32.93,
+   "lat": -2.52,
+   "vp": 3
+  },
+  {
+   "name": "Arusha",
+   "iso": "TZA",
+   "lon": 36.67,
+   "lat": -3.36,
+   "vp": 3
+  },
+  {
+   "name": "Mbeya",
+   "iso": "TZA",
+   "lon": 33.43,
+   "lat": -8.89,
+   "vp": 3
+  },
+  {
+   "name": "Morogoro",
+   "iso": "TZA",
+   "lon": 37.66,
+   "lat": -6.82,
+   "vp": 3
+  },
+  {
+   "name": "Dodoma",
+   "iso": "TZA",
+   "lon": 35.75,
+   "lat": -6.183,
+   "vp": 3
+  },
+  {
+   "name": "Kigoma",
+   "iso": "TZA",
+   "lon": 29.61,
+   "lat": -4.88,
+   "vp": 2
+  },
+  {
+   "name": "Tabora",
+   "iso": "TZA",
+   "lon": 32.8,
+   "lat": -5.02,
+   "vp": 2
+  },
+  {
+   "name": "Musoma",
+   "iso": "TZA",
+   "lon": 33.8,
+   "lat": -1.49,
+   "vp": 2
+  },
+  {
+   "name": "Tukuyu",
+   "iso": "TZA",
+   "lon": 33.64,
+   "lat": -9.25,
+   "vp": 2
+  },
+  {
+   "name": "Songea",
+   "iso": "TZA",
+   "lon": 35.65,
+   "lat": -10.68,
+   "vp": 2
+  },
+  {
+   "name": "Iringa",
+   "iso": "TZA",
+   "lon": 35.69,
+   "lat": -7.77,
+   "vp": 2
+  },
+  {
+   "name": "Shinyanga",
+   "iso": "TZA",
+   "lon": 33.42,
+   "lat": -3.66,
+   "vp": 2
+  },
+  {
+   "name": "Bukoba",
+   "iso": "TZA",
+   "lon": 31.8,
+   "lat": -1.32,
+   "vp": 2
+  },
+  {
+   "name": "Kilosa",
+   "iso": "TZA",
+   "lon": 36.99,
+   "lat": -6.84,
+   "vp": 2
+  },
+  {
+   "name": "Sumbawanga",
+   "iso": "TZA",
+   "lon": 31.62,
+   "lat": -7.96,
+   "vp": 2
+  },
+  {
+   "name": "Bagamoyo",
+   "iso": "TZA",
+   "lon": 38.89,
+   "lat": -6.44,
+   "vp": 2
+  },
+  {
+   "name": "Uvinza",
+   "iso": "TZA",
+   "lon": 30.39,
+   "lat": -5.12,
+   "vp": 2
+  },
+  {
+   "name": "Mpanda",
+   "iso": "TZA",
+   "lon": 31.05,
+   "lat": -6.36,
+   "vp": 1
+  },
+  {
+   "name": "Singida",
+   "iso": "TZA",
+   "lon": 34.74,
+   "lat": -4.82,
+   "vp": 1
+  },
+  {
+   "name": "Korogwe",
+   "iso": "TZA",
+   "lon": 38.54,
+   "lat": -5.09,
+   "vp": 1
+  },
+  {
+   "name": "Chake Chake",
+   "iso": "TZA",
+   "lon": 39.77,
+   "lat": -5.24,
+   "vp": 1
+  },
+  {
+   "name": "Ifakara",
+   "iso": "TZA",
+   "lon": 36.68,
+   "lat": -8.13,
+   "vp": 1
+  },
+  {
+   "name": "Njombe",
+   "iso": "TZA",
+   "lon": 34.77,
+   "lat": -9.33,
+   "vp": 1
+  },
+  {
+   "name": "Lindi",
+   "iso": "TZA",
+   "lon": 39.7,
+   "lat": -10.0,
+   "vp": 1
+  },
+  {
+   "name": "Kasulu",
+   "iso": "TZA",
+   "lon": 30.1,
+   "lat": -4.58,
+   "vp": 1
+  },
+  {
+   "name": "Antananarivo",
+   "iso": "MDG",
+   "lon": 47.515,
+   "lat": -18.915,
+   "capital": true,
+   "vp": 15,
+   "air": 1,
+   "city_province": true,
+   "radius": 2.8
+  },
+  {
+   "name": "Toamasina",
+   "iso": "MDG",
+   "lon": 49.405,
+   "lat": -18.182,
+   "vp": 3,
+   "port": 2
+  },
+  {
+   "name": "Mahajanga",
+   "iso": "MDG",
+   "lon": 46.345,
+   "lat": -15.67,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Toliara",
+   "iso": "MDG",
+   "lon": 43.69,
+   "lat": -23.357,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Antsiranana",
+   "iso": "MDG",
+   "lon": 49.312,
+   "lat": -12.277,
+   "vp": 2,
+   "port": 1
+  },
+  {
+   "name": "Antsirabe",
+   "iso": "MDG",
+   "lon": 47.033,
+   "lat": -19.85,
+   "vp": 3
+  },
+  {
+   "name": "Fianarantsoa",
+   "iso": "MDG",
+   "lon": 47.083,
+   "lat": -21.433,
+   "vp": 2
+  },
+  {
+   "name": "Antalaha",
+   "iso": "MDG",
+   "lon": 50.283,
+   "lat": -14.883,
+   "vp": 1
+  },
+  {
+   "name": "Sambava",
+   "iso": "MDG",
+   "lon": 50.167,
+   "lat": -14.266,
+   "vp": 1
+  },
+  {
+   "name": "Ambatondrazaka",
+   "iso": "MDG",
+   "lon": 48.417,
+   "lat": -17.833,
+   "vp": 1
+  },
+  {
+   "name": "Maroantsetra",
+   "iso": "MDG",
+   "lon": 49.733,
+   "lat": -15.433,
+   "vp": 1
+  },
+  {
+   "name": "Morondava",
+   "iso": "MDG",
+   "lon": 44.283,
+   "lat": -20.283,
+   "vp": 1
+  },
+  {
+   "name": "Marovoay",
+   "iso": "MDG",
+   "lon": 46.633,
+   "lat": -16.1,
+   "vp": 1
+  },
+  {
+   "name": "Ambanja",
+   "iso": "MDG",
+   "lon": 48.45,
+   "lat": -13.683,
+   "vp": 1
+  },
+  {
+   "name": "Mananjary",
+   "iso": "MDG",
+   "lon": 48.333,
+   "lat": -21.217,
+   "vp": 1
+  },
+  {
+   "name": "Farafangana",
+   "iso": "MDG",
+   "lon": 47.833,
+   "lat": -22.817,
+   "vp": 1
+  },
+  {
+   "name": "Andoany",
+   "iso": "MDG",
+   "lon": 48.267,
+   "lat": -13.4,
+   "vp": 1
+  },
+  {
+   "name": "Antsohihy",
+   "iso": "MDG",
+   "lon": 47.983,
+   "lat": -14.866,
+   "vp": 1
+  },
+  {
+   "name": "Miandrivazo",
+   "iso": "MDG",
+   "lon": 45.467,
+   "lat": -19.516,
+   "vp": 1
+  },
+  {
+   "name": "Moroni",
+   "iso": "COM",
+   "lon": 43.24,
+   "lat": -11.704,
+   "capital": true,
+   "vp": 12,
+   "port": 1,
+   "air": 1,
+   "city_province": true,
+   "radius": 1.6
+  },
+  {
+   "name": "Mutsamudu",
+   "iso": "COM",
+   "lon": 44.399,
+   "lat": -12.169,
+   "capital": true,
+   "vp": 5,
+   "port": 1
+  },
+  {
+   "name": "Fomboni",
+   "iso": "COM",
+   "lon": 43.743,
+   "lat": -12.28,
+   "vp": 1
+  }
+ ],
+ "lakes": [
+  "Lake Victoria",
+  "Lake Turkana",
+  "Lake Tana",
+  "Lake Tanganyika",
+  "Lake Malawi",
+  "Lake Rukwa",
+  "Lake Eyasi",
+  "Lake Manyara",
+  "Lake Natron",
+  "Lake Abaya",
+  "Lake Chamo",
+  "Koka Reservoir",
+  "Lac Alaotra",
+  "Roseires Reservoir",
+  "Lake Nasser"
+ ],
+ "resources": {
+  "SSD/Unity": {
+   "oil": 14
+  },
+  "SDN/West Kordofan": {
+   "oil": 8
+  },
+  "SDN/South Kordofan": {
+   "oil": 3
+  },
+  "SDN/Blue Nile": {
+   "chromium": 4
+  },
+  "MDG/Betsiboka": {
+   "chromium": 5
+  },
+  "SDN/Red Sea": {
+   "steel": 2
+  }
+ },
+ "retag_states": {
+  "707": {
+   "tag": "MUS",
+   "name": "Mauritius",
+   "manpower": 1190000.0,
+   "category": "town",
+   "infrastructure": 3,
+   "industrial_complex": 2,
+   "naval_base": 2,
+   "air_base": 1,
+   "vp": [
+    "Port Louis",
+    12
+   ],
+   "capital": true
+  },
+  "709": {
+   "tag": "SEY",
+   "name": "Seychelles",
+   "manpower": 81000.0,
+   "category": "small_island",
+   "infrastructure": 3,
+   "naval_base": 1,
+   "air_base": 1,
+   "vp": [
+    "Victoria",
+    10
+   ],
+   "capital": true
+  }
+ }
+}

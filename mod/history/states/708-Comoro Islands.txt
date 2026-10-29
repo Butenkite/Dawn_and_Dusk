@@ -1,0 +1,21 @@
+state={
+	id=708
+	name="STATE_708" # El Fasher
+	manpower = 1448748
+	state_category = large_town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 10743 3 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		10739 10743 10745 10761 10764 10775 10777 10784 10795 10818 10827 10833 10845 10851 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,26 @@
+state={
+	id=557
+	name="STATE_557" # Lagos
+	manpower = 8002055
+	state_category = metropolis
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			8006 = { naval_base = 4 }
+		}
+		victory_points = { 8006 25 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		7992 8006 8008 
+	}
+
+	local_supplies=0.0
+}

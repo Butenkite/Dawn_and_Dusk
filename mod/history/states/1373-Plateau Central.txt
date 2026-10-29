@@ -1,0 +1,21 @@
+state={
+	id=1373
+	name="STATE_1373" # Plateau Central
+	manpower = 580665
+	state_category = town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14624 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14623 14624 
+	}
+
+	local_supplies=0.0
+}

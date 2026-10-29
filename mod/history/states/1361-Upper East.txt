@@ -1,0 +1,21 @@
+state={
+	id=1361
+	name="STATE_1361" # Upper East
+	manpower = 919000
+	state_category = large_town
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14575 2 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14575 14576 14577 
+	}
+
+	local_supplies=0.0
+}

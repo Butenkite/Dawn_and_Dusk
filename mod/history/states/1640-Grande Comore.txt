@@ -1,0 +1,23 @@
+state={
+	id=1640
+	name="STATE_1640" # Grande Comore
+	manpower = 295999
+	state_category = rural
+
+	history={
+		owner = COM
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			15656 = { naval_base = 1 }
+		}
+		victory_points = { 15656 12 }
+		add_core_of = COM
+	}
+
+	provinces={
+		15656 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1364
+	name="STATE_1364" # Boucle du Mouhoun
+	manpower = 1191000
+	state_category = large_town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14586 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14585 14586 14587 14588 14589 14590 
+	}
+
+	local_supplies=0.0
+}

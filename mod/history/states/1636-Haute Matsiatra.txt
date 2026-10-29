@@ -1,0 +1,21 @@
+state={
+	id=1636
+	name="STATE_1636" # Haute Matsiatra
+	manpower = 863167
+	state_category = large_town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15648 2 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15645 15646 15647 15648 
+	}
+
+	local_supplies=0.0
+}

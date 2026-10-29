@@ -1,0 +1,21 @@
+state={
+	id=1360
+	name="STATE_1360" # Upper West
+	manpower = 575999
+	state_category = town
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14573 1 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14573 14574 
+	}
+
+	local_supplies=0.0
+}

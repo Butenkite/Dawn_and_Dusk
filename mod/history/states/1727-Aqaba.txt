@@ -1,0 +1,22 @@
+state={
+	id=1727
+	name="STATE_1727" # Aqaba
+	manpower = 99000
+	state_category = pastoral
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 3
+			15851 = { naval_base = 1 }
+		}
+		victory_points = { 15851 2 }
+		add_core_of = JOR
+	}
+
+	provinces={
+		15851 
+	}
+
+	local_supplies=0.0
+}

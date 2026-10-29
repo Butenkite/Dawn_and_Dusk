@@ -1,0 +1,21 @@
+state={
+	id=1483
+	name="STATE_1483" # South Wollo
+	manpower = 2938474
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15075 2 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15075 15076 15077 15078 15079 15080 
+	}
+
+	local_supplies=0.0
+}

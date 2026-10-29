@@ -1,0 +1,21 @@
+state={
+	id=1320
+	name="STATE_1320" # Minna
+	manpower = 2328316
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14363 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14363 14364 14365 14366 14367 14368 14369 
+	}
+
+	local_supplies=0.0
+}

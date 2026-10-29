@@ -1,0 +1,26 @@
+state={
+	id=547
+	name="STATE_547" # Kurmuk
+	manpower = 511480
+	state_category = town
+
+	resources={
+		chromium=1
+	}
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 5196 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		5196 5210 5222 
+	}
+
+	local_supplies=0.0
+}

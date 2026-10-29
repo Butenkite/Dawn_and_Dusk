@@ -1,0 +1,25 @@
+state={
+	id=659
+	name="STATE_659" # Tindouf
+	manpower = 96277
+	state_category = pastoral
+
+	resources={
+		oil=1
+	}
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 5006 1 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		5006 5012 5014 5024 5027 
+	}
+
+	local_supplies=0.0
+}

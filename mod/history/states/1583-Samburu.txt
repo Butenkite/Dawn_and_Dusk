@@ -1,0 +1,21 @@
+state={
+	id=1583
+	name="STATE_1583" # Samburu
+	manpower = 183588
+	state_category = rural
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15398 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15397 15398 
+	}
+
+	local_supplies=0.0
+}

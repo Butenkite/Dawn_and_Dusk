@@ -1,0 +1,22 @@
+state={
+	id=1751
+	name="STATE_1751" # Sulaymaniyah
+	manpower = 1302999
+	state_category = large_town
+
+	history={
+		owner = PUK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15945 10 }
+		add_core_of = PUK
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15945 15946 15947 15948 15949 
+	}
+
+	local_supplies=0.0
+}

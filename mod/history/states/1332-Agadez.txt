@@ -1,0 +1,22 @@
+state={
+	id=1332
+	name="STATE_1332" # Agadez
+	manpower = 223049
+	state_category = rural
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14473 2 }
+		victory_points = { 14471 2 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14468 14469 14470 14471 14472 14473 14474 
+	}
+
+	local_supplies=0.0
+}

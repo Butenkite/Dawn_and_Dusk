@@ -1,0 +1,21 @@
+state={
+	id=1524
+	name="STATE_1524" # South Gonder
+	manpower = 926165
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15219 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15219 15220 15221 
+	}
+
+	local_supplies=0.0
+}

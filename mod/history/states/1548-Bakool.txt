@@ -1,0 +1,22 @@
+state={
+	id=1548
+	name="STATE_1548" # Bakool
+	manpower = 367000
+	state_category = rural
+
+	history={
+		owner = RRA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15275 1 }
+		add_core_of = RRA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15274 15275 15276 
+	}
+
+	local_supplies=0.0
+}

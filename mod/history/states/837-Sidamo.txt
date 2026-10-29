@@ -1,0 +1,21 @@
+state={
+	id=837
+	name="STATE_837" # Wadi Halfa
+	manpower = 209556
+	state_category = rural
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 12856 1 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		12836 12840 12856 12862 12881 12887 
+	}
+
+	local_supplies=0.0
+}

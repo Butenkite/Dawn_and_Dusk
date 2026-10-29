@@ -1,0 +1,21 @@
+state={
+	id=1412
+	name="STATE_1412" # Mamou
+	manpower = 717000
+	state_category = town
+
+	history={
+		owner = GNA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14762 1 }
+		add_core_of = GNA
+	}
+
+	provinces={
+		14761 14762 14763 14764 
+	}
+
+	local_supplies=0.0
+}

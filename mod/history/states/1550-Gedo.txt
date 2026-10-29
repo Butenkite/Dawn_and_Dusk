@@ -1,0 +1,22 @@
+state={
+	id=1550
+	name="STATE_1550" # Gedo
+	manpower = 370064
+	state_category = rural
+
+	history={
+		owner = SNF
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15280 3 }
+		add_core_of = SNF
+		add_core_of = SOM
+	}
+
+	provinces={
+		15278 15279 15280 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=1753
+	name="STATE_1753" # Al-Ahsa
+	manpower = 372142
+	state_category = rural
+
+	resources={
+		oil=92
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15966 1 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		15964 15965 15966 15967 15968 15969 15970 
+	}
+
+	local_supplies=0.0
+}

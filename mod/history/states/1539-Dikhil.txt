@@ -1,0 +1,21 @@
+state={
+	id=1539
+	name="STATE_1539" # Dikhil
+	manpower = 48000
+	state_category = pastoral
+
+	history={
+		owner = DJI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15259 1 }
+		add_core_of = DJI
+	}
+
+	provinces={
+		15259 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,24 @@
+state={
+	id=1728
+	name="STATE_1728" # Amman
+	manpower = 1847496
+	state_category = city
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+		victory_points = { 15852 15 }
+		add_core_of = JOR
+	}
+
+	provinces={
+		15852 15853 15854 15855 15856 15857 15858 
+	}
+
+	local_supplies=0.0
+}

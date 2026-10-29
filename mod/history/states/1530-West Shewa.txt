@@ -1,0 +1,21 @@
+state={
+	id=1530
+	name="STATE_1530" # West Shewa
+	manpower = 2312923
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15243 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15242 15243 15244 15245 15246 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1416
+	name="STATE_1416" # Oio
+	manpower = 192788
+	state_category = rural
+
+	history={
+		owner = GNB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14773 1 }
+		add_core_of = GNB
+	}
+
+	provinces={
+		14773 
+	}
+
+	local_supplies=0.0
+}

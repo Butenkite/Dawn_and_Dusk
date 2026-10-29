@@ -1,0 +1,21 @@
+state={
+	id=1632
+	name="STATE_1632" # Itasy
+	manpower = 554999
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15629 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15629 15630 
+	}
+
+	local_supplies=0.0
+}

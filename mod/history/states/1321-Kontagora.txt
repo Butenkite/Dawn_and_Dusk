@@ -1,0 +1,21 @@
+state={
+	id=1321
+	name="STATE_1321" # Kontagora
+	manpower = 1130449
+	state_category = large_town
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14373 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14370 14371 14372 14373 14374 
+	}
+
+	local_supplies=0.0
+}

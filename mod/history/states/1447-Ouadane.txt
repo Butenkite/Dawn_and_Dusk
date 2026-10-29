@@ -1,0 +1,21 @@
+state={
+	id=1447
+	name="STATE_1447" # Ouadane
+	manpower = 16688
+	state_category = pastoral
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14907 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14906 14907 14908 14909 
+	}
+
+	local_supplies=0.0
+}

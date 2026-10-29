@@ -1,0 +1,24 @@
+state={
+	id=1811
+	name="STATE_1811" # Limassol
+	manpower = 200000
+	state_category = rural
+
+	history={
+		owner = CYP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			16242 = { naval_base = 2 }
+		}
+		victory_points = { 16242 2 }
+		add_core_of = CYP
+	}
+
+	provinces={
+		16241 16242 
+	}
+
+	local_supplies=0.0
+}

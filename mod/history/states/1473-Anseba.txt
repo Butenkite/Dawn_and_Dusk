@@ -1,0 +1,21 @@
+state={
+	id=1473
+	name="STATE_1473" # Anseba
+	manpower = 492712
+	state_category = town
+
+	history={
+		owner = ERI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15038 2 }
+		add_core_of = ERI
+	}
+
+	provinces={
+		15037 15038 15039 
+	}
+
+	local_supplies=0.0
+}

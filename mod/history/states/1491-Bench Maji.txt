@@ -1,0 +1,21 @@
+state={
+	id=1491
+	name="STATE_1491" # Bench Maji
+	manpower = 1081602
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15106 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15106 15107 15108 15109 15110 
+	}
+
+	local_supplies=0.0
+}

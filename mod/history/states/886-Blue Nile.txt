@@ -1,0 +1,22 @@
+state={
+	id=886
+	name="STATE_886" # Morobo
+	manpower = 16298
+	state_category = pastoral
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14984 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		14984 
+	}
+
+	local_supplies=0.0
+}

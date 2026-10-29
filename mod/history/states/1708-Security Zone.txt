@@ -1,0 +1,22 @@
+state={
+	id=1708
+	name="STATE_1708" # Security Zone
+	manpower = 247808
+	state_category = rural
+
+	history={
+		owner = SLA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 15739 3 }
+		add_core_of = SLA
+		add_core_of = LEB
+	}
+
+	provinces={
+		15739 
+	}
+
+	local_supplies=0.0
+}

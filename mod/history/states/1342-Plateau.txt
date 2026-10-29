@@ -1,0 +1,21 @@
+state={
+	id=1342
+	name="STATE_1342" # Plateau
+	manpower = 388000
+	state_category = rural
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14502 1 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14502 
+	}
+
+	local_supplies=0.0
+}

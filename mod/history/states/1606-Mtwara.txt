@@ -1,0 +1,22 @@
+state={
+	id=1606
+	name="STATE_1606" # Mtwara
+	manpower = 1115000
+	state_category = large_town
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+			15506 = { naval_base = 1 }
+		}
+		victory_points = { 15506 2 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15505 15506 15507 15508 15509 
+	}
+
+	local_supplies=0.0
+}

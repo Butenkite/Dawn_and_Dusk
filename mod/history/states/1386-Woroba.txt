@@ -1,0 +1,21 @@
+state={
+	id=1386
+	name="STATE_1386" # Woroba
+	manpower = 575617
+	state_category = town
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14673 1 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14671 14672 14673 
+	}
+
+	local_supplies=0.0
+}

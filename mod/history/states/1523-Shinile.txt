@@ -1,0 +1,21 @@
+state={
+	id=1523
+	name="STATE_1523" # Shinile
+	manpower = 767870
+	state_category = town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15218 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15215 15216 15217 15218 
+	}
+
+	local_supplies=0.0
+}

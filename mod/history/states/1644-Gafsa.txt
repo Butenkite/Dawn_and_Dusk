@@ -1,0 +1,21 @@
+state={
+	id=1644
+	name="STATE_1644" # Gafsa
+	manpower = 409000
+	state_category = town
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 9960 2 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		9960 9964 
+	}
+
+	local_supplies=0.0
+}

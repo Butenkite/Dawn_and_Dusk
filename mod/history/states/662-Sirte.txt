@@ -1,0 +1,21 @@
+state={
+	id=662
+	name="STATE_662" # Béchar
+	manpower = 243844
+	state_category = rural
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 5099 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		5074 5078 5081 5093 5095 5099 
+	}
+
+	local_supplies=0.0
+}

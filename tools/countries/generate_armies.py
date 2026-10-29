@@ -1,20 +1,27 @@
 #!/usr/bin/env python3
-"""Orders of battle for the Second Congo War as it stood on 1 January 2000.
+"""Starting armies for the armed standoffs of 1 January 2000.
 
-Four sides hold the Congo at the start (see tools/data/map/central_africa.json,
-"control"): Kinshasa (COG), RCD-Goma (RCD), the MLC (MLC) and RCD-ML (RML).
-The wars themselves are declared on startup by
-common/on_actions/dnd_congo_war.txt; this script only puts troops on the map.
+Only the sides of the conflicts set up on the map have troops so far:
 
-Divisions are placed from the built map, so re-run this after rebuilding the
-central Africa region:
+  - the Second Congo War (tools/data/map/central_africa.json, "control"):
+    Kinshasa (COG) against RCD-Goma (RCD), the MLC (MLC) and RCD-ML (RML),
+    already at war (declared in their country history files)
+  - Sierra Leone (tools/data/map/west_africa.json): the government (SIE) and
+    the RUF facing each other across the Lomé ceasefire line, at peace until
+    content breaks it
+  - the Second Sudanese Civil War (tools/data/map/east_africa.json): Khartoum
+    (SUD) against the SPLA (SPL)
+  - the Eritrean-Ethiopian War: ETH against ERI along the whole border, with
+    Eritrea still holding Zalambessa
 
-    python tools/countries/generate_congo_war.py --vanilla "C:/Steam/steamapps/common/Hearts of Iron IV"
+Divisions are placed from the built map, so re-run this after rebuilding a
+region:
 
-Most divisions stand on the front (provinces touching an enemy), spread
-along it; a few guard each capital. The foreign armies that fought there
-(Zimbabwe, Angola, Namibia, Rwanda, Uganda, Burundi) are not on the map:
-the war starts as a Congolese war and the region decides who joins it.
+    python tools/countries/generate_armies.py --vanilla "C:/Steam/steamapps/common/Hearts of Iron IV"
+
+Most divisions stand on the front line (provinces touching an enemy), spread
+along it; a few guard each capital. Foreign armies that fought in these wars
+are not on the map.
 """
 import argparse
 import collections
@@ -30,20 +37,36 @@ from paths import REPO, MOD, DATA  # noqa: E402
 sys.path.insert(0, str(REPO / "tools/map"))
 import core  # noqa: E402
 
-# tag: (army, template name, divisions, capital garrison, stockpile of rifles)
+# tag: (army, template name, divisions, capital garrison, stockpile of rifles, language)
 SIDES = {
-    "COG": ("FAC", "Brigade d'infanterie", 16, 2, 2500),
-    "RCD": ("ANC", "Brigade d'infanterie", 12, 1, 1500),
-    "MLC": ("ALC", "Brigade d'infanterie", 7, 1, 1000),
-    "RML": ("APC", "Brigade d'infanterie", 4, 1, 600),
+    "COG": ("FAC", "Brigade d'infanterie", 16, 2, 2500, "fr"),
+    "RCD": ("ANC", "Brigade d'infanterie", 12, 1, 1500, "fr"),
+    "MLC": ("ALC", "Brigade d'infanterie", 7, 1, 1000, "fr"),
+    "RML": ("APC", "Brigade d'infanterie", 4, 1, 600, "fr"),
+    "SIE": ("SLA", "Infantry Brigade", 6, 2, 900, "en"),
+    "RUF": ("RUF", "Combat Group", 6, 1, 900, "en"),
+    "SUD": ("SAF", "Infantry Brigade", 18, 3, 2500, "en"),
+    "SPL": ("SPLA", "Infantry Brigade", 12, 1, 1500, "en"),
+    "ETH": ("ENDF", "Infantry Division", 24, 3, 4000, "en"),
+    "ERI": ("EDF", "Infantry Division", 18, 2, 3000, "en"),
 }
+# Who each side expects to fight: its divisions stand along that line.
 ENEMIES = {
     "COG": {"RCD", "MLC", "RML"},
     "RCD": {"COG", "RML"},
     "MLC": {"COG"},
     "RML": {"COG", "RCD"},
+    "SIE": {"RUF"},
+    "RUF": {"SIE"},
+    "SUD": {"SPL"},
+    "SPL": {"SUD"},
+    "ETH": {"ERI"},
+    "ERI": {"ETH"},
 }
-ORDINAL = lambda n: f"{n}re" if n == 1 else f"{n}e"  # noqa: E731
+def ordinal(n, lang):
+    if lang == "fr":
+        return f"{n}re" if n == 1 else f"{n}e"
+    return f"{n}" + ("th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th"))
 
 
 def load(vanilla, mod):
@@ -58,6 +81,9 @@ def load(vanilla, mod):
         for p in s.provinces:
             owner[p] = m.group(1)
             state_of[p] = sid
+        for occ, body in re.findall(r"\b([A-Z][A-Z0-9]{2})\s*=\s*\{([^{}]*set_province_controller[^{}]*)\}", t):
+            for p in re.findall(r"set_province_controller\s*=\s*(\d+)", body):
+                owner[int(p)] = occ          # who holds it on the day, for placing troops
         v = re.search(r"victory_points\s*=\s*\{([^}]*)\}", t)
         if v:
             nums = v.group(1).split()
@@ -113,7 +139,7 @@ def main():
 
     out_dir = Path(a.mod) / "history/units"
     out_dir.mkdir(parents=True, exist_ok=True)
-    for tag, (army, template, n, garrison, rifles) in SIDES.items():
+    for tag, (army, template, n, garrison, rifles, lang) in SIDES.items():
         mine = [p for p, t in owner.items() if t == tag and p in land]
         front = sorted(p for p in mine if any(owner.get(q) in ENEMIES[tag] for q in nbr[p]))
         cap_state = caps[tag]
@@ -122,7 +148,7 @@ def main():
         spots = [cap] * garrison + spread(front, centre, n - garrison)
         lines = [
             f"# {tag}: order of battle on 1 January 2000",
-            "# GENERATED by tools/countries/generate_congo_war.py - re-run after rebuilding the map.",
+            "# GENERATED by tools/countries/generate_armies.py - re-run after rebuilding the map.",
             "",
             "division_template = {",
             f"\tname = \"{template}\"",
@@ -138,7 +164,8 @@ def main():
         for i, prov in enumerate(spots, start=1):
             lines += [
                 "\tdivision = {",
-                f"\t\tname = \"{ORDINAL(i)} Brigade {army}\"",
+                (f"\t\tname = \"{ordinal(i, lang)} Brigade {army}\"" if lang == "fr" else
+                 f"\t\tname = \"{ordinal(i, lang)} {template.replace('Infantry ', '')} {army}\""),
                 f"\t\tlocation = {prov}",
                 f"\t\tdivision_template = \"{template}\"",
                 "\t\tstart_experience_factor = 0.2",

@@ -1,0 +1,21 @@
+state={
+	id=1439
+	name="STATE_1439" # Mopti
+	manpower = 1643000
+	state_category = city
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14861 2 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14855 14856 14857 14858 14859 14860 14861 14862 14863 14864 
+	}
+
+	local_supplies=0.0
+}

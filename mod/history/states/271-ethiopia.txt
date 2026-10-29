@@ -1,0 +1,21 @@
+state={
+	id=271
+	name="STATE_271" # Al Radoum
+	manpower = 678147
+	state_category = town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 4138 1 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		2206 2281 2308 4033 4138 4171 
+	}
+
+	local_supplies=0.0
+}

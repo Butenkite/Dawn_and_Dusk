@@ -1,0 +1,24 @@
+state={
+	id=1322
+	name="STATE_1322" # Kaduna
+	manpower = 5348000
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 14376 10 }
+		victory_points = { 14382 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14375 14376 14377 14378 14379 14380 14381 14382 14383 14384 14385 14386 14387 14388 14389 
+	}
+
+	local_supplies=0.0
+}

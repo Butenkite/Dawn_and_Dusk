@@ -1,0 +1,23 @@
+state={
+	id=1703
+	name="STATE_1703" # Gaza
+	manpower = 1221389
+	state_category = large_town
+
+	history={
+		owner = PAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 15727 12 }
+		add_core_of = PAL
+		add_claim_by = ISR
+	}
+
+	provinces={
+		15727 
+	}
+
+	local_supplies=0.0
+}

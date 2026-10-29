@@ -1,0 +1,21 @@
+state={
+	id=1634
+	name="STATE_1634" # Androy
+	manpower = 555000
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15641 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15639 15640 15641 
+	}
+
+	local_supplies=0.0
+}

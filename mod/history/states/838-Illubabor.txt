@@ -1,0 +1,22 @@
+state={
+	id=838
+	name="STATE_838" # Hala'ib
+	manpower = 109814
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 12911 1 }
+		add_core_of = EGY
+		add_core_of = SUD
+	}
+
+	provinces={
+		12911 12927 
+	}
+
+	local_supplies=0.0
+}

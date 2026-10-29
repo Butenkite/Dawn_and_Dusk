@@ -1,0 +1,26 @@
+state={
+	id=1695
+	name="STATE_1695" # Negev
+	manpower = 830610
+	state_category = large_town
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			15709 = { naval_base = 1 }
+		}
+		victory_points = { 15709 1 }
+		victory_points = { 15712 3 }
+		add_core_of = ISR
+	}
+
+	provinces={
+		15708 15709 15710 15711 15712 15713 
+	}
+
+	local_supplies=0.0
+}

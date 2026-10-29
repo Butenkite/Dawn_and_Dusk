@@ -1,0 +1,21 @@
+state={
+	id=663
+	name="STATE_663" # Biskra
+	manpower = 651496
+	state_category = town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 6883 3 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		6826 6883 7001 7005 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1705
+	name="STATE_1705" # North Lebanon
+	manpower = 754514
+	state_category = town
+
+	history={
+		owner = LEB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			15731 = { naval_base = 1 }
+		}
+		victory_points = { 15731 6 }
+		add_core_of = LEB
+	}
+
+	provinces={
+		15731 15732 15733 
+	}
+
+	local_supplies=0.0
+}

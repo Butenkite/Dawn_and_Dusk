@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Republic of Somaliland, independent in all but recognition since 1991 (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 0 160 110 }

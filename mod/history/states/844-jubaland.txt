@@ -1,0 +1,21 @@
+state={
+	id=844
+	name="STATE_844" # White Nile
+	manpower = 1512220
+	state_category = city
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14967 3 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		14966 14967 14968 14969 14970 14971 14972 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=1660
+	name="STATE_1660" # Ajdabiya
+	manpower = 163000
+	state_category = rural
+
+	resources={
+		oil=30
+	}
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10844 2 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10835 10840 10844 10850 10869 
+	}
+
+	local_supplies=0.0
+}

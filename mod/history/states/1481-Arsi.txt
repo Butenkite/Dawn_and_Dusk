@@ -1,0 +1,22 @@
+state={
+	id=1481
+	name="STATE_1481" # Arsi
+	manpower = 2194787
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15068 2 }
+		victory_points = { 15065 2 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15064 15065 15066 15067 15068 15069 15070 
+	}
+
+	local_supplies=0.0
+}

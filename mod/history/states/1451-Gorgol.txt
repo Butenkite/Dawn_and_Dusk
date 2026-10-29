@@ -1,0 +1,21 @@
+state={
+	id=1451
+	name="STATE_1451" # Gorgol
+	manpower = 242000
+	state_category = rural
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14917 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14916 14917 
+	}
+
+	local_supplies=0.0
+}

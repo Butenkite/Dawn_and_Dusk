@@ -1,0 +1,23 @@
+state={
+	id=1680
+	name="STATE_1680" # Minya
+	manpower = 3865250
+	state_category = large_city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 12726 3 }
+		victory_points = { 12727 2 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		12726 12727 12733 12740 12749 12758 12760 12764 12768 12771 12813 
+	}
+
+	local_supplies=0.0
+}

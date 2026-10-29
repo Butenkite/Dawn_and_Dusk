@@ -1,0 +1,26 @@
+state={
+	id=1465
+	name="STATE_1465" # Bentiu
+	manpower = 478999
+	state_category = town
+
+	resources={
+		oil=14
+	}
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15007 1 }
+		add_core_of = SUD
+		add_core_of = SPL
+	}
+
+	provinces={
+		15006 15007 15008 
+	}
+
+	local_supplies=0.0
+}

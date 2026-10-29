@@ -1,0 +1,21 @@
+state={
+	id=858
+	name="STATE_858" # Médéa
+	manpower = 738813
+	state_category = town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7216 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7216 7513 
+	}
+
+	local_supplies=0.0
+}

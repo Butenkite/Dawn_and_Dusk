@@ -4,9 +4,10 @@ ADU,Andalusia,789,
 AFA,Afar,908,
 AFG,Afghanistan,267,
 ALB,Albania,44,
-ALG,Algeria,459,
+ALG,Algeria,459,authoritarian_democrat
 ALT,Altai Republic,654,
 ANG,Angola,540,authoritarian_democrat
+ANJ,Anjouan,1639,neutrality
 ANU,Ainu,536,
 AOI,Italian East Africa,271,
 ARG,Argentina,278,democratic
@@ -23,7 +24,7 @@ BAS,British Antilles,692,
 BAY,Bavaria,52,
 BEG,Benishangul-Gumuz,840,
 BEL,Belgium,6,
-BHR,Bahrain,1014,
+BHR,Bahrain,1014,neutrality
 BHU,Bhutan,324,
 BIA,Biafra,900,
 BLC,Balochistan,988,
@@ -48,7 +49,7 @@ CAN,Canada,276,democratic
 CAR,Central African Republic,660,social_democrat
 CAT,Catalonia,165,
 CAY,Cayenne,310,
-CBV,Cabo Verde,702,
+CBV,Cabo Verde,702,conservative
 CHA,Chad,774,authoritarian_democrat
 CHI,China,1035,communism
 CHL,Chile,279,
@@ -61,6 +62,7 @@ CKK,Chukotka,822,
 CMR,Cameroon,773,authoritarian_democrat
 COG,Congo,295,neutrality
 COL,Colombia,306,
+COM,Comoros,1640,neutrality
 COR,Corsica,1,
 COS,Costa Rica,316,
 CPS,Champasak,1068,
@@ -69,14 +71,14 @@ CRI,Crimea,137,
 CRO,Croatia,109,
 CSA,CSA,361,
 CUB,Cuba,315,communism
-CYP,Cyprus,183,
+CYP,Cyprus,183,conservative
 CZE,Czechoslovakia,9,social_democrat
 DAG,Dagestan,232,
-DAH,Dahomey,776,
+DAH,Dahomey,776,democratic
 DDR,East Germany,64,
 DEN,Denmark,37,
 DIP,Partisans,430,
-DJI,Djibouti,268,
+DJI,Djibouti,268,authoritarian_democrat
 DNZ,Danzig,85,
 DOM,Dominican Republic,319,
 DON,Don Republic,218,
@@ -85,7 +87,7 @@ EGY,Egypt,907,authoritarian_democrat
 ELS,El Salvador,314,
 ENG,Britain,126,social_democrat
 EQG,Equatorial Guinea,297,neutrality
-ERI,Eritrea,550,
+ERI,Eritrea,550,authoritarian_democrat
 EST,Estonia,812,
 ETH,Ethiopia,271,authoritarian_democrat
 EVE,Evenkia,576,
@@ -99,7 +101,7 @@ FSA,Federation of South Arabia,992,
 FSM,Micronesia,684,
 GAB,Gabon,539,authoritarian_democrat
 GAL,Galicia and Lodomeria,88,
-GAM,The Gambia,701,
+GAM,The Gambia,701,authoritarian_democrat
 GAR,Guarani,301,
 GBA,Gambela,838,
 GDC,Guangdong,592,
@@ -109,8 +111,8 @@ GEO,Georgia,231,
 GER,Germany,64,social_democrat
 GHA,Ghana,274,social_democrat
 GLC,Galicia,171,
-GNA,Guinea,780,
-GNB,Guinea-Bissau,296,
+GNA,Guinea,780,authoritarian_democrat
+GNB,Guinea-Bissau,296,democratic
 GOW,Gowa,673,
 GRE,Greece,47,
 GRN,Greenland,101,
@@ -125,6 +127,7 @@ HAR,Harar,835,
 HAW,Hawaii,629,
 HBC,Hebei-Chahar,608,
 HES,Hesse,55,
+HIR,Hiiraan,1542,neutrality
 HOL,Holland,7,
 HON,Honduras,312,
 HRZ,Herzegovina,804,
@@ -138,20 +141,22 @@ INS,Indonesia,1058,democratic
 INU,Inuit,463,
 IRE,Ireland,113,
 IRQ,Iraq,291,neutrality
-ISR,Israel,454,
+ISR,Israel,454,social_democrat
 ITA,Italy,2,social_democrat
 ITZ,Itza,311,
-IVO,Ivory Coast,779,
+IVO,Ivory Coast,779,neutrality
 JAM,Jamaica,689,
 JAN,Jan Mayen,914,
 JAP,Japan,282,conservative
-JOR,Jordan,455,
+JOR,Jordan,455,conservative
+JVA,JVA,1560,neutrality
 KAL,Kalmykia,237,
 KAR,Karelia,216,
 KAS,Kashmir,441,
 KAT,Katanga,889,
 KAZ,Kazakhstan,586,
 KBK,Kabardino-Balkaria,827,
+KDP,KDP,1,conservative
 KEN,Kenya,547,authoritarian_democrat
 KHA,Khakassia,569,
 KHI,Khiva,831,
@@ -167,19 +172,19 @@ KSH,Kashubia,807,
 KUB,Kuban Republic,234,
 KUM,Kumul Khanate,760,
 KUR,Kurdistan,800,
-KUW,Kuwait,656,
+KUW,Kuwait,656,conservative
 KYR,Kyrgyzstan,732,
 LAO,Laos,670,communism
 LAT,Latvia,808,
 LBA,Libya,448,neutrality
 LBV,Lombardy Venetia,160,
-LEB,Lebanon,553,
+LEB,Lebanon,553,conservative
 LES,Lesotho,,social_democrat
 LIB,Liberia,298,neutrality
 LIT,Lithuania,11,
 LUX,Luxemburg,8,
 MAC,Macedonia,106,
-MAD,Madagascar,543,
+MAD,Madagascar,543,socialist
 MAL,Malaysia,336,
 MAN,Manchukou,328,
 MAY,Maya,475,
@@ -190,23 +195,25 @@ MEX,Mexico,277,authoritarian_democrat
 MIS,Miskito,317,
 MLC,MLC,775,conservative
 MLD,Maldives,281,
-MLI,Mali,556,
+MLI,Mali,556,social_democrat
 MLT,Malta,116,
 MLW,Malawi,770,democratic
 MNT,Montenegro,105,
 MOL,Moldova,78,
 MON,Mongolia,330,social_democrat
-MOR,Morocco,461,
+MOR,Morocco,461,social_democrat
 MPU,Manipur,990,
-MRT,Mauritania,557,
+MRT,Mauritania,557,authoritarian_democrat
+MUS,Mauritius,707,social_democrat
 MYS,Mysore,425,
 MZB,Mozambique,544,authoritarian_democrat
 NAH,Nahua,314,
 NAV,Navarra,792,
+NCY,Northern Cyprus,1,conservative
 NEN,Nenetsia,825,
 NEP,Nepal,323,
 NGA,Nigeria,558,democratic
-NGR,Niger,781,
+NGR,Niger,781,authoritarian_democrat
 NIC,Nicaragua,317,
 NIR,Northern Ireland,119,
 NMB,Namibia,541,social_democrat
@@ -217,11 +224,11 @@ NXM,Ningxia Ma,616,
 NZL,New Zealand,284,social_democrat
 OCC,Occitania,31,
 OKN,Okinawa,526,
-OMA,Oman,294,
+OMA,Oman,294,neutrality
 ORO,Oromo,836,
 OVO,Ostyakia Vogulia,580,
 PAK,Pakistan,443,neutrality
-PAL,Palestine,454,
+PAL,Palestine,454,authoritarian_democrat
 PAN,Panama,304,
 PAP,Papal States,2,
 PAR,Paraguay,301,
@@ -229,6 +236,7 @@ PER,Persia,266,neutrality
 PHI,Philippines,327,democratic
 PLU,Palau,647,
 PNG,Papua New Guinea,523,
+PNT,Puntland,1555,authoritarian_democrat
 POK,Pontianak,334,
 POL,Poland,10,conservative
 POR,Portugal,112,
@@ -238,7 +246,8 @@ PRU,Peru,303,
 PSH,Pashtunistan,459,
 PSR,Philippine Second Republic,327,
 PUE,Puerto Rico,686,
-QAT,Qatar,765,
+PUK,PUK,1,social_democrat
+QAT,Qatar,765,neutrality
 QEM,Qemant,841,
 QUE,Quebec,468,
 RAA,Reichskommisariat Australasien,979,
@@ -275,48 +284,58 @@ RNA,Reichskommisariat Nordafrika,458,
 RNG,Reorganized National Government,613,
 ROA,Reichskommisariat Ostasien,743,
 ROM,Romania,46,conservative
+RRA,RRA,1562,neutrality
+RUF,RUF,700,neutrality
 RUS,Reichskommisariat Nordamerika,395,
 RUT,Ruthenia,73,
 RWA,Rwanda,768,authoritarian_democrat
 SAB,Sabah,1024,
 SAF,South Africa,275,social_democrat
+SAH,SADR,1,socialist
 SAM,Samoa,726,
 SAR,Sarawak,333,
 SAU,Saudi Arabia,292,neutrality
 SAX,Saxony,65,
 SCO,Scotland,121,
 SDL,Sudetenland,69,
-SEN,Senegal,272,
+SEN,Senegal,272,social_democrat
 SER,Serbia,107,
+SEY,Seychelles,709,socialist
 SHL,Schleswig-Holstein,58,
 SHX,Shanxi,615,
 SIA,Siam,1076,conservative
 SIC,Sichuan,1037,
 SID,Sidamo,837,
-SIE,Sierra Leone,700,
+SIE,Sierra Leone,700,democratic
 SIK,Sinkiang,617,
 SIL,Silesia,66,
 SIN,Sindh,443,
 SKK,Sikkim,985,
+SLA,South Lebanon Army,1,neutrality
 SLO,Slovakia,70,
 SLV,Slovenia,853,
 SMI,Sami,148,
+SML,Somaliland,1552,authoritarian_democrat
+SNA,USC-SNA,1559,neutrality
 SND,Shandong,1038,
+SNF,SNF,1550,neutrality
 SNG,Singapore,1021,
 SOK,Sokoto,902,
 SOL,Solomon Islands,634,
-SOM,Somalia,559,
+SOM,Somalia,559,neutrality
 SOV,Soviet union,219,authoritarian_democrat
+SPL,SPLM-A,884,socialist
 SPM,Sardinia Piedmont,158,
 SPR,Spain,41,conservative
 SRL,Sri Lanka,422,
+SSA,USC-SSA,1551,neutrality
 SSI,Siak,1049,
-SUD,Sudan,551,
+SUD,Sudan,551,authoritarian_democrat
 SUR,Suriname,309,
 SWE,Sweden,141,
 SWI,Switzerland,3,
 SWZ,Swaziland,,neutrality
-SYR,Syria,554,
+SYR,Syria,554,neutrality
 TAH,Tahiti,641,
 TAJ,Tajikistan,742,
 TAN,Tannu Tuva,329,
@@ -328,15 +347,15 @@ TIG,Tigray,842,
 TML,Timor Leste,721,
 TMS,Turkmenistan,584,
 TNE,Ternate,668,
-TOG,Togo,777,
+TOG,Togo,777,neutrality
 TOS,Tuscany,162,
 TRA,Transylvania,84,
 TRI,Trinidad and Tobago,691,
 TTS,The Two Sicilies,117,
-TUN,Tunisia,458,
+TUN,Tunisia,458,authoritarian_democrat
 TUR,Turkey,49,social_democrat
-TZN,Tanzania,546,
-UAE,United Arab Emirates,658,
+TZN,Tanzania,546,authoritarian_democrat
+UAE,United Arab Emirates,658,neutrality
 UBD,United Baltic Duchy,808,
 UDM,Udmurtia,399,
 UGA,Uganda,548,authoritarian_democrat
@@ -350,7 +369,7 @@ VEN,Venezula,307,
 VGE,Volga Germany,829,
 VIN,Vietnam,671,communism
 VLA,Vladivostok,408,
-VOL,Upper Volta,778,
+VOL,Upper Volta,778,authoritarian_democrat
 WES,Western Sahara,699,
 WGR,West Germany,64,
 WIS,Western Indian States,428,
@@ -362,7 +381,7 @@ XIC,Xi'An,744,
 XSM,Xibei San Ma,754,
 YAK,Yakutia,574,
 YAM,Yamalia,579,
-YEM,Yeman,293,
+YEM,Yeman,293,authoritarian_democrat
 YUC,Yucatan,474,
 YUG,Yugoslavia,107,
 YUN,Yunnan,325,

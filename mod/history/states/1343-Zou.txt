@@ -1,0 +1,21 @@
+state={
+	id=1343
+	name="STATE_1343" # Zou
+	manpower = 567000
+	state_category = town
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14503 2 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14503 14504 
+	}
+
+	local_supplies=0.0
+}

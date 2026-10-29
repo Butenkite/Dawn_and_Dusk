@@ -1,0 +1,21 @@
+state={
+	id=1605
+	name="STATE_1605" # Singida
+	manpower = 1075000
+	state_category = large_town
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15499 1 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15498 15499 15500 15501 15502 15503 15504 
+	}
+
+	local_supplies=0.0
+}

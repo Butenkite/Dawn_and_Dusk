@@ -1,0 +1,21 @@
+state={
+	id=1775
+	name="STATE_1775" # Ta'izz
+	manpower = 2156999
+	state_category = city
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 16144 6 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16140 16141 16142 16143 16144 
+	}
+
+	local_supplies=0.0
+}

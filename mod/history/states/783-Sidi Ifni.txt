@@ -1,0 +1,25 @@
+state={
+	id=783
+	name="STATE_783" # Djanet
+	manpower = 22454
+	state_category = pastoral
+
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7154 1 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7151 7154 
+	}
+
+	local_supplies=0.0
+}

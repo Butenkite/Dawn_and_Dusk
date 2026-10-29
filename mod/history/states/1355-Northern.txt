@@ -1,0 +1,22 @@
+state={
+	id=1355
+	name="STATE_1355" # Northern
+	manpower = 1818032
+	state_category = city
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 14546 3 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14540 14541 14542 14543 14544 14545 14546 14547 14548 14549 14550 
+	}
+
+	local_supplies=0.0
+}

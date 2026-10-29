@@ -1,0 +1,21 @@
+state={
+	id=1371
+	name="STATE_1371" # Hauts-Bassins
+	manpower = 1211851
+	state_category = large_town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14614 3 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14614 14615 14616 14617 14618 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1317
+	name="STATE_1317" # Ekiti
+	manpower = 2101000
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14343 3 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14342 14343 14344 14345 
+	}
+
+	local_supplies=0.0
+}

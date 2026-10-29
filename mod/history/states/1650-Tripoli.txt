@@ -1,0 +1,26 @@
+state={
+	id=1650
+	name="STATE_1650" # Tripoli
+	manpower = 1437000
+	state_category = large_town
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			10059 = { naval_base = 3 }
+		}
+		victory_points = { 10059 20 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10059 10061 10067 
+	}
+
+	local_supplies=0.0
+}

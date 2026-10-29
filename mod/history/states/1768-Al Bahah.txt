@@ -1,0 +1,21 @@
+state={
+	id=1768
+	name="STATE_1768" # Al Bahah
+	manpower = 344465
+	state_category = rural
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 16112 1 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16112 16113 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1554
+	name="STATE_1554" # Las Anod
+	manpower = 136842
+	state_category = pastoral
+
+	history={
+		owner = SML
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15291 1 }
+		add_core_of = SML
+		add_core_of = SOM
+		add_claim_by = PNT
+	}
+
+	provinces={
+		15291 15292 
+	}
+
+	local_supplies=0.0
+}

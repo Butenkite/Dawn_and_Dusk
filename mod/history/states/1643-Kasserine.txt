@@ -1,0 +1,22 @@
+state={
+	id=1643
+	name="STATE_1643" # Kasserine
+	manpower = 782000
+	state_category = town
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 9945 2 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		9945 9947 9957 
+	}
+
+	local_supplies=0.0
+}

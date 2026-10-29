@@ -1,0 +1,21 @@
+state={
+	id=1496
+	name="STATE_1496" # Borena
+	manpower = 1728518
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15132 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15129 15130 15131 15132 15133 15134 15135 15136 
+	}
+
+	local_supplies=0.0
+}

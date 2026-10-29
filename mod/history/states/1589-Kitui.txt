@@ -1,0 +1,21 @@
+state={
+	id=1589
+	name="STATE_1589" # Kitui
+	manpower = 837000
+	state_category = large_town
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15416 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15413 15414 15415 15416 
+	}
+
+	local_supplies=0.0
+}

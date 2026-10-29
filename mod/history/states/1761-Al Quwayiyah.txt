@@ -1,0 +1,25 @@
+state={
+	id=1761
+	name="STATE_1761" # Al Quwayiyah
+	manpower = 599867
+	state_category = town
+
+	resources={
+		oil=5
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 16041 1 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16036 16037 16038 16039 16040 16041 16042 16043 
+	}
+
+	local_supplies=0.0
+}

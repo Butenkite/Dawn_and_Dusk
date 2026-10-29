@@ -1,0 +1,21 @@
+state={
+	id=1726
+	name="STATE_1726" # Mafraq
+	manpower = 230000
+	state_category = rural
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15850 1 }
+		add_core_of = JOR
+	}
+
+	provinces={
+		15846 15847 15848 15849 15850 
+	}
+
+	local_supplies=0.0
+}

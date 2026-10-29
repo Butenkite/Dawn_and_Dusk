@@ -1,0 +1,21 @@
+state={
+	id=1573
+	name="STATE_1573" # Kisumu
+	manpower = 1500000
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15368 3 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15367 15368 
+	}
+
+	local_supplies=0.0
+}

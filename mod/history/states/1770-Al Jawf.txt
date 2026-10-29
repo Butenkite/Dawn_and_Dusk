@@ -1,0 +1,21 @@
+state={
+	id=1770
+	name="STATE_1770" # Al Jawf
+	manpower = 327604
+	state_category = rural
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 16120 2 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16119 16120 16121 16122 16123 16124 
+	}
+
+	local_supplies=0.0
+}

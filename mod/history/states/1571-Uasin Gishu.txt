@@ -1,0 +1,23 @@
+state={
+	id=1571
+	name="STATE_1571" # Uasin Gishu
+	manpower = 2434552
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 15360 3 }
+		victory_points = { 15363 2 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15359 15360 15361 15362 15363 
+	}
+
+	local_supplies=0.0
+}

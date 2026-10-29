@@ -1,0 +1,22 @@
+state={
+	id=1641
+	name="STATE_1641" # Mayotte
+	manpower = 150000
+	state_category = rural
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15657 1 }
+		add_core_of = FRA
+		add_claim_by = COM
+	}
+
+	provinces={
+		15657 
+	}
+
+	local_supplies=0.0
+}

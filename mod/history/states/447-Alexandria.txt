@@ -1,0 +1,22 @@
+state={
+	id=447
+	name="STATE_447" # Northern Free Zone
+	manpower = 6502
+	state_category = pastoral
+
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1186 1 }
+		add_core_of = SAH
+		add_core_of = MOR
+	}
+
+	provinces={
+		1186 
+	}
+
+	local_supplies=0.0
+}

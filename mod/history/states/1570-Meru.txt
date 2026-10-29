@@ -1,0 +1,21 @@
+state={
+	id=1570
+	name="STATE_1570" # Meru
+	manpower = 1931639
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15358 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15355 15356 15357 15358 
+	}
+
+	local_supplies=0.0
+}

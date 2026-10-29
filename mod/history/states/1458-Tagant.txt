@@ -1,0 +1,21 @@
+state={
+	id=1458
+	name="STATE_1458" # Tagant
+	manpower = 76000
+	state_category = pastoral
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14932 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14930 14931 14932 
+	}
+
+	local_supplies=0.0
+}

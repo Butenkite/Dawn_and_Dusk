@@ -1,0 +1,25 @@
+state={
+	id=1657
+	name="STATE_1657" # Murzuq
+	manpower = 59966
+	state_category = pastoral
+
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10754 1 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10754 10760 10785 
+	}
+
+	local_supplies=0.0
+}

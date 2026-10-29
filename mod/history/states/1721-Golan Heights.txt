@@ -1,0 +1,22 @@
+state={
+	id=1721
+	name="STATE_1721" # Golan Heights
+	manpower = 54019
+	state_category = pastoral
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15835 1 }
+		add_core_of = ISR
+		add_core_of = SYR
+	}
+
+	provinces={
+		15835 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1534
+	name="STATE_1534" # Gabi Rasu
+	manpower = 105107
+	state_category = pastoral
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15254 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15254 
+	}
+
+	local_supplies=0.0
+}

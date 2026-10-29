@@ -1,0 +1,21 @@
+state={
+	id=1328
+	name="STATE_1328" # Diffa
+	manpower = 345000
+	state_category = rural
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14427 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14427 14428 14429 14430 14431 14432 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=1391
+	name="STATE_1391" # Margibi
+	manpower = 172000
+	state_category = rural
+
+	resources={
+		rubber=6
+	}
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14690 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14690 
+	}
+
+	local_supplies=0.0
+}

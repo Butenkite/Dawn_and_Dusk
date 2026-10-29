@@ -1,0 +1,21 @@
+state={
+	id=1492
+	name="STATE_1492" # Gambela
+	manpower = 169122
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15112 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15111 15112 15113 
+	}
+
+	local_supplies=0.0
+}

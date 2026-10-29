@@ -1,0 +1,21 @@
+state={
+	id=1512
+	name="STATE_1512" # Liben
+	manpower = 305525
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15179 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15178 15179 15180 
+	}
+
+	local_supplies=0.0
+}

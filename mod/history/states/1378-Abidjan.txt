@@ -1,0 +1,26 @@
+state={
+	id=1378
+	name="STATE_1378" # Abidjan
+	manpower = 3131393
+	state_category = large_city
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			14639 = { naval_base = 4 }
+		}
+		victory_points = { 14639 20 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14639 14640 
+	}
+
+	local_supplies=0.0
+}

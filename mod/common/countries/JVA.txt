@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Juba Valley Alliance, at Kismayo since June 1999 (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 40 70 150 }

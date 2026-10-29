@@ -1,0 +1,21 @@
+state={
+	id=1016
+	name="STATE_1016" # El Kef
+	manpower = 476000
+	state_category = town
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 8092 1 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		8092 8101 8108 
+	}
+
+	local_supplies=0.0
+}

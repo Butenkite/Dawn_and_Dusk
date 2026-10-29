@@ -1,0 +1,25 @@
+state={
+	id=1489
+	name="STATE_1489" # Sidama
+	manpower = 4094255
+	state_category = large_city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 15101 2 }
+		victory_points = { 15098 1 }
+		victory_points = { 15099 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15098 15099 15100 15101 15102 
+	}
+
+	local_supplies=0.0
+}

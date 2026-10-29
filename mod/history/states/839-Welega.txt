@@ -1,0 +1,31 @@
+state={
+	id=839
+	name="STATE_839" # Port Sudan
+	manpower = 1114185
+	state_category = large_town
+
+	resources={
+		steel=2
+	}
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			air_base = 1
+			12941 = { naval_base = 3 }
+			13239 = { naval_base = 1 }
+		}
+		victory_points = { 12941 3 }
+		victory_points = { 13240 1 }
+		victory_points = { 13239 1 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		12941 12944 12956 12967 12991 13072 13135 13137 13236 13237 13238 13239 13240 
+	}
+
+	local_supplies=0.0
+}

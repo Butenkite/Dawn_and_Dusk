@@ -1,0 +1,23 @@
+state={
+	id=1682
+	name="STATE_1682" # Sohag
+	manpower = 3467000
+	state_category = large_city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 12870 6 }
+		victory_points = { 12894 2 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		12870 12879 12883 12888 12889 12894 13073 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1513
+	name="STATE_1513" # Metekel
+	manpower = 137405
+	state_category = pastoral
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15181 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15181 15182 
+	}
+
+	local_supplies=0.0
+}

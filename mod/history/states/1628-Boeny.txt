@@ -1,0 +1,22 @@
+state={
+	id=1628
+	name="STATE_1628" # Boeny
+	manpower = 574000
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+			15618 = { naval_base = 1 }
+		}
+		victory_points = { 15618 2 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15616 15617 15618 
+	}
+
+	local_supplies=0.0
+}

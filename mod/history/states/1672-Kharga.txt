@@ -1,0 +1,21 @@
+state={
+	id=1672
+	name="STATE_1672" # Kharga
+	manpower = 133606
+	state_category = pastoral
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 12042 1 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		12033 12034 12039 12042 12044 
+	}
+
+	local_supplies=0.0
+}

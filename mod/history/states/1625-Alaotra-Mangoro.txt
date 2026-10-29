@@ -1,0 +1,21 @@
+state={
+	id=1625
+	name="STATE_1625" # Alaotra-Mangoro
+	manpower = 771000
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15604 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15603 15604 15605 15606 
+	}
+
+	local_supplies=0.0
+}

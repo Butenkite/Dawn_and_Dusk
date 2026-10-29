@@ -1,0 +1,22 @@
+state={
+	id=701
+	name="STATE_701" # Ondo
+	manpower = 3027999
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 8128 10 }
+		victory_points = { 8116 3 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		8071 8096 8109 8116 8122 8128 
+	}
+
+	local_supplies=0.0
+}

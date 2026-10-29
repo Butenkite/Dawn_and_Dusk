@@ -1,0 +1,21 @@
+state={
+	id=1435
+	name="STATE_1435" # Ménaka
+	manpower = 106580
+	state_category = pastoral
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14822 1 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14822 14823 14824 
+	}
+
+	local_supplies=0.0
+}

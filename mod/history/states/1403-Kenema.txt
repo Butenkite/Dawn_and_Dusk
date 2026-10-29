@@ -1,0 +1,22 @@
+state={
+	id=1403
+	name="STATE_1403" # Kenema
+	manpower = 470706
+	state_category = town
+
+	history={
+		owner = SIE
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14720 2 }
+		add_core_of = SIE
+		add_claim_by = RUF
+	}
+
+	provinces={
+		14720 14721 14722 
+	}
+
+	local_supplies=0.0
+}

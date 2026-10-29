@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Patriotic Union of Kurdistan's administration at Sulaymaniyah (not in vanilla)
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+
+color = { 60 150 80 }

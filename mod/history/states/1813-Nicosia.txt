@@ -1,0 +1,23 @@
+state={
+	id=1813
+	name="STATE_1813" # Nicosia
+	manpower = 196262
+	state_category = rural
+
+	history={
+		owner = CYP
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = { 16244 12 }
+		add_core_of = CYP
+	}
+
+	provinces={
+		16244 
+	}
+
+	local_supplies=0.0
+}

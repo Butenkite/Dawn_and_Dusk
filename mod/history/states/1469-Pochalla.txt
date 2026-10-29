@@ -1,0 +1,22 @@
+state={
+	id=1469
+	name="STATE_1469" # Pochalla
+	manpower = 34153
+	state_category = pastoral
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15015 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		15015 
+	}
+
+	local_supplies=0.0
+}

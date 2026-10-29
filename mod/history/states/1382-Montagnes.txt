@@ -1,0 +1,22 @@
+state={
+	id=1382
+	name="STATE_1382" # Montagnes
+	manpower = 1809901
+	state_category = city
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 14654 2 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14650 14651 14652 14653 14654 14655 
+	}
+
+	local_supplies=0.0
+}

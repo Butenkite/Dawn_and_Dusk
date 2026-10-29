@@ -1,0 +1,25 @@
+state={
+	id=1742
+	name="STATE_1742" # Mosul
+	manpower = 2351703
+	state_category = city
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+		victory_points = { 15911 10 }
+		victory_points = { 15919 2 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15911 15912 15913 15914 15915 15916 15917 15918 15919 
+	}
+
+	local_supplies=0.0
+}

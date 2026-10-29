@@ -1,0 +1,26 @@
+state={
+	id=898
+	name="STATE_898" # Edo
+	manpower = 2827000
+	state_category = city
+
+	resources={
+		rubber=4
+		oil=3
+	}
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14269 10 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14264 14265 14266 14267 14268 14269 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1337
+	name="STATE_1337" # Borgou
+	manpower = 681000
+	state_category = town
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14490 2 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14488 14489 14490 
+	}
+
+	local_supplies=0.0
+}

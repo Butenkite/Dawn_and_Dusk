@@ -1,0 +1,21 @@
+state={
+	id=1381
+	name="STATE_1381" # Lacs
+	manpower = 713987
+	state_category = town
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14647 1 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14646 14647 14648 14649 
+	}
+
+	local_supplies=0.0
+}

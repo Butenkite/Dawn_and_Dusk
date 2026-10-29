@@ -1,0 +1,22 @@
+state={
+	id=1723
+	name="STATE_1723" # Irbid
+	manpower = 1129000
+	state_category = large_town
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = { 15838 6 }
+		add_core_of = JOR
+	}
+
+	provinces={
+		15838 15839 15840 
+	}
+
+	local_supplies=0.0
+}

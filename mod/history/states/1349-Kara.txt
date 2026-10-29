@@ -1,0 +1,21 @@
+state={
+	id=1349
+	name="STATE_1349" # Kara
+	manpower = 588000
+	state_category = town
+
+	history={
+		owner = TOG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14514 1 }
+		add_core_of = TOG
+	}
+
+	provinces={
+		14513 14514 
+	}
+
+	local_supplies=0.0
+}

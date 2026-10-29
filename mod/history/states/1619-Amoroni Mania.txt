@@ -1,0 +1,21 @@
+state={
+	id=1619
+	name="STATE_1619" # Amoron'i Mania
+	manpower = 512000
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15582 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15580 15581 15582 
+	}
+
+	local_supplies=0.0
+}

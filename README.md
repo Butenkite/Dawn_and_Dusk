@@ -4,7 +4,7 @@ A standalone Hearts of Iron IV total conversion set from 1 January 2000. The old
 
 - **Game version:** 1.19.x
 - **Design bible:** kept as a Claude Doc, outside the repo
-- **Status:** the 2000 start boots with the new ideology spectrum. Southern Africa, central Africa and the Great Lakes are rebuilt from real geography, with the Second Congo War running at the start. The rest of the world is still on vanilla borders.
+- **Status:** the 2000 start boots with the new ideology spectrum. All of Africa, the Levant, Iraq, the Arabian Peninsula and Cyprus are rebuilt from real geography, with the Second Congo War, the Second Sudanese Civil War and the Eritrean-Ethiopian War running; Sierra Leone split along the Lomé ceasefire line; Somalia divided among its 2000 administrations and factions; Anjouan apart from the Comoros; the SADR's Free Zone beyond the Western Sahara berm; the Palestinian self-rule areas, Israel's security zone in south Lebanon and the Golan; the two Kurdish administrations in northern Iraq; and divided Cyprus. The rest of the world is still on vanilla borders.
 
 ## Repository layout
 
@@ -48,7 +48,7 @@ Do not edit these by hand. Change the source and re-run the tool, from the repo 
 | --- | --- | --- |
 | `map/*`, `history/states/*`, `localisation/english/replace/dnd_map_*` | `tools/data/map/<region>.json` | `tools/map/build.py` |
 | `history/countries/*` | `tools/data/countries.csv` (capitals from `tools/data/map/built.json`) | `tools/countries/generate_country_history.py` |
-| `history/units/*` | the built map | `tools/countries/generate_congo_war.py` |
+| `history/units/*` | the built map | `tools/countries/generate_armies.py` |
 | `gfx/flags/<TAG>.tga` | drawing code | `tools/countries/make_flags.py` |
 | `localisation/english/replace/dnd_parties_l_english.yml` | `tools/data/parties.csv` | `tools/politics/generate_party_names.py` |
 | `common/scripted_localisation/dnd_subideology.txt` | `common/ideologies/dnd_ideologies.txt` | `tools/politics/generate_subideology_loc.py` |

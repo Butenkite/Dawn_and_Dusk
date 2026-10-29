@@ -42,6 +42,20 @@ def geoboundaries(iso, level):
     return _fetch(GB_URL.format(iso=iso, level=level), CACHE / "gb" / f"{iso}-{level}.geojson")
 
 
+def natural_earth_adm1(iso):
+    """First-level regions from Natural Earth, shaped like geoBoundaries
+    (shapeName), for countries whose geoBoundaries ADM1 is unusable."""
+    feats = [f for f in natural_earth("ne_10m_admin_1_states_provinces")["features"]
+             if f["properties"].get("adm0_a3") == iso]
+    for f in feats:
+        f["properties"]["shapeName"] = f["properties"]["name"]
+    return {"type": "FeatureCollection", "features": feats}
+
+
+def adm1(iso, source="geoboundaries"):
+    return natural_earth_adm1(iso) if source == "natural_earth" else geoboundaries(iso, "ADM1")
+
+
 class Projection:
     def __init__(self, path):
         d = json.loads(Path(path).read_text())

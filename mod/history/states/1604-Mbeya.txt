@@ -1,0 +1,22 @@
+state={
+	id=1604
+	name="STATE_1604" # Mbeya
+	manpower = 2033632
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15494 3 }
+		victory_points = { 15493 2 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15489 15490 15491 15492 15493 15494 15495 15496 15497 
+	}
+
+	local_supplies=0.0
+}

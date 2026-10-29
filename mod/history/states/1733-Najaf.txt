@@ -1,0 +1,21 @@
+state={
+	id=1733
+	name="STATE_1733" # Najaf
+	manpower = 884000
+	state_category = large_town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15877 6 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15876 15877 15878 15879 15880 
+	}
+
+	local_supplies=0.0
+}

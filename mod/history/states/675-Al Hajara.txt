@@ -1,0 +1,21 @@
+state={
+	id=675
+	name="STATE_675" # Ghardaia
+	manpower = 328861
+	state_category = rural
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7041 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7030 7033 7040 7041 7063 7065 
+	}
+
+	local_supplies=0.0
+}

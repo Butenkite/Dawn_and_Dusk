@@ -1,0 +1,25 @@
+state={
+	id=1799
+	name="STATE_1799" # Al Wusta
+	manpower = 23043
+	state_category = pastoral
+
+	resources={
+		oil=25
+	}
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 16211 1 }
+		add_core_of = OMA
+	}
+
+	provinces={
+		16210 16211 16212 
+	}
+
+	local_supplies=0.0
+}

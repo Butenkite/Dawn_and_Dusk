@@ -187,11 +187,18 @@ class Builder:
         self.adm1_names, self.unit_names = [], []
         f1, f2 = [], []
         for iso, c in self.countries.items():
-            for f in geo.geoboundaries(iso, "ADM1")["features"]:
+            # cfg["adm1_only"]: just these regions of the country (an overseas
+            # territory of a country outside the pass, such as Mayotte)
+            only = c.get("adm1_only")
+            a1 = [f for f in geo.adm1(iso, c.get("adm1_source", "geoboundaries"))["features"]
+                  if not only or f["properties"]["shapeName"].strip() in only]
+            for f in a1:
                 f["properties"]["_l"] = len(self.adm1_names) + 1
                 self.adm1_names.append((iso, f["properties"]["shapeName"].strip()))
                 f1.append(f)
-            for f in geo.geoboundaries(iso, c.get("unit_level", "ADM2"))["features"]:
+            units = (json.loads(json.dumps(a1)) if c.get("unit_level") == "ADM1"
+                     else geo.geoboundaries(iso, c.get("unit_level", "ADM2"))["features"])
+            for f in units:
                 f["properties"]["_l"] = len(self.unit_names) + 1
                 self.unit_names.append((iso, f["properties"]["shapeName"].strip()))
                 f2.append(f)
@@ -209,6 +216,39 @@ class Builder:
                     f3.append(f)
         if f3:
             self.r_adm2 = geo.rasterize(f3, lab, self.proj)
+        # districts held by an enemy at the start (owner keeps them; the
+        # occupier controls the provinces): cfg["occupied"] = {"level":
+        # "ADM3", "units": {district: tag}}
+        self.occ_tags, f4 = [], []
+        for iso, c in self.countries.items():
+            occ = c.get("occupied")
+            if not occ:
+                continue
+            names = {}
+            for f in geo.geoboundaries(iso, occ.get("level", "ADM3"))["features"]:
+                n = f["properties"]["shapeName"].strip()
+                if n in occ["units"]:
+                    names[n] = True
+                    self.occ_tags.append((iso, occ["units"][n]))
+                    f["properties"]["_l"] = len(self.occ_tags)
+                    f4.append(f)
+            missing = set(occ["units"]) - set(names)
+            if missing:
+                raise SystemExit(f"spec: occupied lists unknown districts of {iso}: {sorted(missing)}")
+        self.r_occ = geo.rasterize(f4, lab, self.proj) if f4 else None
+        # cfg["control_areas"]: [{"tag", "polygon": [[lon, lat], ...]}] -
+        # lines that follow no district border (the Western Sahara berm, the
+        # Golan ceasefire line, the Cyprus Green Line)
+        self.carea_tags, f5 = [], []
+        for iso, c in self.countries.items():
+            for a in c.get("control_areas", []):
+                ring = [list(map(float, pt)) for pt in a["polygon"]]
+                if ring[0] != ring[-1]:
+                    ring.append(ring[0])
+                self.carea_tags.append((iso, a["tag"]))
+                f5.append({"type": "Feature", "properties": {"_l": len(self.carea_tags)},
+                           "geometry": {"type": "Polygon", "coordinates": [ring]}})
+        self.r_carea = geo.rasterize(f5, lab, self.proj) if f5 else None
         want = set(self.spec.get("lakes", []))
         lakes = [f for f in geo.natural_earth("ne_10m_lakes")["features"] if f["properties"].get("name") in want]
         self.lake_names = [f["properties"]["name"] for f in lakes]
@@ -223,7 +263,8 @@ class Builder:
             p = f["properties"]
             x, y = self.proj(p["LONGITUDE"], p["LATITUDE"])
             self.places.append(dict(name=p["NAME"], x=float(x), y=float(y),
-                                    pop=float(p.get("POP_MAX") or 0), a3=p.get("ADM0_A3")))
+                                    pop=float(p.get("POP_MAX") or 0),
+                                    a3=self.spec.get("a3_alias", {}).get(p.get("ADM0_A3"), p.get("ADM0_A3"))))
 
     # ---- region -----------------------------------------------------------
 
@@ -250,7 +291,9 @@ class Builder:
         return out
 
     def select_region(self):
-        built = {p for name, r in self.registry.items() if name != self.spec["name"] for p in r["provinces"]}
+        built = {p for name, r in self.registry.items() if name != self.spec["name"]
+                 for p in r["provinces"] + r.get("retagged", [])}
+        built |= {p for sid in self.spec.get("retag_states", {}) for p in self.states[int(sid)].provinces}
         n = len(self.ptype)
         cover = np.bincount(self.ids[self.r_adm1 > 0], minlength=n)
         total = np.bincount(self.ids.ravel(), minlength=n)
@@ -267,8 +310,11 @@ class Builder:
             sel[p] = False
             lake_sel[p] = False
         self.freed = np.nonzero(sel | lake_sel)[0].tolist()
-        self.R = sel[self.ids] | (lake_sel[self.ids] & (self.r_adm1 > 0))
-        stray = lake_sel[self.ids] & (self.r_adm1 == 0)
+        # An old lake shared with countries outside the pass is redrawn whole
+        # where the spec's lake covers it (a lake belongs to no state), so
+        # the neighbours' shores stay shores.
+        self.R = sel[self.ids] | (lake_sel[self.ids] & ((self.r_adm1 > 0) | (self.r_lakes > 0)))
+        stray = lake_sel[self.ids] & (self.r_adm1 == 0) & (self.r_lakes == 0)
         if stray.any():
             # the part of an old lake beyond these borders joins the land around it
             y0, y1, x0, x1 = bbox(stray, pad=40)
@@ -318,7 +364,7 @@ class Builder:
         self.ids_full = self.ids
         self.ids = self.ids_full[y0:y1, x0:x1]          # a view: edits reach the full map
         self.heightmap_full, self.rivers_full, self.terrain_full = self.heightmap, self.rivers, self.terrain_px
-        for name in ("R", "f_adm1", "f_unit", "f_adm2", "heightmap", "rivers", "terrain_px",
+        for name in ("R", "f_adm1", "f_unit", "f_adm2", "r_occ", "r_carea", "heightmap", "rivers", "terrain_px",
                      "lake_mask", "lake_labels"):
             a = getattr(self, name)
             if a is not None:
@@ -394,8 +440,33 @@ class Builder:
                     log(f"  WARNING {iso}: {left.sum()} px not in any curated state")
             else:
                 plans += self.auto_states(iso, tag, cfg)
+        # a tiny region drawn as a broken thread of pixels (the Gaza Strip
+        # along a coast) is widened by a pixel into one piece, taking the
+        # pixels from its neighbours
+        for pl in plans:
+            m = pl["mask"]
+            if 0 < m.sum() < 16 and ndimage.label(m)[1] > 1:
+                # one pixel wider, on the land side, so that the thread holds together
+                add = ndimage.binary_dilation(m) & self.R & ~m
+                for q in plans:
+                    if q is not pl:
+                        q["mask"] = q["mask"] & ~add
+                pl["mask"] = m | add
+                log(f"  {pl['name']}: {int(m.sum())} px in {ndimage.label(m)[1]} pieces closed up to {int(pl['mask'].sum())} px")
         self.plans = plans
+        covered = np.zeros(self.ids.shape, bool)
+        for pl in plans:
+            covered |= pl["mask"]
+        if (self.R & ~covered).sum():
+            cc, k = ndimage.label(self.R & ~covered)
+            where = [tuple(int(v) for v in np.argwhere(cc == j).mean(0)[::-1] + self.off[::-1]) for j in range(1, k + 1)]
+            log(f"  WARNING {int((self.R & ~covered).sum())} px of the region are in no state, at {where[:8]}")
+        self.merge_tiny_plans()
         self.dedupe_names()
+        # cfg["state_names"]: last-word renames, after every automatic step
+        for pl in self.plans:
+            sn = self.countries[pl["iso"]].get("state_names", {})
+            pl["name"] = sn.get(f"{pl['tag']}/{pl['name']}") or sn.get(f"{pl['tag']}/*") or sn.get(pl["name"], pl["name"])
 
     def auto_states(self, iso, tag, cfg):
         """One state per first-level region, large ones split around their
@@ -404,18 +475,33 @@ class Builder:
         max_px = cfg.get("state_max_px", 2200)
         units = []
         grouped = set()
+        # cfg["state_units"]: states are built from the district level
+        # (unit_level) instead of first-level regions
+        names_, rast = (self.unit_names, self.f_unit) if cfg.get("state_units") else (self.adm1_names, self.f_adm1)
+        cmask = np.isin(self.f_adm1, [i + 1 for i, (c, _) in enumerate(self.adm1_names) if c == iso])
+        if cfg.get("state_units"):
+            # where the district raster says "neighbour" inside this country
+            # (the two levels' borders differ by a pixel), take the nearest
+            # district of this country
+            own = np.isin(rast, [li for li, (c, _) in enumerate(names_, start=1) if c == iso]) & cmask
+            gap = cmask & ~own
+            if gap.any():
+                _, (iy, ix) = ndimage.distance_transform_edt(~own, return_indices=True)
+                rast = rast.copy()
+                rast[gap] = rast[iy[gap], ix[gap]]
         for gname, members in cfg.get("groups", {}).items():
-            labs = [li for li, (c, n) in enumerate(self.adm1_names, start=1) if c == iso and n in members]
-            missing = set(members) - {self.adm1_names[li - 1][1] for li in labs}
+            labs = [li for li, (c, n) in enumerate(names_, start=1) if c == iso and n in members]
+            missing = set(members) - {names_[li - 1][1] for li in labs}
             if missing:
                 raise SystemExit(f"spec: unknown regions in group {gname}: {missing}")
             grouped.update(members)
-            units.append((gname, np.isin(self.f_adm1, labs)))
-        for li, (c, name) in enumerate(self.adm1_names, start=1):
+            units.append((gname, np.isin(rast, labs) & cmask))
+        for li, (c, name) in enumerate(names_, start=1):
             if c == iso and name not in grouped:
-                units.append((name, self.f_adm1 == li))
+                units.append((name, (rast == li) & cmask))
         units = self.split_by_owner(iso, tag, cfg, units)
-        for name, m, tag in units:
+        units = self.split_occupied(iso, cfg, units)
+        for name, m, tag, *occ in units:
             if m.sum() == 0:
                 continue
             area = m.sum()
@@ -429,8 +515,12 @@ class Builder:
             key = f"{iso}_{name}"
             while any(o["key"] == key for o in out):
                 key += "_"
+            if occ:       # held by an enemy: one state, controlled by the occupier
+                out.append(dict(key=key, name=base, tag=tag, iso=iso, mask=m, metros={}, occupier=occ[0]))
+                continue
             if k == 1:
-                out.append(dict(key=key, name=base, tag=tag, iso=iso, mask=m, metros={}))
+                out.append(dict(key=key, name=base, tag=tag, iso=iso, mask=m, metros={},
+                                crumb=any(m is c for c in self.crumbs)))
                 continue
             seeds = self.town_seeds(m, k, iso)
             part = geodesic_partition(m, seeds, iters=6)
@@ -441,19 +531,50 @@ class Builder:
                 out.append(dict(key=f"{key}_{j}", name=nm, tag=tag, iso=iso, mask=pm, metros={}))
         return out
 
+    crumbs = []
+
+    def split_occupied(self, iso, cfg, units):
+        """cfg["occupied"]: districts the country owns but an enemy holds on
+        1 January 2000. They become states of their own, so that whole
+        provinces can be handed to the occupier (set_province_controller)."""
+        if self.r_occ is None or not cfg.get("occupied"):
+            return units
+        out = []
+        for name, m, tag in units:
+            occ = (self.r_occ > 0) & m
+            if occ.sum() < 15:
+                out.append((name, m, tag))
+                continue
+            cc, k = ndimage.label(occ)
+            rest = m.copy()
+            for j in range(1, k + 1):
+                pm = cc == j
+                if pm.sum() < 15:
+                    continue
+                iso_o, tag_o = self.occ_tags[np.bincount(self.r_occ[pm]).argmax() - 1]
+                rest &= ~pm
+                town = self.largest_town(pm, iso)
+                nm = cfg.get("occupied", {}).get("names", {}).get(town or "", town or name)
+                out.append((nm, pm, tag, tag_o))
+                log(f"  {nm}: {int(pm.sum())} px held by {tag_o}")
+            if rest.sum():
+                out.append((name, rest, tag))
+        return out
+
     def split_by_owner(self, iso, tag, cfg, units):
         """cfg["control"] maps district names to the tag holding them (a
         country split by civil war). Each region is cut along those lines,
         and every connected piece becomes its own state candidate, so no
         state straddles a front line."""
-        control = cfg.get("control")
-        if not control:
+        control = cfg.get("control", {})
+        areas = [(j, t) for j, (c, t) in enumerate(self.carea_tags, start=1) if c == iso]
+        if not control and not areas:
             return [(n, m, tag) for n, m in units]
         names = {n for c, n in self.unit_names if c == iso}
         missing = set(control) - names
         if missing:
             raise SystemExit(f"spec: control lists unknown districts of {iso}: {sorted(missing)}")
-        tags = sorted(set(control.values()) | {tag})
+        tags = sorted(set(control.values()) | {t for _, t in areas} | {tag})
         own = np.zeros(self.f_unit.shape, np.int8)
         for li, (c, n) in enumerate(self.unit_names, start=1):
             if c == iso and n in control:
@@ -461,6 +582,9 @@ class Builder:
         default = tags.index(tag)
         lab_tag = np.where(np.isin(self.f_unit, [li for li, (c, n) in enumerate(self.unit_names, start=1)
                                                  if c == iso and n in control]), own, default)
+        for j, t in areas:
+            lab_tag[self.r_carea == j] = tags.index(t)
+        min_piece = cfg.get("min_piece_px", 40)
         out = []
         for name, m in units:
             present = np.unique(lab_tag[m])
@@ -473,14 +597,17 @@ class Builder:
                 for j in range(1, k + 1):
                     pieces.append((cc == j, tags[t]))
             # crumbs (raster slivers along a front) join their largest neighbour
-            big = [p for p in pieces if p[0].sum() >= 40]
+            big = [p for p in pieces if p[0].sum() >= min_piece]
             for pm, t in pieces:
-                if pm.sum() >= 40:
+                if pm.sum() >= min_piece:
                     continue
                 ring = ndimage.binary_dilation(pm) & ~pm
                 best = max(big, key=lambda b: (b[0] & ring).sum(), default=None)
-                if best is not None:
+                if best is not None and (best[0] & ring).any():
                     best[0][pm] = True
+                else:           # touches no other piece of this region: a state
+                    big.append((pm, t))     # candidate of its own (merged later if tiny)
+                    self.crumbs.append(pm)
             for pm, t in big:
                 town = self.largest_town(pm, iso)
                 nm = cfg.get("part_names", {}).get(f"{name}/{town}") or town or name
@@ -527,9 +654,53 @@ class Builder:
             return None
         pop = np.bincount(labs, weights=self.pop[mask])
         for li in np.argsort(-pop):
-            if li > 0 and pop[li] > 0 and self.unit_names[li - 1][1] not in exclude:
-                return self.unit_names[li - 1][1]
+            name = self.unit_names[li - 1][1] if li > 0 else None
+            if name and name.isupper():         # some sources write districts in capitals
+                name = name.title()
+            if li > 0 and pop[li] > 0 and name not in exclude:
+                return name
         return None
+
+    def merge_tiny_plans(self, min_px=16):
+        """A region too small to hold a province (capital districts such as
+        Dakar or Bamako are a handful of pixels) joins the neighbouring state
+        of the same owner it shares most border with. The merged state keeps
+        the name of the more populous of the two."""
+        kept = set()
+        while True:
+            small = [p for p in self.plans if p["mask"].sum() < min_px and p["key"] not in kept]
+            if not small:
+                return
+            pl = min(small, key=lambda p: p["mask"].sum())
+            ring = ndimage.binary_dilation(pl["mask"], iterations=2) & ~pl["mask"]
+            best, score = None, 0
+            for q in self.plans:
+                if q is pl or q["tag"] != pl["tag"] or q.get("occupier") != pl.get("occupier"):
+                    continue
+                n = int((q["mask"] & ring).sum())
+                if n > score:
+                    best, score = q, n
+            if best is None:
+                # a crumb on another owner's side of a line joins that owner;
+                # an island group stays a small state of its own
+                for q in self.plans:
+                    if q is pl or q.get("occupier"):
+                        continue
+                    n = int((q["mask"] & ring).sum())
+                    if n > score and pl["mask"].sum() < 12 and pl.get("crumb"):
+                        best, score = q, n
+                if best is None:
+                    kept.add(pl["key"])
+                    continue
+                log(f"  crumb of {pl['tag']} ({int(pl['mask'].sum())} px) given to {best['tag']}")
+            self.plans.remove(pl)
+            capital = any(c.get("capital") and c.get("iso") == pl["iso"] and self.city_pixel(c, pl["mask"], 2)[0] is not None
+                          for c in self.spec.get("cities", []))
+            if capital or self.pop[pl["mask"]].sum() > self.pop[best["mask"]].sum():
+                best["name"] = pl["name"]
+            best["mask"] = best["mask"] | pl["mask"]
+            best["metros"] = {**best.get("metros", {}), **pl.get("metros", {})}
+            log(f"  {pl['name']} ({int(pl['mask'].sum())} px) merged into {best['name']}")
 
     def dedupe_names(self):
         """Two states of one country never share a name."""
@@ -724,7 +895,11 @@ class Builder:
             m = lab == i
             if 0 < m.sum() < 12:
                 ring = ndimage.binary_dilation(m) & ~m & (lab >= 0)
-                vals = [v for v in lab[ring] if self.provs[v]["plan"] == p["plan"]] or list(lab[ring])
+                same = [v for v in lab[ring] if self.provs[v]["plan"] == p["plan"]]
+                if not same and m.sum() >= 6 and not any(q["plan"] == p["plan"] and j != i and (lab == j).any()
+                                                         for j, q in enumerate(self.provs)):
+                    continue        # a state's only province (Gaza): small but kept
+                vals = same or list(lab[ring])
                 if vals:
                     lab[m] = collections.Counter(vals).most_common(1)[0][0]
                 else:
@@ -770,8 +945,11 @@ class Builder:
                 kind, terrain, coastal = "lake", "lakes", False
             p["coastal"] = coastal
             p["terrain"] = terrain
+            cont = self.spec["continent"]
+            if p.get("plan") is not None and p["kind"] != "lake":    # a country can sit on another continent
+                cont = self.countries[self.plans[p["plan"]]["iso"]].get("continent", cont)
             self.defs.rows[p["id"]] = dict(id=p["id"], rgb=colors[i], type=kind, coastal=coastal,
-                                           terrain=terrain, continent=core.continent_index(self.spec["continent"]))
+                                           terrain=terrain, continent=core.continent_index(cont))
             p["old"] = collections.Counter(olds.tolist())
         # crumbs cut off by water (shore pixels between old lakes) go to
         # whatever surrounds them, so every province stays one piece
@@ -787,12 +965,32 @@ class Builder:
                 ring = ndimage.binary_dilation(frag) & ~frag
                 vals = self.ids[ring]
                 vals = vals[vals != p["id"]]
+                # in an archipelago whose biggest island is itself tiny, the
+                # islets stay: giving them to the sea would leave a province
+                # too small to exist
+                water = np.array([v < len(self.ptype) and self.ptype[v] in ("sea", "lake") for v in vals])
+                if len(vals) and water.all() and sizes.max() < 12:
+                    continue
+                # a real island off the coast (Nosy Be, 4 px or more, all sea
+                # around) stays part of its province rather than sinking
+                at_sea = np.array([v < len(self.ptype) and self.ptype[v] == "sea" for v in vals])
+                if len(vals) and at_sea.all() and sizes[j - 1] >= 4:
+                    continue
                 if len(vals):
                     self.ids[frag] = np.bincount(vals).argmax()
                     p["mask"] = p["mask"] & ~frag
         self.fix_four_way_points()
         for p in self.provs:
             p["mask"] = self.ids == p["id"]
+        # the last pixel moves can put a province on (or off) the sea
+        is_sea = lambda v: int(v) in self.defs.rows and self.defs.rows[int(v)]["type"] == "sea"  # noqa: E731
+        for p in self.provs:
+            if p["kind"] == "lake":
+                continue
+            ring = ndimage.binary_dilation(p["mask"]) & ~p["mask"]
+            coastal = any(is_sea(v) for v in np.unique(self.ids[ring]))
+            p["coastal"] = coastal
+            self.defs.rows[p["id"]]["coastal"] = coastal
         for p in self.provs:
             ptype[p["id"]] = "lake" if p["kind"] == "lake" else "land"
         self.ptype = np.array(ptype, dtype=str)
@@ -816,16 +1014,20 @@ class Builder:
             k, c = np.unique(np.concatenate(keys), return_counts=True)
             return dict(zip(k.tolist(), c.tolist()))
 
-        def safe(py, px, counts):
-            """Changing this pixel must not cut the last contact between two provinces."""
+        def safe(py, px, counts, new=None):
+            """Changing this pixel must not cut the last contact between two
+            provinces (contacts the new value makes count too)."""
             x = int(ids[py, px])
-            lost = collections.Counter()
+            lost, gained = collections.Counter(), collections.Counter()
             for dy, dx in FOUR:
                 qy, qx = py + dy, px + dx
-                if 0 <= qy < ids.shape[0] and 0 <= qx < ids.shape[1] and ids[qy, qx] != x:
+                if 0 <= qy < ids.shape[0] and 0 <= qx < ids.shape[1]:
                     n = int(ids[qy, qx])
-                    lost[min(x, n) * 100000 + max(x, n)] += 1
-            return all(counts.get(k, 0) > v for k, v in lost.items())
+                    if n != x:
+                        lost[min(x, n) * 100000 + max(x, n)] += 1
+                    if new is not None and n != new:
+                        gained[min(new, n) * 100000 + max(new, n)] += 1
+            return all(counts.get(k, 0) - v + gained.get(k, 0) > 0 for k, v in lost.items())
         for _ in range(10):
             a, b, c, d = ids[:-1, :-1], ids[:-1, 1:], ids[1:, :-1], ids[1:, 1:]
             four = (a != b) & (a != c) & (a != d) & (b != c) & (b != d) & (c != d)
@@ -837,9 +1039,16 @@ class Builder:
             for y, x in zip(ys.tolist(), xs.tolist()):
                 block = [(y, x), (y, x + 1), (y + 1, x), (y + 1, x + 1)]
                 # change a pixel of ours, copying its horizontal neighbour in the block
+                # (then its vertical neighbour, for points on a coast where
+                # the horizontal pairs are both sea)
                 for (py, px), (qy, qx) in ((block[1], block[0]), (block[0], block[1]),
-                                           (block[3], block[2]), (block[2], block[3])):
-                    if np.isin(ids[py, px], ours) and safe(py, px, counts):
+                                           (block[3], block[2]), (block[2], block[3]),
+                                           (block[2], block[0]), (block[0], block[2]),
+                                           (block[3], block[1]), (block[1], block[3])):
+                    kind = lambda v: self.defs.rows[int(v)]["type"] if int(v) in self.defs.rows else ""  # noqa: E731
+                    if kind(ids[py, px]) != kind(ids[qy, qx]):
+                        continue            # never turn land into sea or back
+                    if np.isin(ids[py, px], ours) and safe(py, px, counts, int(ids[qy, qx])):
                         ids[py, px] = ids[qy, qx]
                         fixed += 1
                         break
@@ -968,8 +1177,21 @@ class Builder:
             lines += [f"\t\tvictory_points = {{ {pid} {v} }}" for pid, v, _ in vps]
             cores = [plan["tag"]] + [t for t in [cfg["tag"]] + cfg.get("cores", []) if t != plan["tag"]]
             claims = [t for t in cfg.get("claims", []) if t not in cores]
+            # cfg["unit_claims"]: {district: [tags]} for states lying at least
+            # a fifth in that district (contested borderlands)
+            m_all = plan["mask"]
+            for uname, tags in cfg.get("unit_claims", {}).items():
+                labs = [li for li, (c, n) in enumerate(self.unit_names, start=1) if c == plan["iso"] and n == uname]
+                if not labs:
+                    raise SystemExit(f"spec: unit_claims lists unknown district {plan['iso']} / {uname}")
+                if np.isin(self.f_unit[m_all], labs).mean() >= 0.2:
+                    claims += [t for t in tags if t not in cores and t not in claims]
+            occupiers = {plan["occupier"]: [p["id"] for p in provs]} if plan.get("occupier") else {}
             lines += [f"\t\tadd_core_of = {t}" for t in cores]
             lines += [f"\t\tadd_claim_by = {t}" for t in claims]
+            for t, pids in sorted(occupiers.items()):
+                lines += [f"\t\t{t} = {{"] + [f"\t\t\tset_province_controller = {pid}" for pid in pids] + ["\t\t}"]
+                log(f"  {plan['name']}: {len(pids)} provinces held by {t}")
             lines += ["\t}", ""]
             lines.append("\tprovinces={")
             ids = sorted(plan["provinces"])
@@ -983,8 +1205,38 @@ class Builder:
             for pid, _, name in vps:
                 loc[f"VICTORY_POINTS_{pid}"] = name
             plan["vps"] = vps
+        self.retag_states(loc)
         self.loc = loc
         self.normalise_victory_points()
+
+    def retag_states(self, loc):
+        """spec["retag_states"]: small vanilla states kept as they are drawn
+        (islands the projection cannot place to the pixel, such as Mauritius
+        and the Seychelles), given a new owner and 2000 numbers."""
+        for sid, rt in self.spec.get("retag_states", {}).items():
+            s = self.states[int(sid)]
+            provs = s.provinces
+            vp_prov = rt.get("vp_province", provs[0])
+            lines = ["state={", f"\tid={sid}", f"\tname=\"STATE_{sid}\" # {rt['name']}",
+                     f"\tmanpower = {int(rt['manpower'])}", f"\tstate_category = {rt.get('category', 'small_island')}", "",
+                     "\thistory={", f"\t\towner = {rt['tag']}", "\t\tbuildings = {",
+                     f"\t\t\tinfrastructure = {rt.get('infrastructure', 2)}"]
+            for k in ("industrial_complex", "arms_factory", "dockyard", "air_base"):
+                if rt.get(k):
+                    lines.append(f"\t\t\t{k} = {rt[k]}")
+            if rt.get("naval_base"):
+                lines.append(f"\t\t\t{vp_prov} = {{ naval_base = {rt['naval_base']} }}")
+            lines.append("\t\t}")
+            if rt.get("vp"):
+                lines.append(f"\t\tvictory_points = {{ {vp_prov} {rt['vp'][1]} }}")
+                loc[f"VICTORY_POINTS_{vp_prov}"] = rt["vp"][0]
+            lines += [f"\t\tadd_core_of = {t}" for t in [rt["tag"]] + rt.get("cores", [])]
+            lines += [f"\t\tadd_claim_by = {t}" for t in rt.get("claims", [])]
+            lines += ["\t}", "", "\tprovinces={", "\t\t" + " ".join(map(str, provs)) + " ", "\t}", "",
+                      "\tlocal_supplies=0.0", "}", ""]
+            self.write_state_file(s.path.name, "\n".join(lines))
+            loc[f"STATE_{sid}"] = rt["name"]
+            log(f"  state {sid} ({rt['name']}) now {rt['tag']}")
 
     def rehome_lakes(self, lakes, gone):
         """Lakes whose state is gone stay out of states altogether: the game
@@ -1183,7 +1435,17 @@ class Builder:
                 for old, n in p["old"].items():
                     if old in region_of:
                         votes[region_of[old]] += n
+            if not votes:       # land from nowhere in particular: the region around it
+                for p in provs:
+                    ring = ndimage.binary_dilation(p["mask"]) & ~p["mask"]
+                    for v in self.ids[ring].tolist():
+                        if v in region_of and v not in freed:
+                            votes[region_of[v]] += 1
+                        elif v in new_region:
+                            votes[new_region[v]] += 1
+                log(f"  provinces {[p['id'] for p in provs]} placed by their neighbours")
             return votes.most_common(1)[0][0]
+        new_region = {}
         by_plan = collections.defaultdict(list)
         for p in self.provs:
             by_plan[p["plan"]].append(p)
@@ -1193,6 +1455,7 @@ class Builder:
                 rid = vote(g)
                 for p in g:
                     self.regions[rid].provinces.append(p["id"])
+                    new_region[p["id"]] = rid
                 changed.add(rid)
         d = self.mod / "map/strategicregions"
         d.mkdir(parents=True, exist_ok=True)
@@ -1393,21 +1656,55 @@ class Builder:
 
     # ---- the rest -----------------------------------------------------------
 
+    def old_to_new(self):
+        """Each rebuilt (freed) old province -> the new province holding most
+        of its old pixels, for canals, straits and crossings that name it."""
+        best = {}
+        for p in self.provs:
+            for old, n in p.get("old", {}).items():
+                if old in self.freed_set and n > best.get(old, (0, None))[0]:
+                    best[old] = (n, p["id"])
+        return {old: pid for old, (n, pid) in best.items()}
+
     def write_adjacencies(self):
-        freed = set(self.freed)
-        new_ids = {p["id"] for p in self.provs}
+        self.freed_set = set(self.freed)
+        remap = self.old_to_new()
         out = []
         for l in self.adjacencies:
             parts = l.split(";")
             if parts[0].lstrip("-").isdigit() and len(parts) > 3:
-                ids = [int(parts[0]), int(parts[1]), int(parts[3]) if parts[3].lstrip("-").isdigit() else -1]
-                if any(i in freed for i in ids) and not any(i in new_ids for i in ids):
-                    log(f"  dropping adjacency {l}")
+                for k in (0, 1, 3):
+                    if parts[k].lstrip("-").isdigit() and int(parts[k]) in self.freed_set:
+                        new = remap.get(int(parts[k]))
+                        if new is None:
+                            log(f"  WARNING dropping adjacency whose province is gone: {l}")
+                            parts = None
+                            break
+                        log(f"  adjacency {parts[-1]}: province {parts[k]} is now {new}")
+                        parts[k] = str(new)
+                if parts is None:
                     continue
-                if any(i in freed for i in ids):
-                    log(f"  WARNING adjacency references a rebuilt province, check it: {l}")
+                l = ";".join(parts)
             out.append(l)
         self.write_lines("map/adjacencies.csv", out)
+        # strait and canal rules name the provinces that must be held
+        rules = self.map_path("map/adjacency_rules.txt")
+        text = core.read_text(rules)
+
+        def fix(m):
+            nums = []
+            for v in m.group(2).split():
+                v = int(v)
+                nums.append(str(remap.get(v, v)) if v in self.freed_set else str(v))
+            return f"{m.group(1)}{' '.join(nums)} {m.group(3)}"
+        new_text = re.sub(r"(required_provinces\s*=\s*\{\s*)([\d\s]*?)\s*(\})", fix, text)
+        new_text = re.sub(r"(\bicon\s*=\s*)(\d+)",
+                          lambda m: m.group(1) + str(remap.get(int(m.group(2)), int(m.group(2)))
+                                                     if int(m.group(2)) in self.freed_set else m.group(2)), new_text)
+        if new_text != text:
+            (self.mod / "map").mkdir(parents=True, exist_ok=True)
+            (self.mod / "map/adjacency_rules.txt").write_text(new_text, encoding="utf-8")
+            log("  adjacency rules: provinces renumbered")
 
     def write_map(self):
         log("writing provinces.bmp and definition.csv")
@@ -1448,13 +1745,24 @@ class Builder:
         caps = {}
         for tag, pi in self.capitals.items():
             caps[tag] = self.plans[pi]["id"]
+        for sid, rt in self.spec.get("retag_states", {}).items():
+            if rt.get("capital"):
+                caps[rt["tag"]] = int(sid)
         for iso, cfg in self.countries.items():
+            if cfg.get("capital") is False:    # someone else's territory: not their capital
+                continue
             if cfg["tag"] not in caps:
                 own = [p for p in self.plans if p["iso"] == iso and p["tag"] == cfg["tag"]]
-                caps[cfg["tag"]] = max(own, key=lambda p: p["pop"])["id"]
+                if own:     # a country whose land is all held by factions has none
+                    caps[cfg["tag"]] = max(own, key=lambda p: p["pop"])["id"]
+        retag = self.spec.get("retag_states", {})
         self.registry[self.spec["name"]] = dict(
             provinces=sorted(p["id"] for p in self.provs),
+            # vanilla provinces kept as drawn, under new owners: later
+            # passes leave them alone too
+            retagged=sorted(p for sid in retag for p in self.states[int(sid)].provinces),
             states=sorted(self.state_ids),
+            retagged_states=sorted(int(s) for s in retag),
             capitals=caps,
             states_detail=[dict(id=p["id"], key=p["key"], name=p["name"], tag=p["tag"],
                                 pop=int(p["pop"]), provinces=len(p["provinces"]),

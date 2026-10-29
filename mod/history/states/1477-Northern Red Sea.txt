@@ -1,0 +1,22 @@
+state={
+	id=1477
+	name="STATE_1477" # Northern Red Sea
+	manpower = 537000
+	state_category = town
+
+	history={
+		owner = ERI
+		buildings = {
+			infrastructure = 2
+			15049 = { naval_base = 2 }
+		}
+		victory_points = { 15049 2 }
+		add_core_of = ERI
+	}
+
+	provinces={
+		15048 15049 15050 15051 15052 
+	}
+
+	local_supplies=0.0
+}

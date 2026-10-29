@@ -1,0 +1,22 @@
+state={
+	id=1400
+	name="STATE_1400" # Maryland
+	manpower = 164000
+	state_category = rural
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+			14708 = { naval_base = 1 }
+		}
+		victory_points = { 14708 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14708 
+	}
+
+	local_supplies=0.0
+}

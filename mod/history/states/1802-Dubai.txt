@@ -1,0 +1,27 @@
+state={
+	id=1802
+	name="STATE_1802" # Dubai
+	manpower = 876963
+	state_category = large_town
+
+	resources={
+		oil=10
+	}
+
+	history={
+		owner = UAE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			16223 = { naval_base = 3 }
+		}
+		victory_points = { 16223 10 }
+		add_core_of = UAE
+	}
+
+	provinces={
+		16223 16224 
+	}
+
+	local_supplies=0.0
+}

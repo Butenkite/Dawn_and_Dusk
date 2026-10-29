@@ -1,0 +1,22 @@
+state={
+	id=1551
+	name="STATE_1551" # Jowhar
+	manpower = 601651
+	state_category = town
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15283 5 }
+		add_core_of = SSA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15281 15282 15283 
+	}
+
+	local_supplies=0.0
+}

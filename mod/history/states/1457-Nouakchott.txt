@@ -1,0 +1,24 @@
+state={
+	id=1457
+	name="STATE_1457" # Nouakchott
+	manpower = 558000
+	state_category = town
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			14929 = { naval_base = 1 }
+		}
+		victory_points = { 14929 12 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14929 
+	}
+
+	local_supplies=0.0
+}

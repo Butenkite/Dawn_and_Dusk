@@ -1,0 +1,26 @@
+state={
+	id=1312
+	name="STATE_1312" # Imo
+	manpower = 3440000
+	state_category = large_city
+
+	resources={
+		oil=4
+	}
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14311 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14311 14312 14313 
+	}
+
+	local_supplies=0.0
+}

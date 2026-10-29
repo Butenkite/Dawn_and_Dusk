@@ -1,0 +1,29 @@
+state={
+	id=1410
+	name="STATE_1410" # Conakry
+	manpower = 2374000
+	state_category = city
+
+	resources={
+		aluminium=6
+	}
+
+	history={
+		owner = GNA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			14750 = { naval_base = 2 }
+		}
+		victory_points = { 14750 15 }
+		victory_points = { 14753 2 }
+		add_core_of = GNA
+	}
+
+	provinces={
+		14750 14751 14752 14753 14754 14755 14756 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1359
+	name="STATE_1359" # Ashanti
+	manpower = 3613288
+	state_category = large_city
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14565 10 }
+		victory_points = { 14566 2 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14565 14566 14567 14568 14569 14570 14571 14572 
+	}
+
+	local_supplies=0.0
+}

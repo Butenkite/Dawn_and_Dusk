@@ -1,0 +1,22 @@
+state={
+	id=1350
+	name="STATE_1350" # Centrale
+	manpower = 489999
+	state_category = town
+
+	history={
+		owner = TOG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14515 2 }
+		victory_points = { 14516 1 }
+		add_core_of = TOG
+	}
+
+	provinces={
+		14515 14516 
+	}
+
+	local_supplies=0.0
+}

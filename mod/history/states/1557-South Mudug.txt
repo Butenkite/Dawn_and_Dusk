@@ -1,0 +1,22 @@
+state={
+	id=1557
+	name="STATE_1557" # South Mudug
+	manpower = 233561
+	state_category = rural
+
+	history={
+		owner = SNA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15300 1 }
+		add_core_of = SNA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15297 15298 15299 15300 
+	}
+
+	local_supplies=0.0
+}

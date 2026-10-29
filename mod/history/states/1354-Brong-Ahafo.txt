@@ -1,0 +1,21 @@
+state={
+	id=1354
+	name="STATE_1354" # Brong-Ahafo
+	manpower = 1818000
+	state_category = city
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14531 1 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14531 14532 14533 14534 14535 14536 14537 14538 14539 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,26 @@
+state={
+	id=1716
+	name="STATE_1716" # Deir-ez-Zor
+	manpower = 910000
+	state_category = large_town
+
+	resources={
+		oil=18
+	}
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15813 3 }
+		victory_points = { 15816 2 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15810 15811 15812 15813 15814 15815 15816 15817 15818 
+	}
+
+	local_supplies=0.0
+}

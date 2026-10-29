@@ -1,0 +1,21 @@
+state={
+	id=1418
+	name="STATE_1418" # Sul
+	manpower = 146402
+	state_category = pastoral
+
+	history={
+		owner = GNB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14777 1 }
+		add_core_of = GNB
+	}
+
+	provinces={
+		14777 14778 
+	}
+
+	local_supplies=0.0
+}

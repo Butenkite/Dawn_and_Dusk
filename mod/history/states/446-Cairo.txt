@@ -1,0 +1,21 @@
+state={
+	id=446
+	name="STATE_446" # Guelmim
+	manpower = 364497
+	state_category = rural
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1155 2 }
+		add_core_of = MOR
+	}
+
+	provinces={
+		1152 1155 1160 1174 
+	}
+
+	local_supplies=0.0
+}

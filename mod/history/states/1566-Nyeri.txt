@@ -1,0 +1,22 @@
+state={
+	id=1566
+	name="STATE_1566" # Nyeri
+	manpower = 1508000
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15336 1 }
+		victory_points = { 15337 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15336 15337 15338 
+	}
+
+	local_supplies=0.0
+}

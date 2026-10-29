@@ -1,0 +1,23 @@
+state={
+	id=1614
+	name="STATE_1614" # Tanga
+	manpower = 1616757
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+			15559 = { naval_base = 1 }
+		}
+		victory_points = { 15559 3 }
+		victory_points = { 15560 1 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15556 15557 15558 15559 15560 
+	}
+
+	local_supplies=0.0
+}

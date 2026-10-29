@@ -1,0 +1,21 @@
+state={
+	id=1426
+	name="STATE_1426" # Saint-Louis
+	manpower = 658680
+	state_category = town
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14803 3 }
+		add_core_of = SEN
+	}
+
+	provinces={
+		14803 14804 14805 
+	}
+
+	local_supplies=0.0
+}

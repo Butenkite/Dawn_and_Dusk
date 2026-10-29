@@ -1,0 +1,21 @@
+state={
+	id=1603
+	name="STATE_1603" # Kagera
+	manpower = 2012758
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15484 2 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15482 15483 15484 15485 15486 15487 15488 
+	}
+
+	local_supplies=0.0
+}

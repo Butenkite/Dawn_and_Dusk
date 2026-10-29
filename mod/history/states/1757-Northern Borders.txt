@@ -1,0 +1,22 @@
+state={
+	id=1757
+	name="STATE_1757" # Northern Borders
+	manpower = 255000
+	state_category = rural
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15992 3 }
+		victory_points = { 15991 1 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		15989 15990 15991 15992 15993 15994 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1588
+	name="STATE_1588" # Nakuru
+	manpower = 1333143
+	state_category = large_town
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15412 3 }
+		victory_points = { 15411 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15410 15411 15412 
+	}
+
+	local_supplies=0.0
+}

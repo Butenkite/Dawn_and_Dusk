@@ -1,0 +1,25 @@
+state={
+	id=1013
+	name="STATE_1013" # Tunis
+	manpower = 2238417
+	state_category = city
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			8060 = { naval_base = 2 }
+		}
+		victory_points = { 8060 20 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		8060 8061 8069 
+	}
+
+	local_supplies=0.0
+}

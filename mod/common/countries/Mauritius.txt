@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Republic of Mauritius (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 210 70 70 }

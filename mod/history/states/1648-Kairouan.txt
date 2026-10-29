@@ -1,0 +1,21 @@
+state={
+	id=1648
+	name="STATE_1648" # Kairouan
+	manpower = 529000
+	state_category = town
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 10045 2 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		10045 10046 
+	}
+
+	local_supplies=0.0
+}

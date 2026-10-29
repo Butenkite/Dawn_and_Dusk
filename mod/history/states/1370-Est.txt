@@ -1,0 +1,21 @@
+state={
+	id=1370
+	name="STATE_1370" # Est
+	manpower = 1001000
+	state_category = large_town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14609 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14608 14609 14610 14611 14612 14613 
+	}
+
+	local_supplies=0.0
+}

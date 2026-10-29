@@ -1,0 +1,21 @@
+state={
+	id=907
+	name="STATE_907" # Arak
+	manpower = 91043
+	state_category = pastoral
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7985 3 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7970 7977 7979 7985 
+	}
+
+	local_supplies=0.0
+}

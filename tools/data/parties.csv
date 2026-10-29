@@ -53,3 +53,126 @@ BRD,socialist,CNDD-FDD,Conseil National pour la Défense de la Démocratie
 UGA,authoritarian_democrat,NRM,National Resistance Movement
 UGA,democratic,DP,Democratic Party
 UGA,social_democrat,UPC,Uganda People's Congress
+NGA,democratic,PDP,Peoples Democratic Party
+NGA,conservative,APP,All People's Party
+NGA,social_democrat,AD,Alliance for Democracy
+NGR,authoritarian_democrat,MNSD,Mouvement National pour la Société du Développement
+NGR,social_democrat,PNDS,Parti Nigérien pour la Démocratie et le Socialisme
+NGR,democratic,CDS,Convention Démocratique et Sociale
+DAH,democratic,FARD-Alafia,Front d'Action pour le Renouveau et le Développement
+DAH,social_democrat,PRD,Parti du Renouveau Démocratique
+DAH,conservative,RB,Renaissance du Bénin
+TOG,neutrality,RPT,Rassemblement du Peuple Togolais
+TOG,democratic,UFC,Union des Forces de Changement
+TOG,social_democrat,CAR,Comité d'Action pour le Renouveau
+GHA,social_democrat,NDC,National Democratic Congress
+GHA,conservative,NPP,New Patriotic Party
+GHA,socialist,CPP,Convention People's Party
+VOL,authoritarian_democrat,CDP,Congrès pour la Démocratie et le Progrès
+VOL,socialist,PDP,Parti pour la Démocratie et le Progrès
+VOL,democratic,ADF-RDA,Alliance pour la Démocratie et la Fédération
+IVO,neutrality,CNSP,Comité National de Salut Public
+IVO,conservative,PDCI,Parti Démocratique de Côte d'Ivoire
+IVO,socialist,FPI,Front Populaire Ivoirien
+IVO,democratic,RDR,Rassemblement des Républicains
+SIE,democratic,SLPP,Sierra Leone People's Party
+SIE,conservative,APC,All People's Congress
+RUF,neutrality,RUF,Revolutionary United Front
+GNA,authoritarian_democrat,PUP,Parti de l'Unité et du Progrès
+GNA,democratic,RPG,Rassemblement du Peuple de Guinée
+GNB,democratic,PRS,Partido da Renovação Social
+GNB,socialist,PAIGC,Partido Africano para a Independência da Guiné e Cabo Verde
+SEN,social_democrat,PS,Parti Socialiste
+SEN,democratic,PDS,Parti Démocratique Sénégalais
+SEN,socialist,AFP,Alliance des Forces de Progrès
+GAM,authoritarian_democrat,APRC,Alliance for Patriotic Reorientation and Construction
+GAM,democratic,UDP,United Democratic Party
+MLI,social_democrat,ADEMA,Alliance pour la Démocratie au Mali
+MLI,democratic,CNID,Congrès National d'Initiative Démocratique
+MRT,authoritarian_democrat,PRDS,Parti Républicain Démocratique et Social
+MRT,democratic,UFD,Union des Forces Démocratiques
+CBV,conservative,MpD,Movimento para a Democracia
+CBV,social_democrat,PAICV,Partido Africano da Independência de Cabo Verde
+SUD,authoritarian_democrat,NC,National Congress
+SUD,conservative,Umma,National Umma Party
+SUD,democratic,DUP,Democratic Unionist Party
+SUD,communism,SCP,Sudanese Communist Party
+SPL,socialist,SPLM,Sudan People's Liberation Movement
+ERI,authoritarian_democrat,PFDJ,People's Front for Democracy and Justice
+ETH,authoritarian_democrat,EPRDF,Ethiopian People's Revolutionary Democratic Front
+ETH,conservative,AAPO,All-Amhara People's Organization
+ETH,social_democrat,SEPDC,Southern Ethiopia Peoples' Democratic Coalition
+DJI,authoritarian_democrat,RPP,Rassemblement Populaire pour le Progrès
+DJI,democratic,PRD,Parti du Renouveau Démocratique
+PNT,authoritarian_democrat,SSDF,Somali Salvation Democratic Front
+SNA,neutrality,USC/SNA,United Somali Congress/Somali National Alliance
+SSA,neutrality,USC/SSA,United Somali Congress/Somali Salvation Alliance
+RRA,neutrality,RRA,Rahanweyn Resistance Army
+JVA,neutrality,JVA,Juba Valley Alliance
+SNF,neutrality,SNF,Somali National Front
+KEN,authoritarian_democrat,KANU,Kenya African National Union
+KEN,conservative,DP,Democratic Party
+KEN,democratic,FORD-K,Forum for the Restoration of Democracy–Kenya
+KEN,social_democrat,SDP,Social Democratic Party
+TZN,authoritarian_democrat,CCM,Chama cha Mapinduzi
+TZN,democratic,CUF,Civic United Front
+TZN,conservative,CHADEMA,Chama cha Demokrasia na Maendeleo
+TZN,social_democrat,NCCR,NCCR–Mageuzi
+MAD,socialist,AREMA,Association pour la Renaissance de Madagascar
+MAD,democratic,AVI,Asa Vita no Ifampitsarana
+MAD,social_democrat,RPSD,Rassemblement pour le Socialisme et la Démocratie
+MAD,communism,AKFM,Antoko'ny Kongresy ho an'ny Fahaleovantenan'i Madagasikara
+COM,authoritarian_democrat,RND,Rassemblement National pour le Développement
+ANJ,neutrality,MPA,Mouvement Populaire Anjouanais
+MUS,social_democrat,MLP,Mauritius Labour Party
+MUS,socialist,MMM,Mouvement Militant Mauricien
+MUS,conservative,MSM,Mouvement Socialiste Militant
+MUS,democratic,PMSD,Parti Mauricien Social Démocrate
+SEY,socialist,SPPF,Seychelles People's Progressive Front
+SEY,democratic,SNP,Seychelles National Party
+SEY,conservative,DP,Democratic Party
+MOR,social_democrat,USFP,Union Socialiste des Forces Populaires
+MOR,conservative,Istiqlal,Parti de l'Istiqlal
+MOR,democratic,RNI,Rassemblement National des Indépendants
+MOR,communism,PPS,Parti du Progrès et du Socialisme
+SAH,socialist,POLISARIO,Frente Popular de Liberación de Saguía el Hamra y Río de Oro
+ALG,authoritarian_democrat,RND,Rassemblement National Démocratique
+ALG,socialist,FLN,Front de Libération Nationale
+ALG,social_democrat,FFS,Front des Forces Socialistes
+ALG,democratic,RCD,Rassemblement pour la Culture et la Démocratie
+ALG,conservative,MSP,Mouvement de la Société pour la Paix
+TUN,authoritarian_democrat,RCD,Rassemblement Constitutionnel Démocratique
+TUN,social_democrat,MDS,Mouvement des Démocrates Socialistes
+TUN,communism,Ettajdid,Mouvement Ettajdid
+LBA,neutrality,RCM,Revolutionary Committees Movement
+ISR,social_democrat,Labor,One Israel (Labor)
+ISR,conservative,Likud,Likud
+ISR,socialist,Meretz,Meretz
+ISR,democratic,Shinui,Shinui
+PAL,authoritarian_democrat,Fatah,Fatah
+PAL,conservative,Hamas,Islamic Resistance Movement
+PAL,communism,PFLP,Popular Front for the Liberation of Palestine
+PAL,socialist,PPP,Palestinian People's Party
+LEB,socialist,PSP,Progressive Socialist Party
+SLA,neutrality,SLA,South Lebanon Army
+SYR,neutrality,Ba'ath,Arab Socialist Ba'ath Party
+SYR,communism,SCP,Syrian Communist Party
+IRQ,neutrality,Ba'ath,Arab Socialist Ba'ath Party
+KDP,conservative,KDP,Kurdistan Democratic Party
+PUK,social_democrat,PUK,Patriotic Union of Kurdistan
+SAU,neutrality,Al Saud,House of Saud
+OMA,neutrality,Al Said,House of Al Said
+UAE,neutrality,Al Nahyan,House of Al Nahyan
+QAT,neutrality,Al Thani,House of Thani
+BHR,neutrality,Al Khalifa,House of Khalifa
+KUW,conservative,Al Sabah,House of Sabah
+YEM,authoritarian_democrat,GPC,General People's Congress
+YEM,conservative,Islah,Yemeni Congregation for Reform
+YEM,socialist,YSP,Yemeni Socialist Party
+CYP,conservative,DISY,Democratic Rally
+CYP,communism,AKEL,Progressive Party of Working People
+CYP,democratic,DIKO,Democratic Party
+CYP,social_democrat,EDEK,Movement for Social Democracy
+NCY,conservative,UBP,National Unity Party
+NCY,social_democrat,CTP,Republican Turkish Party
+NCY,democratic,DP,Democrat Party

@@ -1,0 +1,26 @@
+state={
+	id=1407
+	name="STATE_1407" # Boké
+	manpower = 895934
+	state_category = large_town
+
+	resources={
+		aluminium=30
+	}
+
+	history={
+		owner = GNA
+		buildings = {
+			infrastructure = 1
+			14735 = { naval_base = 1 }
+		}
+		victory_points = { 14735 1 }
+		add_core_of = GNA
+	}
+
+	provinces={
+		14734 14735 14736 14737 
+	}
+
+	local_supplies=0.0
+}

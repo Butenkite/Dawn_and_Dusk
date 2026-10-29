@@ -1,0 +1,21 @@
+state={
+	id=268
+	name="STATE_268" # West Darfur
+	manpower = 1146119
+	state_category = large_town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 1905 2 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		1905 1914 1939 1953 1960 1964 1966 1977 1984 
+	}
+
+	local_supplies=0.0
+}

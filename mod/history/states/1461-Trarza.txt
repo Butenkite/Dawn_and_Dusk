@@ -1,0 +1,21 @@
+state={
+	id=1461
+	name="STATE_1461" # Trarza
+	manpower = 265319
+	state_category = rural
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14943 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14941 14942 14943 14944 
+	}
+
+	local_supplies=0.0
+}

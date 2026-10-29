@@ -1,0 +1,22 @@
+state={
+	id=450
+	name="STATE_450" # Bir Anzarane
+	manpower = 51018
+	state_category = pastoral
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 2004 1 }
+		add_core_of = MOR
+		add_claim_by = SAH
+	}
+
+	provinces={
+		1989 1994 2004 
+	}
+
+	local_supplies=0.0
+}

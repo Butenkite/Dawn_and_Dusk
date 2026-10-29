@@ -1,0 +1,25 @@
+state={
+	id=843
+	name="STATE_843" # Kadugli
+	manpower = 795476
+	state_category = town
+
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14963 2 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		14959 14960 14961 14962 14963 14964 14965 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=1754
+	name="STATE_1754" # Rub' al Khali
+	manpower = 383379
+	state_category = rural
+
+	resources={
+		oil=94
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15972 1 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		15971 15972 15973 15974 15975 15976 15977 
+	}
+
+	local_supplies=0.0
+}

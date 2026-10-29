@@ -1,0 +1,22 @@
+state={
+	id=1327
+	name="STATE_1327" # Dosso
+	manpower = 1477043
+	state_category = large_town
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14421 1 }
+		victory_points = { 14422 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14419 14420 14421 14422 14423 14424 14425 14426 
+	}
+
+	local_supplies=0.0
+}

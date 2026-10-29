@@ -1,0 +1,21 @@
+state={
+	id=1610
+	name="STATE_1610" # Pwani
+	manpower = 877999
+	state_category = large_town
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15528 2 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15528 15529 15530 15531 15532 
+	}
+
+	local_supplies=0.0
+}

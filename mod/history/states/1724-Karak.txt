@@ -1,0 +1,21 @@
+state={
+	id=1724
+	name="STATE_1724" # Karak
+	manpower = 264000
+	state_category = rural
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15842 2 }
+		add_core_of = JOR
+	}
+
+	provinces={
+		15841 15842 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1804
+	name="STATE_1804" # Ras al-Khaimah
+	manpower = 221426
+	state_category = rural
+
+	history={
+		owner = UAE
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 16226 2 }
+		add_core_of = UAE
+	}
+
+	provinces={
+		16226 16227 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=549
+	name="STATE_549" # Ad-Damazin
+	manpower = 214519
+	state_category = rural
+
+	resources={
+		chromium=3
+	}
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 5224 2 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		5224 6020 7912 
+	}
+
+	local_supplies=0.0
+}

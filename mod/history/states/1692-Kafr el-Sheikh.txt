@@ -1,0 +1,22 @@
+state={
+	id=1692
+	name="STATE_1692" # Kafr el-Sheikh
+	manpower = 2423000
+	state_category = city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15702 2 }
+		victory_points = { 15701 2 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		15700 15701 15702 
+	}
+
+	local_supplies=0.0
+}

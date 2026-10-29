@@ -1,0 +1,26 @@
+state={
+	id=1362
+	name="STATE_1362" # Greater Accra
+	manpower = 2903000
+	state_category = city
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			14580 = { naval_base = 2 }
+		}
+		victory_points = { 14578 20 }
+		victory_points = { 14580 3 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14578 14579 14580 14581 
+	}
+
+	local_supplies=0.0
+}

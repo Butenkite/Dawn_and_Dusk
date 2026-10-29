@@ -1,0 +1,21 @@
+state={
+	id=1480
+	name="STATE_1480" # West Wellega
+	manpower = 1112381
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15063 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15060 15061 15062 15063 
+	}
+
+	local_supplies=0.0
+}

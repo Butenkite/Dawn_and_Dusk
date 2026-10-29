@@ -1,0 +1,23 @@
+state={
+	id=1814
+	name="STATE_1814" # Famagusta
+	manpower = 79650
+	state_category = pastoral
+
+	history={
+		owner = NCY
+		buildings = {
+			infrastructure = 4
+			16245 = { naval_base = 1 }
+		}
+		victory_points = { 16245 1 }
+		add_core_of = NCY
+		add_core_of = CYP
+	}
+
+	provinces={
+		16245 
+	}
+
+	local_supplies=0.0
+}

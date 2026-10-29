@@ -1,0 +1,22 @@
+state={
+	id=779
+	name="STATE_779" # Benue
+	manpower = 3714028
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 12802 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		12787 12794 12802 12817 12834 12838 12843 12851 12858 12874 
+	}
+
+	local_supplies=0.0
+}

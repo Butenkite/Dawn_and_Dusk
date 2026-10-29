@@ -1,0 +1,23 @@
+state={
+	id=1616
+	name="STATE_1616" # Diana
+	manpower = 549000
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+			15568 = { naval_base = 1 }
+		}
+		victory_points = { 15568 2 }
+		victory_points = { 15570 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15568 15569 15570 
+	}
+
+	local_supplies=0.0
+}

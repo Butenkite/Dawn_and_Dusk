@@ -1,0 +1,21 @@
+state={
+	id=1454
+	name="STATE_1454" # Oualata
+	manpower = 48742
+	state_category = pastoral
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14923 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14923 14924 
+	}
+
+	local_supplies=0.0
+}

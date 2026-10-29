@@ -1,0 +1,21 @@
+state={
+	id=1500
+	name="STATE_1500" # East Gojam
+	manpower = 1453557
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15146 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15143 15144 15145 15146 
+	}
+
+	local_supplies=0.0
+}

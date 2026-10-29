@@ -1,0 +1,5 @@
+# Dawn and Dusk: the South Lebanon Army and its security zone (not in vanilla)
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+
+color = { 40 140 140 }

@@ -1,0 +1,24 @@
+state={
+	id=449
+	name="STATE_449" # Marrakech-Safi
+	manpower = 3901000
+	state_category = large_city
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1634 = { naval_base = 1 }
+		}
+		victory_points = { 1606 6 }
+		victory_points = { 1634 3 }
+		add_core_of = MOR
+	}
+
+	provinces={
+		1606 1631 1634 1901 1920 1923 1938 1947 1955 1958 1967 1973 
+	}
+
+	local_supplies=0.0
+}

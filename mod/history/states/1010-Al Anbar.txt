@@ -1,0 +1,21 @@
+state={
+	id=1010
+	name="STATE_1010" # In Salah
+	manpower = 26688
+	state_category = pastoral
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 8002 1 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		8002 8004 8020 
+	}
+
+	local_supplies=0.0
+}

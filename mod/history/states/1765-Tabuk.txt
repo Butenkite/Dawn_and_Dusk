@@ -1,0 +1,23 @@
+state={
+	id=1765
+	name="STATE_1765" # Tabuk
+	manpower = 629000
+	state_category = town
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = { 16085 6 }
+		victory_points = { 16083 1 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16080 16081 16082 16083 16084 16085 16086 16087 16088 16089 
+	}
+
+	local_supplies=0.0
+}

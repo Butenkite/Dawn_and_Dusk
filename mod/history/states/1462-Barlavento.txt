@@ -1,0 +1,22 @@
+state={
+	id=1462
+	name="STATE_1462" # Barlavento
+	manpower = 52000
+	state_category = pastoral
+
+	history={
+		owner = CBV
+		buildings = {
+			infrastructure = 2
+			14946 = { naval_base = 1 }
+		}
+		victory_points = { 14946 1 }
+		add_core_of = CBV
+	}
+
+	provinces={
+		14945 14946 
+	}
+
+	local_supplies=0.0
+}

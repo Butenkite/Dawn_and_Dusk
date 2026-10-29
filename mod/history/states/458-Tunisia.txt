@@ -1,0 +1,24 @@
+state={
+	id=458
+	name="STATE_458" # Oran
+	manpower = 1650000
+	state_category = city
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			4115 = { naval_base = 3 }
+		}
+		victory_points = { 4115 6 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4115 4116 4117 
+	}
+
+	local_supplies=0.0
+}

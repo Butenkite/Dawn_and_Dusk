@@ -1,0 +1,22 @@
+state={
+	id=1659
+	name="STATE_1659" # Al Butnan
+	manpower = 159035
+	state_category = rural
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+			10815 = { naval_base = 2 }
+		}
+		victory_points = { 10815 3 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10804 10811 10815 
+	}
+
+	local_supplies=0.0
+}

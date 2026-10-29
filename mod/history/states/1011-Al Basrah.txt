@@ -1,0 +1,21 @@
+state={
+	id=1011
+	name="STATE_1011" # El Bayadh
+	manpower = 206066
+	state_category = rural
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 8038 1 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		8030 8038 8046 8051 
+	}
+
+	local_supplies=0.0
+}

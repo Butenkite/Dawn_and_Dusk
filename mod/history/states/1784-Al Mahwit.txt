@@ -1,0 +1,21 @@
+state={
+	id=1784
+	name="STATE_1784" # Al Mahwit
+	manpower = 442000
+	state_category = town
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 16172 1 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16172 
+	}
+
+	local_supplies=0.0
+}

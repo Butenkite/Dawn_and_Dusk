@@ -1,0 +1,21 @@
+state={
+	id=1615
+	name="STATE_1615" # Dodoma
+	manpower = 1667000
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15564 3 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15561 15562 15563 15564 15565 15566 15567 
+	}
+
+	local_supplies=0.0
+}

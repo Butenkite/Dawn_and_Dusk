@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Hawadle administration of Hiiraan, at Beledweyne (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 110 60 130 }

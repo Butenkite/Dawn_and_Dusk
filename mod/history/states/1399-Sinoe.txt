@@ -1,0 +1,22 @@
+state={
+	id=1399
+	name="STATE_1399" # Sinoe
+	manpower = 82000
+	state_category = pastoral
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+			14707 = { naval_base = 1 }
+		}
+		victory_points = { 14707 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14707 
+	}
+
+	local_supplies=0.0
+}

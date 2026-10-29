@@ -1,0 +1,27 @@
+state={
+	id=457
+	name="STATE_457" # Algiers
+	manpower = 4867000
+	state_category = large_city
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			4076 = { naval_base = 4 }
+		}
+		victory_points = { 4076 20 }
+		victory_points = { 4097 6 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4076 4084 4088 4097 4108 4111 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1357
+	name="STATE_1357" # Eastern
+	manpower = 2100711
+	state_category = city
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14559 2 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14556 14557 14558 14559 14560 
+	}
+
+	local_supplies=0.0
+}

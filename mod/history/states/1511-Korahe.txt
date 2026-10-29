@@ -1,0 +1,21 @@
+state={
+	id=1511
+	name="STATE_1511" # Korahe
+	manpower = 200408
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15176 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15176 15177 
+	}
+
+	local_supplies=0.0
+}

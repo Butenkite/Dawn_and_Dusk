@@ -1,0 +1,21 @@
+state={
+	id=1538
+	name="STATE_1538" # Ali Sabieh
+	manpower = 37999
+	state_category = pastoral
+
+	history={
+		owner = DJI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15258 1 }
+		add_core_of = DJI
+	}
+
+	provinces={
+		15258 
+	}
+
+	local_supplies=0.0
+}

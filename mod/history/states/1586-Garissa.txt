@@ -1,0 +1,21 @@
+state={
+	id=1586
+	name="STATE_1586" # Garissa
+	manpower = 331000
+	state_category = rural
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15407 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15404 15405 15406 15407 
+	}
+
+	local_supplies=0.0
+}

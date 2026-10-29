@@ -1,0 +1,21 @@
+state={
+	id=679
+	name="STATE_679" # Sidi Bel Abbès
+	manpower = 544809
+	state_category = town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7100 3 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7091 7100 7107 
+	}
+
+	local_supplies=0.0
+}

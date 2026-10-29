@@ -1,0 +1,22 @@
+state={
+	id=1419
+	name="STATE_1419" # Kaolack
+	manpower = 1160000
+	state_category = large_town
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 14780 3 }
+		add_core_of = SEN
+	}
+
+	provinces={
+		14779 14780 14781 14782 
+	}
+
+	local_supplies=0.0
+}

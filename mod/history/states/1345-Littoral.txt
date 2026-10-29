@@ -1,0 +1,24 @@
+state={
+	id=1345
+	name="STATE_1345" # Littoral
+	manpower = 1323000
+	state_category = large_town
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			14506 = { naval_base = 2 }
+		}
+		victory_points = { 14506 6 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14506 14507 
+	}
+
+	local_supplies=0.0
+}

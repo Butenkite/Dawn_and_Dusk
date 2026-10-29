@@ -1,0 +1,24 @@
+state={
+	id=1537
+	name="STATE_1537" # Djibouti
+	manpower = 557000
+	state_category = town
+
+	history={
+		owner = DJI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			15257 = { naval_base = 3 }
+		}
+		victory_points = { 15257 12 }
+		add_core_of = DJI
+	}
+
+	provinces={
+		15257 
+	}
+
+	local_supplies=0.0
+}

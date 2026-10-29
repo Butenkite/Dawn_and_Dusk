@@ -1,0 +1,22 @@
+state={
+	id=1413
+	name="STATE_1413" # Nzérékoré
+	manpower = 1598000
+	state_category = city
+
+	history={
+		owner = GNA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14767 3 }
+		victory_points = { 14770 2 }
+		add_core_of = GNA
+	}
+
+	provinces={
+		14765 14766 14767 14768 14769 14770 
+	}
+
+	local_supplies=0.0
+}

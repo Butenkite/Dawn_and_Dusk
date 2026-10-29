@@ -1,0 +1,22 @@
+state={
+	id=1622
+	name="STATE_1622" # Menabe
+	manpower = 431813
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15591 1 }
+		victory_points = { 15593 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15589 15590 15591 15592 15593 
+	}
+
+	local_supplies=0.0
+}

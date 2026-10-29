@@ -1,0 +1,21 @@
+state={
+	id=1398
+	name="STATE_1398" # Grand Gedeh
+	manpower = 163000
+	state_category = rural
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14705 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14705 14706 
+	}
+
+	local_supplies=0.0
+}

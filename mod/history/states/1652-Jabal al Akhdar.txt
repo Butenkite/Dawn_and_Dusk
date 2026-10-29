@@ -1,0 +1,23 @@
+state={
+	id=1652
+	name="STATE_1652" # Jabal al Akhdar
+	manpower = 480000
+	state_category = town
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10097 2 }
+		victory_points = { 10087 2 }
+		victory_points = { 10091 1 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10082 10087 10089 10091 10097 
+	}
+
+	local_supplies=0.0
+}

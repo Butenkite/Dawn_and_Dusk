@@ -1,0 +1,21 @@
+state={
+	id=1533
+	name="STATE_1533" # Kilbet Rasu
+	manpower = 247822
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15252 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15252 15253 
+	}
+
+	local_supplies=0.0
+}

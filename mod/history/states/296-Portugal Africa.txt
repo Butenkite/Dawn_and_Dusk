@@ -1,0 +1,21 @@
+state={
+	id=296
+	name="STATE_296" # Ogun
+	manpower = 3257984
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 2025 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		1992 2001 2012 2025 2038 2044 2050 2056 
+	}
+
+	local_supplies=0.0
+}

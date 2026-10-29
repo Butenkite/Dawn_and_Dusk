@@ -1,0 +1,22 @@
+state={
+	id=1561
+	name="STATE_1561" # Galgaduud
+	manpower = 391000
+	state_category = rural
+
+	history={
+		owner = SNA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15318 1 }
+		add_core_of = SNA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15315 15316 15317 15318 
+	}
+
+	local_supplies=0.0
+}

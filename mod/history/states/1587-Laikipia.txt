@@ -1,0 +1,21 @@
+state={
+	id=1587
+	name="STATE_1587" # Laikipia
+	manpower = 331000
+	state_category = rural
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15409 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15408 15409 
+	}
+
+	local_supplies=0.0
+}

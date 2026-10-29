@@ -1,0 +1,21 @@
+state={
+	id=1666
+	name="STATE_1666" # Al Jufrah
+	manpower = 52000
+	state_category = pastoral
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 11940 1 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		11939 11940 
+	}
+
+	local_supplies=0.0
+}

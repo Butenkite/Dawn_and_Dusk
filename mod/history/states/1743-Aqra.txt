@@ -1,0 +1,22 @@
+state={
+	id=1743
+	name="STATE_1743" # Aqra
+	manpower = 69296
+	state_category = pastoral
+
+	history={
+		owner = KDP
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15920 1 }
+		add_core_of = KDP
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15920 
+	}
+
+	local_supplies=0.0
+}

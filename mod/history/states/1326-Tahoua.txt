@@ -1,0 +1,22 @@
+state={
+	id=1326
+	name="STATE_1326" # Tahoua
+	manpower = 1942956
+	state_category = city
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14414 2 }
+		victory_points = { 14409 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14407 14408 14409 14410 14411 14412 14413 14414 14415 14416 14417 14418 
+	}
+
+	local_supplies=0.0
+}

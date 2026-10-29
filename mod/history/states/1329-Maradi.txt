@@ -1,0 +1,23 @@
+state={
+	id=1329
+	name="STATE_1329" # Maradi
+	manpower = 2208000
+	state_category = city
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = { 14433 12 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14433 14434 14435 14436 14437 14438 14439 14440 
+	}
+
+	local_supplies=0.0
+}

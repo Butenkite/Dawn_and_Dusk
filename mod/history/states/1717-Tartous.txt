@@ -1,0 +1,22 @@
+state={
+	id=1717
+	name="STATE_1717" # Tartous
+	manpower = 636999
+	state_category = town
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+			15820 = { naval_base = 2 }
+		}
+		victory_points = { 15820 2 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15819 15820 
+	}
+
+	local_supplies=0.0
+}

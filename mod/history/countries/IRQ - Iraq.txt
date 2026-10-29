@@ -3,12 +3,15 @@
 # Do not edit by hand: change the CSV and re-run the script, or add the tag to
 # HAND_WRITTEN in the script and write this file yourself.
 
-capital = 291
+capital = 1735
 
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.2
 set_convoys = 10
+set_country_flag = dnd_govt_one_party_state
+set_country_flag = dnd_un_sanctions
+set_country_flag = dnd_no_fly_zones
 
 set_politics = {
 	ruling_party = neutrality

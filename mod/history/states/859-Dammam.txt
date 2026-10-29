@@ -1,0 +1,25 @@
+state={
+	id=859
+	name="STATE_859" # Tébessa
+	manpower = 586000
+	state_category = town
+
+	resources={
+		steel=6
+	}
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7908 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7671 7908 7934 
+	}
+
+	local_supplies=0.0
+}

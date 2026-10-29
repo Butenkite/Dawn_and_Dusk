@@ -1,0 +1,21 @@
+state={
+	id=1393
+	name="STATE_1393" # Gbarpolu
+	manpower = 66506
+	state_category = pastoral
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14693 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14693 
+	}
+
+	local_supplies=0.0
+}

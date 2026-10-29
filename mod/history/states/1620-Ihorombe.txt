@@ -1,0 +1,21 @@
+state={
+	id=1620
+	name="STATE_1620" # Ihorombe
+	manpower = 259000
+	state_category = rural
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15583 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15583 15584 15585 
+	}
+
+	local_supplies=0.0
+}

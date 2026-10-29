@@ -1,0 +1,24 @@
+state={
+	id=1352
+	name="STATE_1352" # Maritime
+	manpower = 2057999
+	state_category = city
+
+	history={
+		owner = TOG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			14521 = { naval_base = 2 }
+		}
+		victory_points = { 14521 15 }
+		add_core_of = TOG
+	}
+
+	provinces={
+		14521 14522 14523 14524 
+	}
+
+	local_supplies=0.0
+}

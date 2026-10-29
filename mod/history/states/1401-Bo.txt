@@ -1,0 +1,26 @@
+state={
+	id=1401
+	name="STATE_1401" # Bo
+	manpower = 961850
+	state_category = large_town
+
+	resources={
+		aluminium=4
+	}
+
+	history={
+		owner = SIE
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14709 2 }
+		add_core_of = SIE
+		add_claim_by = RUF
+	}
+
+	provinces={
+		14709 14710 14711 14712 14713 14714 
+	}
+
+	local_supplies=0.0
+}

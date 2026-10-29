@@ -1,0 +1,21 @@
+state={
+	id=1758
+	name="STATE_1758" # Ha'il
+	manpower = 484000
+	state_category = town
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15997 3 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		15995 15996 15997 15998 15999 16000 16001 16002 
+	}
+
+	local_supplies=0.0
+}

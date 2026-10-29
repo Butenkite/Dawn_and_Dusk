@@ -1,0 +1,27 @@
+state={
+	id=1669
+	name="STATE_1669" # Aswan
+	manpower = 1100000
+	state_category = large_town
+
+	resources={
+		steel=3
+	}
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		victory_points = { 11970 3 }
+		victory_points = { 11967 3 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		11964 11967 11969 11970 11974 11976 11979 
+	}
+
+	local_supplies=0.0
+}

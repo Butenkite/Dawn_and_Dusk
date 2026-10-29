@@ -1,0 +1,22 @@
+state={
+	id=1598
+	name="STATE_1598" # Iringa
+	manpower = 1478739
+	state_category = large_town
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15466 2 }
+		victory_points = { 15469 1 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15464 15465 15466 15467 15468 15469 15470 15471 
+	}
+
+	local_supplies=0.0
+}

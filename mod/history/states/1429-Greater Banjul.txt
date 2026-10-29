@@ -1,0 +1,23 @@
+state={
+	id=1429
+	name="STATE_1429" # Greater Banjul
+	manpower = 652273
+	state_category = town
+
+	history={
+		owner = GAM
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			14812 = { naval_base = 1 }
+		}
+		victory_points = { 14812 12 }
+		add_core_of = GAM
+	}
+
+	provinces={
+		14812 
+	}
+
+	local_supplies=0.0
+}

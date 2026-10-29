@@ -1,0 +1,23 @@
+state={
+	id=1699
+	name="STATE_1699" # Galilee
+	manpower = 1062000
+	state_category = large_town
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = { 15720 2 }
+		add_core_of = ISR
+	}
+
+	provinces={
+		15719 15720 15721 
+	}
+
+	local_supplies=0.0
+}

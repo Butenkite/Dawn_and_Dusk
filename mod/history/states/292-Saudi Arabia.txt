@@ -1,0 +1,21 @@
+state={
+	id=292
+	name="STATE_292" # Oriental
+	manpower = 1994155
+	state_category = city
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1079 3 }
+		add_core_of = MOR
+	}
+
+	provinces={
+		1057 1058 1060 1062 1064 1065 1068 1071 1072 1074 1079 
+	}
+
+	local_supplies=0.0
+}

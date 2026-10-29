@@ -1,0 +1,25 @@
+state={
+	id=1778
+	name="STATE_1778" # Rumah
+	manpower = 192419
+	state_category = rural
+
+	resources={
+		oil=5
+	}
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 16158 1 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16156 16157 16158 
+	}
+
+	local_supplies=0.0
+}

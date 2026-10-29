@@ -1,0 +1,21 @@
+state={
+	id=1456
+	name="STATE_1456" # Inchiri
+	manpower = 11097
+	state_category = pastoral
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14928 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14928 
+	}
+
+	local_supplies=0.0
+}

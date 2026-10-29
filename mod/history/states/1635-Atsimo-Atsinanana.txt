@@ -1,0 +1,21 @@
+state={
+	id=1635
+	name="STATE_1635" # Atsimo-Atsinanana
+	manpower = 635832
+	state_category = town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15642 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15642 15643 15644 
+	}
+
+	local_supplies=0.0
+}

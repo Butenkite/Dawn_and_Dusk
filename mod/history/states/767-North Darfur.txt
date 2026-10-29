@@ -1,0 +1,21 @@
+state={
+	id=767
+	name="STATE_767" # Al Malha
+	manpower = 395011
+	state_category = rural
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 10859 1 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		10857 10859 10860 10877 10891 10900 10902 
+	}
+
+	local_supplies=0.0
+}

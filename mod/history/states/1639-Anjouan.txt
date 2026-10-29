@@ -1,0 +1,23 @@
+state={
+	id=1639
+	name="STATE_1639" # Anjouan
+	manpower = 213000
+	state_category = rural
+
+	history={
+		owner = ANJ
+		buildings = {
+			infrastructure = 3
+			15655 = { naval_base = 1 }
+		}
+		victory_points = { 15655 5 }
+		add_core_of = ANJ
+		add_core_of = COM
+	}
+
+	provinces={
+		15655 
+	}
+
+	local_supplies=0.0
+}

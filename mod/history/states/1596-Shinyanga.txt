@@ -1,0 +1,22 @@
+state={
+	id=1596
+	name="STATE_1596" # Shinyanga
+	manpower = 2465319
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 15451 2 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15448 15449 15450 15451 15452 15453 15454 15455 15456 
+	}
+
+	local_supplies=0.0
+}

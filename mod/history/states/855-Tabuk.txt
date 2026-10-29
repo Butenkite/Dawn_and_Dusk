@@ -1,0 +1,21 @@
+state={
+	id=855
+	name="STATE_855" # El Oued
+	manpower = 585000
+	state_category = town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7173 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7173 7176 7180 7184 7188 
+	}
+
+	local_supplies=0.0
+}

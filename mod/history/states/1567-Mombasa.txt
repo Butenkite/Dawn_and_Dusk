@@ -1,0 +1,27 @@
+state={
+	id=1567
+	name="STATE_1567" # Mombasa
+	manpower = 2237000
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			15339 = { naval_base = 4 }
+			15345 = { naval_base = 1 }
+		}
+		victory_points = { 15339 6 }
+		victory_points = { 15345 2 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15339 15340 15341 15342 15343 15344 15345 
+	}
+
+	local_supplies=0.0
+}

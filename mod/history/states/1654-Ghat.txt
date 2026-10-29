@@ -1,0 +1,21 @@
+state={
+	id=1654
+	name="STATE_1654" # Ghat
+	manpower = 49000
+	state_category = pastoral
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10120 1 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10120 10123 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1565
+	name="STATE_1565" # Kiambu
+	manpower = 2121000
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 15333 2 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15332 15333 15334 15335 
+	}
+
+	local_supplies=0.0
+}

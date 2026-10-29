@@ -1,0 +1,22 @@
+state={
+	id=1406
+	name="STATE_1406" # Port Loko
+	manpower = 583402
+	state_category = town
+
+	history={
+		owner = SIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14732 1 }
+		add_core_of = SIE
+		add_claim_by = RUF
+	}
+
+	provinces={
+		14732 14733 
+	}
+
+	local_supplies=0.0
+}

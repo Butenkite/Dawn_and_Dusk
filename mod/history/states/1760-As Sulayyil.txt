@@ -1,0 +1,25 @@
+state={
+	id=1760
+	name="STATE_1760" # As Sulayyil
+	manpower = 901333
+	state_category = large_town
+
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 16028 1 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16025 16026 16027 16028 16029 16030 16031 16032 16033 16034 16035 
+	}
+
+	local_supplies=0.0
+}

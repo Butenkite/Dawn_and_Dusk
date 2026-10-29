@@ -1,0 +1,5 @@
+# Dawn and Dusk: the Sahrawi Arab Democratic Republic of the Polisario Front (not in vanilla)
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+
+color = { 90 160 90 }

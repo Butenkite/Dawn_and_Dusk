@@ -1,0 +1,23 @@
+state={
+	id=908
+	name="STATE_908" # Jur River
+	manpower = 118904
+	state_category = pastoral
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		victory_points = { 15001 2 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		15001 15002 
+	}
+
+	local_supplies=0.0
+}

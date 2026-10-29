@@ -1,0 +1,21 @@
+state={
+	id=1387
+	name="STATE_1387" # Zanzan
+	manpower = 666000
+	state_category = town
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14676 1 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14674 14675 14676 14677 
+	}
+
+	local_supplies=0.0
+}

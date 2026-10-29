@@ -1,0 +1,21 @@
+state={
+	id=1482
+	name="STATE_1482" # Asosa
+	manpower = 535045
+	state_category = town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15071 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15071 15072 15073 15074 
+	}
+
+	local_supplies=0.0
+}

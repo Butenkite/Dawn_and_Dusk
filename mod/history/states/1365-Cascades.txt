@@ -1,0 +1,21 @@
+state={
+	id=1365
+	name="STATE_1365" # Cascades
+	manpower = 439000
+	state_category = town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14592 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14591 14592 14593 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1595
+	name="STATE_1595" # Mwanza
+	manpower = 3158680
+	state_category = large_city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 15445 3 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15439 15440 15441 15442 15443 15444 15445 15446 15447 
+	}
+
+	local_supplies=0.0
+}

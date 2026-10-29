@@ -1,0 +1,23 @@
+state={
+	id=709
+	name="STATE_709" # Seychelles
+	manpower = 81000
+	state_category = small_island
+
+	history={
+		owner = SEY
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			2188 = { naval_base = 1 }
+		}
+		victory_points = { 2188 10 }
+		add_core_of = SEY
+	}
+
+	provinces={
+		2188 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,23 @@
+state={
+	id=1734
+	name="STATE_1734" # Babil
+	manpower = 1396000
+	state_category = large_town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 15882 6 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15881 15882 15883 15884 
+	}
+
+	local_supplies=0.0
+}

@@ -71,12 +71,12 @@ so renaming it would load both and duplicate the state.
 ```
 python tools/map/build.py tools/data/map/<region>.json --vanilla "<HOI4>"
 python tools/countries/generate_country_history.py
-python tools/countries/generate_congo_war.py --vanilla "<HOI4>"
+python tools/countries/generate_armies.py --vanilla "<HOI4>"
 python tools/map/validate.py --vanilla "<HOI4>"
 ```
 
 The second step moves capitals of rebuilt countries; the third re-places the
-Congo armies on the new provinces.
+starting armies on the new provinces.
 
 ## Start checks
 
@@ -84,15 +84,16 @@ Congo armies on the new provinces.
 - [ ] Game rules show a **Dawn and Dusk** group with Outside World, The 2040 Deadline and the war goal rule set to Focuses Only.
 - [ ] The bookmark screen shows **The New Millennium**, dated 1 January 2000.
 - [ ] The politics screen shows the new ideology names (Social Democrat, Authoritarian, ...) and hovering the leader shows a flavour.
-- [ ] Southern and central Africa show their rebuilt states; Lesotho, Swaziland, RCD-Goma, the MLC and RCD-ML have names and flags.
+- [ ] Southern, central and west Africa show their rebuilt states; Lesotho, Swaziland, RCD-Goma, the MLC, RCD-ML and the RUF have names and flags; Benin, Burkina Faso and Côte d'Ivoire show their 2000 names.
+- [ ] Sierra Leone and the RUF face each other across the ceasefire line, at peace, both with `dnd_lome_ceasefire` set.
 - [ ] The Congo starts at war (Kinshasa against all three rebel movements, RCD-Goma against RCD-ML) with no war declaration popups.
 - [ ] Console: `tag SAF`, then try to justify a war goal on a neighbour. The option should not be offered.
 
 ## Known gaps (expected, not bugs)
 
-- Outside southern and central Africa, borders are vanilla's 1936 ones.
+- Outside southern, central and west Africa, borders are vanilla's 1936 ones (North and East Africa included).
 - Ideology icons reuse vanilla's four icons.
-- Only the four Congo war sides have armies and technology; no focus trees or events yet.
+- Only the four Congo war sides, Sierra Leone and the RUF have armies and technology; no focus trees or events yet.
 - Vanilla files we still load (ideas, characters, MIOs) are 1936 content. Their references resolve to empty stand-ins, so they log few errors, but they stay until each system gets its 2000 replacement.
 - Without `tools/setup/make_placeholder_flags.bat`, the error log lists missing ideology flags. Harmless: the game falls back to the country's main flag.
 - Most countries have placeholder party names ("Liberal Party"); real ones live in `tools/data/parties.csv`.

@@ -1,0 +1,22 @@
+state={
+	id=835
+	name="STATE_835" # North Kordofan
+	manpower = 1923000
+	state_category = city
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 11014 3 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		10908 10921 10928 10932 10962 10976 10988 10993 11014 11015 11017 11145 12714 12723 12725 12744 12757 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,26 @@
+state={
+	id=1646
+	name="STATE_1646" # Médenine
+	manpower = 560000
+	state_category = town
+
+	resources={
+		oil=4
+	}
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 10002 2 }
+		victory_points = { 10013 1 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		9989 9992 9994 10002 10005 10013 10023 
+	}
+
+	local_supplies=0.0
+}

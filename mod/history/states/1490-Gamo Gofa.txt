@@ -1,0 +1,21 @@
+state={
+	id=1490
+	name="STATE_1490" # Gamo Gofa
+	manpower = 1402107
+	state_category = large_town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15105 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15103 15104 15105 
+	}
+
+	local_supplies=0.0
+}

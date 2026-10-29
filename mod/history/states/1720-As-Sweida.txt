@@ -1,0 +1,21 @@
+state={
+	id=1720
+	name="STATE_1720" # As-Sweida
+	manpower = 283352
+	state_category = rural
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15832 1 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15832 15833 15834 
+	}
+
+	local_supplies=0.0
+}

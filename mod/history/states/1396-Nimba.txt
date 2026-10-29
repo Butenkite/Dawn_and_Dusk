@@ -1,0 +1,25 @@
+state={
+	id=1396
+	name="STATE_1396" # Nimba
+	manpower = 376268
+	state_category = rural
+
+	resources={
+		steel=6
+	}
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14700 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14698 14699 14700 14701 
+	}
+
+	local_supplies=0.0
+}

@@ -54,3 +54,211 @@ RML = {
 	surnames = { Wamba Nyamwisi Mbusa Tibasima Lompondo Mumbere Kasongo Mukendi Tshibangu Njabu Kabeya Mbonimpa Kahindo Paluku Muhindo Kasereka Kambale Kavira Malonga Kahongya }
 	callsigns = { }
 }
+RUF = {
+	male = {
+		names = { Foday Sam Issa Morris Augustine Dennis Gibril Eldred Mike Abu Mohamed Ibrahim Alhaji Musa Joseph Komba Sahr Tamba Brima Lansana }
+	}
+	female = {
+		names = { Fatmata Aminata Isatu Mariama Hawa Kadiatu Jeneba Mabinty Adama Zainab Finda Kumba Tity Massah Yei }
+	}
+	surnames = { Kamara Sesay Kallon Bangura Conteh Koroma Turay Mansaray Fofanah Kargbo Jalloh Bah Musa Tucker Lahai Komba Fomba Kanu Sillah Marrah }
+	callsigns = { }
+}
+
+SPL = {
+	male = {
+		names = { John Salva James Peter Joseph Daniel Samuel David Elijah Simon Paul Deng Kuol Garang Lual Akol Majak Nhial Mabior Malong Thon Oyai Pagan }
+	}
+	female = {
+		names = { Rebecca Mary Nyandeng Achol Ayen Abuk Nyakuoth Martha Anne Sarah Nyibol Awut }
+	}
+	surnames = { Garang Kiir Mayardit Machar Akol Deng Alor Amum Kuol Majak Malong Wani Igga Lado Oyai Kur Thon Ajak Arop Mabior Makuei Lual Atem }
+	callsigns = { }
+}
+
+SML = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+PNT = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+SNA = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+SSA = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+HIR = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+RRA = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+JVA = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+SNF = {
+	male = {
+		names = { Mohamed Ahmed Abdullahi Hassan Hussein Ali Omar Abdi Yusuf Ismail Abdirahman Abdulkadir Farah Mohamud Said Osman Aden Jama Warsame Hersi }
+	}
+	female = {
+		names = { Fadumo Halima Hawa Amina Khadija Asha Sahra Ifrah Hodan Ubah Deeqa Nimco Safiya Maryan Sagal }
+	}
+	surnames = { Aidid Mahdi Egal Yusuf Hashi Nur Atto Sudi Shatigadud Hiiraale Buraleh Jess Gabyow Dhere Galaydh Warsame Jama Farah Samatar Riyale Kahin Dahir }
+	callsigns = { }
+}
+
+COM = {
+	male = {
+		names = { Ahmed Ali Mohamed Said Azali Abdallah Ibrahim Assoumani Soilihi Taki Abdou Youssouf Hamada Hassani Fahmi Bacar Houmadi }
+	}
+	female = {
+		names = { Fatima Zainaba Mariama Echata Moinaecha Hadidja Sitti Zakia Anfiat Rahma }
+	}
+	surnames = { Abeid Abderemane Assoumani Djohar Taki Abdallah Soilih Sambi Bacar Houmadi Fazul Said Ibrahim Charif Combo Elbak }
+	callsigns = { }
+}
+
+ANJ = {
+	male = {
+		names = { Ahmed Ali Mohamed Said Azali Abdallah Ibrahim Assoumani Soilihi Taki Abdou Youssouf Hamada Hassani Fahmi Bacar Houmadi }
+	}
+	female = {
+		names = { Fatima Zainaba Mariama Echata Moinaecha Hadidja Sitti Zakia Anfiat Rahma }
+	}
+	surnames = { Abeid Abderemane Assoumani Djohar Taki Abdallah Soilih Sambi Bacar Houmadi Fazul Said Ibrahim Charif Combo Elbak }
+	callsigns = { }
+}
+
+MUS = {
+	male = {
+		names = { Navin Anerood Paul Pravind Seewoosagur Gaetan Rajesh Jean Xavier Kailash Vasant Dharam Arvin Alan Rama }
+	}
+	female = {
+		names = { Sarojini Marie Leela Anjali Priya Claudette Josiane Nicole Shirin Maya }
+	}
+	surnames = { Ramgoolam Jugnauth Berenger Duval Boolell Bhagwan Gokhool Collendavelloo Uteem Ringadoo Lutchmeenaraidoo Purryag Bundhun Seetaram Koenig Bunwaree }
+	callsigns = { }
+}
+
+SEY = {
+	male = {
+		names = { France-Albert James Wavel Danny Jacques Michel Joseph Patrick Ralph Jean Marc Philippe Bernard Christopher }
+	}
+	female = {
+		names = { Marie Sylvette Danielle Michelle Josette Bernadette Sheila Rose }
+	}
+	surnames = { Rene Mancham Michel Faure Ramkalawan Hoarau Pillay Gappy Larue Payet Morel Savy Bonnelame Esparon Laporte Belmont Dogley Delpech }
+	callsigns = { }
+}
+
+SAH = {
+	male = {
+		names = { Mohamed Brahim Ahmed Mahfoud Bachir Sidi Salem Abdelkader Lahbib Mustapha Hamdi Emhamed Bouhali Khatri Mhamed }
+	}
+	female = {
+		names = { Fatma Aminatou Mariem Khadija Nana Salka Mahjouba Galia Aziza Leila }
+	}
+	surnames = { Abdelaziz Ali Beiba Ould Salek Sayed Bouhali Lamine Baali Khadad Bachir Omar Mustafa Sidati Boukhari Saleh }
+	callsigns = { }
+}
+
+SLA = {
+	male = {
+		names = { Antoine Georges Elias Joseph Michel Pierre Antoine Akl Saad Fouad Nabil Charbel Tony Jean Karim }
+	}
+	female = {
+		names = { Marie Rita Nada Leila Mona Hoda Joumana Rima Carla Nour }
+	}
+	surnames = { Lahad Haddad Hachem Karam Fares Khoury Saad Abboud Nasr Hanna Saliba Azar Daher Nakhle Sfeir }
+	callsigns = { }
+}
+
+KDP = {
+	male = {
+		names = { Masoud Nechirvan Hoshyar Fadhil Sami Fuad Rowsch Jawhar Karim Sherwan Hemin Dilshad Azad Rebaz Shwan }
+	}
+	female = {
+		names = { Shirin Nasreen Hero Kurdistan Gulala Narmin Bayan Rozhan Shilan Dilan }
+	}
+	surnames = { Barzani Zebari Mirani Rahman Hussein Namiq Dizayee Shaways Mustafa Sinjari Haji Rashid Khoshnaw Surchi }
+	callsigns = { }
+}
+
+PUK = {
+	male = {
+		names = { Jalal Kosrat Barham Nawshirwan Omar Fuad Adel Aram Mala Bakhtiar Hiwa Dara Karwan Rebwar Shwan }
+	}
+	female = {
+		names = { Hero Ala Shirin Nasreen Kafia Bahar Shno Rezan Lana Avan }
+	}
+	surnames = { Talabani Rasul Salih Mustafa Fattah Saeed Hama Amin Kakai Abdullah Karim Majid Qadir Faraj Aziz }
+	callsigns = { }
+}
+
+NCY = {
+	male = {
+		names = { Rauf Mehmet Dervis Mustafa Huseyin Ahmet Salih Ozker Serdar Ferdi Talat Ali Hasan Ersin Kudret }
+	}
+	female = {
+		names = { Ayse Fatma Emine Zehra Hatice Meral Sibel Gulsen Nilgun Hulya }
+	}
+	surnames = { Denktas Eroglu Talat Akinci Ozgur Ozgurgun Cagatay Atun Kibrisli Soyer Erhurman Tatar Ertugruloglu Arikli Dincyurek }
+	callsigns = { }
+}

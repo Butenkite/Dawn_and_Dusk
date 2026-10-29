@@ -1,0 +1,21 @@
+state={
+	id=1336
+	name="STATE_1336" # Niamey
+	manpower = 699999
+	state_category = town
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14487 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14487 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1464
+	name="STATE_1464" # Wau
+	manpower = 149095
+	state_category = pastoral
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15005 1 }
+		add_core_of = SUD
+		add_core_of = SPL
+	}
+
+	provinces={
+		15003 15004 15005 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=290
+	name="STATE_290" # Bir Lahlou
+	manpower = 25868
+	state_category = pastoral
+
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1013 3 }
+		add_core_of = SAH
+		add_core_of = MOR
+	}
+
+	provinces={
+		1013 1015 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1706
+	name="STATE_1706" # Bekaa
+	manpower = 656384
+	state_category = town
+
+	history={
+		owner = LEB
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 15734 1 }
+		add_core_of = LEB
+	}
+
+	provinces={
+		15734 15735 15736 15737 
+	}
+
+	local_supplies=0.0
+}

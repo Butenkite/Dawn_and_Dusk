@@ -1,0 +1,22 @@
+state={
+	id=1358
+	name="STATE_1358" # Central
+	manpower = 1593000
+	state_category = city
+
+	history={
+		owner = GHA
+		buildings = {
+			infrastructure = 3
+			14561 = { naval_base = 1 }
+		}
+		victory_points = { 14561 2 }
+		add_core_of = GHA
+	}
+
+	provinces={
+		14561 14562 14563 14564 
+	}
+
+	local_supplies=0.0
+}

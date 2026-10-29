@@ -1,0 +1,22 @@
+state={
+	id=905
+	name="STATE_905" # Upper Nile
+	manpower = 778779
+	state_category = town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14992 2 }
+		add_core_of = SUD
+		add_core_of = SPL
+	}
+
+	provinces={
+		14992 14993 14994 14995 14996 14997 14998 14999 15000 
+	}
+
+	local_supplies=0.0
+}

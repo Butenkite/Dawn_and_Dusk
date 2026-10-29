@@ -1,0 +1,21 @@
+state={
+	id=1452
+	name="STATE_1452" # Guidimaka
+	manpower = 177000
+	state_category = rural
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14918 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14918 
+	}
+
+	local_supplies=0.0
+}

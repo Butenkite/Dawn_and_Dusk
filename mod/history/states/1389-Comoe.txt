@@ -1,0 +1,21 @@
+state={
+	id=1389
+	name="STATE_1389" # Comoé
+	manpower = 1270325
+	state_category = large_town
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14686 1 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14684 14685 14686 
+	}
+
+	local_supplies=0.0
+}

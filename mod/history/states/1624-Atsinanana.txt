@@ -1,0 +1,22 @@
+state={
+	id=1624
+	name="STATE_1624" # Atsinanana
+	manpower = 924248
+	state_category = large_town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+			15602 = { naval_base = 2 }
+		}
+		victory_points = { 15602 3 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15598 15599 15600 15601 15602 
+	}
+
+	local_supplies=0.0
+}

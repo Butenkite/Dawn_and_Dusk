@@ -1,0 +1,21 @@
+state={
+	id=1493
+	name="STATE_1493" # Afder
+	manpower = 357714
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15116 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15114 15115 15116 15117 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=1607
+	name="STATE_1607" # Dar es Salaam
+	manpower = 2456999
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			15510 = { naval_base = 3 }
+		}
+		victory_points = { 15510 20 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15510 15511 15512 
+	}
+
+	local_supplies=0.0
+}

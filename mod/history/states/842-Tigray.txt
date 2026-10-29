@@ -1,0 +1,22 @@
+state={
+	id=842
+	name="STATE_842" # Kauda
+	manpower = 166523
+	state_category = rural
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14958 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		14958 
+	}
+
+	local_supplies=0.0
+}

@@ -3,18 +3,30 @@
 # Do not edit by hand: change the CSV and re-run the script, or add the tag to
 # HAND_WRITTEN in the script and write this file yourself.
 
-capital = 550
+capital = 1476
 
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.2
+set_stability = 0.55
+set_war_support = 0.75
 set_convoys = 10
+set_country_flag = dnd_govt_one_party_state
+
+oob = "ERI_2000"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+declare_war_on = {
+	target = ETH
+	type = annex_everything
+}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1999.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {

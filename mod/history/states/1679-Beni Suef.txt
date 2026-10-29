@@ -1,0 +1,21 @@
+state={
+	id=1679
+	name="STATE_1679" # Beni Suef
+	manpower = 2116999
+	state_category = city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 12442 3 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		12442 12455 12473 12702 12711 
+	}
+
+	local_supplies=0.0
+}

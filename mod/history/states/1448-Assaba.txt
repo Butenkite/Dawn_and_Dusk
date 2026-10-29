@@ -1,0 +1,21 @@
+state={
+	id=1448
+	name="STATE_1448" # Assaba
+	manpower = 242000
+	state_category = rural
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14912 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14910 14911 14912 
+	}
+
+	local_supplies=0.0
+}

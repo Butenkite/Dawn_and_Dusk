@@ -1,0 +1,22 @@
+state={
+	id=1468
+	name="STATE_1468" # Duk
+	manpower = 55228
+	state_category = pastoral
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15014 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		15014 
+	}
+
+	local_supplies=0.0
+}

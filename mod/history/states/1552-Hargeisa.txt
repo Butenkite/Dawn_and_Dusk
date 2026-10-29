@@ -1,0 +1,25 @@
+state={
+	id=1552
+	name="STATE_1552" # Hargeisa
+	manpower = 829375
+	state_category = large_town
+
+	history={
+		owner = SML
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			15286 = { naval_base = 2 }
+		}
+		victory_points = { 15284 10 }
+		victory_points = { 15286 3 }
+		add_core_of = SML
+		add_core_of = SOM
+	}
+
+	provinces={
+		15284 15285 15286 15287 15288 15289 
+	}
+
+	local_supplies=0.0
+}

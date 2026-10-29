@@ -1,0 +1,22 @@
+state={
+	id=1707
+	name="STATE_1707" # South Lebanon
+	manpower = 358270
+	state_category = rural
+
+	history={
+		owner = LEB
+		buildings = {
+			infrastructure = 4
+			15738 = { naval_base = 1 }
+		}
+		victory_points = { 15738 2 }
+		add_core_of = LEB
+	}
+
+	provinces={
+		15738 
+	}
+
+	local_supplies=0.0
+}

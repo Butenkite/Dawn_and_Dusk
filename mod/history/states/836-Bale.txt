@@ -1,0 +1,21 @@
+state={
+	id=836
+	name="STATE_836" # Dongola
+	manpower = 402443
+	state_category = town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 12812 1 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		12759 12766 12796 12800 12806 12812 12814 12826 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=456
+	name="STATE_456" # Béni Mellal-Khénifra
+	manpower = 2175000
+	state_category = city
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 4073 1 }
+		add_core_of = MOR
+	}
+
+	provinces={
+		4051 4055 4057 4060 4061 4063 4068 4073 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1408
+	name="STATE_1408" # Faranah
+	manpower = 693000
+	state_category = town
+
+	history={
+		owner = GNA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14741 1 }
+		add_core_of = GNA
+	}
+
+	provinces={
+		14738 14739 14740 14741 
+	}
+
+	local_supplies=0.0
+}

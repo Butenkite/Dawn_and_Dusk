@@ -1,0 +1,23 @@
+state={
+	id=1762
+	name="STATE_1762" # 'Asir
+	manpower = 1548781
+	state_category = city
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 16048 3 }
+		victory_points = { 16050 2 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16044 16045 16046 16047 16048 16049 16050 16051 16052 16053 16054 16055 
+	}
+
+	local_supplies=0.0
+}

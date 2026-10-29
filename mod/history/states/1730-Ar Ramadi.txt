@@ -1,0 +1,21 @@
+state={
+	id=1730
+	name="STATE_1730" # Ar Ramadi
+	manpower = 842281
+	state_category = large_town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15864 3 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15863 15864 15865 15866 15867 15868 
+	}
+
+	local_supplies=0.0
+}

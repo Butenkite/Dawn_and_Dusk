@@ -1,0 +1,22 @@
+state={
+	id=1815
+	name="STATE_1815" # Lefkoşa
+	manpower = 133737
+	state_category = pastoral
+
+	history={
+		owner = NCY
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 16246 10 }
+		add_core_of = NCY
+		add_core_of = CYP
+	}
+
+	provinces={
+		16246 16247 
+	}
+
+	local_supplies=0.0
+}

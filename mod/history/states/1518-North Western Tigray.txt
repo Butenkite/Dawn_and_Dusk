@@ -1,0 +1,21 @@
+state={
+	id=1518
+	name="STATE_1518" # North Western Tigray
+	manpower = 395709
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15203 5 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15203 15204 
+	}
+
+	local_supplies=0.0
+}

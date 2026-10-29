@@ -1,0 +1,21 @@
+state={
+	id=1806
+	name="STATE_1806" # Al Khor
+	manpower = 34000
+	state_category = pastoral
+
+	history={
+		owner = QAT
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 16230 1 }
+		add_core_of = QAT
+	}
+
+	provinces={
+		16230 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1812
+	name="STATE_1812" # Paphos
+	manpower = 70000
+	state_category = pastoral
+
+	history={
+		owner = CYP
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 16243 1 }
+		add_core_of = CYP
+	}
+
+	provinces={
+		16243 
+	}
+
+	local_supplies=0.0
+}

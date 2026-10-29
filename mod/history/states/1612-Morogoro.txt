@@ -1,0 +1,23 @@
+state={
+	id=1612
+	name="STATE_1612" # Morogoro
+	manpower = 1727254
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15546 3 }
+		victory_points = { 15542 2 }
+		victory_points = { 15540 1 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15540 15541 15542 15543 15544 15545 15546 15547 15548 15549 
+	}
+
+	local_supplies=0.0
+}

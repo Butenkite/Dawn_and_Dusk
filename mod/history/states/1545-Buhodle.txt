@@ -1,0 +1,23 @@
+state={
+	id=1545
+	name="STATE_1545" # Buhodle
+	manpower = 32687
+	state_category = pastoral
+
+	history={
+		owner = PNT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15268 1 }
+		add_core_of = PNT
+		add_core_of = SOM
+		add_claim_by = SML
+	}
+
+	provinces={
+		15268 
+	}
+
+	local_supplies=0.0
+}

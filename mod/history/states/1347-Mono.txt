@@ -1,0 +1,21 @@
+state={
+	id=1347
+	name="STATE_1347" # Mono
+	manpower = 340000
+	state_category = rural
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14509 2 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14509 
+	}
+
+	local_supplies=0.0
+}

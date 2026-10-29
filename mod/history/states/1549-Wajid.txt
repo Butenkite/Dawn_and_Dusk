@@ -1,0 +1,22 @@
+state={
+	id=1549
+	name="STATE_1549" # Wajid
+	manpower = 20935
+	state_category = pastoral
+
+	history={
+		owner = RRA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15277 1 }
+		add_core_of = RRA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15277 
+	}
+
+	local_supplies=0.0
+}

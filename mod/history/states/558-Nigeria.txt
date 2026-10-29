@@ -1,0 +1,25 @@
+state={
+	id=558
+	name="STATE_558" # Akwa Ibom
+	manpower = 3431000
+	state_category = large_city
+
+	resources={
+		oil=12
+	}
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 8021 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		8015 8021 8028 8034 
+	}
+
+	local_supplies=0.0
+}

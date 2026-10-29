@@ -1,0 +1,22 @@
+state={
+	id=553
+	name="STATE_553" # Annaba
+	manpower = 920000
+	state_category = large_town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+			4903 = { naval_base = 2 }
+		}
+		victory_points = { 4903 6 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4903 4910 
+	}
+
+	local_supplies=0.0
+}

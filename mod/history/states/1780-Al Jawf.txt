@@ -1,0 +1,21 @@
+state={
+	id=1780
+	name="STATE_1780" # Al Jawf
+	manpower = 397262
+	state_category = rural
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 16164 1 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16161 16162 16163 16164 
+	}
+
+	local_supplies=0.0
+}

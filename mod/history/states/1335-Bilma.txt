@@ -1,0 +1,21 @@
+state={
+	id=1335
+	name="STATE_1335" # Bilma
+	manpower = 27885
+	state_category = pastoral
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14486 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14483 14484 14485 14486 
+	}
+
+	local_supplies=0.0
+}

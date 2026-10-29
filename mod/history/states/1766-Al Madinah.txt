@@ -1,0 +1,24 @@
+state={
+	id=1766
+	name="STATE_1766" # Al Madinah
+	manpower = 1377814
+	state_category = large_town
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			16095 = { naval_base = 1 }
+		}
+		victory_points = { 16095 3 }
+		victory_points = { 16091 10 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16090 16091 16092 16093 16094 16095 16096 16097 16098 16099 16100 16101 16102 16103 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1736
+	name="STATE_1736" # Qadisiyyah
+	manpower = 838000
+	state_category = large_town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15888 3 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15886 15887 15888 
+	}
+
+	local_supplies=0.0
+}

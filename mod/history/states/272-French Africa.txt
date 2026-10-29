@@ -1,0 +1,22 @@
+state={
+	id=272
+	name="STATE_272" # Cross River
+	manpower = 2530000
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			1956 = { naval_base = 1 }
+		}
+		victory_points = { 1956 3 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		1115 1891 1897 1909 1932 1951 1956 
+	}
+
+	local_supplies=0.0
+}

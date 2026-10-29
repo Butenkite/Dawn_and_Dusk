@@ -1,0 +1,22 @@
+state={
+	id=1684
+	name="STATE_1684" # Luxor
+	manpower = 425000
+	state_category = town
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = { 13313 6 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		13313 
+	}
+
+	local_supplies=0.0
+}

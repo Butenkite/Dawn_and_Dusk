@@ -1,0 +1,21 @@
+state={
+	id=1678
+	name="STATE_1678" # Faiyum
+	manpower = 2321000
+	state_category = city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 12316 3 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		12101 12316 12372 12413 
+	}
+
+	local_supplies=0.0
+}

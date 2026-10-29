@@ -1,0 +1,21 @@
+state={
+	id=676
+	name="STATE_676" # Beni Abbès
+	manpower = 47988
+	state_category = pastoral
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7066 1 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7066 7069 7073 
+	}
+
+	local_supplies=0.0
+}

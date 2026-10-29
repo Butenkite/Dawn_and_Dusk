@@ -1,0 +1,23 @@
+state={
+	id=1562
+	name="STATE_1562" # Bay
+	manpower = 735000
+	state_category = town
+
+	history={
+		owner = RRA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15319 5 }
+		victory_points = { 15321 1 }
+		add_core_of = RRA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15319 15320 15321 15322 15323 15324 
+	}
+
+	local_supplies=0.0
+}

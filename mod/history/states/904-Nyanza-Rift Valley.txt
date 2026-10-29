@@ -1,0 +1,22 @@
+state={
+	id=904
+	name="STATE_904" # Torit
+	manpower = 648657
+	state_category = town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14987 1 }
+		add_core_of = SUD
+		add_core_of = SPL
+	}
+
+	provinces={
+		14987 14988 14989 14990 14991 
+	}
+
+	local_supplies=0.0
+}

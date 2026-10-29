@@ -1,0 +1,21 @@
+state={
+	id=1330
+	name="STATE_1330" # Zinder
+	manpower = 2050000
+	state_category = city
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14442 3 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14441 14442 14443 14444 14445 14446 14447 14448 14449 14450 14451 14452 14453 14454 14455 
+	}
+
+	local_supplies=0.0
+}

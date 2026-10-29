@@ -1,0 +1,25 @@
+state={
+	id=1658
+	name="STATE_1658" # Al Qatrun
+	manpower = 18033
+	state_category = pastoral
+
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10791 1 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10786 10791 10793 
+	}
+
+	local_supplies=0.0
+}

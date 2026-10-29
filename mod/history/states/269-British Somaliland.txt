@@ -1,0 +1,22 @@
+state={
+	id=269
+	name="STATE_269" # Nyala
+	manpower = 2905972
+	state_category = city
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = { 2020 3 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		2003 2009 2016 2020 2040 2046 2063 2066 2072 2088 2096 2176 2196 2200 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1440
+	name="STATE_1440" # Ségou
+	manpower = 1864999
+	state_category = city
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14872 2 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14865 14866 14867 14868 14869 14870 14871 14872 14873 
+	}
+
+	local_supplies=0.0
+}

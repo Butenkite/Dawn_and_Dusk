@@ -1,0 +1,21 @@
+state={
+	id=1445
+	name="STATE_1445" # Araouane
+	manpower = 66368
+	state_category = pastoral
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14900 1 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14898 14899 14900 14901 
+	}
+
+	local_supplies=0.0
+}

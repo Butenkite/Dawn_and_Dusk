@@ -3,25 +3,25 @@
 # Do not edit by hand: change the CSV and re-run the script, or add the tag to
 # HAND_WRITTEN in the script and write this file yourself.
 
-capital = 1014
+capital = 1807
 
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.2
 set_convoys = 10
+set_country_flag = dnd_govt_absolute_monarchy
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = neutrality
 	last_election = "1999.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	socialist = 10
 	democratic = 10
-	conservative = 15
-	authoritarian_democrat = 50
-	neutrality = 10
+	authoritarian_democrat = 20
+	neutrality = 55
 	fascism = 5
 }

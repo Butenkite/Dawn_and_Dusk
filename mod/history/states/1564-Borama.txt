@@ -1,0 +1,22 @@
+state={
+	id=1564
+	name="STATE_1564" # Borama
+	manpower = 367000
+	state_category = rural
+
+	history={
+		owner = SML
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15331 1 }
+		add_core_of = SML
+		add_core_of = SOM
+	}
+
+	provinces={
+		15330 15331 
+	}
+
+	local_supplies=0.0
+}

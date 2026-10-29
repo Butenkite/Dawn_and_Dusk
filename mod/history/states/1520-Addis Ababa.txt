@@ -1,0 +1,22 @@
+state={
+	id=1520
+	name="STATE_1520" # Addis Ababa
+	manpower = 2454000
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+		victory_points = { 15207 20 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15207 
+	}
+
+	local_supplies=0.0
+}

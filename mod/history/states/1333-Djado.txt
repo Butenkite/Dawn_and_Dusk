@@ -1,0 +1,21 @@
+state={
+	id=1333
+	name="STATE_1333" # Djado
+	manpower = 31429
+	state_category = pastoral
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14476 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14475 14476 14477 14478 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1746
+	name="STATE_1746" # Baqubah
+	manpower = 1133205
+	state_category = large_town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15932 3 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15930 15931 15932 15933 15934 
+	}
+
+	local_supplies=0.0
+}

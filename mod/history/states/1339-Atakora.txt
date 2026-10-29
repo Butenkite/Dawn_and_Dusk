@@ -1,0 +1,21 @@
+state={
+	id=1339
+	name="STATE_1339" # Atakora
+	manpower = 520391
+	state_category = town
+
+	history={
+		owner = DAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14495 2 }
+		add_core_of = DAH
+	}
+
+	provinces={
+		14494 14495 14496 
+	}
+
+	local_supplies=0.0
+}

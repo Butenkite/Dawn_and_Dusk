@@ -1,0 +1,22 @@
+state={
+	id=1572
+	name="STATE_1572" # Kericho
+	manpower = 1227488
+	state_category = large_town
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15364 2 }
+		victory_points = { 15366 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15364 15365 15366 
+	}
+
+	local_supplies=0.0
+}

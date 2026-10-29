@@ -1,0 +1,5 @@
+# Dawn and Dusk: the State of Anjouan, seceded from the Comoros in 1997 (not in vanilla)
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+
+color = { 170 30 60 }

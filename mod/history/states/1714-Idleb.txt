@@ -1,0 +1,21 @@
+state={
+	id=1714
+	name="STATE_1714" # Idleb
+	manpower = 1146000
+	state_category = large_town
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15799 2 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15795 15796 15797 15798 15799 
+	}
+
+	local_supplies=0.0
+}

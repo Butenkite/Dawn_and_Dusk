@@ -1,0 +1,21 @@
+state={
+	id=1590
+	name="STATE_1590" # Narok
+	manpower = 704792
+	state_category = town
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15419 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15417 15418 15419 
+	}
+
+	local_supplies=0.0
+}

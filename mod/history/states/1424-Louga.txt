@@ -1,0 +1,21 @@
+state={
+	id=1424
+	name="STATE_1424" # Louga
+	manpower = 646000
+	state_category = town
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14799 2 }
+		add_core_of = SEN
+	}
+
+	provinces={
+		14797 14798 14799 
+	}
+
+	local_supplies=0.0
+}

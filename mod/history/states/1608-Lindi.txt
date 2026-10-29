@@ -1,0 +1,21 @@
+state={
+	id=1608
+	name="STATE_1608" # Lindi
+	manpower = 778745
+	state_category = town
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15514 1 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15513 15514 15515 15516 15517 15518 
+	}
+
+	local_supplies=0.0
+}

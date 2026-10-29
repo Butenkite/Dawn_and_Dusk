@@ -1,0 +1,22 @@
+state={
+	id=1470
+	name="STATE_1470" # Bor
+	manpower = 1013617
+	state_category = large_town
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15016 1 }
+		add_core_of = SUD
+		add_core_of = SPL
+	}
+
+	provinces={
+		15016 15017 15018 15019 15020 15021 15022 15023 15024 
+	}
+
+	local_supplies=0.0
+}

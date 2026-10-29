@@ -1,0 +1,21 @@
+state={
+	id=1384
+	name="STATE_1384" # Savanes
+	manpower = 1045999
+	state_category = large_town
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14662 2 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14661 14662 14663 14664 14665 
+	}
+
+	local_supplies=0.0
+}

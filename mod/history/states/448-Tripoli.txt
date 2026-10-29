@@ -1,0 +1,28 @@
+state={
+	id=448
+	name="STATE_448" # Casablanca-Settat
+	manpower = 5915358
+	state_category = large_city
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			1189 = { naval_base = 4 }
+		}
+		victory_points = { 1189 15 }
+		victory_points = { 1578 2 }
+		victory_points = { 1198 2 }
+		add_core_of = MOR
+	}
+
+	provinces={
+		1189 1194 1198 1201 1204 1206 1207 1544 1549 1578 1600 
+	}
+
+	local_supplies=0.0
+}

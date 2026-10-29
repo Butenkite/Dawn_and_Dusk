@@ -1,0 +1,21 @@
+state={
+	id=1375
+	name="STATE_1375" # Sud-Ouest
+	manpower = 513000
+	state_category = town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14631 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14629 14630 14631 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=899
+	name="STATE_899" # Jigawa
+	manpower = 3816000
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14277 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14270 14271 14272 14273 14274 14275 14276 14277 
+	}
+
+	local_supplies=0.0
+}

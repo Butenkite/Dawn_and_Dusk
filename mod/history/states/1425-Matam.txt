@@ -1,0 +1,21 @@
+state={
+	id=1425
+	name="STATE_1425" # Matam
+	manpower = 399000
+	state_category = rural
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14801 1 }
+		add_core_of = SEN
+	}
+
+	provinces={
+		14800 14801 14802 
+	}
+
+	local_supplies=0.0
+}

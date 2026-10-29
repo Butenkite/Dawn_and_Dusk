@@ -1,0 +1,21 @@
+state={
+	id=1485
+	name="STATE_1485" # Degehabur
+	manpower = 312255
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15086 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15085 15086 15087 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1626
+	name="STATE_1626" # Sofia
+	manpower = 925000
+	state_category = large_town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15611 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15607 15608 15609 15610 15611 15612 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1015
+	name="STATE_1015" # Béja
+	manpower = 698000
+	state_category = town
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 8085 1 }
+		add_core_of = TUN
+	}
+
+	provinces={
+		8085 8088 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1691
+	name="STATE_1691" # Damietta
+	manpower = 1008000
+	state_category = large_town
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			15699 = { naval_base = 1 }
+		}
+		victory_points = { 15699 3 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		15699 
+	}
+
+	local_supplies=0.0
+}

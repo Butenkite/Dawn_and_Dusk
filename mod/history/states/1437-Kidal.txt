@@ -1,0 +1,21 @@
+state={
+	id=1437
+	name="STATE_1437" # Kidal
+	manpower = 44000
+	state_category = pastoral
+
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14837 1 }
+		add_core_of = MLI
+	}
+
+	provinces={
+		14836 14837 14838 14839 
+	}
+
+	local_supplies=0.0
+}

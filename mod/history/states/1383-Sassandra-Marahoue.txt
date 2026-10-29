@@ -1,0 +1,22 @@
+state={
+	id=1383
+	name="STATE_1383" # Sassandra-Marahoué
+	manpower = 1711643
+	state_category = city
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 14658 3 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14656 14657 14658 14659 14660 
+	}
+
+	local_supplies=0.0
+}

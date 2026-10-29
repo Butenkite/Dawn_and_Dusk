@@ -1,0 +1,21 @@
+state={
+	id=1536
+	name="STATE_1536" # Hari Rasu
+	manpower = 144414
+	state_category = pastoral
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15256 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15256 
+	}
+
+	local_supplies=0.0
+}

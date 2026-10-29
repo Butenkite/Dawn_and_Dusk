@@ -1,0 +1,25 @@
+state={
+	id=1793
+	name="STATE_1793" # Dhofar
+	manpower = 46564
+	state_category = pastoral
+
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 16192 1 }
+		add_core_of = OMA
+	}
+
+	provinces={
+		16192 16193 
+	}
+
+	local_supplies=0.0
+}

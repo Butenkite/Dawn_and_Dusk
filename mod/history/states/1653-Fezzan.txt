@@ -1,0 +1,22 @@
+state={
+	id=1653
+	name="STATE_1653" # Fezzan
+	manpower = 287000
+	state_category = rural
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10113 2 }
+		victory_points = { 10099 1 }
+		add_core_of = LBA
+	}
+
+	provinces={
+		10099 10104 10106 10107 10113 10117 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,29 @@
+state={
+	id=1807
+	name="STATE_1807" # Bahrain
+	manpower = 670000
+	state_category = town
+
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = BHR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			16231 = { naval_base = 3 }
+		}
+		victory_points = { 16231 12 }
+		add_core_of = BHR
+	}
+
+	provinces={
+		16231 
+	}
+
+	local_supplies=0.0
+}

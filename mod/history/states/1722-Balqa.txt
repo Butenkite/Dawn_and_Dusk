@@ -1,0 +1,21 @@
+state={
+	id=1722
+	name="STATE_1722" # Balqa
+	manpower = 422898
+	state_category = town
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 15837 2 }
+		add_core_of = JOR
+	}
+
+	provinces={
+		15836 15837 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=552
+	name="STATE_552" # Jijel
+	manpower = 1269000
+	state_category = large_town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 4591 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4591 4603 
+	}
+
+	local_supplies=0.0
+}

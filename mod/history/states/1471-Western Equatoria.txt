@@ -1,0 +1,22 @@
+state={
+	id=1471
+	name="STATE_1471" # Western Equatoria
+	manpower = 503757
+	state_category = town
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15028 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		15025 15026 15027 15028 15029 15030 
+	}
+
+	local_supplies=0.0
+}

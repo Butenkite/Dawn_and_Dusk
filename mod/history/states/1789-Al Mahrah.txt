@@ -1,0 +1,21 @@
+state={
+	id=1789
+	name="STATE_1789" # Al Mahrah
+	manpower = 81000
+	state_category = pastoral
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 16185 1 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16182 16183 16184 16185 
+	}
+
+	local_supplies=0.0
+}

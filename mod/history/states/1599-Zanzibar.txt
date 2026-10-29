@@ -1,0 +1,22 @@
+state={
+	id=1599
+	name="STATE_1599" # Zanzibar
+	manpower = 612000
+	state_category = town
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 3
+			15472 = { naval_base = 1 }
+		}
+		victory_points = { 15472 3 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15472 
+	}
+
+	local_supplies=0.0
+}

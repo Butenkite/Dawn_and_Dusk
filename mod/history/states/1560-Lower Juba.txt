@@ -1,0 +1,24 @@
+state={
+	id=1560
+	name="STATE_1560" # Lower Juba
+	manpower = 462000
+	state_category = town
+
+	history={
+		owner = JVA
+		buildings = {
+			infrastructure = 1
+			15312 = { naval_base = 1 }
+		}
+		victory_points = { 15312 6 }
+		victory_points = { 15314 2 }
+		add_core_of = JVA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15310 15311 15312 15313 15314 
+	}
+
+	local_supplies=0.0
+}

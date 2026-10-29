@@ -1,0 +1,24 @@
+state={
+	id=298
+	name="STATE_298" # Oyo
+	manpower = 4915170
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 2068 15 }
+		victory_points = { 4913 6 }
+		victory_points = { 4938 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		2068 2094 2100 4889 4913 4927 4938 4948 4952 4957 4972 
+	}
+
+	local_supplies=0.0
+}

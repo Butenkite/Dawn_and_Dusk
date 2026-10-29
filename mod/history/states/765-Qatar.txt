@@ -1,0 +1,25 @@
+state={
+	id=765
+	name="STATE_765" # Illizi
+	manpower = 24545
+	state_category = pastoral
+
+	resources={
+		oil=5
+	}
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7144 1 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7144 7148 7149 
+	}
+
+	local_supplies=0.0
+}

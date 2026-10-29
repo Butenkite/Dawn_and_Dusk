@@ -1,0 +1,25 @@
+state={
+	id=1796
+	name="STATE_1796" # Muscat
+	manpower = 617000
+	state_category = town
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			16203 = { naval_base = 2 }
+		}
+		victory_points = { 16203 12 }
+		add_core_of = OMA
+	}
+
+	provinces={
+		16202 16203 
+	}
+
+	local_supplies=0.0
+}

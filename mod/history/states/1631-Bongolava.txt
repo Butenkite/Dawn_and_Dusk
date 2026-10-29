@@ -1,0 +1,21 @@
+state={
+	id=1631
+	name="STATE_1631" # Bongolava
+	manpower = 399386
+	state_category = rural
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15627 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15627 15628 
+	}
+
+	local_supplies=0.0
+}

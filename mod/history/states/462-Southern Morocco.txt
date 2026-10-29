@@ -1,0 +1,21 @@
+state={
+	id=462
+	name="STATE_462" # Mascara
+	manpower = 1008805
+	state_category = large_town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 4163 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4161 4163 4176 4191 
+	}
+
+	local_supplies=0.0
+}

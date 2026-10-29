@@ -1,0 +1,21 @@
+state={
+	id=1430
+	name="STATE_1430" # North Bank
+	manpower = 159107
+	state_category = rural
+
+	history={
+		owner = GAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14813 1 }
+		add_core_of = GAM
+	}
+
+	provinces={
+		14813 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=1747
+	name="STATE_1747" # Kirkuk
+	manpower = 791000
+	state_category = town
+
+	resources={
+		oil=35
+	}
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15938 6 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15935 15936 15937 15938 
+	}
+
+	local_supplies=0.0
+}

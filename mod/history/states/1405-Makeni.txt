@@ -1,0 +1,22 @@
+state={
+	id=1405
+	name="STATE_1405" # Makeni
+	manpower = 962597
+	state_category = large_town
+
+	history={
+		owner = RUF
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14724 2 }
+		add_core_of = RUF
+		add_core_of = SIE
+	}
+
+	provinces={
+		14724 14725 14726 14727 14728 14729 14730 14731 
+	}
+
+	local_supplies=0.0
+}

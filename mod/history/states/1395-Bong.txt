@@ -1,0 +1,21 @@
+state={
+	id=1395
+	name="STATE_1395" # Bong
+	manpower = 270000
+	state_category = rural
+
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14697 1 }
+		add_core_of = LIB
+	}
+
+	provinces={
+		14696 14697 
+	}
+
+	local_supplies=0.0
+}

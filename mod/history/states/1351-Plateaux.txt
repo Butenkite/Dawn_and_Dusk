@@ -1,0 +1,22 @@
+state={
+	id=1351
+	name="STATE_1351" # Plateaux
+	manpower = 1078000
+	state_category = large_town
+
+	history={
+		owner = TOG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14519 2 }
+		victory_points = { 14518 2 }
+		add_core_of = TOG
+	}
+
+	provinces={
+		14517 14518 14519 14520 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1348
+	name="STATE_1348" # Savanes
+	manpower = 686000
+	state_category = town
+
+	history={
+		owner = TOG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14510 1 }
+		add_core_of = TOG
+	}
+
+	provinces={
+		14510 14511 14512 
+	}
+
+	local_supplies=0.0
+}

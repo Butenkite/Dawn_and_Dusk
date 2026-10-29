@@ -1,0 +1,26 @@
+state={
+	id=658
+	name="STATE_658" # Ouargla
+	manpower = 505000
+	state_category = town
+
+	resources={
+		oil=30
+	}
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 5004 2 }
+		victory_points = { 4974 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		4968 4970 4974 4976 4981 4992 4993 5004 
+	}
+
+	local_supplies=0.0
+}

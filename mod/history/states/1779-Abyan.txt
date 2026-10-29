@@ -1,0 +1,21 @@
+state={
+	id=1779
+	name="STATE_1779" # Abyan
+	manpower = 378806
+	state_category = rural
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 16159 1 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16159 16160 
+	}
+
+	local_supplies=0.0
+}

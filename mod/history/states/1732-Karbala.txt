@@ -1,0 +1,21 @@
+state={
+	id=1732
+	name="STATE_1732" # Karbala
+	manpower = 745000
+	state_category = town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15875 6 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15874 15875 
+	}
+
+	local_supplies=0.0
+}

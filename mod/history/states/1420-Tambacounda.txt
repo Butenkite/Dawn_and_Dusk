@@ -1,0 +1,21 @@
+state={
+	id=1420
+	name="STATE_1420" # Tambacounda
+	manpower = 589000
+	state_category = town
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14787 2 }
+		add_core_of = SEN
+	}
+
+	provinces={
+		14783 14784 14785 14786 14787 14788 
+	}
+
+	local_supplies=0.0
+}

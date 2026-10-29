@@ -1,0 +1,23 @@
+state={
+	id=1685
+	name="STATE_1685" # Giza
+	manpower = 5794210
+	state_category = large_city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 13366 1 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		13366 13367 13368 13369 13374 15670 15671 15672 15673 15674 15675 15676 15677 15678 15679 15680 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,27 @@
+state={
+	id=702
+	name="STATE_702" # Delta
+	manpower = 3597000
+	state_category = large_city
+
+	resources={
+		oil=24
+	}
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10779 = { naval_base = 1 }
+		}
+		victory_points = { 10779 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		10725 10758 10762 10771 10779 10780 10788 10803 
+	}
+
+	local_supplies=0.0
+}

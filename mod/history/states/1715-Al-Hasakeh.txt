@@ -1,0 +1,26 @@
+state={
+	id=1715
+	name="STATE_1715" # Al-Hasakeh
+	manpower = 1162750
+	state_category = large_town
+
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15802 2 }
+		victory_points = { 15805 2 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15800 15801 15802 15803 15804 15805 15806 15807 15808 15809 
+	}
+
+	local_supplies=0.0
+}

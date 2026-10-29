@@ -1,0 +1,22 @@
+state={
+	id=1750
+	name="STATE_1750" # Koysinjaq
+	manpower = 95300
+	state_category = pastoral
+
+	history={
+		owner = PUK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15944 1 }
+		add_core_of = PUK
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15944 
+	}
+
+	local_supplies=0.0
+}

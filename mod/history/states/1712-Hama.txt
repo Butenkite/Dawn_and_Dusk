@@ -1,0 +1,22 @@
+state={
+	id=1712
+	name="STATE_1712" # Hama
+	manpower = 1255000
+	state_category = large_town
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 15785 3 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15784 15785 15786 15787 15788 15789 15790 15791 
+	}
+
+	local_supplies=0.0
+}

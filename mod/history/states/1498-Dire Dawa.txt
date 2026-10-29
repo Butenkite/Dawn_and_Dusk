@@ -1,0 +1,21 @@
+state={
+	id=1498
+	name="STATE_1498" # Dire Dawa
+	manpower = 305000
+	state_category = rural
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15139 3 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15139 
+	}
+
+	local_supplies=0.0
+}

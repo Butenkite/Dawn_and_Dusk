@@ -1,0 +1,21 @@
+state={
+	id=854
+	name="STATE_854" # Djelfa
+	manpower = 986680
+	state_category = large_town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7156 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7156 7162 7164 7166 7170 
+	}
+
+	local_supplies=0.0
+}

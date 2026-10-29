@@ -1,0 +1,21 @@
+state={
+	id=515
+	name="STATE_515" # Sokoto
+	manpower = 3241181
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 5028 6 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		4989 4997 5013 5028 5034 5039 5045 5070 5077 
+	}
+
+	local_supplies=0.0
+}

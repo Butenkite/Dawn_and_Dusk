@@ -1,0 +1,23 @@
+state={
+	id=1543
+	name="STATE_1543" # Eastern Sanaag
+	manpower = 72211
+	state_category = pastoral
+
+	history={
+		owner = PNT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15265 1 }
+		add_core_of = PNT
+		add_core_of = SOM
+		add_claim_by = SML
+	}
+
+	provinces={
+		15265 
+	}
+
+	local_supplies=0.0
+}

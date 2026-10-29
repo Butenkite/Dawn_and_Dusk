@@ -3,7 +3,7 @@
 # Do not edit by hand: change the CSV and re-run the script, or add the tag to
 # HAND_WRITTEN in the script and write this file yourself.
 
-capital = 298
+capital = 1390
 
 set_research_slots = 3
 set_stability = 0.5

@@ -1,0 +1,24 @@
+state={
+	id=546
+	name="STATE_546" # Gezira
+	manpower = 3129000
+	state_category = large_city
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 5097 3 }
+		victory_points = { 5079 2 }
+		add_core_of = SUD
+	}
+
+	provinces={
+		5065 5068 5079 5091 5097 5128 5160 5180 5185 
+	}
+
+	local_supplies=0.0
+}

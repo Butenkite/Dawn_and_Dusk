@@ -1,0 +1,21 @@
+state={
+	id=1369
+	name="STATE_1369" # Centre-Sud
+	manpower = 530000
+	state_category = town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14605 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14605 14606 14607 
+	}
+
+	local_supplies=0.0
+}

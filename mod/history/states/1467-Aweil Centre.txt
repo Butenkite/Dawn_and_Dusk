@@ -1,0 +1,22 @@
+state={
+	id=1467
+	name="STATE_1467" # Aweil Centre
+	manpower = 144285
+	state_category = pastoral
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15013 1 }
+		add_core_of = SUD
+		add_core_of = SPL
+	}
+
+	provinces={
+		15013 
+	}
+
+	local_supplies=0.0
+}

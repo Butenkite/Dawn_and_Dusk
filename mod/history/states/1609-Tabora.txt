@@ -1,0 +1,21 @@
+state={
+	id=1609
+	name="STATE_1609" # Tabora
+	manpower = 1687000
+	state_category = city
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15522 2 }
+		add_core_of = TZN
+	}
+
+	provinces={
+		15519 15520 15521 15522 15523 15524 15525 15526 15527 
+	}
+
+	local_supplies=0.0
+}

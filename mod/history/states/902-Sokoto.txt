@@ -1,0 +1,21 @@
+state={
+	id=902
+	name="STATE_902" # Nasarawa
+	manpower = 1599627
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14295 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14295 14296 14297 14298 14299 14300 14301 14302 
+	}
+
+	local_supplies=0.0
+}

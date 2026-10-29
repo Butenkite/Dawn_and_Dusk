@@ -1,0 +1,22 @@
+state={
+	id=1767
+	name="STATE_1767" # Al-Qassim
+	manpower = 930999
+	state_category = large_town
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 16109 3 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		16104 16105 16106 16107 16108 16109 16110 16111 
+	}
+
+	local_supplies=0.0
+}

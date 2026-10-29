@@ -1,0 +1,21 @@
+state={
+	id=1637
+	name="STATE_1637" # Vatovavy-Fitovinany
+	manpower = 864000
+	state_category = large_town
+
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15651 1 }
+		add_core_of = MAD
+	}
+
+	provinces={
+		15649 15650 15651 15652 15653 
+	}
+
+	local_supplies=0.0
+}

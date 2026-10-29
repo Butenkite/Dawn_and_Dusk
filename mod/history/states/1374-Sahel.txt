@@ -1,0 +1,21 @@
+state={
+	id=1374
+	name="STATE_1374" # Sahel
+	manpower = 803000
+	state_category = large_town
+
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14626 1 }
+		add_core_of = VOL
+	}
+
+	provinces={
+		14625 14626 14627 14628 
+	}
+
+	local_supplies=0.0
+}

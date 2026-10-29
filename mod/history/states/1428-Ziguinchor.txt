@@ -1,0 +1,22 @@
+state={
+	id=1428
+	name="STATE_1428" # Ziguinchor
+	manpower = 414417
+	state_category = town
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 3
+			14810 = { naval_base = 1 }
+		}
+		victory_points = { 14810 2 }
+		add_core_of = SEN
+	}
+
+	provinces={
+		14810 14811 
+	}
+
+	local_supplies=0.0
+}

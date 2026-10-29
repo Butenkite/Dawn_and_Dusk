@@ -1,0 +1,22 @@
+state={
+	id=1749
+	name="STATE_1749" # Erbil
+	manpower = 904970
+	state_category = large_town
+
+	history={
+		owner = KDP
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15940 10 }
+		add_core_of = KDP
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15940 15941 15942 15943 
+	}
+
+	local_supplies=0.0
+}

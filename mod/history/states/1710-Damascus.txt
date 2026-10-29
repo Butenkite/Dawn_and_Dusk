@@ -1,0 +1,24 @@
+state={
+	id=1710
+	name="STATE_1710" # Damascus
+	manpower = 3473647
+	state_category = large_city
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+		victory_points = { 15754 20 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15754 15755 15756 15757 15758 15759 15760 15761 15762 15763 15764 15765 15766 15767 15768 15769 
+	}
+
+	local_supplies=0.0
+}

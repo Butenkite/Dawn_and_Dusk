@@ -1,0 +1,25 @@
+state={
+	id=1460
+	name="STATE_1460" # Chegga
+	manpower = 8571
+	state_category = pastoral
+
+	resources={
+		steel=9
+	}
+
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14940 1 }
+		add_core_of = MRT
+	}
+
+	provinces={
+		14938 14939 14940 
+	}
+
+	local_supplies=0.0
+}

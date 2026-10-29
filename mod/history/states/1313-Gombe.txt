@@ -1,0 +1,21 @@
+state={
+	id=1313
+	name="STATE_1313" # Gombe
+	manpower = 2074000
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14317 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14314 14315 14316 14317 14318 14319 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=1319
+	name="STATE_1319" # Bauchi
+	manpower = 4069999
+	state_category = large_city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 14352 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14351 14352 14353 14354 14355 14356 14357 14358 14359 14360 14361 14362 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=452
+	name="STATE_452" # Mijek
+	manpower = 1118
+	state_category = pastoral
+
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 2027 1 }
+		add_core_of = SAH
+		add_core_of = MOR
+	}
+
+	provinces={
+		2027 
+	}
+
+	local_supplies=0.0
+}

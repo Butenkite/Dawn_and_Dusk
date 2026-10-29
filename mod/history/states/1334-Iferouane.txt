@@ -1,0 +1,21 @@
+state={
+	id=1334
+	name="STATE_1334" # Iférouane
+	manpower = 32635
+	state_category = pastoral
+
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14481 1 }
+		add_core_of = NGR
+	}
+
+	provinces={
+		14479 14480 14481 14482 
+	}
+
+	local_supplies=0.0
+}

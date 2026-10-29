@@ -1,0 +1,21 @@
+state={
+	id=1423
+	name="STATE_1423" # Fatick
+	manpower = 546264
+	state_category = town
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14795 1 }
+		add_core_of = SEN
+	}
+
+	provinces={
+		14795 14796 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1318
+	name="STATE_1318" # Osun
+	manpower = 2962749
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14347 3 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14346 14347 14348 14349 14350 
+	}
+
+	local_supplies=0.0
+}

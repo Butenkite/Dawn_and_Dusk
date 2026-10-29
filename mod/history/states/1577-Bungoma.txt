@@ -1,0 +1,21 @@
+state={
+	id=1577
+	name="STATE_1577" # Bungoma
+	manpower = 1670491
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15377 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15376 15377 
+	}
+
+	local_supplies=0.0
+}

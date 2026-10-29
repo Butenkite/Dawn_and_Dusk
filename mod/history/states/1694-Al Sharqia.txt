@@ -1,0 +1,23 @@
+state={
+	id=1694
+	name="STATE_1694" # Al Sharqia
+	manpower = 4946999
+	state_category = large_city
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 15705 3 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		15704 15705 15706 15707 
+	}
+
+	local_supplies=0.0
+}

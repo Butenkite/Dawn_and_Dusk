@@ -1,0 +1,28 @@
+state={
+	id=1805
+	name="STATE_1805" # Doha
+	manpower = 566000
+	state_category = town
+
+	resources={
+		oil=30
+	}
+
+	history={
+		owner = QAT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 1
+			16228 = { naval_base = 1 }
+		}
+		victory_points = { 16228 15 }
+		add_core_of = QAT
+	}
+
+	provinces={
+		16228 16229 
+	}
+
+	local_supplies=0.0
+}

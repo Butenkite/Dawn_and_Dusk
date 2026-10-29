@@ -1,0 +1,27 @@
+state={
+	id=1755
+	name="STATE_1755" # Al Jubayl
+	manpower = 458765
+	state_category = town
+
+	resources={
+		oil=68
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			15979 = { naval_base = 2 }
+		}
+		victory_points = { 15979 3 }
+		victory_points = { 15982 3 }
+		add_core_of = SAU
+	}
+
+	provinces={
+		15978 15979 15980 15981 15982 15983 
+	}
+
+	local_supplies=0.0
+}

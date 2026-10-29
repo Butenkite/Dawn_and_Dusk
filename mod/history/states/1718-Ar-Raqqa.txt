@@ -1,0 +1,22 @@
+state={
+	id=1718
+	name="STATE_1718" # Ar-Raqqa
+	manpower = 722342
+	state_category = town
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15822 2 }
+		victory_points = { 15826 2 }
+		add_core_of = SYR
+	}
+
+	provinces={
+		15821 15822 15823 15824 15825 15826 15827 
+	}
+
+	local_supplies=0.0
+}

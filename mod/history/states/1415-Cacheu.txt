@@ -1,0 +1,21 @@
+state={
+	id=1415
+	name="STATE_1415" # Cacheu
+	manpower = 183456
+	state_category = rural
+
+	history={
+		owner = GNB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14772 1 }
+		add_core_of = GNB
+	}
+
+	provinces={
+		14772 
+	}
+
+	local_supplies=0.0
+}

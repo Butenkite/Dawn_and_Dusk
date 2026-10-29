@@ -1,0 +1,5 @@
+# Dawn and Dusk: vanilla Oman with its own map colour (vanilla gives Oman and Yemen the same one)
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+
+color = { 196 132 92 }

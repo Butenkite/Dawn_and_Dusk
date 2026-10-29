@@ -1,0 +1,25 @@
+state={
+	id=1790
+	name="STATE_1790" # Ma'rib
+	manpower = 216737
+	state_category = rural
+
+	resources={
+		oil=10
+	}
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 16187 1 }
+		add_core_of = YEM
+	}
+
+	provinces={
+		16186 16187 
+	}
+
+	local_supplies=0.0
+}

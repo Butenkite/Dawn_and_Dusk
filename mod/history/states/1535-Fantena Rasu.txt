@@ -1,0 +1,21 @@
+state={
+	id=1535
+	name="STATE_1535" # Fantena Rasu
+	manpower = 70237
+	state_category = pastoral
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15255 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15255 
+	}
+
+	local_supplies=0.0
+}

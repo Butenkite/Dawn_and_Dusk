@@ -1,0 +1,21 @@
+state={
+	id=1581
+	name="STATE_1581" # Wajir
+	manpower = 331377
+	state_category = rural
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15391 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15391 15392 15393 15394 
+	}
+
+	local_supplies=0.0
+}

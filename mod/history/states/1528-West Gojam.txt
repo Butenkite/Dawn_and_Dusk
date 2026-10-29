@@ -1,0 +1,21 @@
+state={
+	id=1528
+	name="STATE_1528" # West Gojam
+	manpower = 2500693
+	state_category = city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15238 3 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15234 15235 15236 15237 15238 
+	}
+
+	local_supplies=0.0
+}

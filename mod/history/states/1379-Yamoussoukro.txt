@@ -1,0 +1,21 @@
+state={
+	id=1379
+	name="STATE_1379" # Yamoussoukro
+	manpower = 285000
+	state_category = rural
+
+	history={
+		owner = IVO
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14641 3 }
+		add_core_of = IVO
+	}
+
+	provinces={
+		14641 
+	}
+
+	local_supplies=0.0
+}

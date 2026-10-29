@@ -1,0 +1,26 @@
+state={
+	id=1670
+	name="STATE_1670" # Red Sea
+	manpower = 267999
+	state_category = rural
+
+	resources={
+		oil=10
+	}
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+			11984 = { naval_base = 1 }
+		}
+		victory_points = { 11984 2 }
+		add_core_of = EGY
+	}
+
+	provinces={
+		11984 11987 11999 12000 12002 
+	}
+
+	local_supplies=0.0
+}

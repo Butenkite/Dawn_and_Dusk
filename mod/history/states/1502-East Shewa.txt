@@ -1,0 +1,24 @@
+state={
+	id=1502
+	name="STATE_1502" # East Shewa
+	manpower = 3446363
+	state_category = large_city
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = { 15153 2 }
+		victory_points = { 15157 3 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15152 15153 15154 15155 15156 15157 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1315
+	name="STATE_1315" # Yobe
+	manpower = 2032156
+	state_category = city
+
+	history={
+		owner = NGA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 14334 1 }
+		add_core_of = NGA
+	}
+
+	provinces={
+		14329 14330 14331 14332 14333 14334 14335 14336 14337 
+	}
+
+	local_supplies=0.0
+}

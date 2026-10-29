@@ -1,0 +1,22 @@
+state={
+	id=1472
+	name="STATE_1472" # Gogrial
+	manpower = 786530
+	state_category = town
+
+	history={
+		owner = SPL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15036 1 }
+		add_core_of = SPL
+		add_core_of = SUD
+	}
+
+	provinces={
+		15031 15032 15033 15034 15035 15036 
+	}
+
+	local_supplies=0.0
+}

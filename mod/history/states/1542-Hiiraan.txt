@@ -1,0 +1,22 @@
+state={
+	id=1542
+	name="STATE_1542" # Hiiraan
+	manpower = 394344
+	state_category = rural
+
+	history={
+		owner = HIR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15264 5 }
+		add_core_of = HIR
+		add_core_of = SOM
+	}
+
+	provinces={
+		15262 15263 15264 
+	}
+
+	local_supplies=0.0
+}

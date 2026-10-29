@@ -1,0 +1,21 @@
+state={
+	id=699
+	name="STATE_699" # M'Sila
+	manpower = 894857
+	state_category = large_town
+
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7136 2 }
+		add_core_of = ALG
+	}
+
+	provinces={
+		7132 7136 7139 7140 
+	}
+
+	local_supplies=0.0
+}

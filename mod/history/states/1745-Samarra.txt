@@ -1,0 +1,21 @@
+state={
+	id=1745
+	name="STATE_1745" # Samarra
+	manpower = 961794
+	state_category = large_town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15928 2 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15924 15925 15926 15927 15928 15929 
+	}
+
+	local_supplies=0.0
+}

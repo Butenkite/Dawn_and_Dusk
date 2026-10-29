@@ -1,0 +1,22 @@
+state={
+	id=1558
+	name="STATE_1558" # Middle Juba
+	manpower = 284000
+	state_category = rural
+
+	history={
+		owner = JVA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15301 1 }
+		add_core_of = JVA
+		add_core_of = SOM
+	}
+
+	provinces={
+		15301 15302 
+	}
+
+	local_supplies=0.0
+}

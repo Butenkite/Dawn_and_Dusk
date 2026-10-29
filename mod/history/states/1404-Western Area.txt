@@ -1,0 +1,24 @@
+state={
+	id=1404
+	name="STATE_1404" # Western Area
+	manpower = 839000
+	state_category = large_town
+
+	history={
+		owner = SIE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			14723 = { naval_base = 2 }
+		}
+		victory_points = { 14723 12 }
+		add_core_of = SIE
+		add_claim_by = RUF
+	}
+
+	provinces={
+		14723 
+	}
+
+	local_supplies=0.0
+}

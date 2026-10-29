@@ -1,0 +1,21 @@
+state={
+	id=1576
+	name="STATE_1576" # Kakamega
+	manpower = 1831000
+	state_category = city
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15373 1 }
+		add_core_of = KEN
+	}
+
+	provinces={
+		15373 15374 15375 
+	}
+
+	local_supplies=0.0
+}

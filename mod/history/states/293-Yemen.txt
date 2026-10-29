@@ -1,0 +1,21 @@
+state={
+	id=293
+	name="STATE_293" # Drâa-Tafilalet
+	manpower = 1415000
+	state_category = large_town
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1088 3 }
+		add_core_of = MOR
+	}
+
+	provinces={
+		1080 1086 1088 1095 1102 1105 1108 1111 1112 1118 
+	}
+
+	local_supplies=0.0
+}

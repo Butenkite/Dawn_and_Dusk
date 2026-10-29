@@ -1,0 +1,21 @@
+state={
+	id=1737
+	name="STATE_1737" # Muthanna
+	manpower = 512000
+	state_category = town
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15889 2 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15889 15890 15891 15892 15893 
+	}
+
+	local_supplies=0.0
+}

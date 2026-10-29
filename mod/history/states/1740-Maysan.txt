@@ -1,0 +1,25 @@
+state={
+	id=1740
+	name="STATE_1740" # Maysan
+	manpower = 698000
+	state_category = town
+
+	resources={
+		oil=5
+	}
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15904 3 }
+		add_core_of = IRQ
+	}
+
+	provinces={
+		15904 15905 15906 
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=1529
+	name="STATE_1529" # West Harerge
+	manpower = 686236
+	state_category = town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15240 1 }
+		add_core_of = ETH
+	}
+
+	provinces={
+		15239 15240 15241 
+	}
+
+	local_supplies=0.0
+}
